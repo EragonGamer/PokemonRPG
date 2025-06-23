@@ -1,0 +1,1236 @@
+ID;Ndex;Pok‚mon;Alternativo;Cadena;Etapa;Nivel;Tipo1;Tipo2;Habilidad_1;Habilidad_2;Habilidad_3;FUE;VIT;ENE;SAB;DES;CAR;PS_min;Total_min;Velocidad
+1_1;#0001;Bulbasaur;;Bulbasaur;B sico;Starter;Planta;Veneno;Espesura;Espesura;Clorofila;1;1;2;2;1;2;8;9;Suave
+2_1;#0002;Ivysaur;;Bulbasaur;Evoluci¢n;Amateur;Planta;Veneno;Espesura;Espesura;Clorofila;2;2;3;3;2;3;15;15;Suave
+3_1;#0003;Venusaur;;Bulbasaur;Avanzada;Pro;Planta;Veneno;Espesura;Espesura;Clorofila;3;3;4;4;3;3;19;20;Normal
+3_2;#0003;Venusaur;Mega-Venusaur;Bulbasaur;Mega;Legend;Planta;Veneno;Sebo;Sebo;Sebo;4;4;4;4;3;3;25;22;Normal
+4_1;#0004;Charmander;;Charmander;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Podersolar;2;1;2;2;2;2;10;11;Normal
+5_1;#0005;Charmeleon;;Charmander;Evoluci¢n;Amateur;Fuego;NA;Marllamas;Marllamas;Podersolar;2;2;3;2;3;3;15;15;Normal
+6_1;#0006;Charizard;;Charmander;Avanzada;Pro;Fuego;Volador;Marllamas;Marllamas;Podersolar;3;3;4;3;4;3;19;20;Rapido
+6_2;#0006;Charizard;Mega-Charizard X;Charmander;Mega;Legend;Fuego;Dragon;Garradura;Garradura;Garradura;5;4;5;3;4;3;25;24;Fugaz
+6_3;#0006;Charizard;Mega-Charizard Y;Charmander;Mega;Legend;Fuego;Volador;Sequia;Sequia;Sequia;4;3;6;4;4;3;25;24;Fugaz
+7_1;#0007;Squirtle;;Squirtle;B sico;Begginer;Agua;NA;Torrente;Torrente;Curalluvia;1;2;2;2;1;2;10;10;Suave
+8_1;#0008;Wartortle;;Squirtle;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Curalluvia;2;3;2;3;2;3;15;15;Suave
+9_1;#0009;Blastoise;;Squirtle;Avanzada;Pro;Agua;NA;Torrente;Torrente;Curalluvia;3;4;3;4;3;3;19;20;Normal
+9_2;#0009;Blastoise;Mega-Blastoise;Squirtle;Mega;Legend;Agua;NA;Megadisparador;Megadisparador;Megadisparador;4;4;5;4;3;3;25;23;Normal
+10_1;#0010;Caterpie;;Caterpie;B sico;Starter;Bicho;NA;Polvoescudo;Polvoescudo;Fuga;1;1;1;1;1;2;8;7;Suave
+11_1;#0011;Metapod;;Caterpie;Evoluci¢n;Starter;Bicho;NA;Mudar;Mudar;Mudar;1;2;1;1;1;3;11;9;Lento
+12_1;#0012;Butterfree;;Caterpie;Avanzada;Amateur;Bicho;Volador;Ojocompuesto;Ojocompuesto;Cromolente;1;2;3;3;2;3;15;14;Normal
+13_1;#0013;Weedle;;Weedle;B sico;Starter;Bicho;Veneno;Polvoescudo;Polvoescudo;Fuga;1;1;1;1;2;2;8;8;Suave
+14_1;#0014;Kakuna;;Weedle;Evoluci¢n;Starter;Bicho;Veneno;Mudar;Mudar;Mudar;1;2;1;1;1;2;8;8;Lento
+15_1;#0015;Beedrill;;Weedle;Avanzada;Amateur;Bicho;Veneno;Enjambre;Enjambre;Francotirador;3;1;1;3;3;3;15;14;Normal
+15_2;#0015;Beedrill;Mega-Beedrill;Weedle;Mega;Legend;Bicho;Veneno;Adaptable;Adaptable;Adaptable;6;1;1;3;5;3;25;19;Rapido
+16_1;#0016;Pidgey;;Pidgey;B sico;Starter;Normal;Volador;Vistalince;Tumbos;Sacapecho;1;1;1;1;2;2;8;8;Suave
+17_1;#0017;Pidgeotto;;Pidgey;Evoluci¢n;Begginer;Normal;Volador;Vistalince;Tumbos;Sacapecho;2;2;2;2;2;3;13;13;Normal
+18_1;#0018;Pidgeot;;Pidgey;Avanzada;Ace;Normal;Volador;Vistalince;Tumbos;Sacapecho;3;3;2;2;4;3;17;17;Rapido
+18_2;#0018;Pidgeot;Mega-Pidgeot;Pidgey;Mega;Legend;Normal;Volador;Indefenso;Indefenso;Indefenso;3;3;5;3;4;3;25;21;Rapido
+19_1;#0019;Rattata;;Rattata;B sico;Starter;Normal;NA;Agallas;Fuga;Entusiasmo;2;1;1;1;2;2;8;9;Normal
+19_2;#0019;Rattata;Forma de Alola;Rattata;B sico;Starter;Siniestro;Normal;Gula;Entusiasmo;Sebo;2;1;1;1;2;2;8;9;Normal
+20_2;#0020;Raticate;Forma de Alola;Rattata;Avanzada;Amateur;Siniestro;Normal;Gula;Entusiasmo;Sebo;2;2;1;3;3;3;15;14;Normal
+20_1;#0020;Raticate;;Rattata;Avanzada;Amateur;Normal;NA;Agallas;Fuga;Entusiasmo;3;2;2;2;3;3;15;15;Normal
+21_1;#0021;Spearow;;Spearow;B sico;Starter;Normal;Volador;Vistalince;Vistalince;Francotirador;2;1;1;1;2;2;8;9;Normal
+22_1;#0022;Fearow;;Spearow;Avanzada;Amateur;Normal;Volador;Vistalince;Vistalince;Francotirador;3;2;2;2;4;3;15;16;Rapido
+23_1;#0023;Ekans;;Ekans;B sico;Begginer;Veneno;NA;Intimidacion;Mudar;Nerviosismo;2;1;1;2;2;2;10;10;Suave
+24_1;#0024;Arbok;;Ekans;Evoluci¢n;Amateur;Veneno;NA;Intimidacion;Mudar;Nerviosismo;3;2;2;3;3;3;15;16;Normal
+25_1;#0025;Pikachu;;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_10;#0025;Pikachu;Gorra Trotamundos;Pikachu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_2;#0025;Pikachu;Gorra Original;Pikachu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_3;#0025;Pikachu;Gorra Hoenn;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_4;#0025;Pikachu;Gorra Sinnoh;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_5;#0025;Pikachu;Gorra Teselia;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_6;#0025;Pikachu;Gorra Kalos;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_7;#0025;Pikachu;Gorra Alola;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_8;#0025;Pikachu;Gorra Compa¤ero;Pichu;B sico;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;2;1;2;2;3;2;10;12;Normal
+25_9;#0025;Pikachu;Pikachu Inicial (Let's Go);Pichu;B sico;Amateur;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;3;2;3;2;4;2;12;16;Rapido
+26_1;#0026;Raichu;;Pikachu;Avanzada;Ace;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;3;2;3;3;4;3;17;18;Rapido
+26_2;#0026;Raichu;Forma de Alola;Pikachu;Avanzada;Ace;Electrico;Psiquico;Colasurf;Colasurf;Colasurf;3;2;3;3;4;3;17;18;Rapido
+27_1;#0027;Sandshrew;;Sandshrew;B sico;Begginer;Tierra;NA;Veloarena;Veloarena;impetuarena;3;3;1;1;1;3;13;12;Suave
+27_2;#0027;Sandshrew;Forma de Alola;Sandshrew;B sico;Begginer;Hielo;Acero;Mantoniveo;Mantoniveo;Quitanieves;3;3;1;1;1;3;13;12;Suave
+28_1;#0028;Sandslash;;Sandshrew;Avanzada;Amateur;Tierra;NA;Veloarena;Veloarena;impetuarena;4;4;1;2;2;3;15;16;Normal
+28_2;#0028;Sandslash;Forma de Alola;Sandshrew;Avanzada;Amateur;Hielo;Acero;Mantoniveo;Mantoniveo;Quitanieves;4;4;1;2;2;3;15;16;Normal
+29_1;#0029;Nidoran?;;Nidoran?;B sico;Starter;Veneno;NA;Puntotoxico;Rivalidad;Entusiasmo;1;2;1;1;1;3;11;9;Suave
+30_1;#0030;Nidorina;;Nidoran?;Evoluci¢n;Begginer;Veneno;NA;Puntotoxico;Rivalidad;Entusiasmo;2;2;2;2;2;3;13;13;Suave
+31_1;#0031;Nidoqueen;;Nidoran?;Avanzada;Ace;Veneno;Tierra;Puntotoxico;Rivalidad;Potenciabruta;3;3;3;3;3;3;17;18;Normal
+32_1;#0032;Nidoran?;;Nidoran?;B sico;Starter;Veneno;NA;Puntotoxico;Rivalidad;Entusiasmo;2;1;1;1;2;2;8;9;Suave
+33_1;#0033;Nidorino;;Nidoran?;Evoluci¢n;Begginer;Veneno;NA;Puntotoxico;Rivalidad;Entusiasmo;2;2;2;2;2;3;13;13;Normal
+34_1;#0034;Nidoking;;Nidoran?;Avanzada;Pro;Veneno;Tierra;Puntotoxico;Rivalidad;Potenciabruta;4;3;3;3;3;3;19;19;Normal
+35_1;#0035;Clefairy;;Cleffa;Evoluci¢n;Begginer;Hada;NA;Granencanto;Muromagico;Compiescolta;1;1;2;2;1;3;13;10;Lento
+36_1;#0036;Clefable;;Cleffa;Avanzada;Amateur;Hada;NA;Granencanto;Muromagico;Ignorante;2;2;3;3;2;3;15;15;Suave
+37_1;#0037;Vulpix;;Vulpix;B sico;Begginer;Fuego;NA;Absorbefuego;Absorbefuego;Sequia;1;1;2;2;2;2;10;10;Normal
+37_2;#0037;Vulpix;Forma de Alola;Vulpix;B sico;Begginer;Hielo;NA;Mantoniveo;Mantoniveo;Nevada;1;1;2;2;2;2;10;10;Normal
+38_2;#0038;Ninetales;Forma de Alola;Vulpix;Avanzada;Pro;Hielo;Hada;Mantoniveo;Mantoniveo;Nevada;2;3;3;4;4;3;19;19;Rapido
+38_1;#0038;Ninetales;;Vulpix;Avanzada;Pro;Fuego;NA;Absorbefuego;Absorbefuego;Sequia;3;3;3;4;4;3;19;20;Rapido
+39_1;#0039;Jigglypuff;;Jigglypuff;B sico;Starter;Normal;Hada;Granencanto;Tenacidad;Compiescolta;1;1;1;1;1;4;14;9;Lento
+40_1;#0040;Wigglytuff;;Jigglypuff;Avanzada;Begginer;Normal;Hada;Granencanto;Tenacidad;Cacheo;2;1;3;2;1;4;16;13;Suave
+41_1;#0041;Zubat;;Zubat;B sico;Starter;Veneno;Volador;Fuerzamental;Fuerzamental;Allanamiento;1;1;1;1;2;2;8;8;Suave
+42_1;#0042;Golbat;;Zubat;Avanzada;Amateur;Veneno;Volador;Fuerzamental;Fuerzamental;Allanamiento;3;2;2;3;3;3;15;16;Normal
+43_1;#0043;Oddish;;Oddish;B sico;Begginer;Planta;Veneno;Clorofila;Clorofila;Fuga;2;2;3;2;1;2;10;12;Lento
+44_1;#0044;Gloom;;Oddish;Evoluci¢n;Amateur;Planta;Veneno;Clorofila;Clorofila;Hedor;2;2;3;3;1;3;15;14;Suave
+45_1;#0045;Vileplume;;Oddish;Avanzada;Ace;Planta;Veneno;Clorofila;Clorofila;Efectoespora;3;3;4;3;2;3;17;18;Suave
+46_1;#0046;Paras;;Paras;B sico;Begginer;Bicho;Planta;Efectoespora;Pielseca;Humedad;2;2;1;2;1;2;10;10;Lento
+47_1;#0047;Parasect;;Paras;Evoluci¢n;Amateur;Bicho;Planta;Efectoespora;Pielseca;Humedad;3;3;2;3;1;3;15;15;Lento
+48_1;#0048;Venonat;;Venonat;B sico;Begginer;Bicho;Veneno;Ojocompuesto;Cromolente;Fuga;2;2;1;2;1;3;13;11;Suave
+49_1;#0049;Venomoth;;Venonat;Evoluci¢n;Amateur;Bicho;Veneno;Polvoescudo;Cromolente;Pielmilagro;2;2;3;3;3;3;15;16;Normal
+50_1;#0050;Diglett;;Diglett;B sico;Begginer;Tierra;NA;Trampaarena;Veloarena;Poderarena;2;1;1;1;3;2;10;10;Normal
+50_2;#0050;Diglett;Forma de Alola;Diglett;B sico;Begginer;Tierra;Acero;Veloarena;Rizosrebeldes;Poderarena;2;1;1;1;3;2;10;10;Normal
+51_1;#0051;Dugtrio;;Diglett;Avanzada;Amateur;Tierra;NA;Trampaarena;Veloarena;Poderarena;4;2;2;2;4;2;12;16;Rapido
+51_2;#0051;Dugtrio;Forma de Alola;Diglett;Avanzada;Amateur;Tierra;Acero;Veloarena;Rizosrebeldes;Poderarena;4;2;2;2;4;2;12;16;Rapido
+52_1;#0052;Meowth;;Meowth;B sico;Starter;Normal;NA;Recogida;Experto;Nerviosismo;1;1;1;1;3;2;8;9;Normal
+52_2;#0052;Meowth;Forma de Alola;Meowth;B sico;Begginer;Siniestro;NA;Recogida;Experto;Cobardia;1;1;2;1;3;2;10;10;Normal
+52_3;#0052;Meowth;Forma de Galar;Meowth (Galar);B sico;Begginer;Acero;NA;Recogida;Garradura;Nerviosismo;2;2;1;1;1;3;13;10;Suave
+53_1;#0053;Persian;;Meowth;Avanzada;Amateur;Normal;NA;Flexibilidad;Experto;Nerviosismo;2;2;2;2;4;3;15;15;Rapido
+53_2;#0053;Persian;Forma de Alola;Meowth;Avanzada;Amateur;Siniestro;NA;Pelajerecio;Experto;Cobardia;2;2;3;2;4;3;15;16;Rapido
+54_1;#0054;Psyduck;;Psyduck;B sico;Begginer;Agua;NA;Humedad;Aclimatacion;Nadorapido;2;1;2;2;2;3;13;12;Suave
+55_1;#0055;Golduck;;Psyduck;Avanzada;Ace;Agua;NA;Aclimatacion;Humedad;Nadorapido;3;3;3;3;3;3;17;18;Normal
+56_1;#0056;Mankey;;Mankey;B sico;Begginer;Lucha;NA;Espirituvital;Irascible;Competitivo;3;1;1;1;2;2;10;10;Normal
+57_1;#0057;Primeape;;Mankey;Avanzada;Amateur;Lucha;NA;Espirituvital;Irascible;Competitivo;4;2;2;2;3;3;15;16;Normal
+58_1;#0058;Growlithe;;Growlithe;B sico;Begginer;Fuego;NA;Intimidacion;Absorbefuego;Justiciero;2;1;2;2;2;3;13;12;Suave
+58_2;#0058;Growlithe;Forma de Hisui;Growlithe (Hisui);B sico;Begginer;Fuego;Roca;Intimidacion;Absorbefuego;Cabezaroca;3;1;2;2;2;3;13;13;Suave
+59_2;#0059;Arcanine;Forma de Hisui;Growlithe (Hisui);Evoluci¢n;Pro;Fuego;Roca;Intimidacion;Absorbefuego;Cabezaroca;4;3;3;3;3;3;19;19;Normal
+59_1;#0059;Arcanine;;Growlithe;Avanzada;Pro;Fuego;NA;Intimidacion;Absorbefuego;Justiciero;4;3;4;3;3;3;19;20;Normal
+60_1;#0060;Poliwag;;Poliwag;B sico;Begginer;Agua;NA;Absorbeagua;Humedad;Nadorapido;2;1;1;1;3;2;10;10;Normal
+61_1;#0061;Poliwhirl;;Poliwag;Evoluci¢n;Amateur;Agua;NA;Absorbeagua;Humedad;Nadorapido;2;2;2;2;3;3;15;14;Normal
+62_1;#0062;Poliwrath;;Poliwag;Avanzada;Amateur;Agua;Lucha;Absorbeagua;Humedad;Nadorapido;3;3;2;3;2;3;15;16;Normal
+63_1;#0063;Abra;;Abra;B sico;Begginer;Psiquico;NA;Sincronia;Fuerzamental;Muromagico;1;1;4;2;3;2;10;13;Normal
+64_1;#0064;Kadabra;;Abra;Evoluci¢n;Amateur;Psiquico;NA;Sincronia;Fuerzamental;Muromagico;1;1;4;2;4;2;12;14;Rapido
+65_1;#0065;Alakazam;;Abra;Avanzada;Ace;Psiquico;NA;Sincronia;Fuerzamental;Muromagico;2;1;5;3;4;3;17;18;Rapido
+65_2;#0065;Alakazam;Mega-Alakazam;Abra;Mega;Legend;Psiquico;NA;Calco;Calco;Calco;2;2;7;4;6;3;25;24;Fugaz
+66_1;#0066;Machop;;Machop;B sico;Begginer;Lucha;NA;Agallas;Indefenso;Impasible;3;2;1;1;1;3;13;11;Lento
+67_1;#0067;Machoke;;Machop;Evoluci¢n;Amateur;Lucha;NA;Agallas;Indefenso;Impasible;4;2;2;2;1;3;15;14;Suave
+68_1;#0068;Machamp;;Machop;Avanzada;Ace;Lucha;NA;Agallas;Indefenso;Impasible;5;3;2;3;2;3;17;18;Suave
+69_1;#0069;Bellsprout;;Bellsprout;B sico;Begginer;Planta;Veneno;Clorofila;Clorofila;Gula;3;1;2;1;1;3;13;11;Suave
+70_1;#0070;Weepinbell;;Bellsprout;Evoluci¢n;Amateur;Planta;Veneno;Clorofila;Clorofila;Gula;3;2;3;1;2;3;15;14;Suave
+71_1;#0071;Victreebel;;Bellsprout;Avanzada;Ace;Planta;Veneno;Clorofila;Clorofila;Gula;4;2;4;2;2;3;17;17;Normal
+72_1;#0072;Tentacool;;Tentacool;B sico;Begginer;Agua;Veneno;Cuerpopuro;Viscosecrecion;Curalluvia;1;1;2;4;2;2;10;12;Normal
+73_1;#0073;Tentacruel;;Tentacool;Evoluci¢n;Ace;Agua;Veneno;Cuerpopuro;Viscosecrecion;Curalluvia;2;2;3;4;4;3;17;18;Rapido
+74_1;#0074;Geodude;;Geodude;B sico;Begginer;Roca;Tierra;Cabezaroca;Robustez;Veloarena;3;4;1;1;1;2;10;12;Lento
+74_2;#0074;Geodude;Forma de Alola;Geodude (Alola);B sico;Begginer;Roca;Electrico;Iman;Robustez;Pielelectrica;3;4;1;1;1;2;10;12;Lento
+75_1;#0075;Graveler;;Geodude;Evoluci¢n;Begginer;Roca;Tierra;Cabezaroca;Robustez;Veloarena;3;4;1;1;1;3;13;13;Lento
+75_2;#0075;Graveler;Forma de Alola;Geodude (Alola);Evoluci¢n;Begginer;Roca;Electrico;Iman;Robustez;Pielelectrica;3;4;1;1;1;3;13;13;Lento
+76_1;#0076;Golem;;Geodude;Avanzada;Ace;Roca;Tierra;Cabezaroca;Robustez;Veloarena;4;5;2;2;1;3;17;17;Suave
+76_2;#0076;Golem;Forma de Alola;Geodude (Alola);Avanzada;Ace;Roca;Electrico;Iman;Robustez;Pielelectrica;4;5;2;2;1;3;17;17;Suave
+77_1;#0077;Ponyta;;Ponyta;B sico;Amateur;Fuego;NA;Fuga;Absorbefuego;Cuerpollama;3;2;2;2;3;3;15;15;Normal
+77_2;#0077;Ponyta;Forma de Galar;Ponyta (Galar);B sico;Amateur;Psiquico;NA;Fuga;Velopastel;Anticipacion;3;2;2;2;3;3;15;15;Normal
+78_1;#0078;Rapidash;;Ponyta;Avanzada;Pro;Fuego;NA;Fuga;Absorbefuego;Cuerpollama;4;2;3;3;4;3;19;19;Rapido
+78_2;#0078;Rapidash;Forma de Galar;Ponyta (Galar);Evoluci¢n;Pro;Psiquico;Hada;Fuga;Velopastel;Anticipacion;4;2;3;3;4;3;19;19;Rapido
+79_1;#0079;Slowpoke;;Slowpoke;B sico;Begginer;Agua;Psiquico;Despiste;Ritmopropio;Regeneracion;2;2;1;1;1;3;13;10;Lento
+79_2;#0079;Slowpoke;Forma de Galar;Slowpoke (Galar);B sico;Begginer;Psiquico;NA;Gula;Ritmopropio;Regeneracion;2;2;1;1;1;3;13;10;Lento
+80_3;#0080;Slowbro;Forma de Galar;Slowpoke (Galar);Evoluci¢n;Ace;Veneno;Psiquico;Manorapida;Ritmopropio;Regeneracion;4;3;4;2;1;3;17;17;Lento
+80_1;#0080;Slowbro;;Slowpoke;Avanzada;Ace;Agua;Psiquico;Despiste;Ritmopropio;Regeneracion;3;4;4;3;1;3;17;18;Lento
+80_2;#0080;Slowbro;Mega-Slowbro;Slowpoke;Mega;Legend;Agua;Psiquico;Caparazon;Caparazon;Caparazon;3;7;5;3;1;3;25;22;Lento
+81_1;#0081;Magnemite;;Magnemite;B sico;Begginer;Electrico;Acero;Iman;Robustez;Calculofinal;1;2;3;2;1;2;10;11;Suave
+82_1;#0082;Magneton;;Magnemite;Avanzada;Amateur;Electrico;Acero;Iman;Robustez;Calculofinal;2;3;4;2;2;3;15;16;Normal
+83_1;#0083;Farfetch'd;;Farfetch'd;B sico;Amateur;Normal;Volador;Vistalince;Fuerzamental;Competitivo;3;2;2;2;2;3;15;14;Suave
+83_2;#0083;Farfetch'd;Forma de Galar;Farfetch'd (Galar);B sico;Amateur;Lucha;NA;Impasible;Impasible;Intrepido;3;2;2;2;2;3;15;14;Suave
+84_1;#0084;Doduo;;Doduo;B sico;Begginer;Normal;Volador;Fuga;Madrugar;Tumbos;3;1;1;1;3;2;10;11;Normal
+85_1;#0085;Dodrio;;Doduo;Avanzada;Ace;Normal;Volador;Fuga;Madrugar;Tumbos;4;2;2;2;4;3;17;17;Rapido
+86_1;#0086;Seel;;Seel;B sico;Begginer;Agua;NA;Sebo;Hidratacion;Gelido;1;2;1;2;1;3;13;10;Suave
+87_1;#0087;Dewgong;;Seel;Avanzada;Amateur;Agua;Hielo;Sebo;Hidratacion;Gelido;2;3;2;3;2;3;15;15;Normal
+88_1;#0088;Grimer;;Grimer;B sico;Begginer;Veneno;NA;Hedor;Viscosidad;Toquetoxico;3;2;1;2;1;3;13;12;Lento
+88_2;#0088;Grimer;Forma de Alola;Grimer (Alola);B sico;Begginer;Veneno;Siniestro;Toquetoxico;Gula;Reaccionquimica;3;2;1;2;1;3;13;12;Lento
+89_1;#0089;Muk;;Grimer;Avanzada;Pro;Veneno;NA;Hedor;Viscosidad;Toquetoxico;4;3;2;4;2;4;22;19;Suave
+89_2;#0089;Muk;Forma de Alola;Grimer (Alola);Evoluci¢n;Pro;Veneno;Siniestro;Toquetoxico;Gula;Reaccionquimica;4;3;2;4;2;4;22;19;Suave
+90_1;#0090;Shellder;;Shellder;B sico;Begginer;Agua;NA;Caparazon;Encadenado;Funda;2;4;1;1;1;2;10;11;Suave
+91_1;#0091;Cloyster;;Shellder;Evoluci¢n;Pro;Agua;Hielo;Caparazon;Encadenado;Funda;3;7;3;1;2;3;19;19;Normal
+92_1;#0092;Gastly;;Gastly;B sico;Begginer;Fantasma;Veneno;Levitacion;Levitacion;Levitacion;1;1;4;1;3;2;10;12;Normal
+93_1;#0093;Haunter;;Gastly;Evoluci¢n;Amateur;Fantasma;Veneno;Levitacion;Levitacion;Levitacion;2;1;4;2;3;2;12;14;Normal
+94_1;#0094;Gengar;;Gastly;Avanzada;Pro;Fantasma;Veneno;Cuerpomaldito;Cuerpomaldito;Cuerpomaldito;2;2;5;3;4;3;19;19;Rapido
+94_2;#0094;Gengar;Mega-Gengar;Gastly;Mega;Legend;Fantasma;Veneno;Sombratrampa;Sombratrampa;Sombratrampa;2;3;6;3;5;3;25;22;Rapido
+95_1;#0095;Onix;;Onix;B sico;Begginer;Roca;Tierra;Cabezaroca;Robustez;Armadurafragil;1;6;1;1;2;2;10;13;Normal
+96_1;#0096;Drowzee;;Drowzee;B sico;Begginer;Psiquico;NA;Insomnio;Alerta;Fuerzamental;1;1;1;3;1;3;13;10;Suave
+97_1;#0097;Hypno;;Drowzee;Avanzada;Amateur;Psiquico;NA;Insomnio;Alerta;Fuerzamental;2;2;2;4;2;3;15;15;Normal
+98_1;#0098;Krabby;;Krabby;B sico;Begginer;Agua;NA;Caparazon;Cortefuerte;Potenciabruta;4;3;1;1;2;2;10;13;Suave
+99_1;#0099;Kingler;;Krabby;Avanzada;Pro;Agua;NA;Caparazon;Cortefuerte;Potenciabruta;5;4;2;2;3;3;19;19;Normal
+100_1;#0100;Voltorb;;Voltorb;B sico;Begginer;Electrico;NA;Insonorizar;Electricidadestatica;Detonacion;1;2;2;2;4;2;10;13;Rapido
+100_2;#0100;Voltorb;Forma de Hisui;Voltorb (Hisui);B sico;Begginer;Electrico;Planta;Insonorizar;Electricidadestatica;Detonacion;1;2;2;2;4;2;10;13;Rapido
+101_1;#0101;Electrode;;Voltorb;Avanzada;Pro;Electrico;NA;Insonorizar;Electricidadestatica;Detonacion;2;2;3;3;6;3;19;19;Rapido
+101_2;#0101;Electrode;Forma de Hisui;Voltorb (Hisui);Evoluci¢n;Pro;Electrico;Planta;Insonorizar;Electricidadestatica;Detonacion;2;2;3;3;6;3;19;19;Rapido
+102_1;#0102;Exeggcute;;Exeggcute;B sico;Begginer;Planta;Psiquico;Clorofila;Clorofila;Cosecha;1;3;2;1;1;3;13;11;Suave
+103_1;#0103;Exeggutor;;Exeggcute;Avanzada;Pro;Planta;Psiquico;Clorofila;Clorofila;Cosecha;3;3;5;3;2;3;19;19;Suave
+103_2;#0103;Exeggutor;Forma de Alola;Exeggcute;Evoluci¢n;Pro;Planta;Dragon;Cacheo;Cacheo;Cosecha;4;3;5;3;1;3;19;19;Suave
+104_1;#0104;Cubone;;Cubone;B sico;Begginer;Tierra;NA;Cabezaroca;Pararrayos;Armadurabatalla;2;3;1;2;1;3;13;12;Lento
+105_1;#0105;Marowak;;Cubone;Avanzada;Amateur;Tierra;NA;Cabezaroca;Pararrayos;Armadurabatalla;3;4;2;3;1;3;15;16;Suave
+105_2;#0105;Marowak;Forma de Alola;Cubone;Evoluci¢n;Amateur;Fuego;Fantasma;Cuerpomaldito;Pararrayos;Cabezaroca;3;4;2;3;1;3;15;16;Suave
+106_1;#0106;Hitmonlee;;Tyrogue;Avanzada;Ace;Lucha;NA;Flexibilidad;Audaz;Liviano;4;2;1;4;3;3;17;17;Normal
+107_1;#0107;Hitmonchan;;Tyrogue;Avanzada;Ace;Lucha;NA;Vistalince;Pu¤oferreo;Fuerzamental;4;3;1;4;3;3;17;18;Normal
+108_1;#0108;Lickitung;;Lickitung;B sico;Amateur;Normal;NA;Despiste;Ritmopropio;Aclimatacion;2;3;2;3;1;3;15;14;Lento
+109_1;#0109;Koffing;;Koffing;B sico;Begginer;Veneno;NA;Levitacion;Gasreactivo;Hedor;2;3;2;1;1;2;10;11;Lento
+110_1;#0110;Weezing;;Koffing;Avanzada;Ace;Veneno;NA;Levitacion;Gasreactivo;Hedor;3;4;3;2;2;3;17;17;Suave
+110_2;#0110;Weezing;Forma de Galar;Koffing;Evoluci¢n;Ace;Veneno;Hada;Levitacion;Gasreactivo;Nebulogenesis;3;4;3;2;2;3;17;17;Suave
+111_1;#0111;Rhyhorn;;Rhyhorn;B sico;Begginer;Tierra;Roca;Pararrayos;Cabezaroca;Audaz;3;3;1;1;1;3;13;12;Lento
+112_1;#0112;Rhydon;;Rhyhorn;Avanzada;Amateur;Tierra;Roca;Pararrayos;Cabezaroca;Audaz;5;4;1;1;1;4;18;16;Suave
+113_1;#0113;Chansey;;Chansey;B sico;Amateur;Normal;NA;Curanatural;Dicha;Almacura;1;1;1;4;2;7;27;16;Suave
+114_1;#0114;Tangela;;Tangela;B sico;Amateur;Planta;NA;Clorofila;Defensahoja;Regeneracion;2;4;4;1;2;3;15;16;Suave
+115_1;#0115;Kangaskhan;;Kangaskhan;Inicial;Ace;Normal;NA;Madrugar;Intrepido;Fuerzamental;3;3;1;3;3;4;20;17;Normal
+115_2;#0115;Kangaskhan;Mega-Kangaskhan;Kangaskhan;Mega;Legend;Normal;NA;Amorfilial;Amorfilial;Amorfilial;5;4;2;4;4;4;28;23;Fugaz
+116_1;#0116;Horsea;;Horsea;B sico;Begginer;Agua;NA;Nadorapido;Francotirador;Humedad;1;2;2;1;2;2;10;10;Suave
+117_1;#0117;Seadra;;Horsea;Avanzada;Amateur;Agua;NA;Puntotoxico;Francotirador;Humedad;2;3;3;1;3;3;15;15;Normal
+118_1;#0118;Goldeen;;Goldeen;B sico;Begginer;Agua;NA;Nadorapido;Veloagua;Pararrayos;2;2;1;2;2;2;10;11;Normal
+119_1;#0119;Seaking;;Goldeen;Avanzada;Amateur;Agua;NA;Nadorapido;Veloagua;Pararrayos;3;2;2;3;2;3;15;15;Normal
+120_1;#0120;Staryu;;Staryu;B sico;Begginer;Agua;NA;Curanatural;Iluminacion;Calculofinal;1;2;2;2;3;2;10;12;Normal
+121_1;#0121;Starmie;;Staryu;Avanzada;Pro;Agua;Psiquico;Curanatural;Iluminacion;Calculofinal;3;3;4;3;4;3;19;20;Rapido
+122_1;#0122;Mr. Mime;;Mr. Mime;B sico;Amateur;Psiquico;Hada;Insonorizar;Filtro;Experto;1;2;4;4;3;2;12;16;Normal
+122_2;#0122;Mr. Mime;Forma de Galar;Mime Jr.;Evoluci¢n;Ace;Hielo;Psiquico;Espirituvital;Antibarrera;Gelido;2;2;3;3;4;3;17;17;Rapido
+123_1;#0123;Scyther;;Scyther;B sico;Pro;Bicho;Volador;Enjambre;Experto;Impasible;4;3;2;3;4;3;19;19;Rapido
+124_1;#0124;Jynx;;Jynx;B sico;Amateur;Hielo;Psiquico;Despiste;Alerta;Pielseca;2;1;4;3;3;3;15;16;Normal
+125_1;#0125;Electabuzz;;Electabuzz;B sico;Ace;Electrico;NA;Electricidadestatica;Electricidadestatica;Espirituvital;3;2;3;3;4;3;17;18;Rapido
+126_1;#0126;Magmar;;Magmar;B sico;Ace;Fuego;NA;Cuerpollama;Cuerpollama;Espirituvital;3;2;4;3;3;3;17;18;Normal
+127_1;#0127;Pinsir;;Pinsir;B sico;Pro;Bicho;NA;Cortefuerte;Rompemoldes;Autoestima;5;4;2;2;3;3;19;19;Normal
+127_2;#0127;Pinsir;Mega-Pinsir;Pinsir;Mega;Legend;Bicho;Volador;Pielceleste;Pielceleste;Pielceleste;6;4;2;3;4;3;25;22;Rapido
+128_1;#0128;Tauros;;Tauros;Inicial;Ace;Normal;NA;Intimidacion;Irascible;Potenciabruta;4;3;1;2;4;3;17;17;Rapido
+128_2;#0128;Tauros;Forma de Paldea;Tauros;B sico;Ace;Lucha;NA;Intimidacion;Irascible;Rumia;4;4;1;2;4;3;17;18;Rapido
+128_3;#0128;Tauros;Forma de Paldea;Tauros;B sico;Ace;Lucha;Fuego;Intimidacion;Irascible;Rumia;4;4;1;2;4;3;17;18;Rapido
+128_4;#0128;Tauros;Forma de Paldea;Tauros;B sico;Ace;Lucha;Agua;Intimidacion;Irascible;Rumia;4;4;1;2;4;3;17;18;Rapido
+129_1;#0129;Magikarp;;Magikarp;B sico;Begginer;Agua;NA;Nadorapido;Nadorapido;Cobardia;1;2;1;1;3;2;10;10;Normal
+130_1;#0130;Gyarados;;Magikarp;Avanzada;Pro;Agua;Volador;Intimidacion;Intimidacion;Autoestima;5;3;2;4;3;3;19;20;Normal
+130_2;#0130;Gyarados;Mega-Gyarados;Magikarp;Mega;Legend;Agua;Siniestro;Rompemoldes;Rompemoldes;Rompemoldes;6;4;2;5;3;3;25;23;Normal
+131_1;#0131;Lapras;;Lapras;Inicial;Ace;Agua;Hielo;Absorbeagua;Caparazon;Hidratacion;3;3;3;3;2;4;20;18;Suave
+132_1;#0132;Ditto;;Ditto;Inicial;Starter;Normal;NA;Flexibilidad;Flexibilidad;Impostor;1;1;1;1;1;2;8;7;Suave
+133_1;#0133;Eevee;;Eevee;B sico;Begginer;Normal;NA;Fuga;Adaptable;Anticipacion;2;2;1;2;2;3;13;12;Suave
+133_2;#0133;Eevee;Eevee inicial (Let's Go);Eevee;B sico;Amateur;Normal;NA;Fuga;Adaptable;Anticipacion;3;2;2;3;3;3;15;16;Normal
+134_1;#0134;Vaporeon;;Eevee;Avanzada;Ace;Agua;NA;Absorbeagua;Absorbeagua;Hidratacion;2;2;4;3;2;4;20;17;Normal
+135_1;#0135;Jolteon;;Eevee;Avanzada;Pro;Electrico;NA;Absorbeelectricidad;Absorbeelectricidad;Piesrapidos;2;2;4;3;5;3;19;19;Rapido
+136_1;#0136;Flareon;;Eevee;Avanzada;Pro;Fuego;NA;Absorbefuego;Absorbefuego;Agallas;5;2;3;4;2;3;19;19;Normal
+137_1;#0137;Porygon;;Porygon;B sico;Amateur;Normal;NA;Calco;Descarga;Calculofinal;2;2;3;3;1;3;15;14;Suave
+138_1;#0138;Omanyte;;Omanyte;B sico;Begginer;Roca;Agua;Nadorapido;Caparazon;Armadurafragil;1;4;3;2;1;2;10;13;Lento
+139_1;#0139;Omastar;;Omanyte;Avanzada;Ace;Roca;Agua;Nadorapido;Caparazon;Armadurafragil;2;5;4;2;2;3;17;18;Suave
+140_1;#0140;Kabuto;;Kabuto;B sico;Begginer;Roca;Agua;Armadurabatalla;Nadorapido;Armadurafragil;3;3;2;1;2;2;10;13;Suave
+141_1;#0141;Kabutops;;Kabuto;Avanzada;Ace;Roca;Agua;Armadurabatalla;Nadorapido;Armadurafragil;4;4;2;2;3;3;17;18;Normal
+142_1;#0142;Aerodactyl;;Aerodactyl;Inicial;Pro;Roca;Volador;Cabezaroca;Presion;Nerviosismo;4;2;2;3;5;3;19;19;Rapido
+142_2;#0142;Aerodactyl;Mega-Aerodactyl;Aerodactyl;Mega;Legend;Roca;Volador;Garradura;Garradura;Garradura;5;3;2;3;6;3;25;22;Fugaz
+143_1;#0143;Snorlax;;Snorlax;Inicial;Ace;Normal;NA;Sebo;Inmunidad;Gula;4;2;2;4;1;5;23;18;Lento
+144_1;#0144;Articuno;;Articuno;Legendario;Legend;Hielo;Volador;Presion;Presion;Mantoniveo;3;4;3;5;3;3;25;21;Normal
+144_2;#0144;Articuno;Forma de Galar;Articuno;Legendario;Legend;Psiquico;Volador;Tenacidad;Tenacidad;Tenacidad;3;3;5;4;3;3;25;21;Normal
+145_1;#0145;Zapdos;;Zapdos;Legendario;Legend;Electrico;Volador;Presion;Presion;Electricidadestatica;3;3;5;3;4;3;25;21;Rapido
+145_2;#0145;Zapdos;Forma de Galar;Zapdos;Legendario;Legend;Lucha;Volador;Competitivo;Competitivo;Competitivo;5;3;3;3;4;3;25;21;Rapido
+146_1;#0146;Moltres;;Moltres;Legendario;Legend;Fuego;Volador;Presion;Presion;Cuerpollama;4;3;5;3;3;3;25;21;Normal
+146_2;#0146;Moltres;Forma de Galar;Moltres;Legendario;Legend;Siniestro;Volador;Colera;Colera;Colera;3;3;4;5;3;3;25;21;Normal
+147_1;#0147;Dratini;;Dratini;B sico;Begginer;Dragon;NA;Mudar;Mudar;Escamaespecial;2;1;2;2;2;2;10;11;Suave
+148_1;#0148;Dragonair;;Dratini;Evoluci¢n;Amateur;Dragon;NA;Mudar;Mudar;Escamaespecial;3;2;2;2;2;3;15;14;Normal
+149_1;#0149;Dragonite;;Dratini;Avanzada;Pro;Dragon;Volador;Fuerzamental;Fuerzamental;Multiescamas;5;3;4;4;3;3;19;22;Normal
+150_1;#0150;Mewtwo;;Mewtwo;Legendario;Legend;Psiquico;NA;Presion;Presion;Nerviosismo;4;3;6;3;5;4;28;25;Fugaz
+150_3;#0150;Mewtwo;Mega-Mewtwo Y;Mewtwo;Mega;Legend;Psiquico;NA;Insomnio;Insomnio;Insomnio;6;2;7;4;5;4;28;28;Fugaz
+150_2;#0150;Mewtwo;Mega-Mewtwo X;Mewtwo;Mega;Legend;Psiquico;Lucha;Impasible;Impasible;Impasible;7;4;6;4;5;4;28;30;Fugaz
+151_1;#0151;Mew;;Mew;Legendario;Legend;Psiquico;NA;Sincronia;Sincronia;Sincronia;4;4;4;4;4;4;28;24;Fugaz
+152_1;#0152;Chikorita;;Chikorita;B sico;Starter;Planta;NA;Espesura;Espesura;Defensahoja;1;2;1;2;1;2;8;9;Suave
+153_1;#0153;Bayleef;;Chikorita;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Defensahoja;2;3;2;3;2;3;15;15;Suave
+154_1;#0154;Meganium;;Chikorita;Avanzada;Pro;Planta;NA;Espesura;Espesura;Defensahoja;3;4;3;4;3;3;19;20;Normal
+155_1;#0155;Cyndaquil;;Cyndaquil;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Absorbefuego;2;1;2;2;2;2;10;11;Normal
+156_1;#0156;Quilava;;Cyndaquil;Evoluci¢n;Amateur;Fuego;NA;Marllamas;Marllamas;Absorbefuego;2;2;3;2;3;3;15;15;Normal
+157_2;#0157;Typhlosion;Forma de Hisui;Cyndaquil;Avanzada;Pro;Fuego;Fantasma;Marllamas;Marllamas;Cacheo;3;3;4;3;3;3;19;19;Normal
+157_1;#0157;Typhlosion;;Cyndaquil;Avanzada;Pro;Fuego;NA;Marllamas;Marllamas;Absorbefuego;3;3;4;3;4;3;19;20;Rapido
+158_1;#0158;Totodile;;Totodile;B sico;Begginer;Agua;NA;Torrente;Torrente;Potenciabruta;2;2;1;1;1;3;13;10;Suave
+159_1;#0159;Croconaw;;Totodile;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Potenciabruta;3;3;2;2;2;3;15;15;Suave
+160_1;#0160;Feraligatr;;Totodile;Avanzada;Pro;Agua;NA;Torrente;Torrente;Potenciabruta;4;4;3;3;3;3;19;20;Normal
+161_1;#0161;Sentret;;Sentret;B sico;Starter;Normal;NA;Fuga;Vistalince;Cacheo;1;1;1;1;1;2;8;7;Lento
+162_1;#0162;Furret;;Sentret;Avanzada;Amateur;Normal;NA;Fuga;Vistalince;Cacheo;3;2;1;2;3;3;15;14;Normal
+163_1;#0163;Hoothoot;;Hoothoot;B sico;Begginer;Normal;Volador;Insomnio;Vistalince;Cromolente;1;1;1;2;2;3;13;10;Suave
+164_1;#0164;Noctowl;;Hoothoot;Avanzada;Amateur;Normal;Volador;Insomnio;Vistalince;Cromolente;2;2;3;3;2;4;18;16;Normal
+165_1;#0165;Ledyba;;Ledyba;B sico;Begginer;Bicho;Volador;Enjambre;Madrugar;Cobardia;1;1;1;3;2;2;10;10;Suave
+166_1;#0166;Ledian;;Ledyba;Avanzada;Amateur;Bicho;Volador;Enjambre;Madrugar;Pu¤oferreo;1;2;2;4;3;3;15;15;Normal
+167_1;#0167;Spinarak;;Spinarak;B sico;Starter;Bicho;Veneno;Enjambre;Insomnio;Francotirador;2;1;1;1;1;2;8;8;Lento
+168_1;#0168;Ariados;;Spinarak;Avanzada;Begginer;Bicho;Veneno;Enjambre;Insomnio;Francotirador;3;2;2;2;1;3;13;13;Suave
+169_1;#0169;Crobat;;Zubat;Avanzada;Pro;Veneno;Volador;Fuerzamental;Fuerzamental;Allanamiento;3;3;2;3;5;3;19;19;Rapido
+170_1;#0170;Chinchou;;Chinchou;B sico;Begginer;Agua;Electrico;Absorbeelectricidad;Iluminacion;Absorbeagua;1;1;2;2;2;3;13;11;Normal
+171_1;#0171;Lanturn;;Chinchou;Avanzada;Amateur;Agua;Electrico;Absorbeelectricidad;Iluminacion;Absorbeagua;2;2;3;3;2;4;18;16;Normal
+172_1;#0172;Pichu;;Pikachu;Beb‚;Starter;Electrico;NA;Electricidadestatica;Electricidadestatica;Pararrayos;1;1;1;1;2;2;8;8;Suave
+173_1;#0173;Cleffa;;Clefairy;Beb‚;Starter;Hada;NA;Granencanto;Muromagico;Compiescolta;1;1;1;2;1;3;11;9;Lento
+174_1;#0174;Igglybuff;;Jigglypuff;Beb‚;Starter;Normal;Hada;Granencanto;Tenacidad;Compiescolta;1;1;1;1;1;3;11;8;Lento
+175_1;#0175;Togepi;;Togekiss;Beb‚;Starter;Hada;NA;Entusiasmo;Dicha;Afortunado;1;2;1;2;1;2;8;9;Lento
+176_1;#0176;Togetic;;Togekiss;Evoluci¢n;Amateur;Hada;Volador;Entusiasmo;Dicha;Afortunado;1;3;3;4;1;3;15;15;Suave
+177_1;#0177;Natu;;Natu;B sico;Begginer;Psiquico;Volador;Madrugar;Sincronia;Espejomagico;2;1;2;1;2;2;10;10;Normal
+178_1;#0178;Xatu;;Natu;Avanzada;Amateur;Psiquico;Volador;Madrugar;Sincronia;Espejomagico;3;2;3;2;3;3;15;16;Normal
+179_1;#0179;Mareep;;Mareep;B sico;Starter;Electrico;NA;Electricidadestatica;Electricidadestatica;Mas;1;1;2;1;1;3;11;9;Lento
+180_1;#0180;Flaaffy;;Mareep;Evoluci¢n;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Mas;2;2;3;2;1;3;13;13;Suave
+181_1;#0181;Ampharos;;Mareep;Avanzada;Ace;Electrico;NA;Electricidadestatica;Electricidadestatica;Mas;3;3;4;3;2;3;17;18;Suave
+181_2;#0181;Ampharos;Mega-Ampharos;Mareep;Mega;Legend;Electrico;Dragon;Rompemoldes;Rompemoldes;Rompemoldes;3;4;6;4;1;3;25;21;Suave
+182_1;#0182;Bellossom;;Oddish;Avanzada;Ace;Planta;NA;Clorofila;Clorofila;Almacura;3;3;3;4;2;3;17;18;Suave
+183_1;#0183;Marill;;Marill;B sico;Begginer;Agua;Hada;Potencia;Sebo;Herbivoro;1;2;1;2;1;3;13;10;Suave
+184_1;#0184;Azumarill;;Marill;Avanzada;Amateur;Agua;Hada;Potencia;Sebo;Herbivoro;2;3;2;3;2;4;18;16;Suave
+185_1;#0185;Sudowoodo;;Sudowoodo;Inicial;Amateur;Roca;NA;Cabezaroca;Robustez;Cobardia;4;4;1;2;1;3;15;15;Lento
+186_1;#0186;Politoed;;Poliwag;Avanzada;Ace;Agua;NA;Absorbeagua;Humedad;Llovizna;3;3;3;4;2;3;17;18;Normal
+187_1;#0187;Hoppip;;Hoppip;B sico;Starter;Planta;Volador;Clorofila;Defensahoja;Allanamiento;1;1;1;2;2;2;8;9;Suave
+188_1;#0188;Skiploom;;Hoppip;Evoluci¢n;Begginer;Planta;Volador;Clorofila;Defensahoja;Allanamiento;1;2;1;2;3;3;13;12;Normal
+189_1;#0189;Jumpluff;;Hoppip;Avanzada;Amateur;Planta;Volador;Clorofila;Defensahoja;Allanamiento;2;2;2;3;4;3;15;16;Rapido
+190_1;#0190;Aipom;;Aipom;B sico;Begginer;Normal;NA;Fuga;Recogida;Encadenado;2;2;1;2;3;3;13;13;Normal
+191_1;#0191;Sunkern;;Sunkern;B sico;Starter;Planta;NA;Clorofila;Podersolar;Madrugar;1;1;1;1;1;2;8;7;Lento
+192_1;#0192;Sunflora;;Sunkern;Avanzada;Amateur;Planta;NA;Clorofila;Podersolar;Madrugar;3;2;4;3;1;3;15;16;Lento
+193_1;#0193;Yanma;;Yanma;B sico;Begginer;Bicho;Volador;Impulso;Ojocompuesto;Cacheo;2;1;3;1;3;3;13;13;Normal
+194_1;#0194;Wooper;;Wooper;B sico;Starter;Agua;Tierra;Humedad;Absorbeagua;Ignorante;1;1;1;1;1;3;11;8;Lento
+194_2;#0194;Wooper;Forma de Paldea;Wooper;B sico;Starter;Veneno;Tierra;Puntotoxico;Absorbeagua;Ignorante;1;1;1;1;1;3;11;8;Lento
+195_1;#0195;Quagsire;;Wooper;Avanzada;Amateur;Agua;Tierra;Humedad;Absorbeagua;Ignorante;3;3;2;2;1;3;15;14;Lento
+196_1;#0196;Espeon;;Eevee;Avanzada;Pro;Psiquico;NA;Sincronia;Sincronia;Espejomagico;2;2;5;3;4;3;19;19;Rapido
+197_1;#0197;Umbreon;;Eevee;Avanzada;Ace;Siniestro;NA;Sincronia;Sincronia;Fuerzamental;2;4;2;5;2;3;17;18;Normal
+198_1;#0198;Murkrow;;Murkrow;B sico;Amateur;Siniestro;Volador;Insomnio;Afortunado;Bromista;3;1;3;1;3;3;15;14;Normal
+199_2;#0199;Slowking;Forma de Galar;Slowpoke;Avanzada;Ace;Veneno;Psiquico;Medicinaextra¤a;Ritmopropio;Regeneracion;2;3;4;4;1;3;17;17;Lento
+199_1;#0199;Slowking;;Slowpoke;Avanzada;Ace;Agua;Psiquico;Despiste;Ritmopropio;Regeneracion;3;3;4;4;1;3;17;18;Lento
+200_1;#0200;Misdreavus;;Misdreavus;B sico;Amateur;Fantasma;NA;Levitacion;Levitacion;Levitacion;2;2;3;3;3;3;15;16;Normal
+201_1;#0201;UnownA;;Unown;Inicial;Starter;Psiquico;NA;Levitacion;Levitacion;Levitacion;2;1;2;1;1;2;8;9;Suave
+202_1;#0202;Wobbuffet;;Wobbuffet;Inicial;Begginer;Psiquico;NA;Sombratrampa;Sombratrampa;Telepatia;1;2;1;2;1;5;19;12;Lento
+203_1;#0203;Girafarig;;Girafarig;B sico;Amateur;Normal;Psiquico;Fuerzamental;Madrugar;Herbivoro;3;2;3;2;3;3;15;16;Normal
+204_1;#0204;Pineco;;Pineco;B sico;Begginer;Bicho;NA;Robustez;Robustez;Funda;2;3;1;1;1;3;13;11;Lento
+205_1;#0205;Forretress;;Pineco;Avanzada;Amateur;Bicho;Acero;Robustez;Robustez;Funda;3;5;2;2;1;3;15;16;Suave
+206_1;#0206;Dunsparce;;Dunsparce;Inicial;Begginer;Normal;NA;Dicha;Fuga;Cobardia;2;2;2;2;1;4;16;13;Suave
+207_1;#0207;Gligar;;Gligar;B sico;Amateur;Tierra;Volador;Cortefuerte;Veloarena;Inmunidad;3;4;1;2;3;3;15;16;Normal
+208_1;#0208;Steelix;;Onix;Avanzada;Pro;Acero;Tierra;Cabezaroca;Robustez;Potenciabruta;3;8;2;2;1;3;19;19;Lento
+208_2;#0208;Steelix;Mega-Steelix;Onix;Mega;Legend;Acero;Tierra;Poderarena;Poderarena;Poderarena;5;9;2;3;1;3;25;23;Lento
+209_1;#0209;Snubbull;;Snubbull;B sico;Begginer;Hada;NA;Intimidacion;Fuga;Cobardia;3;2;1;1;1;3;13;11;Lento
+210_1;#0210;Granbull;;Snubbull;Avanzada;Amateur;Hada;NA;Intimidacion;Piesrapidos;Cobardia;4;3;2;2;1;3;15;15;Suave
+211_1;#0211;Qwilfish;;Qwilfish;B sico;Amateur;Agua;Veneno;Nadorapido;Puntotoxico;Intimidacion;3;3;2;2;3;3;15;16;Normal
+211_2;#0211;Qwilfish;Forma de Hisui;Qwilfish;B sico;Amateur;Siniestro;Veneno;Nadorapido;Puntotoxico;Intimidacion;3;3;2;2;3;3;15;16;Normal
+212_1;#0212;Scizor;;Scyther;Avanzada;Pro;Bicho;Acero;Enjambre;Experto;Metalliviano;5;4;2;3;2;3;19;19;Normal
+212_2;#0212;Scizor;Mega-Scizor;Scyther;Mega;Legend;Bicho;Acero;Experto;Experto;Experto;6;5;2;4;3;3;25;23;Normal
+213_1;#0213;Shuckle;;Shuckle;Inicial;Amateur;Bicho;Roca;Robustez;Gula;Respondon;1;9;1;9;1;2;12;23;Lento
+214_1;#0214;Heracross;;Heracross;B sico;Ace;Bicho;Lucha;Enjambre;Agallas;Autoestima;5;3;1;3;3;3;17;18;Normal
+214_2;#0214;Heracross;Mega-Heracross;Heracross;Mega;Legend;Bicho;Lucha;Encadenado;Encadenado;Encadenado;7;4;1;4;3;3;25;22;Normal
+215_1;#0215;Sneasel;;Sneasel;B sico;Amateur;Siniestro;Hielo;Fuerzamental;Vistalince;Hurto;3;2;1;3;4;3;15;16;Rapido
+215_2;#0215;Sneasel;Forma de Hisui;Sneasel;B sico;Amateur;Lucha;Veneno;Fuerzamental;Vistalince;Hurto;3;2;1;3;4;3;15;16;Rapido
+216_1;#0216;Teddiursa;;Teddiursa;B sico;Begginer;Normal;NA;Recogida;Piesrapidos;Recogemiel;3;2;2;2;1;3;13;13;Suave
+217_1;#0217;Ursaring;;Teddiursa;Avanzada;Pro;Normal;NA;Agallas;Piesrapidos;Nerviosismo;5;3;3;3;2;3;19;19;Suave
+218_1;#0218;Slugma;;Slugma;B sico;Starter;Fuego;NA;Cuerpollama;Escudomagma;Armadurafragil;1;1;2;1;1;2;8;8;Lento
+219_1;#0219;Magcargo;;Slugma;Avanzada;Amateur;Fuego;Roca;Cuerpollama;Escudomagma;Armadurafragil;2;4;3;3;1;3;15;16;Lento
+220_1;#0220;Swinub;;Swinub;B sico;Begginer;Hielo;Tierra;Despiste;Mantoniveo;Sebo;2;1;1;1;2;3;13;10;Suave
+221_1;#0221;Piloswine;;Swinub;Avanzada;Ace;Hielo;Tierra;Despiste;Mantoniveo;Sebo;4;3;2;2;2;4;20;17;Suave
+222_1;#0222;Corsola;;Corsola;B sico;Amateur;Agua;Roca;Curanatural;Entusiasmo;Regeneracion;2;3;2;3;1;3;15;14;Lento
+222_2;#0222;Corsola;Forma de Galar;Corsola;B sico;Amateur;Fantasma;NA;Armadurafragil;Armadurafragil;Cuerpomaldito;2;4;2;4;1;3;15;16;Lento
+223_1;#0223;Remoraid;;Remoraid;B sico;Begginer;Agua;NA;Entusiasmo;Francotirador;Veleta;2;1;2;1;2;2;10;10;Normal
+224_1;#0224;Octillery;;Remoraid;Avanzada;Ace;Agua;NA;Ventosas;Francotirador;Veleta;4;3;4;3;1;3;17;18;Suave
+225_1;#0225;Delibird;;Delibird;Inicial;Begginer;Hielo;Volador;Entusiasmo;Espirituvital;Insomnio;2;1;2;1;3;2;10;11;Normal
+226_1;#0226;Mantine;;Mantine;Inicial;Amateur;Agua;Volador;Absorbeagua;Nadorapido;Veloagua;1;2;3;5;2;3;15;16;Normal
+227_1;#0227;Skarmory;;Skarmory;Inicial;Amateur;Acero;Volador;Robustez;Vistalince;Armadurafragil;3;5;1;2;2;3;15;16;Normal
+228_1;#0228;Houndour;;Houndour;B sico;Begginer;Siniestro;Fuego;Absorbefuego;Madrugar;Nerviosismo;2;1;3;2;2;2;10;12;Normal
+229_1;#0229;Houndoom;;Houndour;Avanzada;Ace;Siniestro;Fuego;Absorbefuego;Madrugar;Nerviosismo;3;2;4;3;3;3;17;18;Normal
+229_2;#0229;Houndoom;Mega-Houndoom;Houndour;Mega;Legend;Siniestro;Fuego;Podersolar;Podersolar;Podersolar;3;3;5;3;4;3;25;21;Rapido
+230_1;#0230;Kingdra;;Horsea;Avanzada;Ace;Agua;Dragon;Nadorapido;Francotirador;Humedad;3;3;3;3;3;3;17;18;Normal
+231_1;#0231;Phanpy;;Phanpy;B sico;Begginer;Tierra;NA;Recogida;Recogida;Veloarena;2;2;1;1;1;3;13;10;Suave
+232_1;#0232;Donphan;;Phanpy;Avanzada;Ace;Tierra;NA;Robustez;Robustez;Veloarena;4;4;2;2;2;3;17;17;Suave
+233_1;#0233;Porygon2;;Porygon;Avanzada;Ace;Normal;NA;Calco;Descarga;Calculofinal;3;3;4;3;2;3;17;18;Suave
+234_1;#0234;Stantler;;Stantler;Inicial;Amateur;Normal;NA;Intimidacion;Cacheo;Herbivoro;3;2;3;2;3;3;15;16;Normal
+235_1;#0235;Smeargle;;Smeargle;Inicial;Begginer;Normal;NA;Ritmopropio;Experto;Veleta;1;1;1;1;3;3;13;10;Normal
+236_1;#0236;Tyrogue;;Tyrogue;Beb‚;Starter;Lucha;NA;Agallas;Impasible;Espirituvital;1;1;1;1;1;2;8;7;Lento
+237_1;#0237;Hitmontop;;Tyrogue;Avanzada;Amateur;Lucha;NA;Intimidacion;Experto;Impasible;3;3;1;4;2;3;15;16;Normal
+238_1;#0238;Smoochum;;Jynx;Beb‚;Begginer;Hielo;Psiquico;Despiste;Alerta;Hidratacion;1;1;3;2;2;2;10;11;Normal
+239_1;#0239;Elekid;;Electabuzz;Beb‚;Begginer;Electrico;NA;Electricidadestatica;Electricidadestatica;Espirituvital;2;1;2;2;3;2;10;12;Normal
+240_1;#0240;Magby;;Magmar;Beb‚;Begginer;Fuego;NA;Cuerpollama;Cuerpollama;Espirituvital;3;1;2;2;3;2;10;13;Normal
+241_1;#0241;Miltank;;Miltank;Inicial;Ace;Normal;NA;Sebo;Intrepido;Herbivoro;3;4;1;2;4;3;17;17;Rapido
+242_1;#0242;Blissey;;Chansey;Avanzada;Ace;Normal;NA;Curanatural;Dicha;Almacura;1;1;3;5;2;7;29;19;Suave
+243_1;#0243;Raikou;;Raikou;Legendario;Legend;Electrico;NA;Presion;Presion;Fuerzamental;3;3;4;4;4;3;25;21;Rapido
+244_1;#0244;Entei;;Entei;Legendario;Legend;Fuego;NA;Presion;Presion;Fuerzamental;4;3;3;3;4;4;28;21;Rapido
+245_1;#0245;Suicune;;Suicune;Legendario;Legend;Agua;NA;Presion;Presion;Fuerzamental;3;4;3;4;3;4;28;21;Normal
+246_1;#0246;Larvitar;;Larvitar;B sico;Begginer;Roca;Tierra;Agallas;Agallas;Veloarena;2;2;1;2;1;3;13;11;Suave
+247_1;#0247;Pupitar;;Larvitar;Evoluci¢n;Amateur;Roca;Tierra;Mudar;Mudar;Mudar;3;2;2;2;2;3;15;14;Suave
+248_1;#0248;Tyranitar;;Larvitar;Avanzada;Pro;Roca;Siniestro;Chorroarena;Chorroarena;Nerviosismo;5;4;3;4;2;4;22;22;Suave
+248_2;#0248;Tyranitar;Mega-Tyranitar;Larvitar;Mega;Legend;Roca;Siniestro;Chorroarena;Chorroarena;Chorroarena;6;6;3;4;2;4;28;25;Normal
+249_1;#0249;Lugia;;Lugia;Legendario;Legend;Psiquico;Volador;Presion;Presion;Multiescamas;3;5;3;6;4;4;28;25;Fugaz
+250_1;#0250;Ho-Oh;;Ho-Oh;Legendario;Legend;Fuego;Volador;Presion;Presion;Regeneracion;5;3;4;6;3;4;28;25;Normal
+251_1;#0251;Celebi;;Celebi;Legendario;Legend;Psiquico;Planta;Curanatural;Curanatural;Curanatural;4;4;4;4;4;4;28;24;Fugaz
+252_1;#0252;Treecko;;Treecko;B sico;Begginer;Planta;NA;Espesura;Espesura;Liviano;1;1;2;2;2;2;10;10;Normal
+253_1;#0253;Grovyle;;Treecko;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Liviano;2;1;3;2;3;3;15;14;Normal
+254_1;#0254;Sceptile;;Treecko;Avanzada;Pro;Planta;NA;Espesura;Espesura;Liviano;3;2;4;3;4;3;19;19;Rapido
+254_2;#0254;Sceptile;Mega-Sceptile;Treecko;Mega;Legend;Planta;Dragon;Pararrayos;Pararrayos;Pararrayos;4;3;5;3;5;3;25;23;Fugaz
+255_1;#0255;Torchic;;Torchic;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Impulso;2;1;2;2;1;2;10;10;Suave
+256_1;#0256;Combusken;;Torchic;Evoluci¢n;Amateur;Fuego;Lucha;Marllamas;Marllamas;Impulso;3;2;3;2;2;3;15;15;Suave
+257_1;#0257;Blaziken;;Torchic;Avanzada;Ace;Fuego;Lucha;Marllamas;Marllamas;Impulso;4;2;4;2;3;3;17;18;Normal
+257_2;#0257;Blaziken;Mega-Blaziken;Torchic;Mega;Legend;Fuego;Lucha;Impulso;Impulso;Impulso;6;3;5;3;4;3;25;24;Fugaz
+258_1;#0258;Mudkip;;Mudkip;B sico;Begginer;Agua;NA;Torrente;Torrente;Humedad;2;2;2;2;1;3;13;12;Suave
+259_1;#0259;Marshtomp;;Mudkip;Evoluci¢n;Amateur;Agua;Tierra;Torrente;Torrente;Humedad;3;2;2;2;2;3;15;14;Suave
+260_1;#0260;Swampert;;Mudkip;Avanzada;Pro;Agua;Tierra;Torrente;Torrente;Humedad;4;3;3;3;2;4;22;19;Suave
+260_2;#0260;Swampert;Mega-Swampert;Mudkip;Mega;Legend;Agua;Tierra;Nadorapido;Nadorapido;Nadorapido;6;4;3;4;2;4;28;23;Normal
+261_1;#0261;Poochyena;;Poochyena;B sico;Starter;Siniestro;NA;Fuga;Piesrapidos;Cobardia;2;1;1;1;1;2;8;8;Lento
+262_1;#0262;Mightyena;;Poochyena;Avanzada;Amateur;Siniestro;NA;Intimidacion;Piesrapidos;Autoestima;3;2;2;2;2;3;15;14;Normal
+263_1;#0263;Zigzagoon;;Zigzagoon;B sico;Starter;Normal;NA;Recogida;Gula;Piesrapidos;1;1;1;1;2;2;8;8;Suave
+263_2;#0263;Zigzagoon;Forma de Galar;Zigzagoon;B sico;Starter;Siniestro;Normal;Recogida;Gula;Piesrapidos;1;1;1;1;2;2;8;8;Suave
+264_1;#0264;Linoone;;Zigzagoon;Avanzada;Amateur;Normal;NA;Recogida;Gula;Piesrapidos;2;2;2;2;4;3;15;15;Rapido
+264_2;#0264;Linoone;Forma de Galar;Zigzagoon;Avanzada;Amateur;Siniestro;Normal;Recogida;Gula;Piesrapidos;2;2;2;2;4;3;15;15;Rapido
+265_1;#0265;Wurmple;;Wurmple;B sico;Starter;Bicho;NA;Polvoescudo;Polvoescudo;Fuga;1;1;1;1;1;2;8;7;Lento
+266_1;#0266;Silcoon;;Wurmple;Evoluci¢n;Starter;Bicho;NA;Mudar;Mudar;Mudar;1;2;1;1;1;3;11;9;Lento
+267_1;#0267;Beautifly;;Wurmple;Avanzada;Amateur;Bicho;Volador;Enjambre;Enjambre;Rivalidad;2;2;4;2;2;3;15;15;Normal
+268_1;#0268;Cascoon;;Wurmple;Evoluci¢n;Starter;Bicho;NA;Mudar;Mudar;Mudar;1;2;1;1;1;3;11;9;Lento
+269_1;#0269;Dustox;;Wurmple;Avanzada;Amateur;Bicho;Veneno;Polvoescudo;Polvoescudo;Ojocompuesto;2;2;2;3;2;3;15;14;Normal
+270_1;#0270;Lotad;;Lotad;B sico;Starter;Agua;Planta;Curalluvia;Nadorapido;Ritmopropio;1;1;1;2;1;2;8;8;Lento
+271_1;#0271;Lombre;;Lotad;Evoluci¢n;Begginer;Agua;Planta;Curalluvia;Nadorapido;Ritmopropio;2;2;2;2;2;3;13;13;Suave
+272_1;#0272;Ludicolo;;Lotad;Avanzada;Amateur;Agua;Planta;Curalluvia;Nadorapido;Ritmopropio;2;2;3;4;2;3;15;16;Normal
+273_1;#0273;Seedot;;Seedot;B sico;Starter;Planta;NA;Clorofila;Madrugar;Hurto;1;2;1;1;1;2;8;8;Lento
+274_1;#0274;Nuzleaf;;Seedot;Evoluci¢n;Begginer;Planta;Siniestro;Clorofila;Madrugar;Hurto;2;1;2;1;2;3;13;11;Suave
+275_1;#0275;Shiftry;;Seedot;Avanzada;Ace;Planta;Siniestro;Clorofila;Surcavientos;Hurto;4;2;3;2;3;3;17;17;Normal
+276_1;#0276;Taillow;;Taillow;B sico;Begginer;Normal;Volador;Agallas;Agallas;Intrepido;2;1;1;1;3;2;10;10;Normal
+277_1;#0277;Swellow;;Taillow;Avanzada;Ace;Normal;Volador;Agallas;Agallas;Intrepido;3;2;3;2;5;3;17;18;Rapido
+278_1;#0278;Wingull;;Wingull;B sico;Begginer;Agua;Volador;Vistalince;Hidratacion;Curalluvia;1;1;2;1;3;2;10;10;Normal
+279_1;#0279;Pelipper;;Wingull;Avanzada;Amateur;Agua;Volador;Vistalince;Llovizna;Curalluvia;2;4;3;2;2;3;15;16;Normal
+280_1;#0280;Ralts;;Ralts;B sico;Starter;Psiquico;Hada;Calco;Sincronia;Telepatia;1;1;1;1;1;2;8;7;Suave
+281_1;#0281;Kirlia;;Ralts;Evoluci¢n;Begginer;Psiquico;Hada;Calco;Sincronia;Telepatia;1;1;2;2;2;2;10;10;Suave
+282_1;#0282;Gardevoir;;Ralts;Avanzada;Pro;Psiquico;Hada;Calco;Sincronia;Telepatia;2;2;5;4;3;3;19;19;Normal
+282_2;#0282;Gardevoir;Mega-Gardevoir;Ralts;Mega;Legend;Psiquico;Hada;Pielfeerica;Pielfeerica;Pielfeerica;3;2;6;5;4;3;25;23;Fugaz
+283_1;#0283;Surskit;;Surskit;B sico;Begginer;Bicho;Agua;Nadorapido;Nadorapido;Curalluvia;1;1;2;2;2;2;10;10;Normal
+284_1;#0284;Masquerain;;Surskit;Avanzada;Ace;Bicho;Volador;Intimidacion;Intimidacion;Nerviosismo;2;2;4;3;3;3;17;17;Normal
+285_1;#0285;Shroomish;;Shroomish;B sico;Begginer;Planta;NA;Efectoespora;Antidoto;Piesrapidos;1;2;1;2;1;3;13;10;Lento
+286_1;#0286;Breloom;;Shroomish;Avanzada;Ace;Planta;Lucha;Efectoespora;Antidoto;Experto;5;3;2;2;2;3;17;17;Normal
+287_1;#0287;Slakoth;;Slakoth;B sico;Begginer;Normal;NA;Pereza;Pereza;Pereza;2;2;1;1;1;3;13;10;Lento
+288_1;#0288;Vigoroth;;Slakoth;Evoluci¢n;Amateur;Normal;NA;Espirituvital;Espirituvital;Espirituvital;3;3;2;2;3;3;15;16;Normal
+289_1;#0289;Slaking;;Slakoth;Avanzada;Pro;Normal;NA;Pereza;Pereza;Pereza;6;4;3;2;4;5;25;24;Fugaz
+290_1;#0290;Nincada;;Nincada;B sico;Starter;Bicho;Tierra;Ojocompuesto;Ojocompuesto;Fuga;1;3;1;1;1;2;8;9;Suave
+291_1;#0291;Ninjask;;Nincada;Avanzada;Ace;Bicho;Volador;Impulso;Impulso;Allanamiento;3;1;2;2;6;3;17;17;Rapido
+292_1;#0292;Shedinja;;Nincada;Avanzada;Amateur;Bicho;Fantasma;Superguarda;Superguarda;Superguarda;3;1;1;1;1;2;12;9;Suave
+293_1;#0293;Whismur;;Whismur;B sico;Begginer;Normal;NA;Insonorizar;Insonorizar;Cobardia;2;1;2;1;1;3;13;10;Lento
+294_1;#0294;Loudred;;Whismur;Evoluci¢n;Begginer;Normal;NA;Insonorizar;Insonorizar;Intrepido;2;1;2;1;1;3;13;10;Suave
+295_1;#0295;Exploud;;Whismur;Avanzada;Amateur;Normal;NA;Insonorizar;Insonorizar;Intrepido;3;2;3;2;2;4;18;16;Normal
+296_1;#0296;Makuhita;;Makuhita;B sico;Starter;Lucha;NA;Sebo;Agallas;Potenciabruta;2;1;1;1;1;3;11;9;Lento
+297_1;#0297;Hariyama;;Makuhita;Avanzada;Amateur;Lucha;NA;Sebo;Agallas;Potenciabruta;4;2;1;2;2;4;18;15;Suave
+298_1;#0298;Azurill;;Marill;Beb‚;Starter;Normal;Hada;Sebo;Potencia;Herbivoro;1;1;1;1;1;3;11;8;Lento
+299_1;#0299;Nosepass;;Nosepass;B sico;Begginer;Roca;NA;Robustez;Iman;Poderarena;1;5;1;3;1;2;10;13;Lento
+300_1;#0300;Skitty;;Skitty;B sico;Starter;Normal;NA;Granencanto;Normalidad;Pielmilagro;1;1;1;1;2;3;11;9;Suave
+301_1;#0301;Delcatty;;Skitty;Avanzada;Amateur;Normal;NA;Granencanto;Normalidad;Pielmilagro;2;2;2;2;3;3;15;14;Normal
+302_1;#0302;Sableye;;Sableye;B sico;Amateur;Siniestro;Fantasma;Vistalince;Rezagado;Bromista;3;3;2;2;2;3;15;15;Suave
+302_2;#0302;Sableye;Mega-Sableye;Sableye;Mega;Legend;Siniestro;Fantasma;Espejomagico;Espejomagico;Espejomagico;3;5;3;4;1;3;25;19;Lento
+303_1;#0303;Mawile;;Mawile;B sico;Amateur;Acero;Hada;Cortefuerte;Intimidacion;Potenciabruta;3;3;2;2;2;3;15;15;Suave
+303_2;#0303;Mawile;Mega-Mawile;Mawile;Mega;Legend;Acero;Hada;Potencia;Potencia;Potencia;4;5;2;3;2;3;25;19;Suave
+304_1;#0304;Aron;;Aron;B sico;Begginer;Acero;Roca;Robustez;Cabezaroca;Metalpesado;2;4;1;1;1;3;13;12;Lento
+305_1;#0305;Lairon;;Aron;Evoluci¢n;Amateur;Acero;Roca;Robustez;Cabezaroca;Metalpesado;3;5;2;2;1;3;15;16;Suave
+306_1;#0306;Aggron;;Aron;Avanzada;Pro;Acero;Roca;Robustez;Cabezaroca;Metalpesado;4;7;2;2;2;3;19;20;Suave
+306_2;#0306;Aggron;Mega-Aggron;Aron;Mega;Legend;Acero;NA;Filtro;Filtro;Filtro;5;9;2;3;2;3;25;24;Suave
+307_1;#0307;Meditite;;Meditite;B sico;Begginer;Lucha;Psiquico;Energiapura;Energiapura;Telepatia;1;2;1;2;2;2;10;10;Suave
+308_1;#0308;Medicham;;Meditite;Avanzada;Amateur;Lucha;Psiquico;Energiapura;Energiapura;Telepatia;2;3;2;3;3;3;15;16;Normal
+308_2;#0308;Medicham;Mega-Medicham;Meditite;Mega;Legend;Lucha;Psiquico;Energiapura;Energiapura;Energiapura;4;3;3;3;4;3;25;20;Rapido
+309_1;#0309;Electrike;;Electrike;B sico;Starter;Electrico;NA;Electricidadestatica;Pararrayos;Menos;1;1;2;1;2;2;8;9;Normal
+310_1;#0310;Manectric;;Electrike;Avanzada;Ace;Electrico;NA;Electricidadestatica;Pararrayos;Menos;3;2;4;2;4;3;17;18;Rapido
+310_2;#0310;Manectric;Mega-Manectric;Electrike;Mega;Legend;Electrico;NA;Intimidacion;Intimidacion;Intimidacion;3;3;5;3;5;3;25;22;Rapido
+311_1;#0311;Plusle;;Plusle;Inicial;Amateur;Electrico;NA;Mas;Mas;Pararrayos;2;1;3;3;3;3;15;15;Normal
+312_1;#0312;Minun;;Minun;Inicial;Amateur;Electrico;NA;Menos;Menos;Absorbeelectricidad;1;2;3;3;3;3;15;15;Normal
+313_1;#0313;Volbeat;;Volbeat;Inicial;Amateur;Bicho;NA;Iluminacion;Enjambre;Bromista;2;3;1;3;3;3;15;15;Normal
+314_1;#0314;Illumise;;Illumise;Inicial;Amateur;Bicho;NA;Despiste;Cromolente;Bromista;1;3;2;3;3;3;15;15;Normal
+315_1;#0315;Roselia;;Roselia;B sico;Amateur;Planta;Veneno;Curanatural;Puntotoxico;Defensahoja;2;1;4;3;2;3;15;15;Normal
+316_1;#0316;Gulpin;;Gulpin;B sico;Begginer;Veneno;NA;Viscosecrecion;Viscosidad;Gula;1;2;1;2;1;3;13;10;Suave
+317_1;#0317;Swalot;;Gulpin;Evoluci¢n;Amateur;Veneno;NA;Viscosecrecion;Viscosidad;Gula;2;3;2;3;2;4;18;16;Suave
+318_1;#0318;Carvanha;;Carvanha;B sico;Begginer;Agua;Siniestro;Pieltosca;Pieltosca;Impulso;3;1;2;1;2;2;10;11;Normal
+319_1;#0319;Sharpedo;;Carvanha;Evoluci¢n;Amateur;Agua;Siniestro;Pieltosca;Pieltosca;Impulso;4;1;3;1;3;3;15;15;Normal
+319_2;#0319;Sharpedo;Mega-Sharpedo;Carvanha;Mega;Legend;Agua;Siniestro;Mandibulafuerte;Mandibulafuerte;Mandibulafuerte;5;2;4;2;4;3;25;20;Rapido
+320_1;#0320;Wailmer;;Wailmer;B sico;Begginer;Agua;NA;Veloagua;Despiste;Presion;2;1;2;1;2;4;16;12;Suave
+321_1;#0321;Wailord;;Wailmer;Evoluci¢n;Amateur;Agua;NA;Veloagua;Despiste;Presion;3;1;3;1;2;5;21;15;Suave
+322_1;#0322;Numel;;Numel;B sico;Begginer;Fuego;Tierra;Despiste;Simple;Ritmopropio;2;1;2;1;1;3;13;10;Lento
+323_1;#0323;Camerupt;;Numel;Evoluci¢n;Ace;Fuego;Tierra;Escudomagma;Rocasolida;Irascible;4;2;4;3;1;3;17;17;Suave
+323_2;#0323;Camerupt;Mega-Camerupt;Numel;Mega;Legend;Fuego;Tierra;Potenciabruta;Potenciabruta;Potenciabruta;4;4;5;4;1;3;25;21;Lento
+324_1;#0324;Torkoal;;Torkoal;Inicial;Ace;Fuego;NA;Humoblanco;Sequia;Caparazon;3;5;3;2;1;3;17;17;Lento
+325_1;#0325;Spoink;;Spoink;B sico;Begginer;Psiquico;NA;Sebo;Ritmopropio;Gula;1;1;2;3;2;3;13;12;Suave
+326_1;#0326;Grumpig;;Spoink;Evoluci¢n;Amateur;Psiquico;NA;Sebo;Ritmopropio;Gula;1;2;3;4;3;3;15;16;Normal
+327_1;#0327;Spinda;;Spinda;Inicial;Begginer;Normal;NA;Ritmopropio;Tumbos;Respondon;2;2;2;2;2;3;13;13;Suave
+328_1;#0328;Trapinch;;Trapinch;B sico;Begginer;Tierra;NA;Cortefuerte;Trampaarena;Potenciabruta;4;1;1;1;1;2;10;10;Lento
+329_1;#0329;Vibrava;;Trapinch;Evoluci¢n;Begginer;Tierra;Dragon;Levitacion;Levitacion;Levitacion;2;2;2;2;2;3;13;13;Normal
+330_1;#0330;Flygon;;Trapinch;Avanzada;Pro;Tierra;Dragon;Levitacion;Levitacion;Levitacion;4;3;3;3;4;3;19;20;Rapido
+331_1;#0331;Cacnea;;Cacnea;B sico;Begginer;Planta;NA;Veloarena;Veloarena;Absorbeagua;3;1;3;1;1;3;13;12;Lento
+332_1;#0332;Cacturne;;Cacnea;Evoluci¢n;Ace;Planta;Siniestro;Veloarena;Veloarena;Absorbeagua;4;2;4;2;2;3;17;17;Suave
+333_1;#0333;Swablu;;Swablu;B sico;Begginer;Normal;Volador;Curanatural;Curanatural;Aclimatacion;1;2;1;3;2;2;10;11;Suave
+334_1;#0334;Altaria;;Swablu;Evoluci¢n;Ace;Dragon;Volador;Curanatural;Curanatural;Aclimatacion;2;3;2;4;3;3;17;17;Normal
+334_2;#0334;Altaria;Mega-Altaria;Swablu;Mega;Legend;Dragon;Hada;Pielfeerica;Pielfeerica;Pielfeerica;4;4;4;4;3;3;25;22;Normal
+335_1;#0335;Zangoose;;Zangoose;Inicial;Amateur;Normal;NA;Inmunidad;Inmunidad;impetutoxico;4;2;2;2;3;3;15;16;Normal
+336_1;#0336;Seviper;;Seviper;Inicial;Ace;Veneno;NA;Mudar;Mudar;Allanamiento;4;2;4;2;2;3;17;17;Normal
+337_1;#0337;Lunatone;;Lunatone;Inicial;Amateur;Roca;Psiquico;Levitacion;Levitacion;Levitacion;2;2;3;3;2;3;15;15;Normal
+338_1;#0338;Solrock;;Solrock;Inicial;Amateur;Roca;Psiquico;Levitacion;Levitacion;Levitacion;3;3;2;2;2;3;15;15;Normal
+339_1;#0339;Barboach;;Barboach;B sico;Starter;Agua;Tierra;Despiste;Anticipacion;Hidratacion;1;1;1;1;2;3;11;9;Suave
+340_1;#0340;Whiscash;;Barboach;Evoluci¢n;Amateur;Agua;Tierra;Despiste;Anticipacion;Hidratacion;3;2;3;2;2;4;18;16;Suave
+341_1;#0341;Corphish;;Corphish;B sico;Begginer;Agua;NA;Cortefuerte;Caparazon;Adaptable;3;2;2;1;1;2;10;11;Lento
+342_1;#0342;Crawdaunt;;Corphish;Evoluci¢n;Ace;Agua;Siniestro;Cortefuerte;Caparazon;Adaptable;4;3;3;2;2;3;17;17;Suave
+343_1;#0343;Baltoy;;Baltoy;B sico;Begginer;Tierra;Psiquico;Levitacion;Levitacion;Levitacion;1;2;1;2;2;2;10;10;Suave
+344_1;#0344;Claydol;;Baltoy;Evoluci¢n;Ace;Tierra;Psiquico;Levitacion;Levitacion;Levitacion;2;4;2;4;3;3;17;18;Normal
+345_1;#0345;Lileep;;Lileep;B sico;Begginer;Roca;Planta;Ventosas;Ventosas;Colector;1;3;2;3;1;3;13;13;Lento
+346_1;#0346;Cradily;;Lileep;Evoluci¢n;Ace;Roca;Planta;Ventosas;Ventosas;Colector;3;3;3;4;1;3;17;17;Suave
+347_1;#0347;Anorith;;Anorith;B sico;Begginer;Roca;Bicho;Armadurabatalla;Armadurabatalla;Nadorapido;3;2;1;2;3;2;10;13;Normal
+348_1;#0348;Armaldo;;Anorith;Evoluci¢n;Ace;Roca;Bicho;Armadurabatalla;Armadurabatalla;Nadorapido;5;4;2;3;1;3;17;18;Suave
+349_1;#0349;Feebas;;Feebas;B sico;Begginer;Agua;NA;Nadorapido;Despiste;Adaptable;1;1;1;2;3;2;10;10;Normal
+350_1;#0350;Milotic;;Feebas;Evoluci¢n;Pro;Agua;NA;Escamaespecial;Tenacidad;Granencanto;2;3;4;5;3;3;19;20;Normal
+351_1;#0351;Castform;Forma de Castform;Castform;Inicial;Begginer;Normal;NA;Prediccion;Prediccion;Prediccion;2;2;2;2;2;3;13;13;Normal
+351_2;#0351;Castform;Forma Sol;Castform;Inicial;Begginer;Fuego;NA;Prediccion;Prediccion;Prediccion;2;2;2;2;2;3;13;13;Normal
+351_3;#0351;Castform;Forma Lluvia;Castform;Inicial;Begginer;Agua;NA;Prediccion;Prediccion;Prediccion;2;2;2;2;2;3;13;13;Normal
+351_4;#0351;Castform;Forma Nieve;Castform;Inicial;Begginer;Hielo;NA;Prediccion;Prediccion;Prediccion;2;2;2;2;2;3;13;13;Normal
+352_1;#0352;Kecleon;;Kecleon;Inicial;Amateur;Normal;NA;Cambiocolor;Cambiocolor;Mutatipo;3;2;2;4;1;3;15;15;Suave
+353_1;#0353;Shuppet;;Shuppet;B sico;Begginer;Fantasma;NA;Insomnio;Cacheo;Cuerpomaldito;3;1;2;1;1;2;10;10;Suave
+354_1;#0354;Banette;;Shuppet;Evoluci¢n;Amateur;Fantasma;NA;Insomnio;Cacheo;Cuerpomaldito;4;2;3;2;2;3;15;16;Normal
+354_2;#0354;Banette;Mega-Banette;Shuppet;Mega;Legend;Fantasma;NA;Bromista;Bromista;Bromista;6;3;3;3;3;3;25;21;Normal
+355_1;#0355;Duskull;;Duskull;B sico;Begginer;Fantasma;NA;Levitacion;Levitacion;Cacheo;1;3;1;3;1;2;10;11;Lento
+356_1;#0356;Dusclops;;Duskull;Evoluci¢n;Ace;Fantasma;NA;Presion;Presion;Cacheo;2;5;2;5;1;2;14;17;Lento
+357_1;#0357;Tropius;;Tropius;Inicial;Amateur;Planta;Volador;Clorofila;Podersolar;Cosecha;2;3;2;3;2;3;15;15;Suave
+358_1;#0358;Chimecho;;Chimecho;Inicial;Amateur;Psiquico;NA;Levitacion;Levitacion;Levitacion;2;3;3;3;2;3;15;16;Normal
+359_1;#0359;Absol;;Absol;Inicial;Ace;Siniestro;NA;Presion;Afortunado;Justiciero;5;2;3;2;3;3;17;18;Normal
+359_2;#0359;Absol;Mega-Absol;Absol;Mega;Legend;Siniestro;NA;Espejomagico;Espejomagico;Espejomagico;6;2;4;2;4;3;25;21;Rapido
+360_1;#0360;Wynaut;;Wynaut;Beb‚;Starter;Psiquico;NA;Sombratrampa;Sombratrampa;Telepatia;1;1;1;1;1;3;11;8;Lento
+361_1;#0361;Snorunt;;Snorunt;B sico;Begginer;Hielo;NA;Fuerzamental;Gelido;Veleta;2;2;2;2;2;3;13;13;Suave
+362_1;#0362;Glalie;;Snorunt;Evoluci¢n;Ace;Hielo;NA;Fuerzamental;Gelido;Veleta;3;3;3;3;3;3;17;18;Normal
+362_2;#0362;Glalie;Mega-Glalie;Snorunt;Mega;Legend;Hielo;NA;Pielhelada;Pielhelada;Pielhelada;4;3;4;3;4;3;25;21;Rapido
+363_1;#0363;Spheal;;Spheal;B sico;Begginer;Hielo;Agua;Sebo;Gelido;Despiste;1;2;2;2;1;3;13;11;Lento
+364_1;#0364;Sealeo;;Spheal;Evoluci¢n;Begginer;Hielo;Agua;Sebo;Gelido;Despiste;2;2;3;2;1;3;13;13;Suave
+365_1;#0365;Walrein;;Spheal;Avanzada;Ace;Hielo;Agua;Sebo;Gelido;Despiste;3;3;3;3;2;4;20;18;Normal
+366_1;#0366;Clamperl;;Clamperl;B sico;Begginer;Agua;NA;Caparazon;Caparazon;Cobardia;2;3;2;2;1;2;10;12;Lento
+367_1;#0367;Huntail;;Clamperl;Evoluci¢n;Pro;Agua;NA;Nadorapido;Nadorapido;Veloagua;4;4;3;3;2;3;19;19;Suave
+368_1;#0368;Gorebyss;;Clamperl;Evoluci¢n;Pro;Agua;NA;Nadorapido;Nadorapido;Hidratacion;3;4;4;3;2;3;19;19;Suave
+369_1;#0369;Relicanth;;Relicanth;Inicial;Ace;Agua;Roca;Nadorapido;Cabezaroca;Robustez;3;5;1;2;2;4;20;17;Suave
+370_1;#0370;Luvdisc;;Luvdisc;Inicial;Begginer;Agua;NA;Nadorapido;Nadorapido;Hidratacion;1;2;1;2;3;2;10;11;Normal
+371_1;#0371;Bagon;;Bagon;B sico;Begginer;Dragon;NA;Cabezaroca;Cabezaroca;Potenciabruta;3;2;1;1;2;2;10;11;Suave
+372_1;#0372;Shelgon;;Bagon;Evoluci¢n;Amateur;Dragon;NA;Cabezaroca;Cabezaroca;Funda;3;4;2;2;2;3;15;16;Suave
+373_1;#0373;Salamence;;Bagon;Avanzada;Pro;Dragon;Volador;Intimidacion;Intimidacion;Autoestima;5;3;4;3;4;3;19;22;Fugaz
+373_2;#0373;Salamence;Mega-Salamence;Bagon;Mega;Legend;Dragon;Volador;Pielceleste;Pielceleste;Pielceleste;5;5;4;3;4;3;25;24;Fugaz
+374_1;#0374;Beldum;;Beldum;B sico;Begginer;Acero;Psiquico;Cuerpopuro;Cuerpopuro;Metalliviano;2;3;1;2;1;2;10;11;Lento
+375_1;#0375;Metang;;Beldum;Evoluci¢n;Ace;Acero;Psiquico;Cuerpopuro;Cuerpopuro;Metalliviano;3;4;2;3;2;3;17;17;Suave
+376_1;#0376;Metagross;;Beldum;Avanzada;Pro;Acero;Psiquico;Cuerpopuro;Cuerpopuro;Metalliviano;5;5;3;3;2;3;19;21;Normal
+376_2;#0376;Metagross;Mega-Metagross;Beldum;Mega;Legend;Acero;Psiquico;Garradura;Garradura;Garradura;5;6;4;4;4;3;25;26;Fugaz
+377_1;#0377;Regirock;;Regirock;Legendario;Legend;Roca;NA;Cuerpopuro;Cuerpopuro;Robustez;4;8;2;4;2;3;25;23;Suave
+378_1;#0378;Regice;;Regice;Legendario;Legend;Hielo;NA;Cuerpopuro;Cuerpopuro;Gelido;2;4;4;8;2;3;25;23;Suave
+379_1;#0379;Registeel;;Registeel;Legendario;Legend;Acero;NA;Cuerpopuro;Cuerpopuro;Metalliviano;3;6;3;6;2;3;25;23;Suave
+380_1;#0380;Latias;;Latias;Legendario;Legend;Dragon;Psiquico;Levitacion;Levitacion;Levitacion;3;3;4;5;4;3;25;22;Fugaz
+380_2;#0380;Latias;Mega-Latias;Latias;Mega;Legend;Dragon;Psiquico;Levitacion;Levitacion;Levitacion;4;4;5;6;4;3;25;26;Fugaz
+381_1;#0381;Latios;;Latios;Legendario;Legend;Dragon;Psiquico;Levitacion;Levitacion;Levitacion;3;3;5;4;4;3;25;22;Fugaz
+381_2;#0381;Latios;Mega-Latios;Latios;Mega;Legend;Dragon;Psiquico;Levitacion;Levitacion;Levitacion;5;4;6;4;4;3;25;26;Fugaz
+382_1;#0382;Kyogre;;Kyogre;Legendario;Legend;Agua;NA;Llovizna;Llovizna;Llovizna;4;3;6;5;3;4;28;25;Normal
+382_2;#0382;Kyogre;Regresion Primigenia;Kyogre;Legendario;Legend;Agua;NA;Mardelalbor;Mardelalbor;Mardelalbor;6;3;7;6;3;4;28;29;Normal
+383_1;#0383;Groudon;;Groudon;Legendario;Legend;Tierra;NA;Sequia;Sequia;Sequia;6;5;4;3;3;4;28;25;Normal
+383_2;#0383;Groudon;Regresion Primigenia;Groudon;Legendario;Legend;Tierra;Fuego;Tierradelocaso;Tierradelocaso;Tierradelocaso;7;6;6;3;3;4;28;29;Normal
+384_1;#0384;Rayquaza;;Rayquaza;Legendario;Legend;Dragon;Volador;Esclusadeaire;Esclusadeaire;Esclusadeaire;6;3;6;3;3;4;28;25;Normal
+384_2;#0384;Rayquaza;Mega-Rayquaza;Rayquaza;Mega;Legend;Dragon;Volador;Rafagadelta;Rafagadelta;Rafagadelta;7;4;7;4;4;4;28;30;Fugaz
+385_1;#0385;Jirachi;;Jirachi;Legendario;Legend;Acero;Psiquico;Dicha;Dicha;Dicha;4;4;4;4;4;4;28;24;Fugaz
+386_3;#0386;Deoxys;Forma Defensa;Deoxys;Legendario;Legend;Psiquico;NA;Presion;Presion;Presion;2;6;2;6;3;3;25;22;Normal
+386_4;#0386;Deoxys;Forma Velocidad;Deoxys;Legendario;Legend;Psiquico;NA;Presion;Presion;Presion;3;3;3;3;7;3;25;22;Rapido
+386_1;#0386;Deoxys;Forma Normal;Deoxys;Legendario;Legend;Psiquico;NA;Presion;Presion;Presion;6;2;6;2;6;3;25;25;Fugaz
+386_2;#0386;Deoxys;Forma Ataque;Deoxys;Legendario;Legend;Psiquico;NA;Presion;Presion;Presion;7;1;7;1;6;3;25;25;Fugaz
+387_1;#0387;Turtwig;;Turtwig;B sico;Begginer;Planta;NA;Espesura;Espesura;Caparazon;2;2;1;2;1;3;13;11;Lento
+388_1;#0388;Grotle;;Turtwig;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Caparazon;3;3;2;2;1;3;15;14;Lento
+389_1;#0389;Torterra;;Turtwig;Avanzada;Pro;Planta;Tierra;Espesura;Espesura;Caparazon;4;4;3;3;2;3;19;19;Suave
+390_1;#0390;Chimchar;;Chimchar;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Pu¤oferreo;2;1;2;1;2;2;10;10;Suave
+391_1;#0391;Monferno;;Chimchar;Evoluci¢n;Amateur;Fuego;Lucha;Marllamas;Marllamas;Pu¤oferreo;3;2;3;2;3;3;15;16;Normal
+392_1;#0392;Infernape;;Chimchar;Avanzada;Pro;Fuego;Lucha;Marllamas;Marllamas;Pu¤oferreo;4;2;4;2;4;3;19;19;Rapido
+393_1;#0393;Piplup;;Piplup;B sico;Begginer;Agua;NA;Torrente;Torrente;Tenacidad;2;2;2;2;1;3;13;12;Suave
+394_1;#0394;Prinplup;;Piplup;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Tenacidad;2;2;3;3;2;3;15;15;Suave
+395_1;#0395;Empoleon;;Piplup;Avanzada;Pro;Agua;Acero;Torrente;Torrente;Tenacidad;3;3;4;4;2;3;19;19;Suave
+396_1;#0396;Starly;;Starly;B sico;Starter;Normal;Volador;Vistalince;Vistalince;Audaz;2;1;1;1;2;2;8;9;Suave
+397_1;#0397;Staravia;;Starly;Evoluci¢n;Begginer;Normal;Volador;Intimidacion;Intimidacion;Audaz;3;2;1;1;3;3;13;13;Normal
+398_1;#0398;Staraptor;;Starly;Avanzada;Ace;Normal;Volador;Intimidacion;Intimidacion;Audaz;4;2;2;2;4;3;17;17;Rapido
+399_1;#0399;Bidoof;;Bidoof;Inicial;Starter;Normal;NA;Simple;Ignorante;Veleta;1;1;1;1;1;3;11;8;Lento
+400_1;#0400;Bibarel;;Bidoof;Evoluci¢n;Amateur;Normal;Agua;Simple;Ignorante;Veleta;3;2;2;2;2;3;15;14;Normal
+401_1;#0401;Kricketot;;Kricketot;B sico;Starter;Bicho;NA;Mudar;Mudar;Fuga;1;1;1;1;1;2;8;7;Lento
+402_1;#0402;Kricketune;;Kricketot;Evoluci¢n;Amateur;Bicho;NA;Enjambre;Enjambre;Experto;3;2;2;2;2;3;15;14;Normal
+403_1;#0403;Shinx;;Shinx;B sico;Starter;Electrico;NA;Rivalidad;Intimidacion;Agallas;2;1;1;1;1;2;8;8;Suave
+404_1;#0404;Luxio;;Shinx;Evoluci¢n;Begginer;Electrico;NA;Rivalidad;Intimidacion;Agallas;3;1;2;1;2;3;13;12;Suave
+405_1;#0405;Luxray;;Shinx;Avanzada;Ace;Electrico;NA;Rivalidad;Intimidacion;Agallas;4;3;3;3;2;3;17;18;Normal
+406_1;#0406;Budew;;Budew;Beb‚;Begginer;Planta;Veneno;Curanatural;Puntotoxico;Defensahoja;1;1;2;2;2;2;10;10;Suave
+407_1;#0407;Roserade;;Budew;Avanzada;Pro;Planta;Veneno;Curanatural;Puntotoxico;Experto;2;2;5;4;3;3;19;19;Normal
+408_1;#0408;Cranidos;;Cranidos;B sico;Begginer;Roca;NA;Rompemoldes;Rompemoldes;Potenciabruta;5;1;1;1;2;3;13;13;Suave
+409_1;#0409;Rampardos;;Cranidos;Evoluci¢n;Ace;Roca;NA;Rompemoldes;Rompemoldes;Potenciabruta;6;2;2;2;2;3;17;17;Suave
+410_1;#0410;Shieldon;;Shieldon;B sico;Begginer;Roca;Acero;Robustez;Robustez;Insonorizar;1;4;1;3;1;2;10;12;Lento
+411_1;#0411;Bastiodon;;Shieldon;Evoluci¢n;Ace;Roca;Acero;Robustez;Robustez;Insonorizar;2;6;1;5;1;3;17;18;Lento
+412_1;#0412;Burmy;Tronco Planta;Burmy;B sico;Starter;Bicho;NA;Mudar;Mudar;Funda;1;1;1;1;1;2;8;7;Lento
+413_3;#0413;Wormadam;Tronco Basura;Burmy;Evoluci¢n;Amateur;Bicho;Acero;Anticipacion;Anticipacion;Funda;2;3;2;3;1;3;15;14;Lento
+413_1;#0413;Wormadam;Tronco Planta;Burmy;Evoluci¢n;Amateur;Bicho;Planta;Anticipacion;Anticipacion;Funda;2;3;3;4;1;3;15;16;Lento
+413_2;#0413;Wormadam;Tronco Arena;Burmy;Evoluci¢n;Amateur;Bicho;Tierra;Anticipacion;Anticipacion;Funda;3;4;2;3;1;3;15;16;Lento
+414_1;#0414;Mothim;;Burmy;Evoluci¢n;Amateur;Bicho;Volador;Enjambre;Enjambre;Cromolente;3;2;3;2;2;3;15;15;Normal
+415_1;#0415;Combee;;Combee;B sico;Starter;Bicho;Volador;Recogemiel;Recogemiel;Entusiasmo;1;1;1;1;2;2;8;8;Normal
+416_1;#0416;Vespiquen;;Combee;Evoluci¢n;Ace;Bicho;Volador;Presion;Presion;Nerviosismo;3;4;3;4;1;3;17;18;Suave
+417_1;#0417;Pachirisu;;Pachirisu;Inicial;Begginer;Electrico;NA;Fuga;Recogida;Absorbeelectricidad;1;2;1;3;3;3;13;13;Normal
+418_1;#0418;Buizel;;Buizel;B sico;Begginer;Agua;NA;Nadorapido;Nadorapido;Veloagua;2;1;2;1;3;3;13;12;Normal
+419_1;#0419;Floatzel;;Buizel;Evoluci¢n;Ace;Agua;NA;Nadorapido;Nadorapido;Veloagua;4;2;3;2;4;3;17;18;Rapido
+420_1;#0420;Cherubi;;Cherubi;B sico;Starter;Planta;NA;Clorofila;Clorofila;Clorofila;1;1;2;2;1;2;8;9;Lento
+421_1;#0421;Cherrim;Forma Encapotado;Cherubi;Evoluci¢n;Amateur;Planta;NA;Donfloral;Donfloral;Donfloral;2;2;3;3;3;3;15;16;Normal
+422_1;#0422;Shellos;Mar Oeste;Shellos;B sico;Begginer;Agua;NA;Viscosidad;Colector;Poderarena;1;1;2;2;1;3;13;10;Lento
+423_1;#0423;Gastrodon;Mar Oeste;Shellos;Evoluci¢n;Amateur;Agua;Tierra;Viscosidad;Colector;Poderarena;3;2;3;3;1;4;18;16;Suave
+424_1;#0424;Ambipom;;Aipom;Evoluci¢n;Ace;Normal;NA;Experto;Recogida;Encadenado;4;2;2;2;4;3;17;17;Rapido
+425_1;#0425;Drifloon;;Drifloon;B sico;Begginer;Fantasma;Volador;Liviano;Detonacion;impetuardiente;2;1;2;1;2;3;13;11;Normal
+426_1;#0426;Drifblim;;Drifloon;Evoluci¢n;Ace;Fantasma;Volador;Liviano;Detonacion;impetuardiente;3;1;3;2;3;5;23;17;Normal
+427_1;#0427;Buneary;;Buneary;B sico;Begginer;Normal;NA;Fuga;Zoquete;Flexibilidad;2;1;1;2;3;3;13;12;Normal
+428_1;#0428;Lopunny;;Buneary;Evoluci¢n;Ace;Normal;NA;Granencanto;Zoquete;Flexibilidad;3;3;2;3;4;3;17;18;Rapido
+428_2;#0428;Lopunny;Mega-Lopunny;Buneary;Mega;Legend;Normal;Lucha;Intrepido;Intrepido;Intrepido;5;3;2;3;5;3;25;21;Rapido
+429_1;#0429;Mismagius;;Misdreavus;Evoluci¢n;Pro;Fantasma;NA;Levitacion;Levitacion;Levitacion;2;2;4;4;4;3;19;19;Rapido
+430_1;#0430;Honchkrow;;Murkrow;Evoluci¢n;Pro;Siniestro;Volador;Insomnio;Afortunado;Autoestima;5;2;4;2;2;4;22;19;Normal
+431_1;#0431;Glameow;;Glameow;B sico;Begginer;Normal;NA;Flexibilidad;Ritmopropio;Vistalince;2;1;1;1;3;2;10;10;Normal
+432_1;#0432;Purugly;;Glameow;Evoluci¢n;Amateur;Normal;NA;Sebo;Ritmopropio;Competitivo;3;2;2;2;4;3;15;16;Rapido
+433_1;#0433;Chingling;;Chingling;Beb‚;Begginer;Psiquico;NA;Levitacion;Levitacion;Levitacion;1;2;2;2;1;2;10;10;Suave
+434_1;#0434;Stunky;;Stunky;B sico;Begginer;Veneno;Siniestro;Hedor;Detonacion;Vistalince;2;1;1;1;2;3;13;10;Normal
+435_1;#0435;Skuntank;;Stunky;Evoluci¢n;Amateur;Veneno;Siniestro;Hedor;Detonacion;Vistalince;3;2;2;2;3;4;18;16;Normal
+436_1;#0436;Bronzor;;Bronzor;B sico;Begginer;Acero;Psiquico;Levitacion;Ignifugo;Metalpesado;1;3;1;3;1;3;13;12;Lento
+437_1;#0437;Bronzong;;Bronzor;Evoluci¢n;Ace;Acero;Psiquico;Levitacion;Ignifugo;Metalpesado;3;4;3;4;1;3;17;18;Lento
+438_1;#0438;Bonsly;;Bonsly;Beb‚;Begginer;Roca;NA;Robustez;Cabezaroca;Cobardia;3;3;1;1;1;3;13;12;Lento
+439_1;#0439;Mime Jr.;;Mime Jr.;Beb‚;Begginer;Psiquico;Hada;Insonorizar;Filtro;Experto;1;1;2;3;2;2;10;11;Suave
+440_1;#0440;Happiny;;Happiny;Beb‚;Begginer;Normal;NA;Curanatural;Dicha;Compiescolta;1;1;1;2;1;4;16;10;Lento
+441_1;#0441;Chatot;;Chatot;Inicial;Begginer;Normal;Volador;Vistalince;Tumbos;Sacapecho;2;1;3;1;3;3;13;13;Normal
+442_1;#0442;Spiritomb;;Spiritomb;Inicial;Ace;Fantasma;Siniestro;Presion;Presion;Allanamiento;3;4;3;4;1;3;17;18;Lento
+443_1;#0443;Gible;;Gible;B sico;Starter;Dragon;Tierra;Veloarena;Veloarena;Pieltosca;2;1;1;1;1;3;11;9;Suave
+444_1;#0444;Gabite;;Gible;Evoluci¢n;Amateur;Dragon;Tierra;Veloarena;Veloarena;Pieltosca;3;2;2;2;3;3;15;15;Normal
+445_1;#0445;Garchomp;;Gible;Avanzada;Pro;Dragon;Tierra;Veloarena;Veloarena;Pieltosca;5;3;3;3;4;4;22;22;Fugaz
+445_2;#0445;Garchomp;Mega-Garchomp;Gible;Mega;Legend;Dragon;Tierra;Poderarena;Poderarena;Poderarena;6;4;4;3;3;4;28;24;Normal
+446_1;#0446;Munchlax;;Munchlax;Beb‚;Begginer;Normal;NA;Recogida;Sebo;Gula;3;1;1;3;1;4;16;13;Lento
+447_1;#0447;Riolu;;Riolu;Beb‚;Starter;Lucha;NA;Impasible;Fuerzamental;Bromista;2;1;1;1;2;2;8;9;Suave
+448_1;#0448;Lucario;;Riolu;Avanzada;Ace;Lucha;Acero;Impasible;Fuerzamental;Justiciero;4;2;4;2;3;3;17;18;Normal
+448_2;#0448;Lucario;Mega-Lucario;Riolu;Mega;Legend;Lucha;Acero;Adaptable;Adaptable;Adaptable;5;3;5;2;4;3;25;22;Rapido
+449_1;#0449;Hippopotas;;Hippopotas;B sico;Begginer;Tierra;NA;Chorroarena;Chorroarena;Poderarena;2;3;1;1;1;3;13;11;Lento
+450_1;#0450;Hippowdon;;Hippopotas;Evoluci¢n;Ace;Tierra;NA;Chorroarena;Chorroarena;Poderarena;4;4;2;2;1;4;20;17;Suave
+451_1;#0451;Skorupi;;Skorupi;B sico;Begginer;Veneno;Bicho;Armadurabatalla;Francotirador;Vistalince;2;3;1;2;2;2;10;12;Normal
+452_1;#0452;Drapion;;Skorupi;Evoluci¢n;Ace;Veneno;Siniestro;Armadurabatalla;Francotirador;Vistalince;3;4;2;3;3;3;17;18;Normal
+453_1;#0453;Croagunk;;Croagunk;B sico;Begginer;Veneno;Lucha;Anticipacion;Pielseca;Toquetoxico;2;1;2;1;2;2;10;10;Suave
+454_1;#0454;Toxicroak;;Croagunk;Evoluci¢n;Ace;Veneno;Lucha;Anticipacion;Pielseca;Toquetoxico;4;2;3;2;3;3;17;17;Normal
+455_1;#0455;Carnivine;;Carnivine;Inicial;Amateur;Planta;NA;Levitacion;Levitacion;Levitacion;4;2;3;2;1;3;15;15;Suave
+456_1;#0456;Finneon;;Finneon;B sico;Begginer;Agua;NA;Nadorapido;Colector;Veloagua;1;2;1;2;2;2;10;10;Normal
+457_1;#0457;Lumineon;;Finneon;Evoluci¢n;Amateur;Agua;NA;Nadorapido;Colector;Veloagua;2;3;2;3;3;3;15;16;Normal
+458_1;#0458;Mantyke;;Mantyke;Beb‚;Begginer;Agua;Volador;Nadorapido;Absorbeagua;Veloagua;1;2;2;4;2;2;10;13;Suave
+459_1;#0459;Snover;;Snover;B sico;Begginer;Planta;Hielo;Nevada;Nevada;Insonorizar;2;2;2;2;1;3;13;12;Suave
+460_1;#0460;Abomasnow;;Snover;Evoluci¢n;Ace;Planta;Hielo;Nevada;Nevada;Insonorizar;3;3;3;3;2;3;17;17;Suave
+460_2;#0460;Abomasnow;Mega-Abomasnow;Snover;Mega;Legend;Planta;Hielo;Nevada;Nevada;Nevada;5;4;5;4;1;3;25;22;Lento
+461_1;#0461;Weavile;;Sneasel;Evoluci¢n;Ace;Siniestro;Hielo;Presion;Presion;Hurto;4;2;1;3;5;3;17;18;Rapido
+462_1;#0462;Magnezone;;Magnemite;Avanzada;Pro;Electrico;Acero;Iman;Robustez;Calculofinal;2;4;5;3;2;3;19;19;Suave
+463_1;#0463;Lickilicky;;Lickitung;Evoluci¢n;Ace;Normal;NA;Despiste;Ritmopropio;Aclimatacion;3;3;3;3;2;4;20;18;Suave
+464_1;#0464;Rhyperior;;Rhyhorn;Avanzada;Pro;Tierra;Roca;Pararrayos;Rocasolida;Audaz;5;5;2;2;1;4;22;19;Suave
+465_1;#0465;Tangrowth;;Tangela;Evoluci¢n;Ace;Planta;NA;Clorofila;Defensahoja;Regeneracion;4;5;4;2;2;4;20;21;Suave
+466_1;#0466;Electivire;;Elekid;Avanzada;Ace;Electrico;NA;Electromotor;Electromotor;Espirituvital;4;2;3;3;3;3;17;18;Normal
+467_1;#0467;Magmortar;;Magby;Avanzada;Pro;Fuego;NA;Cuerpollama;Cuerpollama;Espirituvital;3;2;5;3;3;3;19;19;Normal
+468_1;#0468;Togekiss;;Togepi;Avanzada;Pro;Hada;Volador;Entusiasmo;Dicha;Afortunado;2;3;4;4;3;3;19;19;Normal
+469_1;#0469;Yanmega;;Yanma;Evoluci¢n;Ace;Bicho;Volador;Impulso;Cromolente;Cacheo;3;3;4;2;3;3;17;18;Normal
+470_1;#0470;Leafeon;;Eevee;Evoluci¢n;Pro;Planta;NA;Defensahoja;Defensahoja;Clorofila;4;5;2;2;3;3;19;19;Normal
+471_1;#0471;Glaceon;;Eevee;Evoluci¢n;Pro;Hielo;NA;Mantoniveo;Mantoniveo;Gelido;2;4;5;3;2;3;19;19;Normal
+472_1;#0472;Gliscor;;Gligar;Evoluci¢n;Ace;Tierra;Volador;Cortefuerte;Veloarena;Antidoto;3;5;1;3;3;3;17;18;Normal
+473_1;#0473;Mamoswine;;Swinub;Avanzada;Pro;Hielo;Tierra;Despiste;Mantoniveo;Sebo;5;3;2;2;3;4;22;19;Normal
+474_1;#0474;Porygon-Z;;Porygon;Avanzada;Pro;Normal;NA;Adaptable;Descarga;Calculofinal;3;2;5;3;3;3;19;19;Normal
+475_1;#0475;Gallade;;Ralts;Avanzada;Pro;Psiquico;Lucha;Impasible;Cortante;Justiciero;5;2;2;4;3;3;19;19;Normal
+475_2;#0475;Gallade;Mega-Gallade;Ralts;Mega;Legend;Psiquico;Lucha;Fuerzamental;Fuerzamental;Fuerzamental;6;3;2;4;4;3;25;22;Rapido
+476_1;#0476;Probopass;;Nosepass;Evoluci¢n;Pro;Roca;Acero;Iman;Robustez;Poderarena;2;5;3;6;1;3;19;20;Suave
+477_1;#0477;Dusknoir;;Duskull;Avanzada;Pro;Fantasma;NA;Presion;Presion;Cacheo;4;5;2;5;1;2;16;19;Suave
+478_1;#0478;Froslass;;Snorunt;Evoluci¢n;Ace;Hielo;Fantasma;Mantoniveo;Mantoniveo;Cuerpomaldito;3;2;3;2;4;3;17;17;Rapido
+479_1;#0479;Rotom;Forma de Rotom;Rotom;Inicial;Ace;Electrico;Fantasma;Levitacion;Levitacion;Levitacion;2;3;3;3;3;3;17;17;Normal
+479_2;#0479;Rotom;Rotom Calor;Rotom;Inicial;Pro;Electrico;Fuego;Levitacion;Levitacion;Levitacion;2;4;4;4;3;3;19;20;Normal
+479_3;#0479;Rotom;Rotom Lavado;Rotom;Inicial;Pro;Electrico;Agua;Levitacion;Levitacion;Levitacion;2;4;4;4;3;3;19;20;Normal
+479_4;#0479;Rotom;Rotom Frio;Rotom;Inicial;Pro;Electrico;Hielo;Levitacion;Levitacion;Levitacion;2;4;4;4;3;3;19;20;Normal
+479_5;#0479;Rotom;Rotom Ventilador;Rotom;Inicial;Pro;Electrico;Volador;Levitacion;Levitacion;Levitacion;2;4;4;4;3;3;19;20;Normal
+479_6;#0479;Rotom;Rotom Corte;Rotom;Inicial;Pro;Electrico;Planta;Levitacion;Levitacion;Levitacion;2;4;4;4;3;3;19;20;Normal
+480_1;#0480;Uxie;;Uxie;Legendario;Legend;Psiquico;NA;Levitacion;Levitacion;Levitacion;3;5;3;5;3;3;25;22;Normal
+481_1;#0481;Mesprit;;Mesprit;Legendario;Legend;Psiquico;NA;Levitacion;Levitacion;Levitacion;4;4;4;4;3;3;25;22;Normal
+482_1;#0482;Azelf;;Azelf;Legendario;Legend;Psiquico;NA;Levitacion;Levitacion;Levitacion;5;2;5;2;4;3;25;21;Rapido
+483_1;#0483;Dialga;;Dialga;Legendario;Legend;Acero;Dragon;Presion;Presion;Telepatia;4;4;6;4;3;4;28;25;Normal
+483_2;#0483;Dialga;Forma Origen;Dialga;Legendario;Legend;Acero;Dragon;Presion;Presion;Telepatia;4;4;6;4;3;4;28;25;Normal
+484_1;#0484;Palkia;;Palkia;Legendario;Legend;Agua;Dragon;Presion;Presion;Telepatia;4;4;6;4;4;3;25;25;Fugaz
+484_2;#0484;Palkia;Forma Origen;Palkia;Legendario;Legend;Agua;Dragon;Presion;Presion;Telepatia;4;4;6;4;4;3;25;25;Fugaz
+485_1;#0485;Heatran;;Heatran;Legendario;Legend;Fuego;Acero;Absorbefuego;Absorbefuego;Cuerpollama;3;4;5;4;3;3;25;22;Normal
+486_1;#0486;Regigigas;;Regigigas;Legendario;Legend;Normal;NA;Iniciolento;Iniciolento;Iniciolento;6;4;3;4;4;4;28;25;Fugaz
+487_1;#0487;Giratina;Forma Modificada;Giratina;Legendario;Legend;Fantasma;Dragon;Presion;Presion;Telepatia;4;4;4;4;3;5;31;24;Normal
+487_2;#0487;Giratina;Forma Origen;Giratina;Legendario;Legend;Fantasma;Dragon;Levitacion;Levitacion;Levitacion;4;4;4;4;3;5;31;24;Normal
+488_1;#0488;Cresselia;;Cresselia;Legendario;Legend;Psiquico;NA;Levitacion;Levitacion;Levitacion;2;4;3;4;3;4;28;20;Normal
+489_1;#0489;Phione;;Phione;Legendario;Ace;Agua;NA;Hidratacion;Hidratacion;Hidratacion;3;3;3;3;3;3;17;18;Normal
+490_1;#0490;Manaphy;;Manaphy;Legendario;Legend;Agua;NA;Hidratacion;Hidratacion;Hidratacion;4;4;4;4;4;4;28;24;Fugaz
+491_1;#0491;Darkrai;;Darkrai;Legendario;Legend;Siniestro;NA;Malsue¤o;Malsue¤o;Malsue¤o;3;3;5;3;5;3;25;22;Rapido
+492_2;#0492;Shaymin;Forma Cielo;Shaymin;Legendario;Legend;Planta;Volador;Dicha;Dicha;Dicha;4;3;4;3;5;4;28;23;Fugaz
+492_1;#0492;Shaymin;Forma Tierra;Shaymin;Legendario;Legend;Planta;NA;Curanatural;Curanatural;Curanatural;4;4;4;4;4;4;28;24;Fugaz
+493_1;#0493;Arceus;Tipo Normal;Arceus;Legendario;Legend;Normal;NA;Multitipo;Multitipo;Multitipo;4;4;4;4;4;4;28;24;Fugaz
+494_1;#0494;Victini;;Victini;Legendario;Legend;Psiquico;Fuego;Tinovictoria;Tinovictoria;Tinovictoria;4;4;4;4;4;4;28;24;Fugaz
+495_1;#0495;Snivy;;Snivy;B sico;Begginer;Planta;NA;Espesura;Espesura;Respondon;1;2;1;2;2;2;10;10;Normal
+496_1;#0496;Servine;;Snivy;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Respondon;2;3;2;3;3;3;15;16;Normal
+497_1;#0497;Serperior;;Snivy;Avanzada;Pro;Planta;NA;Espesura;Espesura;Respondon;3;3;3;3;4;3;19;19;Rapido
+498_1;#0498;Tepig;;Tepig;B sico;Starter;Fuego;NA;Marllamas;Marllamas;Sebo;2;1;1;1;1;3;11;9;Suave
+499_1;#0499;Pignite;;Tepig;Evoluci¢n;Amateur;Fuego;Lucha;Marllamas;Marllamas;Sebo;3;2;2;2;2;3;15;14;Suave
+500_1;#0500;Emboar;;Tepig;Avanzada;Ace;Fuego;Lucha;Marllamas;Marllamas;Audaz;4;2;4;2;2;4;20;18;Normal
+501_1;#0501;Oshawott;;Oshawott;B sico;Begginer;Agua;NA;Torrente;Torrente;Caparazon;2;1;2;1;1;3;13;10;Suave
+502_1;#0502;Dewott;;Oshawott;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Caparazon;3;2;3;2;2;3;15;15;Suave
+503_1;#0503;Samurott;;Oshawott;Avanzada;Ace;Agua;NA;Torrente;Torrente;Caparazon;4;3;4;2;2;3;17;18;Normal
+503_2;#0503;Samurott;Forma de Hisui;Oshawott;Avanzada;Pro;Agua;Siniestro;Torrente;Torrente;Cortante;4;3;4;2;3;3;19;19;Normal
+504_1;#0504;Patrat;;Patrat;B sico;Starter;Normal;NA;Vistalince;Fuga;Calculofinal;2;1;1;1;1;2;8;8;Suave
+505_1;#0505;Watchog;;Patrat;Evoluci¢n;Amateur;Normal;NA;Vistalince;Iluminacion;Calculofinal;3;2;2;2;3;3;15;15;Normal
+506_1;#0506;Lillipup;;Lillipup;B sico;Starter;Normal;NA;Espirituvital;Recogida;Fuga;2;1;1;1;2;2;8;9;Suave
+507_1;#0507;Herdier;;Lillipup;Evoluci¢n;Begginer;Normal;NA;Intimidacion;impetuarena;Intrepido;3;2;1;2;2;3;13;13;Suave
+508_1;#0508;Stoutland;;Lillipup;Avanzada;Ace;Normal;NA;Intimidacion;impetuarena;Intrepido;4;3;1;3;3;3;17;17;Normal
+509_1;#0509;Purrloin;;Purrloin;B sico;Begginer;Siniestro;NA;Flexibilidad;Liviano;Bromista;2;1;2;1;2;2;10;10;Normal
+510_1;#0510;Liepard;;Purrloin;Evoluci¢n;Ace;Siniestro;NA;Flexibilidad;Liviano;Bromista;3;2;3;2;4;3;17;17;Rapido
+511_1;#0511;Pansage;;Pansage;B sico;Begginer;Planta;NA;Gula;Gula;Espesura;2;1;2;1;2;3;13;11;Normal
+512_1;#0512;Simisage;;Pansage;Evoluci¢n;Ace;Planta;NA;Gula;Gula;Espesura;3;2;3;2;4;3;17;17;Rapido
+513_1;#0513;Pansear;;Pansear;B sico;Begginer;Fuego;NA;Gula;Gula;Marllamas;2;1;2;1;2;3;13;11;Normal
+514_1;#0514;Simisear;;Pansear;Evoluci¢n;Ace;Fuego;NA;Gula;Gula;Marllamas;3;2;3;2;4;3;17;17;Rapido
+515_1;#0515;Panpour;;Panpour;B sico;Begginer;Agua;NA;Gula;Gula;Torrente;2;1;2;1;2;3;13;11;Normal
+516_1;#0516;Simipour;;Panpour;Evoluci¢n;Ace;Agua;NA;Gula;Gula;Torrente;3;2;3;2;4;3;17;17;Rapido
+517_1;#0517;Munna;;Munna;B sico;Begginer;Psiquico;NA;Sincronia;Alerta;Telepatia;1;1;2;2;1;3;13;10;Lento
+518_1;#0518;Musharna;;Munna;Evoluci¢n;Ace;Psiquico;NA;Sincronia;Alerta;Telepatia;2;3;4;3;1;4;20;17;Lento
+519_1;#0519;Pidove;;Pidove;B sico;Begginer;Normal;Volador;Sacapecho;Afortunado;Rivalidad;2;2;1;1;1;3;13;10;Suave
+520_1;#0520;Tranquill;;Pidove;Evoluci¢n;Begginer;Normal;Volador;Sacapecho;Afortunado;Rivalidad;3;2;2;1;2;3;13;13;Normal
+521_1;#0521;Unfezant;;Pidove;Avanzada;Ace;Normal;Volador;Sacapecho;Afortunado;Rivalidad;4;3;2;2;3;3;17;17;Normal
+522_1;#0522;Blitzle;;Blitzle;B sico;Begginer;Electrico;NA;Pararrayos;Electromotor;Herbivoro;2;1;2;1;3;2;10;11;Normal
+523_1;#0523;Zebstrika;;Blitzle;Evoluci¢n;Ace;Electrico;NA;Pararrayos;Electromotor;Herbivoro;4;2;3;2;4;3;17;18;Rapido
+524_1;#0524;Roggenrola;;Roggenrola;B sico;Begginer;Roca;NA;Robustez;Armadurafragil;Poderarena;3;3;1;1;1;3;13;12;Lento
+525_1;#0525;Boldore;;Roggenrola;Evoluci¢n;Amateur;Roca;NA;Robustez;Armadurafragil;Poderarena;4;4;2;1;1;3;15;15;Lento
+526_1;#0526;Gigalith;;Roggenrola;Avanzada;Pro;Roca;NA;Robustez;Chorroarena;Poderarena;5;5;2;3;1;3;19;19;Lento
+527_1;#0527;Woobat;;Woobat;B sico;Begginer;Psiquico;Volador;Ignorante;Zoquete;Simple;1;1;2;1;2;3;13;10;Normal
+528_1;#0528;Swoobat;;Woobat;Evoluci¢n;Amateur;Psiquico;Volador;Ignorante;Zoquete;Simple;2;2;3;2;4;3;15;16;Rapido
+529_1;#0529;Drilbur;;Drilbur;B sico;Begginer;Tierra;NA;impetuarena;Poderarena;Rompemoldes;3;1;1;1;2;3;13;11;Normal
+530_1;#0530;Excadrill;;Drilbur;Evoluci¢n;Ace;Tierra;Acero;impetuarena;Poderarena;Rompemoldes;5;2;2;2;3;4;20;18;Normal
+531_1;#0531;Audino;;Audino;Inicial;Amateur;Normal;NA;Almacura;Regeneracion;Zoquete;2;3;2;3;2;4;18;16;Suave
+531_2;#0531;Audino;Mega-Audino;Audino;Mega;Legend;Normal;Hada;Almacura;Almacura;Almacura;2;5;3;5;2;4;28;21;Suave
+532_1;#0532;Timburr;;Timburr;B sico;Begginer;Lucha;NA;Agallas;Potenciabruta;Pu¤oferreo;3;2;1;1;1;3;13;11;Lento
+533_1;#0533;Gurdurr;;Timburr;Evoluci¢n;Amateur;Lucha;NA;Agallas;Potenciabruta;Pu¤oferreo;4;3;1;2;1;3;15;14;Suave
+534_1;#0534;Conkeldurr;;Timburr;Avanzada;Ace;Lucha;NA;Agallas;Potenciabruta;Pu¤oferreo;5;3;2;2;1;4;20;17;Suave
+535_1;#0535;Tympole;;Tympole;B sico;Begginer;Agua;NA;Hidratacion;Nadorapido;Absorbeagua;2;1;2;1;2;3;13;11;Normal
+536_1;#0536;Palpitoad;;Tympole;Evoluci¢n;Begginer;Agua;Tierra;Hidratacion;Nadorapido;Absorbeagua;2;2;2;2;2;3;13;13;Normal
+537_1;#0537;Seismitoad;;Tympole;Avanzada;Ace;Agua;Tierra;Nadorapido;Toquetoxico;Absorbeagua;3;3;3;3;2;4;20;18;Normal
+538_1;#0538;Throh;;Throh;Inicial;Amateur;Lucha;NA;Fuerzamental;Agallas;Rompemoldes;4;3;1;3;1;4;18;16;Suave
+539_1;#0539;Sawk;;Sawk;Inicial;Ace;Lucha;NA;Robustez;Fuerzamental;Rompemoldes;5;3;1;3;3;3;17;18;Normal
+540_1;#0540;Sewaddle;;Sewaddle;B sico;Begginer;Bicho;Planta;Enjambre;Clorofila;Funda;2;2;1;2;1;2;10;10;Suave
+541_1;#0541;Swadloon;;Sewaddle;Evoluci¢n;Amateur;Bicho;Planta;Defensahoja;Clorofila;Funda;2;3;2;3;1;3;15;14;Suave
+542_1;#0542;Leavanny;;Sewaddle;Avanzada;Ace;Bicho;Planta;Enjambre;Clorofila;Funda;4;3;2;3;3;3;17;18;Normal
+543_1;#0543;Venipede;;Venipede;B sico;Starter;Bicho;Veneno;Enjambre;Puntotoxico;Impulso;1;2;1;1;2;2;8;9;Suave
+544_1;#0544;Whirlipede;;Venipede;Evoluci¢n;Begginer;Bicho;Veneno;Enjambre;Puntotoxico;Impulso;2;3;1;3;1;2;10;12;Suave
+545_1;#0545;Scolipede;;Venipede;Avanzada;Ace;Bicho;Veneno;Enjambre;Puntotoxico;Impulso;4;3;2;2;4;3;17;18;Rapido
+546_1;#0546;Cottonee;;Cottonee;B sico;Begginer;Planta;Hada;Allanamiento;Bromista;Clorofila;1;2;1;2;2;2;10;10;Normal
+547_1;#0547;Whimsicott;;Cottonee;Evoluci¢n;Ace;Planta;Hada;Allanamiento;Bromista;Clorofila;2;3;3;3;4;3;17;18;Rapido
+548_1;#0548;Petilil;;Petilil;B sico;Begginer;Planta;NA;Clorofila;Ritmopropio;Defensahoja;1;2;2;2;1;2;10;10;Lento
+549_1;#0549;Lilligant;;Petilil;Evoluci¢n;Ace;Planta;NA;Clorofila;Ritmopropio;Defensahoja;2;3;4;3;3;3;17;18;Normal
+549_2;#0549;Lilligant;Forma de Hisui;Petilil;Evoluci¢n;Pro;Planta;Lucha;Clorofila;Entusiasmo;Defensahoja;4;3;2;3;4;3;19;19;Rapido
+550_1;#0550;Basculin;Forma Raya Roja;Basculin;Inicial;Amateur;Agua;NA;Audaz;Adaptable;Rompemoldes;3;2;3;2;3;3;15;16;Normal
+550_2;#0550;Basculin;Forma Raya Azul;Basculin;Inicial;Amateur;Agua;NA;Cabezaroca;Adaptable;Rompemoldes;3;2;3;2;3;3;15;16;Normal
+550_3;#0550;Basculin;Forma Raya Blanca;Basculin;Inicial;Amateur;Agua;NA;Cobardia;Adaptable;Rompemoldes;3;2;3;2;3;3;15;16;Normal
+551_1;#0551;Sandile;;Sandile;B sico;Begginer;Tierra;Siniestro;Intimidacion;Autoestima;Irascible;2;1;1;1;2;3;13;10;Normal
+552_1;#0552;Krokorok;;Sandile;Evoluci¢n;Begginer;Tierra;Siniestro;Intimidacion;Autoestima;Irascible;3;1;1;1;2;3;13;11;Normal
+553_1;#0553;Krookodile;;Sandile;Avanzada;Ace;Tierra;Siniestro;Intimidacion;Autoestima;Irascible;4;3;2;2;3;3;17;17;Normal
+554_1;#0554;Darumaka;;Darumaka;B sico;Begginer;Fuego;NA;Entusiasmo;Entusiasmo;Fuerzamental;3;1;1;1;2;3;13;11;Suave
+554_2;#0554;Darumaka;Forma de Galar;Darumaka;B sico;Begginer;Hielo;NA;Entusiasmo;Entusiasmo;Fuerzamental;3;1;1;1;2;3;13;11;Suave
+555_1;#0555;Darmanitan;Modo Normal;Darumaka;Avanzada;Ace;Fuego;NA;Potenciabruta;Potenciabruta;Mododaruma;5;2;1;2;3;4;20;17;Normal
+555_3;#0555;Darmanitan;Forma de Galar;Darumaka;Avanzada;Ace;Hielo;NA;Monotema;Monotema;Mododaruma;5;2;1;2;3;4;20;17;Normal
+555_2;#0555;Darmanitan;Modo Daruma;Darumaka;Avanzada;Pro;Fuego;Psiquico;Mododaruma;Mododaruma;Mododaruma;1;4;5;4;2;4;22;20;Suave
+555_4;#0555;Darmanitan;Modo Daruma;Darumaka;Avanzada;Pro;Hielo;Fuego;Mododaruma;Mododaruma;Mododaruma;6;2;1;2;5;4;22;20;Rapido
+556_1;#0556;Maractus;;Maractus;Inicial;Amateur;Planta;NA;Absorbeagua;Clorofila;Colector;3;2;4;2;2;3;15;16;Suave
+557_1;#0557;Dwebble;;Dwebble;B sico;Begginer;Bicho;Roca;Caparazon;Robustez;Armadurafragil;2;3;1;1;2;3;13;12;Suave
+558_1;#0558;Crustle;;Dwebble;Evoluci¢n;Ace;Bicho;Roca;Caparazon;Robustez;Armadurafragil;4;5;2;3;1;3;17;18;Suave
+559_1;#0559;Scraggy;;Scraggy;B sico;Begginer;Siniestro;Lucha;Autoestima;Mudar;Intimidacion;3;2;1;2;1;3;13;12;Suave
+560_1;#0560;Scrafty;;Scraggy;Evoluci¢n;Ace;Siniestro;Lucha;Autoestima;Mudar;Intimidacion;3;4;1;4;2;3;17;17;Suave
+561_1;#0561;Sigilyph;;Sigilyph;Inicial;Ace;Psiquico;Volador;Pielmilagro;Muromagico;Cromolente;2;3;4;3;3;3;17;18;Normal
+562_1;#0562;Yamask;;Yamask;B sico;Begginer;Fantasma;NA;Momia;Momia;Momia;1;3;2;2;1;2;10;11;Lento
+562_2;#0562;Yamask;Forma de Galar;Yamask;B sico;Begginer;Tierra;Fantasma;Almaerrante;Almaerrante;Almaerrante;2;3;1;2;1;2;10;11;Lento
+563_1;#0563;Cofagrigus;;Yamask;Evoluci¢n;Ace;Fantasma;NA;Momia;Momia;Momia;2;5;3;4;1;3;17;18;Lento
+564_1;#0564;Tirtouga;;Tirtouga;B sico;Amateur;Agua;Roca;Rocasolida;Robustez;Nadorapido;3;4;2;1;1;3;15;14;Lento
+565_1;#0565;Carracosta;;Tirtouga;Evoluci¢n;Ace;Agua;Roca;Rocasolida;Robustez;Nadorapido;4;5;3;2;1;3;17;18;Lento
+566_1;#0566;Archen;;Archen;B sico;Begginer;Roca;Volador;Flaqueza;Flaqueza;Flaqueza;4;1;2;1;2;3;13;13;Normal
+567_1;#0567;Archeops;;Archen;Evoluci¢n;Pro;Roca;Volador;Flaqueza;Flaqueza;Flaqueza;5;2;4;2;4;3;19;20;Rapido
+568_1;#0568;Trubbish;;Trubbish;B sico;Begginer;Veneno;NA;Hedor;Viscosidad;Detonacion;2;2;1;2;2;3;13;12;Normal
+569_1;#0569;Garbodor;;Trubbish;Evoluci¢n;Ace;Veneno;NA;Hedor;Armadurafragil;Detonacion;3;3;2;3;3;3;17;17;Normal
+570_1;#0570;Zorua;;Zorua;B sico;Begginer;Siniestro;NA;Ilusion;Ilusion;Ilusion;2;1;3;1;2;2;10;11;Normal
+570_2;#0570;Zorua;Forma de Hisui;Zorua;B sico;Begginer;Normal;Fantasma;Ilusion;Ilusion;Ilusion;2;1;3;1;2;2;10;11;Normal
+571_1;#0571;Zoroark;;Zorua;Evoluci¢n;Pro;Siniestro;NA;Ilusion;Ilusion;Ilusion;4;2;4;2;4;3;19;19;Rapido
+571_2;#0571;Zoroark;Forma de Hisui;Zorua;Evoluci¢n;Pro;Normal;Fantasma;Ilusion;Ilusion;Ilusion;4;2;4;2;4;3;19;19;Rapido
+572_1;#0572;Minccino;;Minccino;B sico;Begginer;Normal;NA;Granencanto;Experto;Encadenado;2;1;1;1;3;3;13;11;Normal
+573_1;#0573;Cinccino;;Minccino;Evoluci¢n;Amateur;Normal;NA;Granencanto;Experto;Encadenado;3;2;2;2;4;3;15;16;Rapido
+574_1;#0574;Gothita;;Gothita;B sico;Begginer;Psiquico;NA;Cacheo;Tenacidad;Sombratrampa;1;2;2;2;1;2;10;10;Suave
+575_1;#0575;Gothorita;;Gothita;Evoluci¢n;Amateur;Psiquico;NA;Cacheo;Tenacidad;Sombratrampa;1;2;3;3;2;3;15;14;Suave
+576_1;#0576;Gothitelle;;Gothita;Avanzada;Ace;Psiquico;NA;Cacheo;Tenacidad;Sombratrampa;2;3;3;4;2;3;17;17;Normal
+577_1;#0577;Solosis;;Solosis;B sico;Begginer;Psiquico;NA;Funda;Muromagico;Regeneracion;1;1;4;2;1;2;10;11;Lento
+578_1;#0578;Duosion;;Solosis;Evoluci¢n;Amateur;Psiquico;NA;Funda;Muromagico;Regeneracion;1;2;5;2;1;3;15;14;Lento
+579_1;#0579;Reuniclus;;Solosis;Avanzada;Ace;Psiquico;NA;Funda;Muromagico;Regeneracion;2;3;5;3;1;4;20;18;Lento
+580_1;#0580;Ducklett;;Ducklett;B sico;Begginer;Agua;Volador;Vistalince;Sacapecho;Hidratacion;1;2;1;2;2;3;13;11;Suave
+581_1;#0581;Swanna;;Ducklett;Evoluci¢n;Amateur;Agua;Volador;Vistalince;Sacapecho;Hidratacion;3;2;3;2;3;3;15;16;Normal
+582_1;#0582;Vanillite;;Vanillite;B sico;Begginer;Hielo;NA;Gelido;Mantoniveo;Armadurafragil;2;2;2;2;1;2;10;11;Suave
+583_1;#0583;Vanillish;;Vanillite;Evoluci¢n;Amateur;Hielo;NA;Gelido;Mantoniveo;Armadurafragil;2;2;3;3;2;3;15;15;Suave
+584_1;#0584;Vanilluxe;;Vanillite;Avanzada;Pro;Hielo;NA;Gelido;Nevada;Armadurafragil;3;3;4;3;3;3;19;19;Normal
+585_1;#0585;Deerling;Forma Primavera;Deerling;B sico;Begginer;Normal;Planta;Clorofila;Herbivoro;Dicha;2;2;1;2;3;3;13;13;Normal
+586_1;#0586;Sawsbuck;Forma Primavera;Deerling;Evoluci¢n;Amateur;Normal;Planta;Clorofila;Herbivoro;Dicha;4;2;2;2;3;3;15;16;Normal
+587_1;#0587;Emolga;;Emolga;Inicial;Ace;Electrico;Volador;Electricidadestatica;Electricidadestatica;Electromotor;3;2;3;2;4;3;17;17;Rapido
+588_1;#0588;Karrablast;;Karrablast;B sico;Begginer;Bicho;NA;Enjambre;Mudar;Indefenso;3;1;1;1;2;3;13;11;Suave
+589_1;#0589;Escavalier;;Karrablast;Evoluci¢n;Pro;Bicho;Acero;Enjambre;Caparazon;Funda;5;4;2;4;1;3;19;19;Lento
+590_1;#0590;Foongus;;Foongus;B sico;Begginer;Planta;Veneno;Efectoespora;Efectoespora;Regeneracion;2;1;2;2;1;3;13;11;Lento
+591_1;#0591;Amoonguss;;Foongus;Evoluci¢n;Amateur;Planta;Veneno;Efectoespora;Efectoespora;Regeneracion;3;2;3;3;1;4;18;16;Lento
+592_1;#0592;Frillish;;Frillish;B sico;Begginer;Agua;Fantasma;Absorbeagua;Cuerpomaldito;Humedad;1;2;2;3;1;3;13;12;Suave
+593_1;#0593;Jellicent;;Frillish;Evoluci¢n;Ace;Agua;Fantasma;Absorbeagua;Cuerpomaldito;Humedad;2;2;3;4;2;4;20;17;Suave
+594_1;#0594;Alomomola;;Alomomola;Inicial;Amateur;Agua;NA;Hidratacion;Almacura;Regeneracion;3;3;1;1;2;5;21;15;Normal
+595_1;#0595;Joltik;;Joltik;B sico;Begginer;Bicho;Electrico;Ojocompuesto;Nerviosismo;Enjambre;1;2;2;2;2;3;13;12;Normal
+596_1;#0596;Galvantula;;Joltik;Evoluci¢n;Ace;Bicho;Electrico;Ojocompuesto;Nerviosismo;Enjambre;3;2;3;2;4;3;17;17;Rapido
+597_1;#0597;Ferroseed;;Ferroseed;B sico;Begginer;Planta;Acero;Puntaacero;Puntaacero;Puntaacero;2;3;1;3;1;2;10;12;Lento
+598_1;#0598;Ferrothorn;;Ferroseed;Evoluci¢n;Ace;Planta;Acero;Puntaacero;Puntaacero;Anticipacion;3;5;2;4;1;3;17;18;Lento
+599_1;#0599;Klink;;Klink;B sico;Begginer;Acero;NA;Mas;Menos;Cuerpopuro;2;2;1;2;1;2;10;10;Lento
+600_1;#0600;Klang;;Klink;Evoluci¢n;Amateur;Acero;NA;Mas;Menos;Cuerpopuro;3;3;2;3;2;3;15;16;Suave
+601_1;#0601;Klinklang;;Klink;Avanzada;Pro;Acero;NA;Mas;Menos;Cuerpopuro;4;4;2;3;3;3;19;19;Normal
+602_1;#0602;Tynamo;;Tynamo;B sico;Starter;Electrico;NA;Levitacion;Levitacion;Levitacion;2;1;1;1;2;2;8;9;Suave
+603_1;#0603;Eelektrik;;Tynamo;Evoluci¢n;Amateur;Electrico;NA;Levitacion;Levitacion;Levitacion;3;2;3;2;1;3;15;14;Suave
+604_1;#0604;Eelektross;;Tynamo;Avanzada;Pro;Electrico;NA;Levitacion;Levitacion;Levitacion;4;3;4;3;2;3;19;19;Suave
+605_1;#0605;Elgyem;;Elgyem;B sico;Begginer;Psiquico;NA;Telepatia;Sincronia;Calculofinal;2;2;3;2;1;3;13;13;Lento
+606_1;#0606;Beheeyem;;Elgyem;Evoluci¢n;Ace;Psiquico;NA;Telepatia;Sincronia;Calculofinal;3;3;5;3;1;3;17;18;Suave
+607_1;#0607;Litwick;;Litwick;B sico;Begginer;Fantasma;Fuego;Absorbefuego;Cuerpollama;Allanamiento;1;2;2;2;1;3;13;11;Lento
+608_1;#0608;Lampent;;Litwick;Evoluci¢n;Begginer;Fantasma;Fuego;Absorbefuego;Cuerpollama;Allanamiento;1;2;3;2;2;3;13;13;Suave
+609_1;#0609;Chandelure;;Litwick;Avanzada;Pro;Fantasma;Fuego;Absorbefuego;Cuerpollama;Allanamiento;2;3;5;3;3;3;19;19;Normal
+610_1;#0610;Axew;;Axew;B sico;Begginer;Dragon;NA;Rivalidad;Rompemoldes;Nerviosismo;3;2;1;1;2;2;10;11;Suave
+611_1;#0611;Fraxure;;Axew;Evoluci¢n;Amateur;Dragon;NA;Rivalidad;Rompemoldes;Nerviosismo;4;2;1;2;2;3;15;14;Normal
+612_1;#0612;Haxorus;;Axew;Avanzada;Ace;Dragon;NA;Rivalidad;Rompemoldes;Nerviosismo;5;3;2;2;3;3;17;18;Normal
+613_1;#0613;Cubchoo;;Cubchoo;B sico;Begginer;Hielo;NA;Mantoniveo;Quitanieves;Cobardia;2;1;2;1;1;3;13;10;Suave
+614_1;#0614;Beartic;;Cubchoo;Evoluci¢n;Ace;Hielo;NA;Mantoniveo;Quitanieves;Nadorapido;5;3;2;3;2;3;17;18;Suave
+615_1;#0615;Cryogonal;;Cryogonal;Inicial;Pro;Hielo;NA;Levitacion;Levitacion;Levitacion;2;2;3;5;4;3;19;19;Rapido
+616_1;#0616;Shelmet;;Shelmet;B sico;Begginer;Bicho;NA;Hidratacion;Caparazon;Funda;1;3;1;2;1;3;13;11;Lento
+617_1;#0617;Accelgor;;Shelmet;Evoluci¢n;Ace;Bicho;NA;Hidratacion;Viscosidad;Liviano;2;1;4;2;5;3;17;17;Rapido
+618_1;#0618;Stunfisk;;Stunfisk;Inicial;Amateur;Tierra;Electrico;Electricidadestatica;Flexibilidad;Veloarena;2;3;3;3;1;4;18;16;Lento
+618_2;#0618;Stunfisk;Forma de Galar;Stunfisk;Inicial;Amateur;Tierra;Acero;Mimetismo;Mimetismo;Mimetismo;3;3;2;3;1;4;18;16;Lento
+619_1;#0619;Mienfoo;;Mienfoo;B sico;Begginer;Lucha;NA;Regeneracion;Fuerzamental;Audaz;3;2;2;2;2;2;10;13;Normal
+620_1;#0620;Mienshao;;Mienfoo;Evoluci¢n;Pro;Lucha;NA;Regeneracion;Fuerzamental;Audaz;5;2;3;2;4;3;19;19;Rapido
+621_1;#0621;Druddigon;;Druddigon;Inicial;Amateur;Dragon;NA;Pieltosca;Potenciabruta;Rompemoldes;4;3;2;3;1;3;15;16;Suave
+622_1;#0622;Golett;;Golett;B sico;Begginer;Tierra;Fantasma;Pu¤oferreo;Zoquete;Indefenso;2;2;1;2;1;3;13;11;Lento
+623_1;#0623;Golurk;;Golett;Evoluci¢n;Ace;Tierra;Fantasma;Pu¤oferreo;Zoquete;Indefenso;4;3;2;3;2;3;17;17;Suave
+624_1;#0624;Pawniard;;Pawniard;B sico;Begginer;Siniestro;Acero;Competitivo;Fuerzamental;Presion;3;2;1;1;2;2;10;11;Suave
+625_1;#0625;Bisharp;;Pawniard;Evoluci¢n;Ace;Siniestro;Acero;Competitivo;Fuerzamental;Presion;5;4;2;2;2;3;17;18;Normal
+626_1;#0626;Bouffalant;;Bouffalant;Inicial;Amateur;Normal;NA;Audaz;Herbivoro;Insonorizar;4;3;1;3;2;3;15;16;Suave
+627_1;#0627;Rufflet;;Rufflet;B sico;Begginer;Normal;Volador;Vistalince;Potenciabruta;Entusiasmo;3;2;1;2;2;3;13;13;Suave
+628_2;#0628;Braviary;Forma de Hisui;Rufflet;Evoluci¢n;Ace;Psiquico;Volador;Vistalince;Potenciabruta;Cromolente;3;2;4;2;2;4;20;17;Normal
+628_1;#0628;Braviary;;Rufflet;Evoluci¢n;Pro;Normal;Volador;Vistalince;Potenciabruta;Competitivo;4;3;2;3;3;4;22;19;Normal
+629_1;#0629;Vullaby;;Vullaby;B sico;Begginer;Siniestro;Volador;Sacapecho;Funda;Armadurafragil;2;3;1;2;2;3;13;13;Suave
+630_1;#0630;Mandibuzz;;Vullaby;Evoluci¢n;Ace;Siniestro;Volador;Sacapecho;Funda;Armadurafragil;2;4;2;3;3;4;20;18;Normal
+631_1;#0631;Heatmor;;Heatmor;Inicial;Amateur;Fuego;NA;Gula;Absorbefuego;Humoblanco;3;2;4;2;2;3;15;16;Normal
+632_1;#0632;Durant;;Durant;Inicial;Ace;Bicho;Acero;Enjambre;Entusiasmo;Pereza;4;4;1;1;4;3;17;17;Rapido
+633_1;#0633;Deino;;Deino;B sico;Begginer;Siniestro;Dragon;Entusiasmo;Entusiasmo;Entusiasmo;2;2;1;2;1;3;13;11;Suave
+634_1;#0634;Zweilous;;Deino;Evoluci¢n;Amateur;Siniestro;Dragon;Entusiasmo;Entusiasmo;Entusiasmo;3;2;2;2;2;3;15;14;Suave
+635_1;#0635;Hydreigon;;Deino;Avanzada;Pro;Siniestro;Dragon;Levitacion;Levitacion;Levitacion;4;3;5;3;3;3;19;21;Normal
+636_1;#0636;Larvesta;;Larvesta;B sico;Amateur;Bicho;Fuego;Cuerpollama;Cuerpollama;Enjambre;3;2;2;2;2;3;15;14;Suave
+637_1;#0637;Volcarona;;Larvesta;Avanzada;Pro;Bicho;Fuego;Cuerpollama;Cuerpollama;Enjambre;2;2;5;4;4;3;19;20;Rapido
+638_1;#0638;Cobalion;;Cobalion;Legendario;Legend;Acero;Lucha;Justiciero;Justiciero;Justiciero;3;5;3;2;4;3;25;20;Rapido
+639_1;#0639;Terrakion;;Terrakion;Legendario;Legend;Roca;Lucha;Justiciero;Justiciero;Justiciero;5;3;2;3;4;3;25;20;Rapido
+640_1;#0640;Virizion;;Virizion;Legendario;Legend;Planta;Lucha;Justiciero;Justiciero;Justiciero;3;2;3;5;4;3;25;20;Rapido
+641_1;#0641;Tornadus;Forma Avatar;Tornadus;Legendario;Legend;Volador;NA;Bromista;Bromista;Competitivo;4;2;5;3;4;3;25;21;Rapido
+641_2;#0641;Tornadus;Forma Totem;Tornadus;Legendario;Legend;Volador;NA;Regeneracion;Regeneracion;Regeneracion;4;3;4;3;4;3;25;21;Rapido
+642_1;#0642;Thundurus;Forma Avatar;Thundurus;Legendario;Legend;Electrico;Volador;Bromista;Bromista;Competitivo;4;2;5;3;4;3;25;21;Rapido
+642_2;#0642;Thundurus;Forma Totem;Thundurus;Legendario;Legend;Electrico;Volador;Absorbeelectricidad;Absorbeelectricidad;Absorbeelectricidad;4;2;5;3;4;3;25;21;Rapido
+643_1;#0643;Reshiram;;Reshiram;Legendario;Legend;Dragon;Fuego;Turbollama;Turbollama;Turbollama;4;4;6;4;3;4;28;25;Normal
+644_1;#0644;Zekrom;;Zekrom;Legendario;Legend;Dragon;Electrico;Terravoltaje;Terravoltaje;Terravoltaje;6;4;4;4;3;4;28;25;Normal
+645_2;#0645;Landorus;Forma Totem;Landorus;Legendario;Legend;Tierra;Volador;Intimidacion;Intimidacion;Intimidacion;5;3;4;3;3;3;25;21;Normal
+645_1;#0645;Landorus;Forma Avatar;Landorus;Legendario;Legend;Tierra;Volador;Poderarena;Poderarena;Potenciabruta;5;3;4;3;4;3;25;22;Fugaz
+646_1;#0646;Kyurem;Forma de Kyurem;Kyurem;Legendario;Legend;Dragon;Hielo;Presion;Presion;Presion;5;3;5;3;3;4;28;23;Normal
+646_2;#0646;Kyurem;Kyurem Negro;Kyurem;Legendario;Legend;Dragon;Hielo;Terravoltaje;Terravoltaje;Terravoltaje;6;4;4;3;3;4;28;24;Normal
+646_3;#0646;Kyurem;Kyurem Blanco;Kyurem;Legendario;Legend;Dragon;Hielo;Turbollama;Turbollama;Turbollama;4;3;6;4;3;4;28;24;Normal
+647_1;#0647;Keldeo;Forma Habitual;Keldeo;Legendario;Legend;Agua;Lucha;Justiciero;Justiciero;Justiciero;2;3;5;3;4;3;25;20;Rapido
+647_2;#0647;Keldeo;Forma Brio;Keldeo;Legendario;Legend;Agua;Lucha;Justiciero;Justiciero;Justiciero;2;3;5;3;4;3;25;20;Rapido
+648_1;#0648;Meloetta;Forma Lirica;Meloetta;Legendario;Legend;Normal;Psiquico;Dicha;Dicha;Dicha;3;3;5;5;3;4;28;23;Normal
+648_2;#0648;Meloetta;Forma Danza;Meloetta;Legendario;Legend;Normal;Lucha;Dicha;Dicha;Dicha;5;3;3;3;5;4;28;23;Fugaz
+649_1;#0649;Genesect;;Genesect;Legendario;Legend;Bicho;Acero;Descarga;Descarga;Descarga;4;3;4;3;3;3;25;20;Normal
+650_1;#0650;Chespin;;Chespin;B sico;Begginer;Planta;NA;Espesura;Espesura;Antibalas;2;2;1;1;1;3;13;10;Suave
+651_1;#0651;Quilladin;;Chespin;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Antibalas;3;3;2;2;2;3;15;15;Suave
+652_1;#0652;Chesnaught;;Chespin;Avanzada;Ace;Planta;Lucha;Espesura;Espesura;Antibalas;4;4;2;3;2;3;17;18;Normal
+653_1;#0653;Fennekin;;Fennekin;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Prestidigitador;1;1;2;2;2;2;10;10;Suave
+654_1;#0654;Braixen;;Fennekin;Evoluci¢n;Amateur;Fuego;NA;Marllamas;Marllamas;Prestidigitador;2;2;3;2;2;3;15;14;Normal
+655_1;#0655;Delphox;;Fennekin;Avanzada;Pro;Fuego;Psiquico;Marllamas;Marllamas;Prestidigitador;2;2;4;4;4;3;19;19;Rapido
+656_1;#0656;Froakie;;Froakie;B sico;Begginer;Agua;NA;Torrente;Torrente;Mutatipo;2;1;2;1;2;2;10;10;Normal
+657_1;#0657;Frogadier;;Froakie;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Mutatipo;2;2;3;2;3;3;15;15;Normal
+658_1;#0658;Greninja;;Froakie;Avanzada;Ace;Agua;Siniestro;Torrente;Torrente;Mutatipo;3;2;4;2;4;3;17;18;Rapido
+658_2;#0658;Greninja;Greninja de Ash;Froakie;Avanzada;Ace;Agua;Siniestro;Fuerteafecto;Fuerteafecto;Fuerteafecto;3;2;4;2;4;3;17;18;Rapido
+659_1;#0659;Bunnelby;;Bunnelby;B sico;Starter;Normal;NA;Recogida;Carrillo;Potencia;1;1;1;1;2;2;8;8;Suave
+660_1;#0660;Diggersby;;Bunnelby;Evoluci¢n;Amateur;Normal;Tierra;Recogida;Carrillo;Potencia;2;3;2;3;3;3;15;16;Normal
+661_1;#0661;Fletchling;;Fletchling;B sico;Starter;Normal;Volador;Sacapecho;Sacapecho;Alasvendaval;2;1;1;1;2;2;8;9;Suave
+662_1;#0662;Fletchinder;;Fletchling;Evoluci¢n;Amateur;Fuego;Volador;Cuerpollama;Cuerpollama;Alasvendaval;2;2;2;2;3;3;15;14;Normal
+663_1;#0663;Talonflame;;Fletchling;Avanzada;Ace;Fuego;Volador;Cuerpollama;Cuerpollama;Alasvendaval;3;2;2;2;5;3;17;17;Rapido
+664_1;#0664;Scatterbug;;Scatterbug;B sico;Starter;Bicho;NA;Polvoescudo;Ojocompuesto;Compiescolta;1;1;1;1;1;2;8;7;Lento
+665_1;#0665;Spewpa;;Scatterbug;Evoluci¢n;Starter;Bicho;NA;Mudar;Mudar;Mudar;1;2;1;1;1;2;8;8;Lento
+666_1;#0666;Vivillon;Motivo Floral;Scatterbug;Avanzada;Amateur;Bicho;Volador;Polvoescudo;Ojocompuesto;Compiescolta;2;2;3;2;3;3;15;15;Normal
+667_1;#0667;Litleo;;Litleo;B sico;Begginer;Fuego;Normal;Nerviosismo;Rivalidad;Autoestima;2;2;2;2;2;3;13;13;Normal
+668_1;#0668;Pyroar;;Litleo;Evoluci¢n;Ace;Fuego;Normal;Nerviosismo;Rivalidad;Autoestima;2;2;4;2;4;3;17;17;Rapido
+669_1;#0669;Flabebe;Flor Roja;Flabebe;B sico;Begginer;Hada;NA;Veloflor;Veloflor;Simbiosis;1;1;2;3;1;2;10;10;Suave
+670_1;#0670;Floette;Flor Roja;Flabebe;Evoluci¢n;Begginer;Hada;NA;Veloflor;Veloflor;Simbiosis;1;1;3;3;2;3;13;13;Suave
+670_2;#0670;Floette;Flor Eterna;Flabebe;Evoluci¢n;Pro;Hada;NA;Veloflor;Veloflor;Simbiosis;2;2;5;5;3;3;19;20;Normal
+671_1;#0671;Florges;Flor Roja;Flabebe;Avanzada;Pro;Hada;NA;Veloflor;Veloflor;Simbiosis;2;2;4;6;3;3;19;20;Normal
+672_1;#0672;Skiddo;;Skiddo;B sico;Begginer;Planta;NA;Herbivoro;Herbivoro;Mantofrondoso;2;1;2;2;2;3;13;12;Suave
+673_1;#0673;Gogoat;;Skiddo;Evoluci¢n;Ace;Planta;NA;Herbivoro;Herbivoro;Mantofrondoso;4;2;3;3;2;4;20;18;Normal
+674_1;#0674;Pancham;;Pancham;B sico;Begginer;Lucha;NA;Pu¤oferreo;Rompemoldes;Intrepido;3;2;1;1;1;3;13;11;Suave
+675_1;#0675;Pangoro;;Pancham;Evoluci¢n;Amateur;Lucha;Siniestro;Pu¤oferreo;Rompemoldes;Intrepido;4;3;2;2;2;3;15;16;Suave
+676_1;#0676;Furfrou;Forma Salvaje;Furfrou;Inicial;Ace;Normal;NA;Pelajerecio;Pelajerecio;Pelajerecio;3;2;2;3;4;3;17;17;Rapido
+677_1;#0677;Espurr;;Espurr;B sico;Begginer;Psiquico;NA;Vistalince;Allanamiento;Ritmopropio;1;2;2;2;2;3;13;12;Normal
+678_1;#0678;Meowstic;Macho;Espurr;Evoluci¢n;Ace;Psiquico;NA;Vistalince;Allanamiento;Bromista;1;3;3;3;4;3;17;17;Rapido
+678_2;#0678;Meowstic;Hembra;Espurr;Evoluci¢n;Ace;Psiquico;NA;Vistalince;Allanamiento;Tenacidad;1;3;3;3;4;3;17;17;Rapido
+679_1;#0679;Honedge;;Honedge;B sico;Begginer;Acero;Fantasma;Indefenso;Indefenso;Indefenso;3;4;1;1;1;2;10;12;Lento
+680_1;#0680;Doublade;;Honedge;Evoluci¢n;Amateur;Acero;Fantasma;Indefenso;Indefenso;Indefenso;4;6;1;1;1;3;15;16;Lento
+681_1;#0681;Aegislash;Forma Escudo;Honedge;Avanzada;Pro;Acero;Fantasma;Cambiotactico;Cambiotactico;Cambiotactico;2;5;2;5;2;3;19;19;Suave
+681_2;#0681;Aegislash;Forma Filo;Honedge;Avanzada;Pro;Acero;Fantasma;Cambiotactico;Cambiotactico;Cambiotactico;5;2;5;2;2;3;19;19;Suave
+682_1;#0682;Spritzee;;Spritzee;B sico;Begginer;Hada;NA;Almacura;Almacura;Veloaroma;2;2;2;2;1;3;13;12;Lento
+683_1;#0683;Aromatisse;;Spritzee;Evoluci¢n;Amateur;Hada;NA;Almacura;Almacura;Veloaroma;2;2;3;3;1;4;18;15;Lento
+684_1;#0684;Swirlix;;Swirlix;B sico;Begginer;Hada;NA;Velodulce;Velodulce;Liviano;1;2;2;2;1;3;13;11;Suave
+685_1;#0685;Slurpuff;;Swirlix;Evoluci¢n;Ace;Hada;NA;Velodulce;Velodulce;Liviano;3;3;3;3;2;3;17;17;Normal
+686_1;#0686;Inkay;;Inkay;B sico;Begginer;Siniestro;Psiquico;Respondon;Ventosas;Allanamiento;2;2;1;1;1;3;13;10;Suave
+687_1;#0687;Malamar;;Inkay;Evoluci¢n;Amateur;Siniestro;Psiquico;Respondon;Ventosas;Allanamiento;3;3;2;3;2;3;15;16;Normal
+688_1;#0688;Binacle;;Binacle;B sico;Begginer;Roca;Agua;Francotirador;Garradura;Hurto;2;2;1;2;2;2;10;11;Suave
+689_1;#0689;Barbaracle;;Binacle;Evoluci¢n;Ace;Roca;Agua;Francotirador;Garradura;Hurto;4;4;2;3;2;3;17;18;Normal
+690_1;#0690;Skrelp;;Skrelp;B sico;Begginer;Veneno;Agua;Puntotoxico;Toquetoxico;Adaptable;2;2;2;2;1;3;13;12;Lento
+691_1;#0691;Dragalge;;Skrelp;Evoluci¢n;Ace;Veneno;Dragon;Puntotoxico;Toquetoxico;Adaptable;3;3;3;4;1;3;17;17;Suave
+692_1;#0692;Clauncher;;Clauncher;B sico;Begginer;Agua;NA;Megadisparador;Megadisparador;Megadisparador;2;2;2;2;1;3;13;12;Suave
+693_1;#0693;Clawitzer;;Clauncher;Evoluci¢n;Ace;Agua;NA;Megadisparador;Megadisparador;Megadisparador;2;3;4;3;2;3;17;17;Suave
+694_1;#0694;Helioptile;;Helioptile;B sico;Starter;Electrico;Normal;Pielseca;Veloarena;Podersolar;1;1;2;1;2;2;8;9;Normal
+695_1;#0695;Heliolisk;;Helioptile;Evoluci¢n;Ace;Electrico;Normal;Pielseca;Veloarena;Podersolar;2;2;4;3;4;3;17;18;Rapido
+696_1;#0696;Tyrunt;;Tyrunt;B sico;Begginer;Roca;Dragon;Mandibulafuerte;Mandibulafuerte;Robustez;3;3;1;1;1;3;13;12;Suave
+697_1;#0697;Tyrantrum;;Tyrunt;Evoluci¢n;Ace;Roca;Dragon;Mandibulafuerte;Mandibulafuerte;Cabezaroca;4;4;2;2;2;3;17;17;Normal
+698_1;#0698;Amaura;;Amaura;B sico;Begginer;Roca;Hielo;Pielhelada;Pielhelada;Nevada;2;2;2;2;1;3;13;12;Suave
+699_1;#0699;Aurorus;;Amaura;Evoluci¢n;Ace;Roca;Hielo;Pielhelada;Pielhelada;Nevada;3;2;3;3;2;4;20;17;Suave
+700_1;#0700;Sylveon;;Eevee;Evoluci¢n;Ace;Hada;NA;Granencanto;Granencanto;Pielfeerica;2;2;4;5;2;3;17;18;Suave
+701_1;#0701;Hawlucha;;Hawlucha;Inicial;Ace;Lucha;Volador;Flexibilidad;Liviano;Rompemoldes;3;3;2;2;4;3;17;17;Rapido
+702_1;#0702;Dedenne;;Dedenne;Inicial;Amateur;Electrico;Hada;Carrillo;Recogida;Mas;2;2;3;2;4;3;15;16;Rapido
+703_1;#0703;Carbink;;Carbink;Legendario;Legend;Roca;Hada;Cuerpopuro;Cuerpopuro;Robustez;2;6;2;6;2;3;25;21;Suave
+704_1;#0704;Goomy;;Goomy;B sico;Begginer;Dragon;NA;Herbivoro;Hidratacion;Baba;2;1;2;3;1;2;10;11;Suave
+705_1;#0705;Sliggoo;;Goomy;Evoluci¢n;Ace;Dragon;NA;Herbivoro;Hidratacion;Baba;3;2;3;4;2;3;17;17;Suave
+705_2;#0705;Sliggoo;Forma de Hisui;Goomy;Evoluci¢n;Ace;Acero;Dragon;Herbivoro;Caparazon;Baba;3;3;3;4;1;3;17;17;Suave
+706_1;#0706;Goodra;;Goomy;Avanzada;Pro;Dragon;NA;Herbivoro;Hidratacion;Baba;4;2;4;6;3;3;19;22;Normal
+706_2;#0706;Goodra;Forma de Hisui;Goomy;Avanzada;Pro;Acero;Dragon;Herbivoro;Caparazon;Baba;4;4;4;6;2;3;19;23;Suave
+707_1;#0707;Klefki;;Klefki;Inicial;Ace;Acero;Hada;Bromista;Bromista;Prestidigitador;3;3;3;3;3;3;17;18;Normal
+708_1;#0708;Phantump;;Phantump;B sico;Begginer;Fantasma;Planta;Curanatural;Cacheo;Cosecha;2;1;2;2;1;2;10;10;Suave
+709_1;#0709;Trevenant;;Phantump;Evoluci¢n;Ace;Fantasma;Planta;Curanatural;Cacheo;Cosecha;4;3;2;3;2;3;17;17;Suave
+710_1;#0710;Pumpkaboo;Tama¤o Normal;Pumpkaboo;B sico;Begginer;Fantasma;Planta;Recogida;Cacheo;Insomnio;2;2;1;2;2;2;10;11;Suave
+710_2;#0710;Pumpkaboo;Tama¤o Peque¤o;Pumpkaboo;B sico;Begginer;Fantasma;Planta;Recogida;Cacheo;Insomnio;2;2;1;2;2;2;10;11;Suave
+710_3;#0710;Pumpkaboo;Tama¤o Grande;Pumpkaboo;B sico;Begginer;Fantasma;Planta;Recogida;Cacheo;Insomnio;2;2;1;2;1;3;13;11;Suave
+710_4;#0710;Pumpkaboo;Tama¤o Extragrande;Pumpkaboo;B sico;Begginer;Fantasma;Planta;Recogida;Cacheo;Insomnio;2;2;1;2;1;3;13;11;Suave
+711_3;#0711;Gourgeist;Tama¤o Grande;Pumpkaboo;Evoluci¢n;Ace;Fantasma;Planta;Recogida;Cacheo;Insomnio;3;4;2;3;2;3;17;17;Normal
+711_1;#0711;Gourgeist;Tama¤o Normal;Pumpkaboo;Evoluci¢n;Ace;Fantasma;Planta;Recogida;Cacheo;Insomnio;3;4;2;3;3;3;17;18;Normal
+711_2;#0711;Gourgeist;Tama¤o Peque¤o;Pumpkaboo;Evoluci¢n;Ace;Fantasma;Planta;Recogida;Cacheo;Insomnio;3;4;2;3;3;3;17;18;Normal
+711_4;#0711;Gourgeist;Tama¤o Extragrande;Pumpkaboo;Evoluci¢n;Ace;Fantasma;Planta;Recogida;Cacheo;Insomnio;4;4;2;3;2;3;17;18;Suave
+712_1;#0712;Bergmite;;Bergmite;B sico;Begginer;Hielo;NA;Ritmopropio;Gelido;Robustez;2;3;1;1;1;3;13;11;Lento
+713_1;#0713;Avalugg;;Bergmite;Evoluci¢n;Ace;Hielo;NA;Ritmopropio;Gelido;Robustez;4;7;1;1;1;3;17;17;Lento
+713_2;#0713;Avalugg;Forma de Hisui;Bergmite;Evoluci¢n;Ace;Hielo;Roca;Mandibulafuerte;Gelido;Robustez;5;7;1;1;1;3;17;18;Suave
+714_1;#0714;Noibat;;Noibat;B sico;Starter;Volador;Dragon;Cacheo;Allanamiento;Telepatia;1;1;1;1;2;2;8;8;Suave
+715_1;#0715;Noivern;;Noibat;Evoluci¢n;Ace;Volador;Dragon;Cacheo;Allanamiento;Telepatia;2;3;3;3;4;3;17;18;Rapido
+716_1;#0716;Xerneas;Modo Activo;Xerneas;Legendario;Legend;Hada;NA;Aurafeerica;Aurafeerica;Aurafeerica;5;3;5;3;3;4;28;23;Normal
+717_1;#0717;Yveltal;;Yveltal;Legendario;Legend;Siniestro;Volador;Auraoscura;Auraoscura;Auraoscura;5;3;5;3;3;4;28;23;Normal
+718_2;#0718;Zygarde;Forma 10%;Zygarde;Legendario*;Ace;Dragon;Tierra;Rompeaura;Rompeaura;Agrupamiento;4;2;2;3;4;3;17;18;Rapido
+718_1;#0718;Zygarde;Forma 50%;Zygarde;Legendario;Legend;Dragon;Tierra;Rompeaura;Rompeaura;Agrupamiento;4;4;3;3;3;4;28;21;Normal
+718_3;#0718;Zygarde;Forma Completa;Zygarde;Legendario;Legend;Dragon;Tierra;Agrupamiento;Agrupamiento;Agrupamiento;4;4;3;3;3;6;34;23;Normal
+719_1;#0719;Diancie;;Diancie;Legendario;Legend;Roca;Hada;Cuerpopuro;Cuerpopuro;Cuerpopuro;4;6;4;6;2;3;25;25;Suave
+719_2;#0719;Diancie;Mega-Diancie;Diancie;Mega;Legend;Roca;Hada;Espejomagico;Espejomagico;Espejomagico;6;4;6;4;4;3;25;27;Fugaz
+720_1;#0720;Hoopa;Hoopa Contenido;Hoopa;Legendario;Legend;Psiquico;Fantasma;Prestidigitador;Prestidigitador;Prestidigitador;4;2;6;5;2;3;25;22;Normal
+720_2;#0720;Hoopa;Hoopa Desatado;Hoopa;Legendario;Legend;Psiquico;Siniestro;Prestidigitador;Prestidigitador;Prestidigitador;6;2;6;5;3;3;25;25;Normal
+721_1;#0721;Volcanion;;Volcanion;Legendario;Legend;Fuego;Agua;Absorbeagua;Absorbeagua;Absorbeagua;4;4;5;3;2;3;25;21;Normal
+722_1;#0722;Rowlet;;Rowlet;B sico;Begginer;Planta;Volador;Espesura;Espesura;Remoto;2;2;2;2;1;3;13;12;Suave
+723_1;#0723;Dartrix;;Rowlet;Evoluci¢n;Amateur;Planta;Volador;Espesura;Espesura;Remoto;3;3;2;2;2;3;15;15;Suave
+724_2;#0724;Decidueye;Forma de Hisui;Rowlet;Avanzada;Ace;Planta;Lucha;Espesura;Espesura;Intrepido;4;3;3;3;2;3;17;18;Suave
+724_1;#0724;Decidueye;;Rowlet;Avanzada;Pro;Planta;Fantasma;Espesura;Espesura;Remoto;4;3;4;4;2;3;19;20;Normal
+725_1;#0725;Litten;;Litten;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Intimidacion;2;1;2;1;2;2;10;10;Normal
+726_1;#0726;Torracat;;Litten;Evoluci¢n;Amateur;Fuego;NA;Marllamas;Marllamas;Intimidacion;3;2;3;2;3;3;15;16;Normal
+727_1;#0727;Incineroar;;Litten;Avanzada;Ace;Fuego;Siniestro;Marllamas;Marllamas;Intimidacion;4;3;3;3;2;3;17;18;Suave
+728_1;#0728;Popplio;;Popplio;B sico;Begginer;Agua;NA;Torrente;Torrente;Vozfluida;2;2;2;2;1;3;13;12;Suave
+729_1;#0729;Brionne;;Popplio;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Vozfluida;2;2;3;3;2;3;15;15;Suave
+730_1;#0730;Primarina;;Popplio;Avanzada;Ace;Agua;Hada;Torrente;Torrente;Vozfluida;2;2;5;4;2;3;17;18;Suave
+731_1;#0731;Pikipek;;Pikipek;B sico;Begginer;Normal;Volador;Vistalince;Encadenado;Recogida;3;1;1;1;2;2;10;10;Normal
+732_1;#0732;Trumbeak;;Pikipek;Evoluci¢n;Amateur;Normal;Volador;Vistalince;Encadenado;Recogida;3;2;1;2;3;3;15;14;Normal
+733_1;#0733;Toucannon;;Pikipek;Avanzada;Ace;Normal;Volador;Vistalince;Encadenado;Potenciabruta;4;3;3;3;2;3;17;18;Suave
+734_1;#0734;Yungoos;;Yungoos;B sico;Starter;Normal;NA;Vigilante;Mandibulafuerte;Adaptable;2;1;1;1;1;2;8;8;Suave
+735_1;#0735;Gumshoos;;Yungoos;Evoluci¢n;Amateur;Normal;NA;Vigilante;Mandibulafuerte;Adaptable;4;2;2;2;1;3;15;14;Suave
+736_1;#0736;Grubbin;;Grubbin;B sico;Starter;Bicho;NA;Enjambre;Enjambre;Enjambre;2;1;2;1;1;2;8;9;Suave
+737_1;#0737;Charjabug;;Grubbin;Evoluci¢n;Amateur;Bicho;Electrico;Bateria;Bateria;Bateria;3;3;2;3;1;3;15;15;Lento
+738_1;#0738;Vikavolt;;Grubbin;Avanzada;Ace;Bicho;Electrico;Levitacion;Levitacion;Levitacion;2;3;5;3;1;3;17;17;Suave
+739_1;#0739;Crabrawler;;Crabrawler;B sico;Begginer;Lucha;NA;Cortefuerte;Pu¤oferreo;Irascible;3;2;1;1;2;2;10;11;Normal
+740_1;#0740;Crabominable;;Crabrawler;Evoluci¢n;Amateur;Lucha;Hielo;Cortefuerte;Pu¤oferreo;Irascible;5;3;2;2;1;3;15;16;Suave
+741_1;#0741;Oricorio;Estilo Apasionado;Oricorio;Inicial;Amateur;Fuego;Volador;Parejadebaile;Parejadebaile;Parejadebaile;2;2;3;2;3;3;15;15;Normal
+741_2;#0741;Oricorio;Estilo Animado;Oricorio;Inicial;Amateur;Electrico;Volador;Parejadebaile;Parejadebaile;Parejadebaile;2;2;3;2;3;3;15;15;Normal
+741_3;#0741;Oricorio;Estilo Placido;Oricorio;Inicial;Amateur;Psiquico;Volador;Parejadebaile;Parejadebaile;Parejadebaile;2;2;3;2;3;3;15;15;Normal
+741_4;#0741;Oricorio;Estilo Refinado;Oricorio;Inicial;Amateur;Fantasma;Volador;Parejadebaile;Parejadebaile;Parejadebaile;2;2;3;2;3;3;15;15;Normal
+742_1;#0742;Cutiefly;;Cutiefly;B sico;Begginer;Bicho;Hada;Recogemiel;Polvoescudo;Velodulce;1;1;2;1;3;2;10;10;Normal
+743_1;#0743;Ribombee;;Cutiefly;Evoluci¢n;Amateur;Bicho;Hada;Recogemiel;Polvoescudo;Velodulce;2;2;3;2;4;3;15;16;Rapido
+744_1;#0744;Rockruff;;Rockruff;B sico;Starter;Roca;NA;Vistalince;Espirituvital;Impasible/Ritmopropio;2;1;1;1;2;2;8;9;Suave
+744_2;#0744;Rockruff;Rockruff (Ritmo Propio);Rockruff;B sico;Starter;Roca;NA;Vistalince;Espirituvital;Impasible/Ritmopropio;2;1;1;1;2;2;8;9;Suave
+745_1;#0745;Lycanroc;Forma Diurna;Rockruff;Evoluci¢n;Ace;Roca;NA;Vistalince;impetuarena;Impasible;4;2;2;2;4;3;17;17;Rapido
+745_3;#0745;Lycanroc;Forma Crepuscular;Rockruff;Evoluci¢n;Ace;Roca;NA;Garradura;Garradura;Garradura;4;2;2;2;4;3;17;17;Rapido
+745_2;#0745;Lycanroc;Forma Nocturna;Rockruff;Evoluci¢n;Ace;Roca;NA;Vistalince;Espirituvital;Indefenso;4;3;2;3;3;3;17;18;Normal
+746_1;#0746;Wishiwashi;Forma Individual;Wishiwashi;B sico;Starter;Agua;NA;Banco;Banco;Banco;1;1;1;1;1;2;8;7;Suave
+746_2;#0746;Wishiwashi;Forma Banco;Wishiwashi;Evoluci¢n;Pro;Agua;NA;Banco;Banco;Banco;5;5;5;5;1;2;16;23;Lento
+747_1;#0747;Mareanie;;Mareanie;B sico;Begginer;Veneno;Agua;Ensa¤amiento;Flexibilidad;Regeneracion;2;2;1;2;1;3;13;11;Suave
+748_1;#0748;Toxapex;;Mareanie;Evoluci¢n;Pro;Veneno;Agua;Ensa¤amiento;Flexibilidad;Regeneracion;2;6;2;5;1;3;19;19;Lento
+749_1;#0749;Mudbray;;Mudbray;B sico;Begginer;Tierra;NA;Ritmopropio;Firmeza;Fuerzamental;4;2;1;2;1;3;13;13;Suave
+750_1;#0750;Mudsdale;;Mudbray;Evoluci¢n;Pro;Tierra;NA;Ritmopropio;Firmeza;Fuerzamental;5;4;2;3;1;4;22;19;Lento
+751_1;#0751;Dewpider;;Dewpider;B sico;Starter;Agua;Bicho;Pompa;Pompa;Absorbeagua;1;2;1;2;1;2;8;9;Lento
+752_1;#0752;Araquanid;;Dewpider;Evoluci¢n;Amateur;Agua;Bicho;Pompa;Pompa;Absorbeagua;2;3;2;5;1;3;15;16;Suave
+753_1;#0753;Fomantis;;Fomantis;B sico;Starter;Planta;NA;Defensahoja;Defensahoja;Respondon;2;1;2;1;1;2;8;9;Lento
+754_1;#0754;Lurantis;;Fomantis;Evoluci¢n;Ace;Planta;NA;Defensahoja;Defensahoja;Respondon;4;3;3;3;1;3;17;17;Suave
+755_1;#0755;Morelull;;Morelull;B sico;Begginer;Planta;Hada;Iluminacion;Efectoespora;Curalluvia;1;2;2;3;1;2;10;11;Lento
+756_1;#0756;Shiinotic;;Morelull;Evoluci¢n;Amateur;Planta;Hada;Iluminacion;Efectoespora;Curalluvia;1;3;3;4;1;3;15;15;Lento
+757_1;#0757;Salandit;;Salandit;B sico;Begginer;Veneno;Fuego;Corrosion;Corrosion;Despiste;1;1;2;1;3;2;10;10;Normal
+758_1;#0758;Salazzle;;Salandit;Evoluci¢n;Ace;Veneno;Fuego;Corrosion;Corrosion;Despiste;2;2;4;2;4;3;17;17;Rapido
+759_1;#0759;Stufful;;Stufful;B sico;Begginer;Normal;Lucha;Peluche;Zoquete;Granencanto;3;2;1;2;2;3;13;13;Suave
+760_1;#0760;Bewear;;Stufful;Evoluci¢n;Ace;Normal;Lucha;Peluche;Zoquete;Nerviosismo;5;3;2;2;2;4;20;18;Suave
+761_1;#0761;Bounsweet;;Bounsweet;B sico;Starter;Planta;NA;Defensahoja;Despiste;Velodulce;1;1;1;1;1;2;8;7;Lento
+762_1;#0762;Steenee;;Bounsweet;Evoluci¢n;Starter;Planta;NA;Defensahoja;Despiste;Velodulce;1;1;1;1;2;3;11;9;Suave
+763_1;#0763;Tsareena;;Bounsweet;Avanzada;Ace;Planta;NA;Defensahoja;Regiapresencia;Velodulce;4;3;2;3;2;3;17;17;Normal
+764_1;#0764;Comfey;;Comfey;Inicial;Pro;Hada;NA;Veloflor;Primerauxilio;Curanatural;2;3;3;4;4;3;19;19;Rapido
+765_1;#0765;Oranguru;;Oranguru;Inicial;Ace;Normal;Psiquico;Fuerzamental;Telepatia;Simbiosis;2;3;3;4;2;3;17;17;Suave
+766_1;#0766;Passimian;;Passimian;Inicial;Ace;Lucha;NA;Receptor;Receptor;Competitivo;4;3;1;2;3;4;20;17;Normal
+767_1;#0767;Wimpod;;Wimpod;B sico;Starter;Bicho;Agua;Huida;Huida;Huida;1;1;1;1;3;2;8;9;Normal
+768_1;#0768;Golisopod;;Wimpod;Evoluci¢n;Pro;Bicho;Agua;Retirada;Retirada;Retirada;5;5;2;3;1;3;19;19;Suave
+769_1;#0769;Sandygast;;Sandygast;B sico;Begginer;Fantasma;Tierra;Hidrorrefuerzo;Hidrorrefuerzo;Veloarena;2;3;2;1;1;3;13;12;Lento
+770_1;#0770;Palossand;;Sandygast;Evoluci¢n;Ace;Fantasma;Tierra;Hidrorrefuerzo;Hidrorrefuerzo;Veloarena;3;4;4;3;1;3;17;18;Lento
+771_1;#0771;Pyukumuku;;Pyukumuku;Inicial;Ace;Agua;NA;Reves;Reves;Ignorante;2;5;1;5;1;3;17;17;Lento
+772_1;#0772;Codigo Cero;;Silvally;Legendario;Ace;Normal;NA;Armadurabatalla;Armadurabatalla;Armadurabatalla;3;3;3;3;2;3;17;17;Suave
+773_1;#0773;Silvally;Tipo: Normal;Silvally;Legendario;Ace;Normal;NA;Sistemaalfa;Sistemaalfa;Sistemaalfa;3;3;3;3;3;3;17;18;Normal
+774_1;#0774;Minior;Forma Meteorito;Minior;Inicial;Ace;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;2;4;2;4;2;3;17;17;Suave
+774_2;#0774;Minior;Nucleo Rojo;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+774_3;#0774;Minior;Nucleo Naranja;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+774_4;#0774;Minior;Nucleo Amarillo;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+774_5;#0774;Minior;Nucleo Verde;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+774_6;#0774;Minior;Nucleo Azul;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+774_7;#0774;Minior;Nucleo A¤il;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+774_8;#0774;Minior;Nucleo Violeta;Minior;Inicial;Pro;Roca;Volador;Escudolimitado;Escudolimitado;Escudolimitado;4;2;4;2;4;3;19;19;Rapido
+775_1;#0775;Komala;;Komala;Inicial;Ace;Normal;NA;Letargoperenne;Letargoperenne;Letargoperenne;4;2;3;3;2;3;17;17;Normal
+776_1;#0776;Turtonator;;Turtonator;Inicial;Ace;Fuego;Dragon;Caparazon;Caparazon;Caparazon;3;5;3;3;1;3;17;18;Lento
+777_1;#0777;Togedemaru;;Togedemaru;Inicial;Amateur;Electrico;Acero;Puntaacero;Pararrayos;Robustez;3;2;1;2;3;3;15;14;Normal
+778_1;#0778;Mimikyu;Forma Encubierta;Mimikyu;Inicial;Ace;Fantasma;Hada;Disfraz;Disfraz;Disfraz;3;3;2;4;3;3;17;18;Normal
+778_2;#0778;Mimikyu;Forma Descubierta;Mimikyu;Inicial;Ace;Fantasma;Hada;Disfraz;Disfraz;Disfraz;3;3;2;4;3;3;17;18;Normal
+779_1;#0779;Bruxish;;Bruxish;Inicial;Amateur;Agua;Psiquico;Cuerpovivido;Mandibulafuerte;Pielmilagro;4;2;2;2;3;3;15;16;Normal
+780_1;#0780;Drampa;;Drampa;Inicial;Ace;Normal;Dragon;Colera;Herbivoro;Aclimatacion;2;3;5;3;1;3;17;17;Lento
+781_1;#0781;Dhelmise;;Dhelmise;Inicial;Pro;Fantasma;Planta;Acerotemplado;Acerotemplado;Acerotemplado;5;4;3;3;1;3;19;19;Suave
+782_1;#0782;Jangmo-o;;Jangmo-o;B sico;Starter;Dragon;NA;Antibalas;Insonorizar;Funda;2;2;1;1;1;2;8;9;Suave
+783_1;#0783;Hakamo-o;;Jangmo-o;Evoluci¢n;Amateur;Dragon;Lucha;Antibalas;Insonorizar;Funda;3;3;2;2;2;3;15;15;Normal
+784_1;#0784;Kommo-o;;Jangmo-o;Avanzada;Pro;Dragon;Lucha;Antibalas;Insonorizar;Funda;4;5;4;4;3;3;19;23;Normal
+785_1;#0785;Tapu Koko;;Tapu Koko;Legendario;Legend;Electrico;Hada;Electrogenesis;Electrogenesis;Telepatia;4;3;3;3;5;3;25;21;Rapido
+786_1;#0786;Tapu Lele;;Tapu Lele;Legendario;Legend;Psiquico;Hada;Psicogenesis;Psicogenesis;Telepatia;3;3;5;4;3;3;25;21;Normal
+787_1;#0787;Tapu Bulu;;Tapu Bulu;Legendario;Legend;Planta;Hada;Herbogenesis;Herbogenesis;Telepatia;5;4;3;3;3;3;25;21;Normal
+788_1;#0788;Tapu Fini;;Tapu Fini;Legendario;Legend;Agua;Hada;Nebulogenesis;Nebulogenesis;Telepatia;3;4;3;5;3;3;25;21;Normal
+789_1;#0789;Cosmog;;Cosmog;B sico;Starter;Psiquico;NA;Ignorante;Ignorante;Ignorante;1;1;1;1;1;2;8;7;Lento
+790_1;#0790;Cosmoem;;Cosmog;Evoluci¢n;Amateur;Psiquico;NA;Robustez;Robustez;Robustez;1;5;1;5;1;2;12;15;Lento
+791_1;#0791;Solgaleo;;Cosmog;Legendario;Legend;Psiquico;Acero;Guardiametalica;Guardiametalica;Guardiametalica;5;4;4;3;3;4;28;23;Normal
+792_1;#0792;Lunala;;Cosmog;Legendario;Legend;Psiquico;Fantasma;Guardiaespectro;Guardiaespectro;Guardiaespectro;4;3;5;4;3;4;28;23;Normal
+793_1;#0793;Nihilego;;Nihilego;Legendario;Legend;Roca;Veneno;Ultraimpulso;Ultraimpulso;Ultraimpulso;2;1;5;5;4;4;28;21;Rapido
+794_1;#0794;Buzzwole;;Buzzwole;Legendario;Legend;Bicho;Lucha;Ultraimpulso;Ultraimpulso;Ultraimpulso;5;5;2;2;3;4;28;21;Normal
+795_1;#0795;Pheromosa;;Pheromosa;Legendario;Legend;Bicho;Lucha;Ultraimpulso;Ultraimpulso;Ultraimpulso;5;1;5;1;6;3;25;21;Rapido
+796_1;#0796;Xurkitree;;Xurkitree;Legendario;Legend;Electrico;NA;Ultraimpulso;Ultraimpulso;Ultraimpulso;3;2;6;2;3;3;25;19;Normal
+797_1;#0797;Celesteela;;Celesteela;Legendario;Legend;Acero;Volador;Ultraimpulso;Ultraimpulso;Ultraimpulso;4;4;4;4;2;3;25;21;Suave
+798_1;#0798;Kartana;;Kartana;Legendario;Legend;Planta;Acero;Ultraimpulso;Ultraimpulso;Ultraimpulso;7;5;2;1;4;3;25;22;Rapido
+799_1;#0799;Guzzlord;;Guzzlord;Legendario;Ace;Siniestro;Dragon;Ultraimpulso;Ultraimpulso;Ultraimpulso;4;2;3;2;1;6;26;18;Suave
+800_1;#0800;Necrozma;;Necrozma;Legendario;Legend;Psiquico;NA;Armaduraprisma;Armaduraprisma;Armaduraprisma;4;4;5;3;3;3;25;22;Normal
+800_2;#0800;Necrozma;Melena Crepuscular;Necrozma;Legendario;Legend;Psiquico;Acero;Armaduraprisma;Armaduraprisma;Armaduraprisma;6;5;4;4;3;3;25;25;Normal
+800_3;#0800;Necrozma;Alas del Alba;Necrozma;Legendario;Legend;Psiquico;Fantasma;Armaduraprisma;Armaduraprisma;Armaduraprisma;4;4;6;5;3;3;25;25;Normal
+800_4;#0800;Necrozma;Ultra-Necrozma;Necrozma;Legendario;Legend;Psiquico;Dragon;Fuerzacerebral;Fuerzacerebral;Fuerzacerebral;6;3;6;3;5;3;25;26;Fugaz
+801_1;#0801;Magearna;;Magearna;Legendario;Legend;Acero;Hada;Coranima;Coranima;Coranima;3;4;5;4;2;3;25;21;Normal
+801_2;#0801;Magearna;Color Vetusto;Magearna;Legendario;Legend;Acero;Hada;Coranima;Coranima;Coranima;3;4;5;4;2;3;25;21;Normal
+802_1;#0802;Marshadow;;Marshadow;Legendario;Legend;Lucha;Fantasma;Experto;Experto;Experto;5;3;3;3;5;3;25;22;Fugaz
+803_1;#0803;Poipole;;Poipole;B sico;Begginer;Veneno;NA;Ultraimpulso;Ultraimpulso;Ultraimpulso;2;2;2;2;2;3;13;13;Normal
+804_1;#0804;Naganadel;;Poipole;Evoluci¢n;Ace;Veneno;Dragon;Ultraimpulso;Ultraimpulso;Ultraimpulso;2;2;5;2;4;3;17;18;Rapido
+805_1;#0805;Stakataka;;Stakataka;Legendario;Legend;Roca;Acero;Ultraimpulso;Ultraimpulso;Ultraimpulso;5;8;2;4;1;3;25;23;Lento
+806_1;#0806;Blacephalon;;Blacephalon;Legendario;Legend;Fuego;Fantasma;Ultraimpulso;Ultraimpulso;Ultraimpulso;5;2;6;3;4;3;25;23;Fugaz
+807_1;#0807;Zeraora;;Zeraora;Legendario;Legend;Electrico;NA;Absorbeelectricidad;Absorbeelectricidad;Absorbeelectricidad;4;3;4;3;5;3;25;22;Fugaz
+808_1;#0808;Meltan;;Meltan;B sico;Begginer;Acero;NA;Iman;Iman;Iman;2;2;2;1;1;2;10;10;Lento
+809_1;#0809;Melmetal;;Meltan;Legendario;Legend;Acero;NA;Pu¤oferreo;Pu¤oferreo;Pu¤oferreo;5;5;3;2;1;4;28;20;Lento
+810_1;#0810;Grookey;;Grookey;B sico;Begginer;Planta;NA;Espesura;Espesura;Herbogenesis;2;2;1;1;2;3;13;11;Normal
+811_1;#0811;Thwackey;;Grookey;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Herbogenesis;3;2;2;2;3;3;15;15;Normal
+812_1;#0812;Rillaboom;;Grookey;Avanzada;Pro;Planta;NA;Espesura;Espesura;Herbogenesis;5;3;2;2;3;4;22;19;Normal
+813_1;#0813;Scorbunny;;Scorbunny;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Libero;2;1;1;1;2;3;13;10;Normal
+814_1;#0814;Raboot;;Scorbunny;Evoluci¢n;Amateur;Fuego;NA;Marllamas;Marllamas;Libero;3;2;2;2;3;3;15;15;Normal
+815_1;#0815;Cinderace;;Scorbunny;Avanzada;Pro;Fuego;NA;Marllamas;Marllamas;Libero;4;3;2;3;4;3;19;19;Rapido
+816_1;#0816;Sobble;;Sobble;B sico;Begginer;Agua;NA;Torrente;Torrente;Francotirador;1;1;2;1;2;3;13;10;Normal
+817_1;#0817;Drizzile;;Sobble;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Francotirador;2;2;3;2;3;3;15;15;Normal
+818_1;#0818;Inteleon;;Sobble;Avanzada;Pro;Agua;NA;Torrente;Torrente;Francotirador;3;2;5;2;4;3;19;19;Rapido
+819_1;#0819;Skwovet;;Skwovet;B sico;Begginer;Normal;NA;Carrillo;Carrillo;Gula;2;2;1;1;1;3;13;10;Lento
+820_1;#0820;Greedent;;Skwovet;Evoluci¢n;Amateur;Normal;NA;Carrillo;Carrillo;Gula;3;3;2;3;1;4;18;16;Lento
+821_1;#0821;Rookidee;;Rookidee;B sico;Starter;Volador;NA;Vistalince;Nerviosismo;Sacapecho;1;1;1;1;2;2;8;8;Suave
+822_1;#0822;Corvisquire;;Rookidee;Evoluci¢n;Begginer;Volador;NA;Vistalince;Nerviosismo;Sacapecho;2;2;1;2;3;3;13;13;Normal
+823_1;#0823;Corviknight;;Rookidee;Avanzada;Ace;Volador;Acero;Presion;Nerviosismo;Corazareflejo;3;4;2;3;2;3;17;17;Normal
+824_1;#0824;Blipbug;;Blipbug;B sico;Starter;Bicho;NA;Enjambre;Ojocompuesto;Telepatia;1;1;1;1;1;2;8;7;Suave
+825_1;#0825;Dottler;;Blipbug;Evoluci¢n;Begginer;Bicho;Psiquico;Enjambre;Ojocompuesto;Telepatia;1;3;2;3;1;3;13;13;Lento
+826_1;#0826;Orbeetle;;Blipbug;Avanzada;Ace;Bicho;Psiquico;Enjambre;Cacheo;Telepatia;1;4;3;4;3;3;17;18;Normal
+827_1;#0827;Nickit;;Nickit;B sico;Starter;Siniestro;NA;Fuga;Liviano;Vigilante;1;1;1;2;2;2;8;9;Suave
+828_1;#0828;Thievul;;Nickit;Evoluci¢n;Amateur;Siniestro;NA;Fuga;Liviano;Vigilante;2;2;3;3;3;3;15;16;Normal
+829_1;#0829;Gossifleur;;Gossifleur;B sico;Starter;Planta;NA;Pelusa;Regeneracion;Efectoespora;1;2;1;2;1;2;8;9;Lento
+830_1;#0830;Eldegoss;;Gossifleur;Evoluci¢n;Ace;Planta;NA;Pelusa;Regeneracion;Efectoespora;2;3;3;4;2;3;17;17;Suave
+831_1;#0831;Wooloo;;Wooloo;B sico;Starter;Normal;NA;Peluche;Fuga;Antibalas;1;2;1;1;1;2;8;8;Suave
+832_1;#0832;Dubwool;;Wooloo;Evoluci¢n;Ace;Normal;NA;Peluche;Impasible;Antibalas;3;4;2;3;3;3;17;18;Normal
+833_1;#0833;Chewtle;;Chewtle;B sico;Begginer;Agua;NA;Mandibulafuerte;Caparazon;Nadorapido;2;2;1;1;1;3;13;10;Suave
+834_1;#0834;Drednaw;;Chewtle;Evoluci¢n;Amateur;Agua;Roca;Mandibulafuerte;Caparazon;Nadorapido;4;3;1;2;2;3;15;15;Normal
+835_1;#0835;Yamper;;Yamper;B sico;Begginer;Electrico;NA;Recogebolas;Recogebolas;Cobardia;1;2;1;2;1;3;13;10;Lento
+836_1;#0836;Boltund;;Yamper;Evoluci¢n;Ace;Electrico;NA;Mandibulafuerte;Mandibulafuerte;Tenacidad;3;2;3;2;4;3;17;17;Rapido
+837_1;#0837;Rolycoly;;Rolycoly;B sico;Starter;Roca;NA;Combustible;Ignifugo;Absorbefuego;1;2;1;2;1;2;8;9;Lento
+838_1;#0838;Carkol;;Rolycoly;Evoluci¢n;Amateur;Roca;Fuego;Combustible;Cuerpollama;Absorbefuego;2;3;2;2;2;3;15;14;Suave
+839_1;#0839;Coalossal;;Rolycoly;Avanzada;Ace;Roca;Fuego;Combustible;Cuerpollama;Absorbefuego;3;4;3;3;1;4;20;18;Lento
+840_1;#0840;Applin;;Applin;B sico;Starter;Planta;Dragon;Maduracion;Gula;Antibalas;1;3;1;1;1;2;8;9;Lento
+841_1;#0841;Flapple;;Applin;Evoluci¢n;Ace;Planta;Dragon;Maduracion;Gula;Entusiasmo;4;3;3;2;2;3;17;17;Normal
+842_1;#0842;Appletun;;Applin;Evoluci¢n;Ace;Planta;Dragon;Maduracion;Gula;Sebo;3;3;4;3;1;4;20;18;Lento
+843_1;#0843;Silicobra;;Silicobra;B sico;Begginer;Tierra;NA;Expulsarena;Mudar;Veloarena;2;3;1;2;1;3;13;12;Suave
+844_1;#0844;Sandaconda;;Silicobra;Evoluci¢n;Ace;Tierra;NA;Expulsarena;Mudar;Veloarena;4;5;2;2;2;3;17;18;Normal
+845_1;#0845;Cramorant;;Cramorant;Inicial;Ace;Volador;Agua;Tragamisil;Tragamisil;Tragamisil;3;2;3;3;3;3;17;17;Normal
+845_2;#0845;Cramorant;Forma Tragatodo;Cramorant;Inicial;Ace;Volador;Agua;Tragamisil;Tragamisil;Tragamisil;3;2;3;3;3;3;17;17;Normal
+845_3;#0845;Cramorant;Forma Engulletodo;Cramorant;Inicial;Ace;Volador;Agua;Tragamisil;Tragamisil;Tragamisil;3;2;3;3;3;3;17;17;Normal
+846_1;#0846;Arrokuda;;Arrokuda;B sico;Starter;Agua;NA;Nadorapido;Nadorapido;Helicecaudal;2;1;1;1;2;2;8;9;Normal
+847_1;#0847;Barraskewda;;Arrokuda;Evoluci¢n;Ace;Agua;NA;Nadorapido;Nadorapido;Helicecaudal;4;2;2;2;5;3;17;18;Rapido
+848_1;#0848;Toxel;;Toxel;B sico;Starter;Electrico;Veneno;Cobardia;Electricidadestatica;Zoquete;1;1;2;1;1;2;8;8;Suave
+849_1;#0849;Toxtricity;Forma Aguda;Toxel;Evoluci¢n;Ace;Electrico;Veneno;Punkrock;Mas;Experto;3;2;4;2;3;3;17;17;Normal
+849_2;#0849;Toxtricity;Forma Grave;Toxel;Evoluci¢n;Ace;Electrico;Veneno;Punkrock;Menos;Experto;3;2;4;2;3;3;17;17;Normal
+850_1;#0850;Sizzlipede;;Sizzlipede;B sico;Begginer;Fuego;Bicho;Absorbefuego;Humoblanco;Cuerpollama;2;1;2;2;1;3;13;11;Suave
+851_1;#0851;Centiskorch;;Sizzlipede;Evoluci¢n;Ace;Fuego;Bicho;Absorbefuego;Humoblanco;Cuerpollama;4;2;3;3;2;4;20;18;Normal
+852_1;#0852;Clobbopus;;Clobbopus;B sico;Begginer;Lucha;NA;Flexibilidad;Flexibilidad;Experto;2;2;2;2;1;3;13;12;Lento
+853_1;#0853;Grapploct;;Clobbopus;Evoluci¢n;Amateur;Lucha;NA;Flexibilidad;Flexibilidad;Experto;4;3;2;3;1;3;15;16;Suave
+854_1;#0854;Sinistea;Forma Falsificada;Sinistea;B sico;Begginer;Fantasma;NA;Armadurafragil;Armadurafragil;Cuerpomaldito;1;1;2;2;2;2;10;10;Suave
+855_1;#0855;Polteageist;Forma Falsificada;Sinistea;Evoluci¢n;Ace;Fantasma;NA;Armadurafragil;Armadurafragil;Cuerpomaldito;2;2;5;4;2;3;17;18;Normal
+856_1;#0856;Hatenna;;Hatenna;B sico;Starter;Psiquico;NA;Almacura;Anticipacion;Espejomagico;1;1;2;2;1;2;8;9;Suave
+857_1;#0857;Hattrem;;Hatenna;Evoluci¢n;Begginer;Psiquico;NA;Almacura;Anticipacion;Espejomagico;1;2;3;2;1;3;13;12;Suave
+858_1;#0858;Hatterene;;Hatenna;Avanzada;Pro;Psiquico;Hada;Almacura;Anticipacion;Espejomagico;3;3;5;4;1;3;19;19;Lento
+859_1;#0859;Impidimp;;Impidimp;B sico;Starter;Siniestro;Hada;Bromista;Cacheo;Hurto;1;1;2;1;2;2;8;9;Suave
+860_1;#0860;Morgrem;;Impidimp;Evoluci¢n;Begginer;Siniestro;Hada;Bromista;Cacheo;Hurto;2;1;3;2;2;3;13;13;Normal
+861_1;#0861;Grimmsnarl;;Impidimp;Avanzada;Ace;Siniestro;Hada;Bromista;Cacheo;Hurto;4;2;3;3;2;3;17;17;Suave
+862_1;#0862;Obstagoon;;Zigzagoon (Galar);Evoluci¢n;Ace;Siniestro;Normal;Audaz;Agallas;Competitivo;3;4;2;3;3;3;17;18;Normal
+863_1;#0863;Perrserker;;Meowth (Galar);Evoluci¢n;Ace;Acero;NA;Armadurabatalla;Garradura;Almaacerada;4;4;2;2;2;3;17;17;Suave
+864_1;#0864;Cursola;;Corsola (Galar);Evoluci¢n;Pro;Fantasma;NA;Armadurafragil;Armadurafragil;Cuerpomortal;3;2;5;5;1;3;19;19;Lento
+865_1;#0865;Sirfetch'd;;Farfetch'd (Galar);Evoluci¢n;Ace;Lucha;NA;Impasible;Impasible;Intrepido;5;3;2;3;2;3;17;18;Normal
+866_1;#0866;Mr. Rime;;Mr. Mime (Galar);Evoluci¢n;Pro;Hielo;Psiquico;Tumbos;Antibarrera;Gelido;3;3;4;4;2;3;19;19;Normal
+867_1;#0867;Runerigus;;Yamask (Galar);Evoluci¢n;Ace;Tierra;Fantasma;Almaerrante;Almaerrante;Almaerrante;3;5;2;4;1;3;17;18;Lento
+868_1;#0868;Milcery;;Milcery;B sico;Starter;Hada;NA;Velodulce;Velodulce;Veloaroma;1;1;2;2;1;2;8;9;Lento
+869_1;#0869;Alcremie;Crema de Vainilla;Milcery;Evoluci¢n;Ace;Hada;NA;Velodulce;Velodulce;Veloaroma;2;3;4;4;2;3;17;18;Normal
+870_1;#0870;Falinks;;Falinks;Inicial;Ace;Lucha;NA;Armadurabatalla;Armadurabatalla;Competitivo;4;4;2;2;3;3;17;18;Normal
+871_1;#0871;Pincurchin;;Pincurchin;Inicial;Amateur;Electrico;NA;Pararrayos;Pararrayos;Electrogenesis;4;3;3;3;1;2;12;16;Lento
+872_1;#0872;Snom;;Snom;B sico;Starter;Hielo;Bicho;Polvoescudo;Polvoescudo;Escamadehielo;1;1;1;1;1;2;8;7;Lento
+873_1;#0873;Frosmoth;;Snom;Evoluci¢n;Ace;Hielo;Bicho;Polvoescudo;Polvoescudo;Escamadehielo;2;2;5;3;2;3;17;17;Normal
+874_1;#0874;Stonjourner;;Stonjourner;Inicial;Ace;Roca;NA;Fuenteenergia;Fuenteenergia;Fuenteenergia;5;5;1;1;2;4;20;18;Normal
+875_1;#0875;Eiscue;Cara de Hielo;Eiscue;Inicial;Ace;Hielo;NA;Caradehielo;Caradehielo;Caradehielo;3;4;2;3;2;3;17;17;Suave
+875_2;#0875;Eiscue;Cara Deshielo;Eiscue;Inicial;Ace;Hielo;NA;Caradehielo;Caradehielo;Caradehielo;3;2;2;2;5;3;17;17;Rapido
+876_1;#0876;Indeedee;Macho;Indeedee;Inicial;Ace;Psiquico;Normal;Fuerzamental;Sincronia;Psicogenesis;2;2;4;3;3;3;17;17;Normal
+876_2;#0876;Indeedee;Hembra;Indeedee;Inicial;Ace;Psiquico;Normal;Ritmopropio;Sincronia;Psicogenesis;2;2;3;4;3;3;17;17;Normal
+877_1;#0877;Morpeko;Forma Saciada;Morpeko;Inicial;Amateur;Electrico;Siniestro;Mutapetito;Mutapetito;Mutapetito;3;2;2;2;3;3;15;15;Normal
+877_2;#0877;Morpeko;Forma Voraz;Morpeko;Inicial;Amateur;Electrico;Siniestro;Mutapetito;Mutapetito;Mutapetito;3;2;2;2;3;3;15;15;Normal
+878_1;#0878;Cufant;;Cufant;B sico;Begginer;Acero;NA;Potenciabruta;Potenciabruta;Metalpesado;3;1;1;1;1;3;13;10;Suave
+879_1;#0879;Copperajah;;Cufant;Evoluci¢n;Ace;Acero;NA;Potenciabruta;Potenciabruta;Metalpesado;5;2;3;2;1;4;20;17;Lento
+880_1;#0880;Dracozolt;;Dracozolt;Legendario;Ace;Electrico;Dragon;Absorbeelectricidad;Entusiasmo;impetuarena;4;3;3;2;3;3;17;18;Normal
+881_1;#0881;Arctozolt;;Arctozolt;Legendario;Ace;Electrico;Hielo;Absorbeelectricidad;Electricidadestatica;Quitanieves;4;3;3;3;2;3;17;18;Suave
+882_1;#0882;Dracovish;;Dracovish;Legendario;Ace;Agua;Dragon;Absorbeagua;Mandibulafuerte;impetuarena;3;4;2;3;3;3;17;18;Normal
+883_1;#0883;Arctovish;;Arctovish;Legendario;Ace;Agua;Hielo;Absorbeagua;Gelido;Quitanieves;3;4;3;3;2;3;17;18;Suave
+884_1;#0884;Duraludon;;Duraludon;Inicial;Pro;Acero;Dragon;Metalliviano;Metalpesado;Acerrimo;3;4;4;2;3;3;19;19;Normal
+885_1;#0885;Dreepy;;Dreepy;B sico;Begginer;Dragon;Fantasma;Cuerpopuro;Allanamiento;Cuerpomaldito;2;1;1;1;3;2;10;10;Normal
+886_1;#0886;Drakloak;;Dreepy;Evoluci¢n;Amateur;Dragon;Fantasma;Cuerpopuro;Allanamiento;Cuerpomaldito;3;2;2;2;4;3;15;16;Rapido
+887_1;#0887;Dragapult;;Dreepy;Avanzada;Pro;Dragon;Fantasma;Cuerpopuro;Allanamiento;Cuerpomaldito;4;3;4;3;5;3;19;22;Fugaz
+888_1;#0888;Zacian;Guerrero Avezado;Zacian;Legendario;Legend;Hada;NA;Espadaindomita;Espadaindomita;Espadaindomita;4;4;3;4;5;3;25;23;Fugaz
+888_2;#0888;Zacian;Espada Suprema;Zacian;Legendario;Legend;Hada;Acero;Espadaindomita;Espadaindomita;Espadaindomita;6;4;3;4;5;3;25;25;Fugaz
+889_1;#0889;Zamazenta;Guerrero Avezado;Zamazenta;Legendario;Legend;Lucha;NA;Escudorecio;Escudorecio;Escudorecio;4;4;3;4;5;3;25;23;Fugaz
+889_2;#0889;Zamazenta;Escudo Supremo;Zamazenta;Legendario;Legend;Lucha;Acero;Escudorecio;Escudorecio;Escudorecio;4;5;3;5;5;3;25;25;Fugaz
+890_1;#0890;Eternatus;;Eternatus;Legendario;Legend;Veneno;Dragon;Presion;Presion;Presion;3;3;5;3;5;4;28;23;Fugaz
+890_2;#0890;Eternatus;Dinamax Infinito;Eternatus;Legendario;Legend;Veneno;Dragon;Presion;Presion;Presion;4;10;5;10;5;7;37;41;Fugaz
+891_1;#0891;Kubfu;;Kubfu;B sico;Amateur;Lucha;NA;Fuerzamental;Fuerzamental;Fuerzamental;3;2;2;2;2;3;15;14;Normal
+892_1;#0892;Urshifu;Estilo Brusco;Kubfu;Legendario;Legend;Lucha;Siniestro;Pu¤oinvisible;Pu¤oinvisible;Pu¤oinvisible;5;4;2;2;3;4;28;20;Normal
+892_2;#0892;Urshifu;Estilo Fluido;Kubfu;Legendario;Legend;Lucha;Agua;Pu¤oinvisible;Pu¤oinvisible;Pu¤oinvisible;5;4;2;2;3;4;28;20;Normal
+893_1;#0893;Zarude;;Zarude;Legendario;Legend;Siniestro;Planta;Defensahoja;Defensahoja;Defensahoja;4;4;2;3;4;4;28;21;Rapido
+893_2;#0893;Zarude;Papa;Zarude;Legendario;Legend;Siniestro;Planta;Defensahoja;Defensahoja;Defensahoja;4;4;2;3;4;4;28;21;Rapido
+894_1;#0894;Regieleki;;Regieleki;Legendario;Legend;Electrico;NA;Transistor;Transistor;Transistor;4;2;4;2;8;3;25;23;Fugaz
+895_1;#0895;Regidrago;;Regidrago;Legendario;Legend;Dragon;NA;Mandibuladragon;Mandibuladragon;Mandibuladragon;4;2;4;2;3;6;34;21;Normal
+896_1;#0896;Glastrier;;Glastrier;Legendario;Legend;Hielo;NA;Relinchoblanco;Relinchoblanco;Relinchoblanco;5;5;2;4;1;4;28;21;Lento
+897_1;#0897;Spectrier;;Spectrier;Legendario;Legend;Fantasma;NA;Relinchonegro;Relinchonegro;Relinchonegro;2;2;5;3;5;4;28;21;Rapido
+898_1;#0898;Calyrex;;Calyrex;Legendario;Pro;Psiquico;Planta;Nerviosismo;Nerviosismo;Nerviosismo;3;3;3;3;3;4;22;19;Normal
+898_2;#0898;Calyrex;Jinete Glacial;Calyrex;Legendario;Legend;Psiquico;Hielo;Unidadecuestre;Unidadecuestre;Unidadecuestre;6;6;3;5;2;4;28;26;Suave
+898_3;#0898;Calyrex;Jinete Espectral;Calyrex;Legendario;Legend;Psiquico;Fantasma;Unidadecuestre;Unidadecuestre;Unidadecuestre;3;3;6;4;6;4;28;26;Fugaz
+899_1;#0899;Wyrdeer;;Stantler;Evoluci¢n;Pro;Normal;Psiquico;Intimidacion;Cacheo;Herbivoro;4;2;4;3;2;4;22;19;Normal
+900_1;#0900;Kleavor;;Scyther;Evoluci¢n;Ace;Bicho;Roca;Enjambre;Potenciabruta;Cortante;5;3;1;3;3;3;17;18;Normal
+901_1;#0901;Ursaluna;;Teddiursa;Avanzada;Pro;Tierra;Normal;Agallas;Antibalas;Nerviosismo;5;4;1;3;2;4;22;19;Suave
+901_2;#0901;Ursaluna;Forma Luna Carmesi;Teddiursa;Avanzada;Pro;Tierra;Normal;Ojomental;Ojomental;Ojomental;2;4;5;2;2;4;22;19;Suave
+902_1;#0902;Basculegion;Macho;Basculin;Evoluci¢n;Pro;Agua;Fantasma;Nadorapido;Adaptable;Rompemoldes;4;2;3;3;3;4;22;19;Normal
+902_2;#0902;Basculegion;Hembra;Basculin;Evoluci¢n;Pro;Agua;Fantasma;Nadorapido;Adaptable;Rompemoldes;3;2;4;3;3;4;22;19;Normal
+903_1;#0903;Sneasler;;Sneasel (Hisui);Evoluci¢n;Ace;Lucha;Veneno;Presion;Liviano;Toquetoxico;5;2;1;3;4;3;17;18;Rapido
+904_1;#0904;Overqwil;;Qwilfish (Hisui);Evoluci¢n;Ace;Siniestro;Veneno;Nadorapido;Puntotoxico;Intimidacion;4;3;2;2;3;3;17;17;Normal
+905_1;#0905;Enamorus;Forma Avatar;Enamorus;Legendario;Legend;Hada;Volador;Granencanto;Granencanto;Respondon;4;2;5;3;4;3;25;21;Rapido
+905_2;#0905;Enamorus;Forma Totem;Enamorus;Legendario;Legend;Hada;Volador;Funda;Funda;Funda;4;4;5;4;1;3;25;21;Suave
+906_1;#0906;Sprigatito;;Sprigatito;B sico;Begginer;Planta;NA;Espesura;Espesura;Mutatipo;2;2;1;1;2;2;10;10;Normal
+907_1;#0907;Floragato;;Sprigatito;Evoluci¢n;Amateur;Planta;NA;Espesura;Espesura;Mutatipo;3;2;2;2;3;3;15;15;Normal
+908_1;#0908;Meowscarada;;Sprigatito;Avanzada;Ace;Planta;Siniestro;Espesura;Espesura;Mutatipo;4;2;3;2;4;3;17;18;Rapido
+909_1;#0909;Fuecoco;;Fuecoco;B sico;Begginer;Fuego;NA;Marllamas;Marllamas;Ignorante;1;2;2;1;1;3;13;10;Lento
+910_1;#0910;Crocalor;;Fuecoco;Evoluci¢n;Amateur;Fuego;NA;Marllamas;Marllamas;Ignorante;2;3;3;2;1;3;15;14;Suave
+911_1;#0911;Skeledirge;;Fuecoco;Avanzada;Pro;Fuego;Fantasma;Marllamas;Marllamas;Ignorante;3;4;4;3;2;4;22;20;Normal
+912_1;#0912;Quaxly;;Quaxly;B sico;Begginer;Agua;NA;Torrente;Torrente;Autoestima;2;1;2;1;2;3;13;11;Suave
+913_1;#0913;Quaxwell;;Quaxly;Evoluci¢n;Amateur;Agua;NA;Torrente;Torrente;Autoestima;3;2;2;2;2;3;15;14;Normal
+914_1;#0914;Quaquaval;;Quaxly;Avanzada;Pro;Agua;Lucha;Torrente;Torrente;Autoestima;4;3;3;3;3;3;19;19;Normal
+915_1;#0915;Lechonk;;Lechonk;B sico;Starter;Normal;NA;Veloaroma;Gula;Sebo;1;1;1;1;1;3;11;8;Lento
+916_2;#0916;Oinkologne;Hembra;Lechonk;Evoluci¢n;Amateur;Normal;NA;Veloaroma;Gula;Sebo;3;2;2;3;2;4;18;16;Normal
+916_1;#0916;Oinkologne;Macho;Lechonk;Evoluci¢n;Ace;Normal;NA;Olorpersistente;Gula;Sebo;4;3;2;3;2;4;20;18;Normal
+917_1;#0917;Tarountula;;Tarountula;B sico;Starter;Bicho;NA;Insomnio;Insomnio;Vigilante;1;1;1;1;1;2;8;7;Lento
+918_1;#0918;Spidops;;Tarountula;Evoluci¢n;Amateur;Bicho;NA;Insomnio;Insomnio;Vigilante;3;3;2;3;1;3;15;15;Lento
+919_1;#0919;Nymble;;Nymble;B sico;Starter;Bicho;NA;Enjambre;Enjambre;Cromolente;1;1;1;1;1;2;8;7;Suave
+920_1;#0920;Lokix;;Nymble;Evoluci¢n;Ace;Bicho;Siniestro;Enjambre;Enjambre;Cromolente;4;3;2;2;3;3;17;17;Normal
+921_1;#0921;Pawmi;;Pawmi;B sico;Starter;Electrico;NA;Electricidadestatica;Curanatural;Pu¤oferreo;2;1;1;1;2;2;8;9;Suave
+922_1;#0922;Pawmo;;Pawmi;Evoluci¢n;Begginer;Electrico;Lucha;Absorbeelectricidad;Curanatural;Pu¤oferreo;3;1;2;1;3;3;13;13;Normal
+923_1;#0923;Pawmot;;Pawmi;Avanzada;Ace;Electrico;Lucha;Absorbeelectricidad;Curanatural;Pu¤oferreo;4;2;2;2;4;3;17;17;Rapido
+924_1;#0924;Tandemaus;;Tandemaus;B sico;Begginer;Normal;NA;Fuga;Recogida;Ritmopropio;2;1;1;1;3;3;13;11;Normal
+925_1;#0925;Maushold;Familia de Tres;Tandemaus;Evoluci¢n;Ace;Normal;NA;Compiescolta;Carrillo;Experto;3;2;2;3;4;3;17;17;Rapido
+925_2;#0925;Maushold;Familia de Cuatro;Tandemaus;Evoluci¢n;Ace;Normal;NA;Compiescolta;Carrillo;Experto;3;2;2;3;4;3;17;17;Rapido
+926_1;#0926;Fidough;;Fidough;B sico;Begginer;Hada;NA;Ritmopropio;Ritmopropio;Zoquete;2;2;1;2;2;2;10;11;Normal
+927_1;#0927;Dachsbun;;Fidough;Evoluci¢n;Ace;Hada;NA;Cuerpohorneado;Cuerpohorneado;Veloaroma;3;4;2;3;3;3;17;18;Normal
+928_1;#0928;Smoliv;;Smoliv;B sico;Starter;Planta;Normal;Madrugar;Madrugar;Cosecha;1;1;2;2;1;2;8;9;Lento
+929_1;#0929;Dolliv;;Smoliv;Evoluci¢n;Amateur;Planta;Normal;Madrugar;Madrugar;Cosecha;2;2;3;3;1;3;15;14;Lento
+930_1;#0930;Arboliva;;Smoliv;Avanzada;Ace;Planta;Normal;Disemillar;Disemillar;Cosecha;2;3;5;4;1;3;17;18;Suave
+931_1;#0931;Squawkabilly;Plumaje Verde;Squawkabilly;Inicial;Amateur;Normal;Volador;Intimidacion;Entusiasmo;Agallas;3;2;1;2;3;3;15;14;Normal
+931_2;#0931;Squawkabilly;Plumaje Azul;Squawkabilly;Inicial;Amateur;Normal;Volador;Intimidacion;Entusiasmo;Agallas;3;2;1;2;3;3;15;14;Normal
+931_3;#0931;Squawkabilly;Plumaje Amarillo;Squawkabilly;Inicial;Amateur;Normal;Volador;Intimidacion;Entusiasmo;Potenciabruta;3;2;1;2;3;3;15;14;Normal
+931_4;#0931;Squawkabilly;Plumaje Blanco;Squawkabilly;Inicial;Amateur;Normal;Volador;Intimidacion;Entusiasmo;Potenciabruta;3;2;1;2;3;3;15;14;Normal
+932_1;#0932;Nacli;;Nacli;B sico;Begginer;Roca;NA;Salpurificadora;Robustez;Cuerpopuro;2;3;1;1;1;3;13;11;Lento
+933_1;#0933;Naclstack;;Nacli;Evoluci¢n;Begginer;Roca;NA;Salpurificadora;Robustez;Cuerpopuro;2;4;1;2;1;3;13;13;Lento
+934_1;#0934;Garganacl;;Nacli;Avanzada;Ace;Roca;NA;Salpurificadora;Robustez;Cuerpopuro;4;5;1;3;1;4;20;18;Lento
+935_1;#0935;Charcadet;;Charcadet;B sico;Starter;Fuego;NA;Absorbefuego;Absorbefuego;Cuerpollama;2;1;2;1;1;2;8;9;Lento
+936_1;#0936;Armarouge;;Charcadet;Evoluci¢n;Pro;Fuego;Psiquico;Absorbefuego;Absorbefuego;Armadurafragil;2;4;5;3;3;3;19;20;Normal
+937_1;#0937;Ceruledge;;Charcadet;Evoluci¢n;Pro;Fuego;Fantasma;Absorbefuego;Absorbefuego;Armadurafragil;5;3;2;4;3;3;19;20;Normal
+938_1;#0938;Tadbulb;;Tadbulb;B sico;Starter;Electrico;NA;Ritmopropio;Electricidadestatica;Humedad;1;1;2;1;1;3;11;9;Suave
+939_1;#0939;Bellibolt;;Tadbulb;Evoluci¢n;Ace;Electrico;NA;Dinamo;Electricidadestatica;Humedad;2;3;4;3;1;4;20;17;Suave
+940_1;#0940;Wattrel;;Wattrel;B sico;Starter;Electrico;Volador;Energiaeolica;Absorbeelectricidad;Tenacidad;1;1;2;1;2;2;8;9;Normal
+941_1;#0941;Kilowattrel;;Wattrel;Evoluci¢n;Ace;Electrico;Volador;Energiaeolica;Absorbeelectricidad;Tenacidad;2;2;4;2;5;3;17;18;Rapido
+942_1;#0942;Maschiff;;Maschiff;B sico;Begginer;Siniestro;NA;Intimidacion;Fuga;Vigilante;3;2;1;2;2;3;13;13;Suave
+943_1;#0943;Mabosstiff;;Maschiff;Evoluci¢n;Ace;Siniestro;NA;Intimidacion;Perroguardian;Vigilante;4;3;2;2;3;3;17;17;Normal
+944_1;#0944;Shroodle;;Shroodle;B sico;Begginer;Veneno;Normal;Liviano;Hurto;Bromista;2;1;1;1;3;2;10;10;Normal
+945_1;#0945;Grafaiai;;Shroodle;Evoluci¢n;Ace;Veneno;Normal;Liviano;Toquetoxico;Bromista;3;2;3;2;4;3;17;17;Rapido
+946_1;#0946;Bramblin;;Bramblin;B sico;Starter;Planta;Fantasma;Surcavientos;Surcavientos;Allanamiento;2;1;1;1;2;2;8;9;Suave
+947_1;#0947;Brambleghast;;Bramblin;Evoluci¢n;Ace;Planta;Fantasma;Surcavientos;Surcavientos;Allanamiento;4;2;3;2;3;3;17;17;Normal
+948_1;#0948;Toedscool;;Toedscool;B sico;Begginer;Tierra;Planta;Poderfungico;Poderfungico;Poderfungico;1;1;2;4;2;2;10;12;Normal
+949_1;#0949;Toedscruel;;Toedscool;Evoluci¢n;Ace;Tierra;Planta;Poderfungico;Poderfungico;Poderfungico;2;2;3;4;4;3;17;18;Rapido
+950_1;#0950;Klawf;;Klawf;Inicial;Ace;Roca;NA;Corazaira;Caparazon;Regeneracion;4;4;1;2;3;3;17;17;Normal
+951_1;#0951;Capsakid;;Capsakid;B sico;Begginer;Planta;NA;Clorofila;Insomnio;Zoquete;2;1;2;1;2;3;13;11;Suave
+952_1;#0952;Scovillain;;Capsakid;Evoluci¢n;Ace;Planta;Fuego;Clorofila;Insomnio;Veleta;4;2;4;2;3;3;17;18;Normal
+953_1;#0953;Rellor;;Rellor;B sico;Begginer;Bicho;NA;Ojocompuesto;Ojocompuesto;Mudar;2;2;1;2;1;2;10;10;Lento
+954_1;#0954;Rabsca;;Rellor;Evoluci¢n;Ace;Bicho;Psiquico;Sincronia;Sincronia;Telepatia;2;3;4;4;1;3;17;17;Suave
+955_1;#0955;Flittle;;Flittle;B sico;Begginer;Psiquico;NA;Anticipacion;Cacheo;Impulso;1;1;2;1;3;2;10;10;Normal
+956_1;#0956;Espathra;;Flittle;Evoluci¢n;Ace;Psiquico;NA;Oportunista;Cacheo;Impulso;2;2;4;2;4;3;17;17;Rapido
+957_1;#0957;Tinkatink;;Tinkatink;B sico;Begginer;Hada;Acero;Rompemoldes;Ritmopropio;Hurto;1;1;1;2;2;3;13;10;Suave
+958_1;#0958;Tinkatuff;;Tinkatink;Evoluci¢n;Amateur;Hada;Acero;Rompemoldes;Ritmopropio;Hurto;2;2;1;3;3;3;15;14;Normal
+959_1;#0959;Tinkaton;;Tinkatink;Avanzada;Ace;Hada;Acero;Rompemoldes;Ritmopropio;Hurto;3;3;2;4;3;3;17;18;Normal
+960_1;#0960;Wiglett;;Wiglett;B sico;Begginer;Agua;NA;Baba;Cobardia;Veloarena;2;1;1;1;3;2;10;10;Normal
+961_1;#0961;Wugtrio;;Wiglett;Evoluci¢n;Amateur;Agua;NA;Baba;Cobardia;Veloarena;4;2;2;2;4;2;12;16;Rapido
+962_1;#0962;Bombirdier;;Bombirdier;Inicial;Ace;Volador;Siniestro;Sacapecho;Vistalince;Transportarrocas;4;3;2;3;3;3;17;18;Normal
+963_1;#0963;Finizen;;Finizen;B sico;Begginer;Agua;NA;Veloagua;Veloagua;Veloagua;1;1;1;1;3;3;13;10;Normal
+964_1;#0964;Palafin;Forma Ingenua;Finizen;Evoluci¢n;Amateur;Agua;NA;Cambioheroico;Cambioheroico;Cambioheroico;2;2;2;2;4;4;18;16;Rapido
+964_2;#0964;Palafin;Forma Heroica;Finizen;Evoluci¢n;Legend;Agua;NA;Cambioheroico;Cambioheroico;Cambioheroico;6;3;4;3;4;4;28;24;Fugaz
+965_1;#0965;Varoom;;Varoom;B sico;Starter;Acero;Veneno;Funda;Funda;Iniciolento;2;2;1;1;1;2;8;9;Suave
+966_1;#0966;Revavroom;;Varoom;Evoluci¢n;Ace;Acero;Veneno;Funda;Funda;Filtro;4;3;2;2;3;3;17;17;Normal
+967_1;#0967;Cyclizar;;Cyclizar;Inicial;Ace;Dragon;Normal;Mudar;Mudar;Regeneracion;3;2;3;2;4;3;17;17;Rapido
+968_1;#0968;Orthworm;;Orthworm;Inicial;Ace;Acero;NA;Geofagia;Geofagia;Veloarena;3;5;2;2;2;3;17;17;Normal
+969_1;#0969;Glimmet;;Glimmet;B sico;Begginer;Roca;Veneno;Capatoxica;Capatoxica;Corrosion;1;1;4;2;2;2;10;12;Suave
+970_1;#0970;Glimmora;;Glimmet;Evoluci¢n;Pro;Roca;Veneno;Capatoxica;Capatoxica;Corrosion;2;3;5;3;3;3;19;19;Normal
+971_1;#0971;Greavard;;Greavard;B sico;Begginer;Fantasma;NA;Recogida;Recogida;Peluche;2;2;1;2;1;3;13;11;Lento
+972_1;#0972;Houndstone;;Greavard;Evoluci¢n;Ace;Fantasma;NA;impetuarena;impetuarena;Peluche;4;4;2;3;2;3;17;18;Normal
+973_1;#0973;Flamigo;;Flamigo;Inicial;Ace;Volador;Lucha;Intrepido;Tumbos;Unisono;4;2;3;2;3;3;17;17;Normal
+974_1;#0974;Cetoddle;;Cetoddle;B sico;Begginer;Hielo;NA;Sebo;Mantoniveo;Potenciabruta;2;1;1;1;1;4;16;10;Suave
+975_1;#0975;Cetitan;;Cetoddle;Evoluci¢n;Amateur;Hielo;NA;Sebo;Mantoniveo;Potenciabruta;4;2;1;2;2;5;21;16;Normal
+976_1;#0976;Veluza;;Veluza;Inicial;Amateur;Agua;Psiquico;Rompemoldes;Rompemoldes;Cortante;4;2;3;2;2;3;15;16;Normal
+977_1;#0977;Dondozo;;Dondozo;Inicial;Ace;Agua;NA;Ignorante;Despiste;Veloagua;4;4;2;2;1;5;23;18;Lento
+978_1;#0978;Tatsugiri;Forma Curvada;Tatsugiri;Inicial;Ace;Dragon;Agua;Comandar;Comandar;Colector;2;2;4;3;3;3;17;17;Normal
+978_2;#0978;Tatsugiri;Forma Languida;Tatsugiri;Inicial;Ace;Dragon;Agua;Comandar;Comandar;Colector;2;2;4;3;3;3;17;17;Normal
+978_3;#0978;Tatsugiri;Forma Recta;Tatsugiri;Inicial;Ace;Dragon;Agua;Comandar;Comandar;Colector;2;2;4;3;3;3;17;17;Normal
+979_1;#0979;Annihilape;;Mankey;Avanzada;Pro;Lucha;Fantasma;Espirituvital;Fuerzamental;Competitivo;4;3;2;3;3;4;22;19;Normal
+980_1;#0980;Clodsire;;Wooper (Paldea);Evoluci¢n;Amateur;Veneno;Tierra;Puntotoxico;Absorbeagua;Ignorante;3;2;1;4;1;4;18;15;Lento
+981_1;#0981;Farigiraf;;Girafarig;Evoluci¢n;Ace;Normal;Psiquico;Rumia;Colaarmadura;Herbivoro;3;2;4;2;2;4;20;17;Suave
+982_1;#0982;Dudunsparce;Forma Binodular;Dunsparce;Evoluci¢n;Pro;Normal;NA;Dicha;Fuga;Cobardia;4;3;3;3;2;4;22;19;Suave
+982_2;#0982;Dudunsparce;Forma Trinodular;Dunsparce;Evoluci¢n;Pro;Normal;NA;Dicha;Fuga;Cobardia;4;3;3;3;2;4;22;19;Suave
+983_1;#0983;Kingambit;;Bisharp;Avanzada;Pro;Siniestro;Acero;Competitivo;Generalsupremo;Presion;5;4;2;3;2;4;22;20;Suave
+984_1;#0984;Colmilargo;;Colmilargo;Legendario;Legend;Tierra;Lucha;Paleosintesis;Paleosintesis;Paleosintesis;5;5;2;2;3;4;28;21;Normal
+985_1;#0985;Colagrito;;Colagrito;Legendario;Legend;Hada;Psiquico;Paleosintesis;Paleosintesis;Paleosintesis;2;3;2;4;4;4;28;19;Rapido
+986_1;#0986;Furioseta;;Furioseta;Legendario;Legend;Planta;Siniestro;Paleosintesis;Paleosintesis;Paleosintesis;5;3;3;3;2;4;28;20;Suave
+987_1;#0987;Melenaleteo;;Melenaleteo;Legendario;Legend;Fantasma;Hada;Paleosintesis;Paleosintesis;Paleosintesis;2;2;5;5;5;3;25;22;Rapido
+988_1;#0988;Reptalada;;Reptalada;Legendario;Legend;Bicho;Lucha;Paleosintesis;Paleosintesis;Paleosintesis;5;3;3;4;3;3;25;21;Normal
+989_1;#0989;Pelarena;;Pelarena;Legendario;Legend;Electrico;Tierra;Paleosintesis;Paleosintesis;Paleosintesis;3;3;4;3;4;3;25;20;Rapido
+990_1;#0990;Ferrodada;;Ferrodada;Legendario;Legend;Tierra;Acero;Cargacuark;Cargacuark;Cargacuark;4;4;2;2;4;3;25;19;Rapido
+991_1;#0991;Ferrosaco;;Ferrosaco;Legendario;Legend;Hielo;Agua;Cargacuark;Cargacuark;Cargacuark;3;4;4;2;5;3;25;21;Rapido
+992_1;#0992;Ferropalmas;;Ferropalmas;Legendario;Legend;Lucha;Electrico;Cargacuark;Cargacuark;Cargacuark;5;4;2;2;2;5;31;20;Suave
+993_1;#0993;Ferrocuello;;Ferrocuello;Legendario;Legend;Siniestro;Volador;Cargacuark;Cargacuark;Cargacuark;3;3;4;3;4;3;25;20;Rapido
+994_1;#0994;Ferropolilla;;Ferropolilla;Legendario;Legend;Fuego;Veneno;Cargacuark;Cargacuark;Cargacuark;2;2;5;4;4;3;25;20;Rapido
+995_1;#0995;Ferropuas;;Ferropuas;Legendario;Legend;Roca;Electrico;Cargacuark;Cargacuark;Cargacuark;5;4;2;3;2;4;28;20;Normal
+996_1;#0996;Frigibax;;Frigibax;B sico;Begginer;Dragon;Hielo;Termoconversion;Termoconversion;Gelido;3;1;1;1;2;3;13;11;Suave
+997_1;#0997;Arctibax;;Frigibax;Evoluci¢n;Begginer;Dragon;Hielo;Termoconversion;Termoconversion;Gelido;3;2;1;2;2;3;13;13;Suave
+998_1;#0998;Baxcalibur;;Frigibax;Legendario;Legend;Dragon;Hielo;Termoconversion;Termoconversion;Gelido;5;3;3;3;3;4;28;21;Normal
+999_1;#0999;Gimmighoul;Forma Cofre;Gimmighoul;B sico;Begginer;Fantasma;NA;Cobardia;Cobardia;Cobardia;1;2;3;2;1;2;10;11;Lento
+999_2;#0999;Gimmighoul;Forma Andante;Gimmighoul;B sico;Begginer;Fantasma;NA;Fuga;Fuga;Fuga;1;1;3;1;3;2;10;11;Normal
+1000_1;#1000;Gholdengo;;Gimmighoul;Evoluci¢n;Pro;Acero;Fantasma;Cuerpoaureo;Cuerpoaureo;Cuerpoaureo;2;3;5;3;3;3;19;19;Normal
+1001_1;#1001;Wo-Chien;;Wo-Chien;Legendario;Legend;Siniestro;Planta;Tablilladebacle;Tablilladebacle;Tablilladebacle;3;4;4;5;2;3;25;21;Normal
+1002_1;#1002;Chien-Pao;;Chien-Pao;Legendario;Legend;Siniestro;Hielo;Espadadebacle;Espadadebacle;Espadadebacle;5;3;3;2;5;3;25;21;Rapido
+1003_1;#1003;Ting-Lu;;Ting-Lu;Legendario;Legend;Siniestro;Tierra;Calderodebacle;Calderodebacle;Calderodebacle;4;5;2;3;1;5;31;20;Suave
+1004_1;#1004;Chi-Yu;;Chi-Yu;Legendario;Legend;Siniestro;Fuego;Abaloriodebacle;Abaloriodebacle;Abaloriodebacle;3;3;5;4;4;3;25;22;Rapido
+1005_1;#1005;Bramaluna;;Bramaluna;Legendario;Legend;Dragon;Siniestro;Paleosintesis;Paleosintesis;Paleosintesis;5;2;2;4;4;4;28;21;Rapido
+1006_1;#1006;Ferropaladin;;Ferropaladin;Legendario;Legend;Hada;Lucha;Cargacuark;Cargacuark;Cargacuark;5;3;4;2;4;3;25;21;Rapido
+1007_1;#1007;Koraidon;;Koraidon;Legendario;Legend;Lucha;Dragon;Latidooricalco;Latidooricalco;Latidooricalco;5;4;3;4;5;4;28;25;Fugaz
+1008_1;#1008;Miraidon;;Miraidon;Legendario;Legend;Electrico;Dragon;Motorhadronico;Motorhadronico;Motorhadronico;3;4;5;4;5;4;28;25;Fugaz
+1009_1;#1009;Ondulagua;;Ondulagua;Legendario;Legend;Agua;Dragon;Paleosintesis;Paleosintesis;Paleosintesis;3;3;5;3;4;3;25;21;Rapido
+1010_1;#1010;Ferroverdor;;Ferroverdor;Legendario;Legend;Planta;Psiquico;Cargacuark;Cargacuark;Cargacuark;5;3;2;4;4;3;25;21;Rapido
+1011_1;#1011;Dipplin;;Applin;Evoluci¢n;Ace;Planta;Dragon;Nectardulce;Gula;Viscosidad;3;4;3;3;1;3;17;17;Suave
+1012_1;#1012;Poltchageist;Forma Fraudulenta;Poltchageist;B sico;Begginer;Planta;Fantasma;Hospitalidad;Hospitalidad;Ignifugo;1;1;2;2;2;2;10;10;Suave
+1012_2;#1012;Poltchageist;Forma Opulenta;Poltchageist;B sico;Begginer;Planta;Fantasma;Hospitalidad;Hospitalidad;Ignifugo;1;1;2;2;2;2;10;10;Suave
+1013_1;#1013;Sinistcha;Forma Mediocre;Poltchageist;Evoluci¢n;Ace;Planta;Fantasma;Hospitalidad;Hospitalidad;Ignifugo;2;4;4;3;2;3;17;18;Normal
+1013_2;#1013;Sinistcha;Forma Exquisita;Poltchageist;Evoluci¢n;Ace;Planta;Fantasma;Hospitalidad;Hospitalidad;Ignifugo;2;4;4;3;2;3;17;18;Normal
+1014_1;#1014;Okidogi;;Okidogi;Legendario;Legend;Veneno;Lucha;Cadenatoxica;Cadenatoxica;Perroguardian;5;4;2;3;3;3;25;20;Normal
+1015_1;#1015;Munkidori;;Munkidori;Legendario;Legend;Veneno;Psiquico;Cadenatoxica;Cadenatoxica;Cacheo;3;2;5;3;4;3;25;20;Rapido
+1016_1;#1016;Fezandipiti;;Fezandipiti;Legendario;Legend;Veneno;Hada;Cadenatoxica;Cadenatoxica;Experto;3;3;2;5;3;3;25;19;Normal
+1017_1;#1017;Ogerpon;Forma Mascara Turquesa;Ogerpon;Legendario;Legend;Planta;NA;Competitivo;Competitivo;Competitivo;4;3;2;3;4;3;25;19;Rapido
+1017_2;#1017;Ogerpon;Forma Mascara Fuente;Ogerpon;Legendario;Legend;Planta;Agua;Absorbeagua;Absorbeagua;Absorbeagua;4;3;2;3;4;3;25;19;Rapido
+1017_3;#1017;Ogerpon;Forma Mascara Horno;Ogerpon;Legendario;Legend;Planta;Fuego;Rompemoldes;Rompemoldes;Rompemoldes;4;3;2;3;4;3;25;19;Rapido
+1017_4;#1017;Ogerpon;Forma Mascara Cimiento;Ogerpon;Legendario;Legend;Planta;Roca;Robustez;Robustez;Robustez;4;3;2;3;4;3;25;19;Rapido
+1018_1;#1018;Archaludon;;Duraludon;Evoluci¢n;Pro;Acero;Dragon;Firmeza;Robustez;Acerrimo;4;5;5;2;3;3;19;22;Normal
+1019_1;#1019;Hydrapple;;Applin;Avanzada;Pro;Planta;Dragon;Nectardulce;Regeneracion;Viscosidad;3;4;4;3;1;4;22;19;Suave
+1020_1;#1020;Flamariete;;Flamariete;Legendario;Legend;Fuego;Dragon;Paleosintesis;Paleosintesis;Paleosintesis;4;4;2;3;3;4;28;20;Normal
+1021_1;#1021;Electrofuria;;Electrofuria;Legendario;Legend;Electrico;Dragon;Paleosintesis;Paleosintesis;Paleosintesis;2;3;5;3;3;4;28;20;Normal
+1022_1;#1022;Ferromole;;Ferromole;Legendario;Legend;Roca;Psiquico;Cargacuark;Cargacuark;Cargacuark;4;3;2;4;4;3;25;20;Rapido
+1023_1;#1023;Ferrotesta;;Ferrotesta;Legendario;Legend;Acero;Psiquico;Cargacuark;Cargacuark;Cargacuark;2;4;4;4;3;3;25;20;Normal
+1024_1;#1024;Terapagos;;Terapagos;Legendario;Amateur;Normal;NA;Teracambio;Teracambio;Teracambio;2;3;2;3;2;3;15;15;Suave
+1024_2;#1024;Terapagos;Forma Teracristal;Terapagos;Legendario;Legend;Normal;NA;Teracaparazon;Teracaparazon;Teracaparazon;3;4;4;4;3;3;25;21;Normal
+1024_3;#1024;Terapagos;Forma Astral;Terapagos;Legendario;Legend;Normal;NA;Teraformacion;Teraformacion;Teraformacion;4;4;5;4;3;5;31;25;Normal
+1025_1;#1025;Pecharunt;;Pecharunt;Legendario;Legend;Veneno;Fantasma;Titeretoxico;Titeretoxico;Titeretoxico;3;6;3;3;3;3;25;21;Normal
