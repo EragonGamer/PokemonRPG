@@ -1,4 +1,4 @@
-ID;Ndex;Pok‚mon;Alternativo;Cadena;Etapa;Nivel;Tipo1;Tipo2;Habilidad_1;Habilidad_2;Habilidad_3;FUE;VIT;ENE;SAB;DES;CAR;PS_min;Total_min;Velocidad
+ID;Ndex;Pokemon;Alternativo;Cadena;Etapa;Nivel;Tipo1;Tipo2;Habilidad_1;Habilidad_2;Habilidad_3;FUE;VIT;ENE;SAB;DES;CAR;PS_min;Total_min;Velocidad
 1_1;#0001;Bulbasaur;;Bulbasaur;B sico;Starter;Planta;Veneno;Espesura;Espesura;Clorofila;1;1;2;2;1;2;8;9;Suave
 2_1;#0002;Ivysaur;;Bulbasaur;Evoluci¢n;Amateur;Planta;Veneno;Espesura;Espesura;Clorofila;2;2;3;3;2;3;15;15;Suave
 3_1;#0003;Venusaur;;Bulbasaur;Avanzada;Pro;Planta;Veneno;Espesura;Espesura;Clorofila;3;3;4;4;3;3;19;20;Normal
