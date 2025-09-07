@@ -1,0 +1,597 @@
+ID;Movimiento;Tipo;DMG;PP;Tiempo;Atributo;Habilidad;Acc;Efecto;Efecto RPG;Base;Blanco;Prioridad;Distancia;Categoria;Nivel;Moves
+000;Burbuja;Agua;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;10% de reducir un nivel la Velocidad al rival.;"CD 18 de Reducir -1 DES
+/r [[1d20]]";Especial;Oponentes;0;Cono (15 ft);-;00 Starter [S];Bubble
+001;Pistola Agua;Agua;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;Ninguno.;Sin Efecto;Especial;Elegido;0;Larga (40 ft);-;00 Starter [S];Water Gun
+002;Ciclon;Dragon;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;20% de hacer retroceder al rival. Golpea a Pokemon en mitad de un Vuelo, Bote o Caida Libre con el doble de poder base.;"CD 16 de causar Retroceso
+/r [[1d20]]";Especial;Oponentes;0;Area (10ft);Retroceso;00 Starter [S];Twister
+003;Furia Dragon;Dragon;2;1 Ronda;2 Acciones;Energia;Canalizar;1;Causa un da§o de 40 PS al Pokemon rival.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Especial;Elegido;0;Cono (15 ft);-;00 Starter [S];Dragon Rage
+004;Impactrueno;Electrico;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;10% de paralizar al rival.;"CD 18 de Paralizar al rival.
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Paralisis;00 Starter [S];Thunder Shock
+005;Impresionar;Fantasma;DB + 1d4;1 Ronda;2 Acciones;Destreza;Sigilo;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;00 Starter [S];Astonish
+006;LengÅetazo;Fantasma;DB + 1d4;1 PP;2 Acciones;Destreza;Combatir;1;30% de paralizar al rival.;"CD 14 de Paralizar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Paralisis;00 Starter [S];Lick
+007;Ascuas;Fuego;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;10% de quemar al rival.;"CD 18 de Quemar al rival.
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Quemadura;00 Starter [S];Ember
+008;Escudo Tatami;Lucha;-;4 PP;Reaccion;Destreza;Atletismo;0;Evita todo da§o directo y efectos de movimientos del rival para el y sus aliados. No evita movimientos de estado. Solo puede ser utilizado el primer turno del usuario tras ser intercambiado.;Evita todo Dmg directo y efectos de movimientos del rival tanto al usuario como a sus aliados.;Otros;Equipo;4;Area (10ft);Escudo;03 Elite [E];Mat Block
+009;Golpe Roca;Lucha;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Combatir;1;50% de reducir un nivel la Defensa al rival.;"CD 10 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Rock Smash
+010;Onda Vacio;Lucha;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Lanzar;1;Golpea primero.;Sin Efecto;Especial;Elegido;2;Lanzar (25 ft);-;00 Starter [S];Vacuum Wave
+011;AraÒazo;Normal;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;Sin Efecto;Fisico;Elegido;0;Contacto (5ft);§;00 Starter [S];Scratch
+012;Atadura;Normal;DB;1 PP;2 Acciones;Destreza;Atletismo;-1;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.;Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Fisico;Elegido;0;Contacto (5ft);Prision;00 Starter [S];Bind
+013;Bomba Sonica;Normal;2;1 PP;2 Acciones;Carisma;Presentar;-1;Causa un da§o de 20 PS al Pokemon rival.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Especial;Elegido;0;Lanzar (25 ft);-;00 Starter [S];Sonic Boom
+014;Constriccion;Normal;DB;1 PP;2 Acciones;Destreza;Atletismo;-1;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.;Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Fisico;Elegido;0;Contacto (5ft);Prision;00 Starter [S];Wrap
+015;Destello;Normal;-;1 PP;2 Acciones;Energia;Canalizar;-2;Baja un nivel la Precision al rival.;Reduce -1 ACC;Otros;Elegido;0;Area (10ft);-;00 Starter [S];Flash
+016;Destructor;Normal;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;Sin Efecto;Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Pound
+017;Doble Equipo;Normal;-;1 Ronda;1 Accion;Destreza;Acrobacias;0;Aumenta un nivel la Evasion al usuario.;Gana 1 Reaccion adicional para Esquivar;Otros;Usuario;0;Propio;-;02 Amateur [A];Double Team
+018;Foco Energia;Normal;-;1 PP;2 Acciones;Sabiduria;Canalizar;0;Aumenta la probabilidad de que el Pokemon haga Golpe Critico.;Reduce el valor de critico en 1 para todos los movimientos 5 Rondas;Otros;Usuario;0;Propio;-;00 Starter [S];Focus Energy
+019;Giro Rapido;Normal;DB + 1d4;1 PP;2 Acciones;Destreza;Acrobacias;1;Aumenta un nivel la Velocidad al usuario. Elimina los efectos de Puas, Puas Toxicas, Trampa Rocas, Drenadoras y pseudo-trampas.;Aumenta +1 DES.  Elimina las trampas y restricciones en el campo.;Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Rapid Spin
+020;Placaje;Normal;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;Sin Efecto;Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Tackle
+021;Presente;Normal;Xd4;1 PP;2 Acciones;Carisma;Empatia;-1;25% de recuperar 80 PS al usuario, 25% de golpear con 40 de poder, 25% de golpear con 80 de poder, 25% de golpear con 120 de poder.;"El Dmg realizado por este movimiento varia segun el valor del dado, ignorando Defensas:
+/r 1d6
+1: El Blanco se cura 1PS
+2-3: Dmg = 1
+4-5: Dmg = 2
+6: Dmg = 4";Fisico;Elegido;0;Lanzar (25 ft);-;00 Starter [S];Present
+022;Restriccion;Normal;DB;1 PP;2 Acciones;Destreza;Atletismo;1;10% de reducir un nivel la Velocidad al rival.;"CD 18 de Reducir -1 DES
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Constrict
+023;Sorpresa;Normal;DB + 1d4 + 1;1 Ronda;Reaccion;Destreza;Acrobacias;1;100% de hacer retroceder al rival. Golpea primero. Solo puede ser utilizado con exito el primer turno de ataque del usuario tras ser intercambiado.;Causa Retroceso al Rival;Fisico;Elegido;4;Contacto (5ft);Retroceso;00 Starter [S];Fake Out
+024;Follaje;Planta;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;Ninguno.;Ninguno.;Fisico;Elegido;0;Cono (15 ft);-;00 Starter [S];Leafage
+025;Punzada Rama;Planta;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;Sin Efecto;Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Branch Poke
+026;Forcejeo;Sin Tipo;1;0 PP;1 Accion;Destreza;Combatir-Canalizar;0;Puede ser usado ilimitadas veces por cualquier Pokemon que haya agotado los PP de todos sus movimientos o no los pueda usar. Causa da§o de retroceso del 25% del PS max.;El movimiento realiza 1 de Dmg.;Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Struggle
+027;Bofeton Lodo;Tierra;DB + 1d4;1 Ronda;2 Acciones;Destreza;Lanzar;1;100% de reducir un nivel la Precision al rival.;Reduce -1 ACC;Especial;Elegido;0;Corta (10ft);-;00 Starter [S];Mud-Slap
+028;Acido;Veneno;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Oponentes;0;Cono (15 ft);-;00 Starter [S];Acid
+029;Picotazo Veneno;Veneno;DB;1 PP;2 Acciones;Destreza;Lanzar;1;30% de envenenar al rival.;"CD 14 de Envenenar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);Veneno;00 Starter [S];Poison Sting
+030;Garra Metal;Acero;DB + 1d6;1 PP;2 Acciones;Destreza;Combatir;0;10% de aumentar un nivel el Ataque al usuario.;"CD 18 de Aumentar +1 FUE
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Metal Claw
+031;PuÒo Bala;Acero;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Acrobacias;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Contacto (5ft);"§; PuÒo";01 Beginner [B];Bullet Punch
+032;Acua Jet;Agua;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Acrobacias;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Contacto (5ft);-;01 Beginner [B];Aqua Jet
+213;Ofrenda;Normal;-;1 Ronda;2 Acciones;Carisma;Etiqueta;0;El usuario traspasa su objeto al Pokemon objetivo, siempre que este no tenga ninguno.; El usuario entega su objeto al Pokemon objetivo, siempre que este no tenga ninguno.;Otros;Elegido;0;Lanzar (25 ft);-;00 Starter [S];Bestow
+034;PulpocaÒon;Agua;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Lanzar;-2;50% de reducir un nivel la Precision al rival.;"CD 10 de Reducir -1 ACC
+/r [[1d20]]";Especial;Elegido;0;Larga (40 ft);"§; Proyectil";01 Beginner [B];Octazooka
+035;Rayo Burbuja;Agua;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;10% de reducir un nivel la Velocidad al rival.;"CD 18 de Reducir -1 DES.
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;01 Beginner [B];Bubble Beam
+036;Tenaza;Agua;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Combatir;0;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.;Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Fisico;Elegido;-1;Contacto (5ft);Prision;01 Beginner [B];Clamp
+037;Torbellino;Agua;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;-2;El rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 6.25% del PS cada turno. El poder base se duplica si el rival preparando un Buceo.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Especial;Elegido;0;Larga (40 ft);Prision;01 Beginner [B];Whirlpool
+038;Acoso;Bicho;DB + 1d4;1 PP;2 Acciones;Destreza;Canalizar;1;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Especial;Elegido;0;Lanzar (25 ft);Prision;01 Beginner [B];Infestation
+039;Cola Dragon;Dragon;DB + 1d6 + 1;1 PP;2 Acciones;Fuerza;Combatir;-1;Provoca el intercambio del Pokemon objetivo por el siguiente de su equipo en orden. Termina las batallas contra Pokemon salvajes.;Cualquier objetivo en rango es empujado 40 pies, y se reduce 5 pies por VIT del objetivo.;Fisico;Area;-3;Cono (15 ft);-;01 Beginner [B];Dragon Tail
+040;Dragoaliento;Dragon;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;30% de paralizar al rival.;"CD 14 de Paralizar al rival
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);Paralisis;01 Beginner [B];Dragon Breath
+041;Chispa;Electrico;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;30% de paralizar al rival.;"CD 14 de Paralizar al rivar
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Paralisis;01 Beginner [B];Spark
+042;Colmillo Rayo;Electrico;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;0;10% de paralizar al rival y 10% de hacer retroceder al rival. Ambos efectos son independientes y pueden ocurrir a la vez.;"CD 18 de Paralizar al rival y otro para causar Retroceso
+/r [[1d20]] + [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Mordisco; Paralisis; Retroceso";01 Beginner [B];Thunder Fang
+033;Empapar;Agua;-;1 PP;1 Accion;Energia;Canalizar;1;Cambia el tipo del Pokemon objetivo por el tipo Agua.;Cambia el tipo del Blanco por el tipo Agua.;Otros;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Soak
+044;PuÒo Trueno;Electrico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;10% de paralizar al rival.;"CD 18 de Paralizar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"§; PuÒo; Paralisis";01 Beginner [B];Thunder Punch
+045;Rayo Carga;Electrico;DB + 1d6;1 Ronda;2 Acciones;Destreza;Canalizar;-1;70% de aumentar un nivel el Ataque Especial al usuario.;"CD 6 de Aumentar +1 ENE
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;01 Beginner [B];Charge Beam
+046;Hueso Sombrio;Fantasma;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;1;20% de reducir un nivel la Defensa al rival.;"CD 16 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Shadow Bone
+047;Sombra Vil;Fantasma;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Sigilo;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Contacto (5ft);-;01 Beginner [B];Shadow Sneak
+048;Colmillo igneo;Fuego;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;0;10% de quemar al rival y 10% de hacer retroceder al rival. Ambos efectos son independientes y pueden ocurrir a la vez.;"CD 18 de Quemar al rival y otro para causar Retroceso
+/r [[1d20]] + [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Mordisco; Quemadura; Retroceso";01 Beginner [B];Fire Fang
+049;PuÒo Fuego;Fuego;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;10% de quemar al rival.;"CD 18 de Quemar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"§; PuÒo; Quemadura";01 Beginner [B];Fire Punch
+050;Rueda Fuego;Fuego;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;10% de quemar al rival. Puede ser utilizado incluso cuando el Pokemon esta congelado, curando automaticamente la congelacion.;"CD 18 de Quemar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Quemadura;01 Beginner [B];Flame Wheel
+051;Truco Defensa;Hada;-;4 PP;Reaccion;Sabiduria;Naturaleza;0;Evita todo efecto de movimientos del rival para el y sus aliados. Su precision se reduce con cada uso consecutivo. No evita movimientos de da§o directo.;Evita todos los efectos de movimientos del rival tanto al usuario como a sus aliados.;Otros;Equipo;4;Area (10ft);Escudo;03 Elite [E];Crafty Shield
+052;Viento Feerico;Hada;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;Ninguno.;-;Especial;Elegido;0;Cono (15 ft);-;01 Beginner [B];Fairy Wind
+053;Chuzos;Hielo;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;-1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);Retroceso;01 Beginner [B];Icicle Crash
+054;Colmillo Hielo;Hielo;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;0;10% de congelar al rival y 10% de hacer retroceder al rival. Ambos efectos son independientes y pueden ocurrir a la vez.;"CD 18 de Congelar al rival y otro para causar Retroceso
+/r [[1d20]] + [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Mordisco; Congelacion; Retroceso";01 Beginner [B];Ice Fang
+055;Esquirla Helada;Hielo;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Lanzar;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Lanzar (25 ft);-;01 Beginner [B];Ice Shard
+056;Nieve Polvo;Hielo;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;10% de congelar al rival.;"CD 18 de Congelar al rival
+/r [[1d20]]";Especial;Oponentes;0;Cono (15 ft);Congelacion;01 Beginner [B];Powder Snow
+057;PuÒo Hielo;Hielo;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;10% de congelar al rival.;"CD 18 de Congelar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"§; PuÒo; Congelacion";01 Beginner [B];Ice Punch
+058;Rayo Aurora;Hielo;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;10% de reducir un nivel el Ataque al rival.;"CD 18 de Reducir -1 FUE.
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;01 Beginner [B];Aurora Beam
+043;Onda Trueno;Electrico;-;1 PP;2 Acciones;Sabiduria;Naturaleza;-1;Provoca Paralisis.;Provoca Paralisis.;Otros;Elegido;0;Lanzar (25 ft);Paralisis;01 Beginner [B];Thunder Wave
+060;Golpe Karate;Lucha;DB + 1d6;1 PP;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);Preciso;01 Beginner [B];Karate Chop
+061;Llave Giro;Lucha;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Atletismo;-1;Provoca el intercambio del Pokemon objetivo por el siguiente de su equipo en orden. Termina las batallas contra Pokemon salvajes.;Cualquier objetivo en rango es empujado 40 pies, y se reduce 5 pies por VIT del objetivo.;Fisico;Area;-3;Cono (15 ft);-;01 Beginner [B];Circle Throw
+062;Palmeo;Lucha;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de paralizar al rival.;"CD 14 de Paralizar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Paralisis;01 Beginner [B];Force Palm
+063;Patada Giro;Lucha;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;-2;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;01 Beginner [B];Rolling Kick
+064;Sismico;Lucha;1 por Accion;1 PP;1-3 Acciones;Fuerza;Atletismo;1;Causa un da§o equivalente al nivel del usuario.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Seismic Toss
+065;Sumision;Lucha;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;-2;Provoca un da§o de retroceso del 25% del da§o provocado al Pokemon rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;01 Beginner [B];Submission
+066;UltrapuÒo;Lucha;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Acrobacias;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Contacto (5ft);"§; PuÒo";01 Beginner [B];Mach Punch
+067;Agarre;Normal;DB + 1d6;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Vise Grip
+068;Bomba Huevo;Normal;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Lanzar;-3;Ninguno.;-;Fisico;Elegido;0;Lanzar (25 ft);Proyectil;01 Beginner [B];Egg Bomb
+069;Cara Susto;Normal;-;1 Ronda;2 Acciones;Carisma;Etiqueta;1;Baja dos niveles la Velocidad al rival.;Reduce -2 DES;Otros;Elegido;0;-;-;01 Beginner [B];Scary Face
+070;Cornada;Normal;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Horn Attack
+071;Corte;Normal;DB + 1d6;1 PP;2 Acciones;Destreza;Combatir;0;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);Corte;01 Beginner [B];Cut
+072;Furia;Normal;DB + 1d4;1 PP;2 Acciones;Destreza;Combatir;1;Aumenta un nivel el Ataque al usuario si este es golpeado entre que usa este movimiento y el siguiente.;Aumenta +1 FUE por cada rival que le cause Dmg hasta la siguiente ronda. El aumento se pierde si usa otro movimiento.;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Rage
+073;Hipercolmillo;Normal;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;-1;10% de hacer retroceder al rival.;"CD 18 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Mordisco; Retroceso";01 Beginner [B];Hyper Fang
+074;Meteorobola;Normal;DB + 1d6;1 Ronda;2 Acciones;Destreza;Naturaleza;1;Su tipo sera Agua en Llovizna, Fuego en Dia Soleado, Hielo en Granizo o Roca en Tormenta de Arena. El clima duplica su poder base.;"Cambia de tipo dependiendo del clima, y realiza Dmg adicional
+/r [[1d6]]";Especial;Elegido;0;Lanzar (25 ft);Proyectil;01 Beginner [B];Weather Ball
+075;Meteoros;Normal;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Canalizar;5;Siempre golpea.;-;Especial;Oponentes;0;Cono (15 ft);-;01 Beginner [B];Swift
+076;Pisoton;Normal;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival. Golpea a Pokemon que han usado Reduccion con el doble de poder base e ignorando su Evasion.;"CD 14 de causar Retroceso. Siempre es Critico si el objetivo ha usado Reduccion.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;01 Beginner [B];Stomp
+077;Remolino;Normal;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Naturaleza;0;El Pokemon rival es intercambiado por otro al azar del entrenador rival. Si es salvaje, huira.;Cualquier objetivo en rango es empujado 40 pies, y se reduce 5 pies por VIT del objetivo.;Especial;Area;-3;Area (10ft);-;01 Beginner [B];Whirlwind
+078;Reserva;Normal;-;1 PP;2 Acciones;Sabiduria;Naturaleza;0;El usuario suma un contador de Reserva (max. 3). Aumentan  un nivel la Defensa y Defensa Especial del usuario. Pueden ser pasados mediante Relevo y usados con Escupir y Tragar.;Acomulado un punto Reserva, aumenta +1 VIT y SAB por cada punto (max 3);Otros;Usuario;0;Propio;Creciente;01 Beginner [B];Stockpile
+079;Rugido de Guerra;Normal;-;1 PP;2 Acciones;Carisma;Etiqueta;1;Baja un nivel el Ataque y el Ataque Especial al rival.;Reduce -1 Fue y Ene;Otros;Oponentes;0;Area (10ft);Sonido;01 Beginner [B];Noble Roar
+080;Absorber;Planta;DB + 1d4;1 Ronda;3 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Especial;Elegido;0;Lanzar (25 ft);Drenaje;01 Beginner [B];Absorb
+081;Brazo Pincho;Planta;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;01 Beginner [B];Needle Arm
+082;Ciclon de Hojas;Planta;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;-1;50% de reducir un nivel la Precision al rival.;"CD 10 de Reducir -1 ACC
+/r [[1d20]]";Especial;Elegido;0;Cono (15 ft);-;01 Beginner [B];Leaf Tornado
+083;Hoja Afilada;Planta;DB + 1d6;1 PP;2 Acciones;Destreza;Lanzar;0;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Oponentes;0;Cono (15 ft);"Corte; Preciso";01 Beginner [B];Razor Leaf
+084;Hoja Magica;Planta;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Canalizar;5;Siempre golpea.;-;Especial;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Magical Leaf
+085;Patada Tropical;Planta;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;100% de reducir un nivel el Ataque al rival.;Reduce la FUE del rival;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Trop Kick
+086;Arrumaco;Psiquico;DB + 1d6 + 1;1 PP;2 Acciones;Sabiduria;Empatia;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;01 Beginner [B];Heart Stamp
+087;Confusion;Psiquico;DB + 1d6;1 PP;2 Acciones;Destreza;Canalizar;1;10% de confundir al rival.;"CD 18 de confundir al rival.
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Confusion
+088;Psicoonda;Psiquico;2;1 Ronda;2 Acciones;Sabiduria;Canalizar;1;Causa un da§o equivalente a 0.5 a 1.5 veces el nivel del usuario.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Especial;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Psywave
+089;Psicorrayo;Psiquico;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;10% de confundir al rival.;"CD 18 de confundir al rival.
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;01 Beginner [B];Psybeam
+090;Lanzarrocas;Roca;DB + 1d6;1 Ronda;2 Acciones;Destreza;Lanzar;-1;Ninguno.;-;Fisico;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Rock Throw
+091;Poder Pasado;Roca;DB + 1d6 + 1;2 Rondas;3 Acciones;Destreza;Canalizar;1;10% de aumentar un nivel el Ataque, la Defensa, la Velocidad, el Ataque Especial y la Defensa Especial al usuario.;"CD 18 de Aumentar +1 a los Atributos
+/r [[1d20]]";Especial;Elegido;0;Cono (15 ft);-;01 Beginner [B];Ancient Power
+092;Roca Veloz;Roca;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Acrobacias;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Contacto (5ft);-;01 Beginner [B];Accelerock
+093;Tumba Rocas;Roca;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Lanzar;0;100% de reducir un nivel la Velocidad al rival.;Reduce -1 DES del rival;Fisico;Elegido;0;Lanzar (25 ft);-;01 Beginner [B];Rock Tomb
+094;Finta;Siniestro;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;5;Siempre golpea.;-;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Feint Attack
+095;Mofa;Siniestro;-;1 PP;2 Acciones;Carisma;Etiqueta;1;El rival no puede utilizar movimientos que no causen da§o durante los proximos 3 turnos.;"El blanco no puede utilizar movimientos en base ""Otros"" hasta el final de la proxima ronda";Otros;Elegido;0;Larga (40 ft);-;01 Beginner [B];Taunt
+096;Mordisco;Siniestro;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Mordisco; Retroceso";01 Beginner [B];Bite
+097;Persecucion;Siniestro;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Acrobacias;1;Este movimiento se aprovecha de sus enemigos que le den la esplda, duplicando su poder base en el golpe.;Si el objetivo esta huyendo del usuario, o intento evadir fallidamente, realiza Dmg critico.;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Pursuit
+098;Bomba Fango;Tierra;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Lanzar;-2;30% de reducir un nivel la Precision al rival.;"CD 14 de Reducir -1 ACC
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Proyectil;01 Beginner [B];Mud Bomb
+099;Bucle Arena;Tierra;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;-2;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.;Bloquea al Blanco. Causa 1 de Dmg al final de la Ronda;Fisico;Elegido;-1;Corta (10 ft);Prision;01 Beginner [B];Sand Tomb
+100;Hueso Palo;Tierra;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;-2;10% de hacer retroceder al rival.;"CD 18 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Corta (10ft);Retroceso;01 Beginner [B];Bone Club
+101;Magnitud;Tierra;Xd4;1 PP;2 Acciones;Fuerza;Naturaleza;1;Este movimiento tiene un poder base variable entre 10 y 150. El da§o es doble si golpea a un Pokemon en mitad de una excavacion.;"El Dmg realizado por este movimiento varia segun el valor del dado, ignorando Defensas:
+/r 1d6
+1: Dmg = 0
+2-3: Dmg = 1
+4-5: Dmg = 2
+6: Dmg = 4";Fisico;Area;0;Area (10ft);-;01 Beginner [B];Magnitude
+102;Terratemblor;Tierra;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;100% de reducir un nivel la Velocidad al rival.;Reduce -1 DES;Fisico;Area;0;Cono (15 ft);-;01 Beginner [B];Bulldoze
+103;Bunker;Veneno;-;4 PP;Reaccion;Vitalidad;Naturaleza;0;Evita todo da§o directo y efectos de movimientos del rival. Su precision se reduce con cada uso consecutivo. Provoca Envenenamiento si un Pokemon hace contacto.;Evita todo Dmg directo y efectos de movimientos del rival. Si el movimiento bloqueado era de contacto, Envenena al rival;Otros;Usuario;4;Propio;"Escudo; Veneno";04 Master [M];Baneful Bunker
+104;Mil Puas Toxicas;Veneno;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Lanzar;1;50% de envenenar al rival. El poder base se duplica si el Pokemon objetivo esta Envenenado.;"CD 10 de Envenenar. En caso de que el blanco se encuentre envenenado inflinge Dmg Critico.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Veneno;01 Beginner [B];Barb Barrage
+105;MoluscaÒon;Veneno;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir-Canalizar;1;20% de envenenar al rival. El da§o de este ataque se calcula con el stat de Ataque o de Ataque Especial, en funcion de cual vaya a hacer mas da§o.;"CD 16 de Envenenar; Puede ser de Base Fisica o Especial.
+/r [[1d20]]";Especial;Elegido;0;Contacto (5ft)/Lanzar (25 ft);"§; Veneno";01 Beginner [B];Shell Side Arm
+106;Polucion;Veneno;DB + 1d4;1 PP;2 Acciones;Energia;Canalizar;-3;40% de envenenar al rival.;"CD 12 de Envenenar al rival.
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Veneno;01 Beginner [B];Smog
+107;Residuos;Veneno;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Canalizar;1;30% de envenenar al rival.;"CD 14 de Envenenar al rival
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);Veneno;01 Beginner [B];Sludge
+108;Ataque Ala;Volador;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;01 Beginner [B];Wing Attack
+109;Picotazo;Volador;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;Sin Efecto;Fisico;Elegido;0;Contacto (5ft);-;00 Starter [S];Peck
+110;Ala de Acero;Acero;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;-1;10% de aumentar un nivel la Defensa al usuario.;"CD 18 de Aumentar +1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Steel Wing
+111;Anclaje;Acero;DB + 1d8;2 Rondas;2 Acciones;Destreza;Combatir;1;Impide al rival ser intercambiado, salvo usando Relevo, Ida y Vuelta, Voltiocambio o ultima Palabra, o si tiene Muda Concha o Boton Escape.;Bloquea al Blanco.;Fisico;Elegido;0;Contacto (5ft);Prision;02 Amateur [A];Anchor Shot
+112;Cuerpo Pesado;Acero;Xd4;1 Ronda;2 Acciones;Destreza;Atletismo;1;Este movimiento tiene un poder base variable en funcion del peso del usuario y del Pokemon rival.;El Dmg de este movimiento aumenta 1d4 por cada punto de VIT adicional del Usuario contra la VIT del Blanco  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;02 Amateur [A];Heavy Slam
+059;Deteccion;Lucha;-;4 PP;Reaccion;Sabiduria;Percepcion;0;Evita todo da§o directo y efectos de movimientos del rival. Su precision se reduce con cada uso consecutivo.;Evita todo Dmg directo y efectos de movimientos del rival.;Otros;Usuario;4;Propio;Escudo;02 Amateur [A];Detect
+114;Disparo Espejo;Acero;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Lanzar;-2;30% de reducir un nivel la Precision al rival.;"CD 14 de Reducir -1 ACC
+/r [[1d20]]";Especial;Elegido;-1;Larga (40 ft);-;02 Amateur [A];Mirror Shot
+115;Escudo Real;Acero;-;4 PP;Reaccion;Destreza;Atletismo;0;Evita todo da§o directo de movimientos del rival. Su precision se reduce con cada uso consecutivo. Reduce un nivel el Ataque del Pokemon que intente tocarlo.;Evita todo Dmg directo y efectos de movimientos del rival. Si el movimiento bloqueado era de contacto, Reduce -1 FUE del rival;Otros;Elegido;4;Propio;Escudo;04 Master [M];King?s Shield
+116;Giro Bola;Acero;Xd4;1 Ronda;2 Acciones;Destreza;Lanzar;1;El poder es mayor cuanto mas lento el usuario frente al rival. El da§o sera: 1 + (Vel.Rival / Vel.Usuario) x 25 (incluye modificadores de Velocidad, max. 150).;El Dmg de este movimiento aumenta 1d4 por cada punto de DES adicional del Blanco contra la DES del Usuario  (Max 5d4);Fisico;Elegido;0;Lanzar (25ft);"Proyectil; Creciente";02 Amateur [A];Gyro Ball
+117;Rueda Doble;Acero;DB + 1d6;1 Ronda;1 Accion;Destreza;Combatir;-2;Golpea 2 veces seguidas.;Puede usarse 2 veces consecutivas;Fisico;Elegido;0;Lanzar (25 ft);Recurrente;02 Amateur [A];Gear Grind
+118;Acua Aro;Agua;-;1 Ronda;2 Acciones;Energia;Naturaleza;0;El usuario recupera un 6.25% de PS cada turno hasta que cae debilitado o es intercambiado (salvo Relevo).;El usuario recupera 1 PS al final de cada ronda durante 5 rondas.;Otros;Usuario;0;Propio;Curacion;02 Amateur [A];Aqua Ring
+119;Acua Cola;Agua;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;-1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Aqua Tail
+120;Cascada;Agua;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;20% de hacer retroceder al rival.;"CD 16 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;02 Amateur [A];Waterfall
+121;Concha Filo;Agua;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;0;50% de reducir un nivel la Defensa al rival.;"CD 10 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Corte;02 Amateur [A];Razor Shell
+113;Defensa Ferrea;Acero;-;1 Ronda;2 Acciones;Vitalidad;Atletismo;0;Aumenta dos niveles la Defensa al usuario.;Aumenta +2 VIT;Otros;Usuario;0;Propio;-;02 Amateur [A];Iron Defense
+123;Envite Acuatico;Agua;DB + 2d6;1 Ronda;2 Acciones;Destreza;Combatir;1;Provoca un da§o de retroceso del 33% del da§o provocado al Pokemon rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;02 Amateur [A];Wave Crash
+124;Escaldar;Agua;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;1;30% de quemar al rival.;"CD 14 de Quemar al rival
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Quemadura;02 Amateur [A];Scald
+125;Hidropulso;Agua;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Lanzar;1;20% de confundir al rival.;"CD 16 de confundir al rival
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Pulso;02 Amateur [A];Water Pulse
+126;Martillazo;Agua;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;-1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);Preciso;02 Amateur [A];Crabhammer
+127;PuÒo Jet;Agua;DB + 1d6 + 1;1 Ronda;Reaccion;Destreza;Combatir;1;Golpea primero.;Sin Efecto;Fisico;Elegido;1;Contacto (5ft);"§; PuÒo";02 Amateur [A];Jet Punch
+128;Auxilio;Bicho;-;2 Rondas;2 Acciones;Carisma;Etiqueta;0;El usuario recupera el 50% de su PS maximo.;El usuario recupera PS equivalente a su Car.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Heal Order
+129;Corte Furia;Bicho;DB + 1d4 + 1;1 PP;2 Acciones;Destreza;Combatir;0;Por cada turno que el ataque sea usado y acierte, su poder base se dobla, pero solo durante 4 turnos. Puedes usar otros movimientos entre medias sin perder el bonus.;El Dmg de este movimiento aumenta 1d4 por cada ronda consecutiva sin fallar (Max 5d4);Fisico;Elegido;0;Contacto (5ft);"Corte; Creciente";02 Amateur [A];Fury Cutter
+130;Golpe Rastrero;Bicho;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;-1;Baja un nivel el Ataque Especial al rival.;Reduce -1 ENE;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Skitter Smack
+131;Pin Misil;Bicho;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);Recurrente;02 Amateur [A];Pin Missile
+132;Plancha;Bicho;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;100% de reducir un nivel el Ataque al rival.;Reduce -1 FUE;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Lunge
+133;Rayo SeÒal;Bicho;DB + 1d8;1 Ronda;2 Acciones;Energia;Lanzar;1;10% de confundir al rival.;"CD 18 de confundir al Rival
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);§;02 Amateur [A];Signal Beam
+134;Rodillo de Puas;Bicho;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival. Golpea a Pokemon que han usado Reduccion con el doble de poder base e ignorando su Evasion.;"CD 14 de causar Retroceso. Siempre es Critico si el objetivo ha usado Reduccion.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;02 Amateur [A];Steamroller
+135;TelaraÒa;Bicho;-;1 PP;1 Accion;Sabiduria;Sigilo;0;Impide al rival ser intercambiado, salvo usando Relevo, Ida y Vuelta, Voltiocambio o ultima Palabra, o si tiene Muda Concha o Boton Escape.;"Esparce seda en el campo con CD igual a la precision obtenida, las cuales causan 1 de Dmg de tipo Bicho al moverse sobre ellas sin evitarlas. Adicionalmente, lanza una CD 10  para bloquear al blanco.
+/r [[1d3]]";Otros;Campo;0;Campo (50 ft);"§; Trampa; Prision";02 Amateur [A];Spider Web
+136;Telatrampa;Bicho;-;4 PP;Reaccion;Vitalidad;Atletismo;0;Evita todo da§o directo y efectos de movimientos del rival. Su precision se reduce con cada uso consecutivo. Reduce un nivel la Velocidad del Pokemon que intente tocarlo.;Evita todo Dmg directo y efectos de movimientos del rival. Si el movimiento bloqueado era de contacto, Reduce -1 DES del rival;Otros;Usuario;4;Propio;Escudo;04 Master [M];Silk Trap
+137;Tijera X;Bicho;DB + 1d8;1 Ronda;2 Acciones;Fuerza;Combatir;1;Ninguno.;Sin Efecto;Fisico;Elegido;0;Contacto (5ft);Corte;02 Amateur [A];X-Scissor
+138;Viento Plata;Bicho;DB + 1d6 + 1;2 Rondas;2 Acciones;Destreza;Canalizar;1;10% de aumentar un nivel el Ataque, la Defensa, la Velocidad, el Ataque Especial y la Defensa Especial al usuario.;"CD 18 de Aumentar +1 a los Atributos
+/r [[1d20]]";Especial;Elegido;0;Cono (15 ft);-;02 Amateur [A];Silver Wind
+139;Zumbido;Bicho;DB + 2d4;1 Ronda;2 Acciones;Energia;Presentar;1;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Sonido;02 Amateur [A];Bug Buzz
+122;Danza Lluvia;Agua;-;1 Ronda;3 Acciones;Carisma;Naturaleza;0;Provoca Llovizna.;Cambia el Clima por Llovizna. Dura 5 Rondas;Otros;Campo;0;Campo (50 ft);Clima;02 Amateur [A];Rain Dance
+141;Corte Vacio;Dragon;DB + 1d6 + 2;2 Rondas;2 Acciones;Energia;Lanzar;0;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Especial;Elegido;0;Larga (40 ft);Preciso;02 Amateur [A];Spacial Rend
+140;Bramido Dragon;Dragon;-;1 Ronda;2 Acciones;Carisma;Presentar;0;Aumenta la probabilidad de que el Pokemon aliado haga Golpe Critico (en mayor medida si es de tipo Dragon).;Reduce el valor de critico en 1 (2 si es de Tipo Dragon) para todos los movimientos del blanco 2 Rondas;Otros;Equipo;0;Cono (15 ft);Sonido;02 Amateur [A];Dragon Cheer
+143;Garra Dragon;Dragon;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Dragon Claw
+144;Golpe Bis;Dragon;DB + 1d4;1 Ronda;1 Accion;Destreza;Combatir;-1;Golpea 2 veces seguidas.;Puede usarse hasta 2 veces por Ronda;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Dual Chop
+145;Martillo Dragon;Dragon;DB + 2d4;1 Ronda;2 Acciones;Fuerza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Dragon Hammer
+146;Pulso Dragon;Dragon;DB + 2d4;1 Ronda;2 Acciones;Energia;Lanzar;1;Ninguno.;-;Especial;Area;0;Linear (20 ft);Pulso;02 Amateur [A];Dragon Pulse
+147;Rafaga Escamas;Dragon;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas. Aumenta un nivel la Velocidad al usuario, pero reduce un nivel su Defensa.;"Puede usarse consecutivamente; Aumenta +1 DES y Reduce -1 VIT del Usuario. Falla si la VIT es 0";Fisico;Elegido;0;Lanzar (25 ft);Recurrente;02 Amateur [A];Scale Shot
+148;Amplificador;Electrico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Presentar;1;Golpea con sonido a todos los Pokemon rivales en combates dobles.; Puede gastar una tercera accion para ampliar el area de efecto hasta 15 ft.;Especial;Oponentes;0;Area (10ft);Sonido;02 Amateur [A];Overdrive
+149;Bola Voltio;Electrico;Xd4;1 Ronda;2 Acciones;Destreza;Lanzar;1;El poder base de este movimiento es mayor cuanto mas rapido el usuario frente al rival, y varia entre 60 y 150.;El Dmg de este movimiento aumenta 1d4 por cada punto de DES adicional del Usuario contra la DES del Blanco  (Max 5d4);Especial;Elegido;0;Lanzar (25 ft);"Proyectil; Creciente";02 Amateur [A];Electro Ball
+150;Chispazo;Electrico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;1;30% de paralizar al rival.;"CD 14 de Paralizar al rival
+/r [[1d20]]";Especial;Area;0;Area (10ft);Paralisis;02 Amateur [A];Discharge
+151;Electropunzada;Electrico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;02 Amateur [A];Zing Zap
+152;Rayo;Electrico;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;1;10% de paralizar al rival.;"CD 18 de Paralizar al rival
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);Paralisis;02 Amateur [A];Thunderbolt
+153;Rueda Aural;Electrico;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;1;Aumenta un nivel la Velocidad al usuario. El tipo del movimiento depende de la Forma de Morpeko. Con la Forma Saciada es de tipo Electrico, mientras que con la Forma Voraz es de tipo Siniestro.;Aumenta +1 DES. Cambia a tipo siniestro en forma Hambrienta;Fisico;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Aura Wheel
+154;Infortunio;Fantasma;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;1;Si el Pokemon objetivo sufre un cambio de estado, su poder base se dobla.;Si el Pokemon objetivo sufre un cambio de estado, duplica el Dmg causado;Especial;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Hex
+142;Danza Dragon;Dragon;-;1 PP;2 Acciones;Carisma;Presentar;0;Aumenta un nivel el Ataque y la Velocidad al usuario.;Aumenta +1 FUE y DES;Otros;Usuario;0;Propio;Danza;02 Amateur [A];Dragon Dance
+155;Maldicion;Fantasma;-;1 Ronda;2 Acciones;Vitalidad;Empatia;0;Aumenta un nivel el Ataque y la Defensa y reduce un nivel la Velocidad al usuario. Usado por un Fantasma, pierde 50% de PS max. y el rival pierde un 25% de PS cada turno.;"Si el Usuario es de tipo Fantasma, se hiere equivalente al doble de su CAR y el Blanco es hieredo con un valor igual a su CAR al final de cada ronda.
+En otro caso, Aumenta +1 Fue y VIT, y Reduce -1 DES el Usuario.";Otros;Elegido;0;Corta (10ft);-;02 Amateur [A];Curse
+156;Rayo Confuso;Fantasma;-;1 Ronda;2 Acciones;Sabiduria;Naturaleza;1;Provoca Confusion.;Confundo al Blanco;Otros;Elegido;0;Corta (10ft);-;02 Amateur [A];Confuse Ray
+158;Tinieblas;Fantasma;2;1 Ronda;2 Acciones;Sabiduria;Etiqueta;1;Causa un da§o equivalente al nivel del usuario.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Especial;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Night Shade
+159;Viento Aciago;Fantasma;DB + 1d6 + 1;2 Rondas;2 Acciones;Destreza;Canalizar;1;10% de aumentar un nivel el Ataque, la Defensa, la Velocidad, el Ataque Especial y la Defensa Especial al usuario.;"CD 18 de Aumentar +1 a los Atributos
+/r [[1d20]]";Especial;Area;0;Cono (15 ft);-;02 Amateur [A];Ominous Wind
+160;Balon igneo;Fuego;DB + 2d6;2 Rondas;2 Acciones;Energia;Lanzar;-1;10% de quemar al rival.;"CD 18 de Quemar al rival
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);"Proyectil; Quemadura";02 Amateur [A];Pyro Ball
+157;Rencor;Fantasma;-;1 Ronda;2 Acciones;Carisma;Etiqueta;1;El ultimo movimiento utilizado por el rival vera reducidos sus PP en 4.;Aumenta el costo en tiempo de la ultima accion usada por el rival en 1 (Si era reaccion costara 1 accion) por 4 Rondas. No acomulable;Otros;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Spite
+162;Giro Fuego;Fuego;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;-2;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Especial;Elegido;0;Larga (40 ft);Prision;02 Amateur [A];Fire Spin
+163;Golpe Calor;Fuego;Xd4;1 Ronda;2 Acciones;Fuerza;Combatir;1;Este movimiento tiene un poder base variable en funcion del peso del usuario y del Pokemon rival.;El Dmg de este movimiento aumenta 1d4 por cada punto de VIT adicional del Usuario contra la VIT del Blanco  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;02 Amateur [A];Heat Crash
+164;Humareda;Fuego;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;1;30% de quemar al rival.;"CD 14 de Quemar al rival
+/r [[1d20]]";Especial;Area;0;Area (10ft);Quemadura;02 Amateur [A];Lava Plume
+165;Lanzallamas;Fuego;DB + 2d4;1 Ronda;2 Acciones;Destreza;Lanzar;1;10% de quemar al rival.;"CD 18 de Quemar al rival.
+/r [[1d20]]";Especial;Area;0;Linear (20 ft);Quemadura;02 Amateur [A];Flamethrower
+166;Nitrocarga;Fuego;DB + 1d6;1 PP;2 Acciones;Destreza;Acrobacias;1;Aumenta un nivel la Velocidad al usuario.;Aumenta +1 DES;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Flame Charge
+167;Onda ignea;Fuego;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;-1;10% de quemar al rival.;"CD 18 de causar Quemadura
+/r [[1d20]]";Especial;Oponentes;0;Area (10ft);Quemadura;02 Amateur [A];Heat Wave
+168;Beso Drenaje;Hada;DB + 1d6;1 Ronda;2 Acciones;Carisma;Empatia;1;El usuario recupera PS equivalente al 75% del da§o causado.;El usuario recupera PS equivalente al Dmg causado.;Especial;Elegido;0;Lanzar (25 ft);Drenaje;02 Amateur [A];Draining Kiss
+169;Cautivapor;Hada;DB + 2d4;1 Ronda;2 Acciones;Energia;Canalizar;0;20% de confundir al rival.;"CD 16 de confundir al rival
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;02 Amateur [A];Strange Steam
+170;Cerrojo Feerico;Hada;-;1 PP;1 Accion;Sabiduria;Naturaleza;0;Impide al rival ser intercambiado en el siguiente turno, salvo usando Relevo, Ida y Vuelta, Voltiocambio o ultima Palabra, o si tiene Muda Concha o Boton Escape.;"Esparce cadenas encantadas en el campo con CD igual a la precision obtenida, las cuales causan 1 de Dmg de tipo Hada al moverse sobre ellas sin evitarlas. Adicionalmente, lanza una CD 10  para bloquear al blanco.
+/r [[1d3]]";Otros;Campo;0;Campo (50 ft);"Trampa; Prision";02 Amateur [A];Fairy Lock
+171;Cura Floral;Hada;-;2 Rondas;2 Acciones;Sabiduria;Naturaleza;0;El Pokemon objetivo recupera 66.6% PS en Campo de Hierba, y 50% PS si no hay campo o en Campo Electrico, Campo Psiquico o Campo de Niebla.;El usuario recupera PS equivalente a su Car. Adicional, si esta el Campo de Hierba activo cura 2 puntos adicionales, y -2 en otros Campos;Otros;Aliado;0;Lanzar (25 ft);Curacion;04 Master [M];Floral Healing
+172;Luz Lunar;Hada;-;2 Rondas;2 Acciones;Sabiduria;Medicina;0;El usuario recupera 66.6% PS en Dia Soleado, 50% PS si no hay clima, y 25% en Llovizna, Granizo o Tormenta de Arena.;El usuario recupera PS equivalente a su Car. Adicional, si es de noche cura 2 puntos adicionales, y -2 en otro clima;Otros;Usuario;0;Propio;"Curacion; Clima";03 Elite [E];Moonlight
+173;Carambano;Hielo;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);Recurrente;02 Amateur [A];Icicle Spear
+161;Dia Soleado;Fuego;-;1 Ronda;3 Acciones;Carisma;Naturaleza;0;Provoca Dia Soleado.;Cambia el Clima por Sol Intenso. Dura 5 Rondas;Otros;Campo;0;Campo (50 ft);Clima;02 Amateur [A];Sunny Day
+174;Granizo;Hielo;-;1 Ronda;3 Acciones;Energia;Naturaleza;0;Provoca Granizo.;Cambia el Clima por Granizo. Dura 5 Rondas;Otros;Campo;0;Campo (50 ft);Clima;02 Amateur [A];Hail
+176;Vaho Gelido;Hielo;DB + 1d6;2 Rondas;2 Acciones;Destreza;Canalizar;-1;Siempre provoca un Golpe Critico salvo que una habilidad o efecto lo impida.;Siempre realiza Dmg Critico;Especial;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Frost Breath
+177;Viento Carambano;Hielo;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Canalizar;-2;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);Retroceso;02 Amateur [A];Mountain Gale
+178;Viento Hielo;Hielo;DB + 1d6;1 Ronda;2 Acciones;Destreza;Canalizar;0;100% de reducir un nivel la Velocidad al rival.;Reduce -1 DES;Especial;Oponentes;0;Cono (15 ft);-;02 Amateur [A];Icy Wind
+175;Paisaje Nevado;Hielo;-;1 Ronda;2 Acciones;Energia;Naturaleza;0;Provoca Nevada.;Cambia el Clima por Nevada. Dura 5 Rondas;Otros;Campo;0;Campo (50 ft);Clima;02 Amateur [A];Snowscape
+180;Doble Patada;Lucha;DB + 1d4;1 Ronda;1 Accion;Destreza;Combatir;-1;Golpea 2 veces seguidas.;Puede usarse hasta 2 veces por Ronda;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Double Kick
+181;Empujon;Lucha;DB;1 Ronda;1 Accion;Destreza;Combatir;0;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Arm Thrust
+182;Inversion;Lucha;Xd4;1 Ronda;3 Acciones;Vitalidad;Combatir;1;El poder base de este movimiento es mayor cuanto menor el PS restante del usuario.;El Dmg de este movimiento aumenta 1d4 por cada punto de PS perdido del Usuario  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;02 Amateur [A];Reversal
+183;Llave Corse;Lucha;DB + 1d6;2 Rondas;2 Acciones;Destreza;Combatir;1;Siempre provoca un Golpe Critico salvo que una habilidad o efecto lo impida.;Siempre realiza Dmg Critico;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Storm Throw
+184;Llave Vital;Lucha;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;5;Siempre golpea. Golpea ultimo.;-;Fisico;Elegido;-1;Contacto (5ft);-;02 Amateur [A];Vital Throw
+185;Patada Baja;Lucha;Xd4;1 Ronda;2 Acciones;Destreza;Combatir;1;Este movimiento tiene un poder base variable entre 20 y 120, en funcion del peso del Pokemon rival.;El Dmg de este movimiento aumenta 1d4 por cada punto de VIT adicional del Blanco contra la VIT del Usuario  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;02 Amateur [A];Low Kick
+186;Patada Hacha;Lucha;DB + 2d6;1 Ronda;2 Acciones;Destreza;Combatir;-1;30% de confundir al rival. Si el ataque falla, el usuario recibe un da§o equivalente al 50% de su PS maximo.;"CD 14 de confundir al rival. Si falla, el usuario perde HP igual al DB
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Axe Kick
+187;Tajo Cruzado;Lucha;DB + 1d6 + 2;2 Rondas;2 Acciones;Destreza;Combatir;-2;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);Preciso;02 Amateur [A];Cross Chop
+179;Anticipo;Lucha;-;4 PP;Reaccion;Destreza;Atletismo;0;Evita todo da§o directo y efectos de movimientos del rival de alta prioridad tanto al usuario como a sus compa§eros. Su precision se reduce con cada uso consecutivo.;Evita todo Dmg directo y efectos de movimientos del rival con prioridad positiva tanto al usuario como a sus aliados.;Otros;Equipo;5;Area (10ft);Escudo;02 Amateur [A];Quick Guard
+189;Ariete;Normal;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;1;Provoca un da§o de retroceso del 25% del da§o provocado al Pokemon rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;02 Amateur [A];Head Charge
+190;Ataque Furia;Normal;DB;1 Ronda;1 Accion;Destreza;Combatir;0;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Fury Attack
+191;Ataque Rapido;Normal;DB + 1d4 + 1;1 PP;Reaccion;Destreza;Combatir;1;Golpea primero.;Sin Efecto;Fisico;Elegido;2;Contacto (5ft);-;02 Amateur [A];Quick Attack
+192;Atizar;Normal;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;-3;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Slam
+188;Aguzar;Normal;-;1 PP;2 Acciones;Sabiduria;Percepcion;0;Garantiza que el ataque que realice el usuario el siguiente turno sea Golpe Critico.;El siguiente movimiento realizado siempre realiza Dmg Critico;Otros;Usuario;0;Propio;-;02 Amateur [A];Laser Focus
+194;Batido;Normal;-;2 Rondas;2 Acciones;Carisma;Cocinar;0;El usuario recupera el 50% de su PS maximo.;El usuario recupera PS equivalente a su Car.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Milk Drink
+195;Bloqueo;Normal;-;1 Ronda;2 Acciones;Destreza;Atletismo;0;Impide al rival ser intercambiado, salvo usando Relevo, Ida y Vuelta, Voltiocambio o ultima Palabra, o si tiene Muda Concha o Boton Escape.;Bloquea al Blanco.;Otros;Elegido;0;Contacto (5ft);Prision;02 Amateur [A];Block
+196;Bombardeo;Normal;DB;1 Ronda;1 Accion;Destreza;Lanzar;0;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);"Proyectil; Recurrente";02 Amateur [A];Barrage
+197;Cabezazo;Normal;DB + 2d6;1 Ronda;3 Acciones;Fuerza;Combatir;1;100% de aumentar un nivel la Defensa al usuario el primer turno. Golpea en el segundo turno.;Aumenta 1 la VIT;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Skull Bash
+198;Clavo CaÒon;Normal;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);"§; Recurrente";02 Amateur [A];Spike Cannon
+193;Avivar;Normal;-;1 PP;3 Acciones;Fuerza;Atletismo;0;Aumenta un nivel el Ataque y el Ataque Especial del usuario.;Aumenta +1 ATA y ENE;Otros;Usuario;0;Propio;-;02 Amateur [A];Work Up
+200;Derribo;Normal;DB + 2d4;1 PP;2 Acciones;Destreza;Combatir;-2;Provoca un da§o de retroceso del 25% del da§o provocado al Pokemon rival.;El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;02 Amateur [A];Take Down
+201;Deseo;Normal;-;2 Rondas;2 Acciones;Sabiduria;Medicina;0;Recupera PS al Pokemon que se encuentre activo el siguiente turno, sea el usuario u otro, por la mitad del PS maximo del usuario.;El usuario recupera PS equivalente a su Car al final de la siguiente Ronda. Si cambia se recupera al aliado que le reemplaza.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Wish
+202;Doble Bofeton;Normal;DB;1 Ronda;1 Accion;Destreza;Combatir;0;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Double Slap
+203;Doble Golpe;Normal;DB + 1d4;1 Ronda;1 Accion;Destreza;Combatir;-1;Golpea 2 veces seguidas.;Puede usarse hasta 2 veces por Ronda;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Double Hit
+204;Escupir;Normal;Xd4;1 PP;1 Accion;Destreza;Lanzar;1;Cada contador de Reserva que tenga el usuario (max. 3) suma 100 a su poder base. Resetea los contadores y con ello la mejora en defensas.;El Dmg de este movimiento aumenta 2d4 por cada punto Reserva acomulado, resetea los Puntos;Especial;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Spit Up
+205;Frustracion;Normal;Xd4;1 Ronda;2 Acciones;Destreza;Combatir;1;Su poder base depende de la Infelicidad del Pokemon, entre 0 y 102.;El Dmg de este movimiento aumenta 1d4 por cada punto de lealtad del Usuario;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Frustration
+206;Fuerza;Normal;DB + 1d8;1 Ronda;2 Acciones;Fuerza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Strength
+207;Golpe Cabeza;Normal;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;02 Amateur [A];Headbutt
+208;Golpe Cuerpo;Normal;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de paralizar al rival.;"CD 14 de Paralizar al rival.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Paralisis;02 Amateur [A];Body Slam
+209;Golpes Furia;Normal;DB;1 Ronda;1 Accion;Destreza;Combatir;0;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Fury Swipes
+210;Mal de Ojo;Normal;-;1 Ronda;2 Acciones;Carisma;Etiqueta;0;Impide al rival ser intercambiado, salvo usando Relevo, Ida y Vuelta, Voltiocambio o ultima Palabra, o si tiene Muda Concha o Boton Escape.;Bloquea al Blanco.;Otros;Elegido;0;Lanzar (25 ft);Prision;02 Amateur [A];Mean Look
+211;Megapatada;Normal;DB + 2d6;2 Rondas;2 Acciones;Destreza;Combatir;-3;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Mega Kick
+212;MegapuÒo;Normal;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;-2;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);"§; PuÒo";02 Amateur [A];Mega Punch
+199;Conjuro;Normal;-;2 Rondas;2 Acciones;Sabiduria;Empatia;0;El equipo del usuario no recibe Golpes Criticos por 5 turnos.;Los movimientos recibidos por el equipo del Usuario no realiza Dmg Critico durante 2 Rondas;Otros;Equipo;0;Campo (50 ft);-;02 Amateur [A];Lucky Chant
+214;Otra Vez;Normal;-;2 Rondas;2 Acciones;Carisma;Empatia;1;El Pokemon objetivo queda obligado a usar el ultimo movimiento que haya usado durante 3 turnos.;El Blanco debe repetir llas mismas acciones usadas anteriormente en su siguiente ronda;Otros;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Encore
+215;Ovocuracion;Normal;-;2 Rondas;2 Acciones;Carisma;Cocinar;0;El usuario recupera el 50% de su PS maximo.;El usuario recupera PS equivalente a su Car.;Otros;Elegido;0;Propio;Curacion;03 Elite [E];Soft-Boiled
+216;Proteccion;Normal;-;4 PP;Reaccion;Vitalidad;Atletismo;0;Evita todo da§o directo y efectos de movimientos del rival.;Evita todo Dmg directo y efectos de movimientos del rival.;Otros;Usuario;4;Propio;Escudo;02 Amateur [A];Protect
+217;PuÒo Cometa;Normal;DB;1 Ronda;1 Accion;Destreza;Combatir;0;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);"§; PuÒo; Recurrente";02 Amateur [A];Comet Punch
+218;PuÒo Mareo;Normal;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;20% de confundir al rival.;"CD 16 de confundir al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"§; PuÒo";02 Amateur [A];Dizzy Punch
+219;Recuperacion;Normal;-;2 Rondas;2 Acciones;Energia;Medicina;0;El usuario recupera el 50% de su PS maximo.;El usuario recupera PS equivalente a su Car.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Recover
+220;Relajo;Normal;-;2 Rondas;2 Acciones;Vitalidad;Medicina;0;El usuario recupera el 50% de su PS maximo.;El usuario recupera PS equivalente a su Car.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Slack Off
+221;Retribucion;Normal;Xd4;1 Ronda;2 Acciones;Destreza;Combatir;1;Su poder base depende de la Felicidad del Pokemon, entre 0 y 102.;El Dmg de este movimiento aumenta 1d4 por cada punto de felicidad del Usuario;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Return
+222;Ronquido;Normal;DB + 1d6;1 Ronda;2 Acciones;Energia;Presentar;1;30% de hacer retroceder al rival. Solo puede ser utilizado cuando el Pokemon esta dormido.;"CD 14 de causar Retroceso. Solo sirve si el usuario se encuentra Dormido
+/r [[1d20]]";Especial;Oponentes;0;Cono (15 ft);"Sonido; Retroceso";02 Amateur [A];Snore
+223;Rugido;Normal;DB + 1d6 + 1;1 Ronda;2 Acciones;Carisma;Etiqueta;0;El Pokemon rival es intercambiado por otro al azar del entrenador rival. Si es salvaje, huira.;Cualquier objetivo en rango es empujado 40 pies, y se reduce 5 pies por SAB del objetivo.;Especial;Area;-3;Cono (15 ft);Sonido;02 Amateur [A];Roar
+224;Sol Matinal;Normal;-;2 Rondas;2 Acciones;Vitalidad;Medicina;0;El usuario recupera 66.6% PS en Dia Soleado, 50% PS si no hay clima, y 25% en Llovizna, Granizo o Tormenta de Arena.;El usuario recupera PS equivalente a su Car. Adicional, si el clima es Soleado cura 2 puntos adicionales, y -2 en otro clima;Otros;Usuario;0;Propio;"Curacion; Clima";03 Elite [E];Morning Sun
+225;Superdiente;Normal;2;1 Ronda;2 Acciones;Destreza;Combatir;-1;Causa un da§o equivalente a la mitad del PS que le queda al Pokemon rival.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Super Fang
+226;Sustituto;Normal;-;1 Ronda;3 Acciones;Destreza;Sigilo;0;Crea un Sustituto con el 25% del PS maximo del usuario.;Recibiendo un Dmg equivalente a su CAR. Genera un doble con vida equivalente su CAR el cual imita los movimientos del usuario y recibe cualquier Dmg dirigido al mismo hasta romperse, s¢lo el sustituto recibe Dmgs dentro de un rango de efecto. Los movimientos de sonido impactan siempre al Usuario directamente.;Otros;Usuario;0;Corta (10ft);-;02 Amateur [A];Substitute
+227;Tambor;Normal;-;1 Ronda;3 Acciones;Carisma;Presentar;0;Aumenta seis niveles el Ataque al usuario, que pierde la mitad de su PS maximo. Si el usuario tiene 50% de PS o menos, el movimiento falla.;Recibiendo un Dmg equivalente al 50% de su vida maxima. Aumenta  +4 FUE;Otros;Usuario;0;-;-;02 Amateur [A];Belly Drum
+228;Tragar;Normal;-;1 Ronda;1 Accion;Vitalidad;Medicina;0;El usuario recupera PS segun sus contadores de Reserva: 25% PS con uno, 50% PS con dos, 100% PS con tres. Resetea los contadores y con ello la mejora en defensas.;El usuario recupera 2 PS por cada punto Reserva acomulado, resetea los Puntos.;Otros;Usuario;0;Propio;Curacion;02 Amateur [A];Swallow
+229;Treparrocas;Normal;DB + 2d4;1 PP;2 Acciones;Destreza;Atletismo;-2;20% de confundir al rival.;"CD 16 de confundir al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Rock Climb
+230;Triataque;Normal;DB + 1d8;1 Ronda;2 Acciones;Destreza;Lanzar;1;20% de quemar, congelar o paralizar al rival.;"CD 16 de provocar un cambio de estado (1.Quemar; 2.Congelar; 3.Paralizar)
+/r [[1d20]] + [[1d3]]";Especial;Elegido;0;Lanzar (25 ft);"Quemadura; Paralisis; Congelacion";02 Amateur [A];Tri Attack
+231;Veloc. Extrema;Normal;DB + 1d8;2 Rondas;Reaccion;Destreza;Acrobacias;1;Golpea primero.;Sin Efecto;Fisico;Elegido;3;Contacto (5ft);-;02 Amateur [A];Extreme Speed
+232;Vozarron;Normal;DB + 2d4;1 Ronda;2 Acciones;Carisma;Presentar;1;Ninguno.;-;Especial;Oponentes;0;Area (10ft);Sonido;02 Amateur [A];Hyper Voice
+233;Arraigo;Planta;-;1 PP;2 Acciones;Energia;Naturaleza;0;El usuario recupera un 6.25% de su PS maximo al final de cada turno, pero no puede ser intercambiado. Anula la inmunidad a Tierra de voladores y levitadores.;El usuario recupera 1 PS al final de cada ronda durante 5 rondas. Y queda Bloqueado en el lugar;Otros;Usuario;0;Propio;"Curacion; Prision";02 Amateur [A];Ingrain
+234;Bomba Germen;Planta;DB + 1d8;1 Ronda;2 Acciones;Destreza;Lanzar;1;Ninguno.;-;Fisico;Elegido;0;Lanzar (25 ft);Proyectil;02 Amateur [A];Seed Bomb
+235;Cepo;Planta;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Sigilo;1;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Fisico;Elegido;0;Contacto (5ft);Prision;02 Amateur [A];Snap Trap
+236;Drenadoras;Planta;-;1 Ronda;2 Acciones;Energia;Naturaleza;-1;Hace perder al rival un 12.5% de su PS cada turno, y lo transfiere a nuestro Pokemon. Inefectivo contra Pokemon de tipo Planta.;El usuario roba 1 PS del blanco infectado al final de cada ronda. Dura 4 Rondas.;Otros;Elegido;0;Lanzar (25 ft);Drenaje;02 Amateur [A];Leech Seed
+237;Energibola;Planta;DB + 2d4;1 Ronda;2 Acciones;Destreza;Lanzar;1;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Proyectil;02 Amateur [A];Energy Ball
+238;Garrote Liana;Planta;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico. El tipo del movimiento varia segun la mascara equipada si el usuario es Ogerpon.;Reduce valor critico en 1. Varia de Tipo segun la mascara equipada;Fisico;Elegido;0;Lanzar (25 ft);Preciso;02 Amateur [A];Ivy Cudgel
+239;Hierba Lazo;Planta;Xd4;1 Ronda;2 Acciones;Destreza;Combatir;1;Este movimiento tiene un poder base variable entre 20 y 120, en funcion del peso del Pokemon rival.;El Dmg de este movimiento aumenta 1d4 por cada punto de VIT adicional del Blanco contra la VIT del Usuario  (Max 5d4);Especial;Elegido;0;Contacto (5ft);Creciente;02 Amateur [A];Grass Knot
+240;Latigo Cepa;Planta;DB + 1d4 + 1;1 PP;2-3 Acciones;Destreza;Combatir;1;Ninguno.;Si usa una tercera accion Bloquea al blanco;Fisico;Elegido;0;Corta (10ft);Prision;02 Amateur [A];Vine Whip
+241;Megaagotar;Planta;DB + 1d4 + 1;1 Ronda;2 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Especial;Elegido;0;Lanzar (25 ft);Drenaje;02 Amateur [A];Mega Drain
+242;Paralizador;Planta;-;1 PP;2 Acciones;Energia;Naturaleza;-3;Provoca Paralisis.;Paraliza a los objetivos;Otros;Elegido;0;Area (10ft);"Polvo; Paralisis";02 Amateur [A];Stun Spore
+243;Semilladora;Planta;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);"Proyectil; Recurrente";02 Amateur [A];Bullet Seed
+244;Sintesis;Planta;-;2 Rondas;2 Acciones;Energia;Medicina;0;El usuario recupera 66.6% PS en Dia Soleado, 50% PS si no hay clima, y 25% en Llovizna, Granizo o Tormenta de Arena.;El usuario recupera PS equivalente a su Car. Adicional, si el clima es Soleado cura 2 puntos adicionales, y -2 en otro clima;Otros;Usuario;0;Propio;"Curacion; Clima";03 Elite [E];Synthesis
+245;Tormenta Floral;Planta;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;1;Ninguno.;-;Fisico;Area;0;Cono (15 ft);-;02 Amateur [A];Petal Blizzard
+246;Agilidad;Psiquico;-;1 PP;3 Acciones;Destreza;Atletismo;0;Aumenta dos niveles la Velocidad al usuario.;Aumenta +2 DES;Otros;Usuario;0;-;-;02 Amateur [A];Agility
+247;Amnesia;Psiquico;-;1 PP;2 Acciones;Sabiduria;Estudio;0;Aumenta dos niveles la Defensa Especial al usuario.;Aumenta +2 SAB;Otros;Usuario;0;Propio;-;02 Amateur [A];Amnesia
+248;Cabezazo Zen;Psiquico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;-1;20% de hacer retroceder al rival.;"CD 16 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;02 Amateur [A];Zen Headbutt
+249;Capa Magica;Psiquico;-;1 Ronda;Reaccion;Energia;Canalizar;0;Refleja al Pokemon rival los efectos de movimientos que no causan da§o (modificador, estado alterado, confusion, atraccion, trampa, drenadoras, abatidoras, bilis).;"Refleja los efectos de movimientos Base ""Otros"" que fuera a afectar al usuario.";Otros;Elegido;5;Propio;-;02 Amateur [A];Magic Coat
+250;Descanso;Psiquico;-;2 Rondas;3 Acciones;Vitalidad;Medicina;0;Duerme al usuario por 2 turnos y recupera todo su PS.;Duerme al usuario hasta el final de la siguiente ronda y recupera todos su PS.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Rest
+251;Paranormal;Psiquico;DB + 1d8;1 PP;2 Acciones;Destreza;Canalizar;1;10% de hacer retroceder al rival.;"CD 18 de causar Retroceso
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Retroceso;02 Amateur [A];Extrasensory
+252;Plegaria Lunar;Psiquico;-;1 Dia;3 Acciones;Carisma;Medicina;0;El usuario y sus aliados recuperan el 25% de su PS maximo y curan sus problemas de estado.;El usuario y sus aliados recuperan 3 PS y sanan sus problemas de Estado.;Otros;Usuario;0;Area (10ft);Curacion;04 Master [M];Lunar Blessing
+253;Psiquico;Psiquico;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;1;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Psychic
+254;Pulso Cura;Psiquico;-;2 Rondas;2 Acciones;Energia;Medicina;0;El Pokemon objetivo recupera el 50% de su PS maximo.;El Blanco recupera PS equivalente a su Car.;Otros;Aliado;0;Lanzar (25 ft);"Pulso; Curacion";04 Master [M];Heal Pulse
+255;Truco Fuerza;Psiquico;-;1 Ronda;2 Acciones;Energia;Empatia;0;El usuario intercambia sus stats de Ataque y de Defensa entre si, pero no sus modificadores.; El usuario intercambia ATA y VIT entre si por 4 Rondas.;Otros;Usuario;0;Propio;-;02 Amateur [A];Power Trick
+256;Joya de Luz;Roca;DB + 1d8;1 PP;2 Acciones;Destreza;Canalizar;1;Ninguno.;-;Especial;Elegido;0;Larga (40 ft);-;02 Amateur [A];Power Gem
+257;Pedrada;Roca;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);"Proyectil; Recurrente";02 Amateur [A];Rock Blast
+258;Tormenta Arena;Roca;-;1 Ronda;3 Acciones;Fuerza;Naturaleza;0;Provoca Tormenta de Arena.;Cambia el Clima por Tormenta de Arena. Dura 5 Rondas;Otros;Campo;0;Campo (50 ft);Clima;02 Amateur [A];Sandstorm
+259;Trampa Rocas;Roca;-;1 PP;1 Accion;Destreza;Sigilo;0;El Pokemon que salga a luchar recibira un da§o equivalente al 12.5% de PS, que aumenta o disminuye segun resistencias y debilidades al tipo Roca (3.125% a 50%).;"Planta trampas en el campo con CD igual a la precision obtenida, las cuales causan 2 de Dmg de tipo Roca al moverse sobre ellas sin evitarlas. En Tormenta de Arena, las trampas lanzadas se duplican.
+/r [[1d4]]";Otros;Campo;0;Campo (50 ft);Trampa;03 Elite [E];Stealth Rock
+260;Vasta Guardia;Roca;-;4 PP;Reaccion;Vitalidad;Atletismo;0;Evita todo da§o directo y efectos de movimientos del rival de objetivo multiple tanto al usuario como a sus compa§eros. Su precision se reduce con cada uso consecutivo.;Evita todo Dmg directo y efectos de movimientos del rival de objetivo multiple tanto al usuario como a sus aliados.;Otros;Equipo;4;Area (10ft);Escudo;03 Elite [E];Wide Guard
+261;Afilagarras;Siniestro;-;1 Ronda;2 Acciones;Sabiduria;Naturaleza;0;Aumenta un nivel el Ataque y la Precision al usuario.;Aumenta +1 ATA y ACC;Otros;Usuario;0;-;-;02 Amateur [A];Hone Claws
+262;Golpe Mordaza;Siniestro;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;El Pokemon rival no puede usar movimientos de sonido durante 2 turnos.;El Blanco no puede usar movimientos de sonido durante 2 rondas.;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Throat Chop
+263;Obstruccion;Siniestro;-;4 PP;Reaccion;Destreza;Etiqueta;0;Evita todo da§o directo de movimientos del rival. Su precision se reduce con cada uso consecutivo. Reduce dos niveles la Defensa del Pokemon que intente tocarlo.;Evita todo Dmg directo de movimientos del rival. Si el movimiento bloqueado era de contacto, Reduce -2 VIT del rival;Otros;Usuario;4;Propio;Escudo;04 Master [M];Obstruct
+264;Pulso Noche;Siniestro;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;0;40% de reducir un nivel la Precision al rival.;"CD 12 de Reducir -1 ACC
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);-;02 Amateur [A];Night Daze
+265;Pulso Umbrio;Siniestro;DB + 1d8;1 Ronda;2 Acciones;Sabiduria;Canalizar;1;20% de hacer retroceder al rival.;"CD 16 de causar Retroceso
+/r [[1d20]]";Especial;Aleatorio;0;Lanzar (25 ft);Retroceso;02 Amateur [A];Dark Pulse
+266;Ataque oseo;Tierra;DB + 1d4;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Lanzar (25 ft);Recurrente;02 Amateur [A];Bone Rush
+267;Excavar;Tierra;DB + 1d8;1 Ronda;2 Acciones;Destreza;Sigilo;1;Precisa un turno de preparacion bajo tierra, en que solo puede ser golpeado por Terremoto y Magnitud, con el doble de poder base.;Entra bajo tierra, pudiendo desplazarse a la mitad de velocidad por accion. Con una nueva accion puede salir e impactar al rival.;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Dig
+268;Fuerza Equina;Tierra;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;0;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];High Horsepower
+269;Huesomerang;Tierra;DB + 1d6;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea 2 veces seguidas.;Puede usarse hasta 2 veces por Ronda;Fisico;Elegido;0;Lanzar (25 ft);Recurrente;02 Amateur [A];Bonemerang
+270;Puas;Tierra;-;1 PP;1 Accion;Destreza;Sigilo;0;El Pokemon que salga a luchar recibira un da§o equivalente al 12.5% de PS (16.66% con 2 filas, 25% con 3 filas). No afecta a Pokemon voladores o levitadores.;"Planta trampas en el campo con CD igual a la precision obtenida, las cuales causan 1 de Dmg de tipo tierra al moverse sobre ellas sin evitarlas. Pueden stackearse hasta 3 veces, contando solamente 1 vez el bonificador de resistencia en ese caso.
+/r [[2d4]]";Otros;Campo;0;Campo (50 ft);Trampa;03 Elite [E];Spikes
+271;Recogearena;Tierra;-;2 Rondas;2 Acciones;Vitalidad;Medicina;0;El usuario recupera 66.6% PS en Tormenta de Arena, y 50% PS si no hay clima o en Dia Soleado, Llovizna o Granizo.;El usuario recupera PS equivalente a su Car. Adicional, si el clima es Tormenta de Arena cura 2 puntos adicionales, y -2 en otro clima;Otros;Usuario;0;Propio;"Curacion; Clima";03 Elite [E];Shore Up
+272;Tierra Viva;Tierra;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;1;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;02 Amateur [A];Earth Power
+273;Bomba Lodo;Veneno;DB + 2d4;1 Ronda;2 Acciones;Destreza;Lanzar;1;30% de envenenar al rival.;"CD 14 de Envenenar al rival
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);"Proyectil; Veneno";02 Amateur [A];Sludge Bomb
+274;Carga Toxica;Veneno;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;1;Si el Pokemon objetivo esta envenenado, su poder base se dobla.;Si el Pokemon objetivo se encuentra Envenenado o Intoxicado, duplica el Dmg causado;Especial;Elegido;0;Lanzar (25 ft);Veneno;02 Amateur [A];Venoshock
+275;Cola Veneno;Veneno;DB + 1d6;1 PP;2 Acciones;Destreza;Combatir;1;10% de envenenar al rival. Alta probabilidad de Golpe Critico.;"CD 18 de Envenenar. Reduce valor critico en 1
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Preciso; Veneno";02 Amateur [A];Poison Tail
+276;Purificacion;Veneno;-;1 PP;2 Acciones;Energia;Medicina;0;Cura cualquier problema de estado del Pokemon objetivo. Si lo hace, el usuario recupera el 50% de su PS maximo.;Si  el Blanco tiene un problema de estado, recupera PS equivalente a su Car y lo sana del mismo.;Otros;Elegido;0;Lanzar (25 ft);Curacion;04 Master [M];Purify
+277;Trampa Venenosa;Veneno;-;1 PP;2 Acciones;Energia;Sigilo;1;Baja un nivel el Ataque, el Ataque Especial y la Velocidad al rival si esta envenenado o intoxicado.;Si el blanco esta Envenenado o Intoxicado reduce  -1 ATA, ENE y DES;Otros;Oponentes;0;Corta (10ft);Veneno;02 Amateur [A];Venom Drench
+278;Aerochorro;Volador;DB + 1d6 + 2;2 Rondas;2 Acciones;Energia;Canalizar;0;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Especial;Elegido;0;Larga (40 ft);Preciso;02 Amateur [A];Aeroblast
+279;Aire Afilado;Volador;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Lanzar;0;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Especial;Oponentes;0;Area (10ft);"Corte; Preciso";02 Amateur [A];Air Cutter
+280;Ala Bis;Volador;DB + 1d4;1 Ronda;1 Accion;Destreza;Combatir;-1;Golpea 2 veces seguidas.;Puede usarse hasta 2 veces por Ronda;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Dual Wingbeat
+281;Bote;Volador;DB + 2d4;1 Ronda;3 Acciones;Destreza;Acrobacias;-2;30% de paralizar al rival. Precisa un turno de preparacion en el cielo, en que solo puede ser golpeado por Tornado, Remolino, Trueno, Ciclon, Gancho Alto, Antiaereo y Vendaval.;"CD 14 de Paralizar al Rival. El Usuario aterriza junto al Blanco
+/r [[1d20]]";Fisico;Elegido;-2;Lanzar (25 ft);Paralisis;02 Amateur [A];Bounce
+282;Espejo;Volador;-;1 PP;3 Acciones;Carisma;Empatia;0;Usa el ultimo movimiento que ha utilizado el Pokemon rival.; Usa el ultimo movimiento que ha utilizado el Blanco manteniendo la precision de este movimiento.;Otros;Elegido;0;-;-;02 Amateur [A];Mirror Move
+283;Golpe Aereo;Volador;DB + 1d6 + 1;1 PP;2 Acciones;Destreza;Combatir;5;Siempre golpea.;-;Fisico;Elegido;0;Contacto (5ft);Corte;02 Amateur [A];Aerial Ace
+284;Pico Taladro;Volador;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;02 Amateur [A];Drill Peck
+285;Respiro;Volador;-;2 Rondas;2 Acciones;Sabiduria;Medicina;0;El usuario recupera el 50% de su PS maximo. En ese mismo turno perdera su tipo Volador (si lo tiene), con lo que ello afecta a sus inmunidades, debilidades y resistencias.;El usuario recupera PS equivalente a su Car.;Otros;Usuario;0;Propio;Curacion;03 Elite [E];Roost
+286;Tajo Aereo;Volador;DB + 1d8;1 Ronda;2 Acciones;Destreza;Lanzar;0;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Retroceso;02 Amateur [A];Air Slash
+287;Viento Afin;Volador;-;1 Ronda;3 Acciones;Sabiduria;Naturaleza;0;Se duplica la Velocidad del equipo del usuario por 4 turnos, incluyendo el turno en que se usa este movimiento.;Duplica la velocidad y la iniciativa del equipo del usuario por 4 rondas.;Otros;Campo;0;Campo (50 ft);-;02 Amateur [A];Tailwind
+288;Cabeza de Hierro;Acero;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;03 Elite [E];Iron Head
+289;Cola Ferrea;Acero;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;-3;30% de reducir un nivel la Defensa al rival.;"CD 14 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Iron Tail
+290;Cuerno Certero;Acero;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;5;Siempre golpea.;-;Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Smart Strike
+291;Foco Resplandor;Acero;DB + 1d8;1 Ronda;2 Acciones;Energia;Canalizar;1;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Oponentes;0;Cono (15 ft);-;03 Elite [E];Flash Cannon
+292;Prensa Metalica;Acero;Xd4;2 Rondas;2 Acciones;Vitalidad;Combatir;1;El poder del movimiento es mayor cuanto mas PS le quede al rival. El poder base sera: (PS Actual Rival / PS Maximo Rival) x 100 (max. 100).;El Dmg de este movimiento disminuye en 1d4 por cada punto de PS perdido por el Blanco, iniciando en 5d4;Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Hard Press
+293;PuÒo Meteoro;Acero;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;-1;20% de aumentar un nivel el Ataque al usuario.;"CD 16 de Aumentar +1 FUE
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"§; PuÒo";03 Elite [E];Meteor Mash
+294;Agua Lodosa;Agua;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;-2;30% de reducir un nivel la Precision al rival.;"CD 14 de Reducir -1 ACC
+/r [[1d20]]";Especial;Area;0;Cono (15 ft);-;03 Elite [E];Muddy Water
+295;Gota Vital;Agua;-;1 Ronda;2 Acciones;Energia;Medicina;0;El usuario y su aliado recuperan un 6.25% de PS cada turno hasta que cae debilitado o es intercambiado.;El usuario y sus aliados recuperan 1 PS al final de cada ronda durante 5 rondas.;Otros;Equipo;0;Area (10ft);Curacion;04 Master [M];Life Dew
+296;Hidroariete;Agua;DB + 2d4;1 Ronda;2 Acciones;Fuerza;Combatir;1;20% de reducir un nivel la Defensa al rival.;"CD 16 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Liquidation
+297;Hidrobomba;Agua;DB + 1d6 + 2;2 Rondas;3 Acciones;Energia;Lanzar;-2;Ninguno.;-;Especial;Elegido;0;Linear (20 ft);-;03 Elite [E];Hydro Pump
+298;Shuriken de Agua;Agua;DB;1 Ronda;1 Accion;Destreza;Lanzar;-3;Golpea de 2 a 5 veces seguidas. Golpea primero.;"Puede usarse consecutivamente; Puede usarse como reaccion";Fisico;Elegido;2;Lanzar (25 ft);Recurrente;03 Elite [E];Water Shuriken
+299;Surf;Agua;DB + 2d4;1 Ronda;2 Acciones;Energia;Canalizar;1;El poder base se duplica si el rival esta bajo el agua preparando un Buceo.;El poder base se duplica si el rival esta bajo el agua preparando un Buceo. Puede gastar una tercera accion para ampliar el area de efecto hasta 15 ft.;Especial;Area;0;Area (10ft);-;03 Elite [E];Surf
+300;Tajo Acuatico;Agua;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);"Corte; Preciso";03 Elite [E];Aqua Cutter
+301;Bola de Polen;Bicho;DB + 2d4;2 Rondas;2 Acciones;Energia;Lanzar;1;Si el Pokemon objetivo es un aliado, este movimiento recupera el 50% de su PS maximo en lugar de hacerle da§o.;Si el Blanco es un Aliado recupera PS equivalente a su Car.;Especial;Elegido;0;Lanzar (25 ft);"Proyectil; Curacion";03 Elite [E];Pollen Puff
+302;Chupavidas;Bicho;DB + 1d8;1 Ronda;2 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Fisico;Elegido;0;Contacto (5ft);Drenaje;03 Elite [E];Leech Life
+303;Danza Aleteo;Bicho;-;1 PP;3 Acciones;Carisma;Presentar;0;Aumenta un nivel el Ataque Especial, la Defensa Especial y la Velocidad al usuario.; Aumenta +1 ENE, SAB y DES;Otros;Usuario;0;Propio;Danza;03 Elite [E];Quiver Dance
+304;Doble Ataque;Bicho;DB + 1d4 + 1;1 Ronda;1 Accion;Destreza;Combatir;-2;20% de envenenar al rival. Golpea 2 veces seguidas.;"CD 16 de Envenenar al rival; Puede usarse hasta 2 veces por Ronda
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);"Recurrente; Veneno";02 Amateur [A];Twineedle
+305;Megacuerno;Bicho;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;-1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;04 Master [M];Megahorn
+306;Polvo Explosivo;Bicho;-;4 PP;Reaccion;Sabiduria;Naturaleza;0;Provoca que el rival se haga da§o a si mismo si usa un ataque de tipo Fuego ese mismo turno.;Cancela un movimiento de Tipo fuego haciendo que estalle causando 2 de Dmg de Tipo Fuego en un area centrada en el blanco con dificultad igual a la precision de este movimiento.;Otros;Elegido;4;Lanzar (25 ft);"Polvo; Escudo";04 Master [M];Powder
+307;Red Viscosa;Bicho;-;1 PP;1 Accion;Sabiduria;Sigilo;0;El Pokemon que salga a luchar vera reducida su Velocidad en un nivel. No afecta a Pokemon voladores o levitadores.;"Esparce seda en el campo con CD igual a la precision obtenida, las cuales causan 1 de Dmg de tipo Bicho al moverse sobre ellas sin evitarlas. Reduce -1 DES
+/r [[1d3]]";Otros;Campo;0;Campo (50 ft);Trampa;03 Elite [E];Sticky Web
+308;Carga Dragon;Dragon;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;-3;20% de hacer retroceder al rival. Golpea a Pokemon que han usado Reduccion con el doble de poder base e ignorando su Evasion.;" CD 16 de causar Retroceso. Siempre es Critico si el objetivo ha usado Reduccion.
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Retroceso;03 Elite [E];Dragon Rush
+309;Dracoflechas;Dragon;DB + 1d6;1 Ronda;1 Accion;Destreza;Lanzar;-3;Golpea 2 veces seguidas. Si hay dos objetivos, golpea 1 vez a cada uno de ellos.;Puede usarse hasta 2 veces por Ronda;Fisico;Elegido;0;Larga (40 ft);Recurrente;03 Elite [E];Dragon Darts
+310;Vasto Impacto;Dragon;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Combatir;1;100% de reducir un nivel el Ataque al rival.;Reduce -1 Fue;Fisico;Oponentes;0;Cono (15 ft);-;03 Elite [E];Breaking Swipe
+311;Carga Parabola;Electrico;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Especial;Area;0;Cono (15 ft);Drenaje;03 Elite [E];Parabolic Charge
+326;Sofoco;Fuego;DB + 2d6;2 Rondas;2-3 Acciones;Energia;Canalizar;-2;100% de reducir dos niveles el Ataque Especial al usuario.; Reduce -2 ENE del usuario;Especial;Area;0;Area (10ft);-;04 Master [M];Overheat
+313;Placaje Elec;Electrico;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;0;10% de paralizar al rival. Provoca un da§o de retroceso del 33% del da§o provocado al Pokemon rival.;"CD 18 de Paralizar al rival. El Usuario pierde HP equivalente al DB
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Recoil; Paralisis";04 Master [M];Volt Tackle
+314;Trueno;Electrico;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Canalizar;-3;30% de paralizar al rival. Golpea a Pokemon en mitad de un Vuelo, Bote o Caida Libre. En Llovizna no falla. En Dia Soleado tiene 50% de precision.;"CD 14 de Paralizar al rival; Si el clima es lluvia Aumenta +6 ACC, en otro clima Reduce -2 Acc
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);"Paralisis; Clima";03 Elite [E];Thunder
+315;Voltio Cruel;Electrico;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;1;Provoca un da§o de retroceso del 25% del da§o provocado al Pokemon rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;03 Elite [E];Wild Charge
+316;Bola Sombra;Fantasma;DB + 1d8;1 Ronda;2 Acciones;Destreza;Lanzar;1;20% de reducir un nivel la Defensa Especial al rival.;"CD 16 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Proyectil;03 Elite [E];Shadow Ball
+317;Garra Umbria;Fantasma;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);Preciso;03 Elite [E];Shadow Claw
+318;Marcha Espectral;Fantasma;DB + 1d6 + 1;1 Ronda;2 Acciones;Destreza;Canalizar;1;30% de quemar al rival. El poder base se duplica si el Pokemon objetivo esta Quemado.;"CD 14 de Quemar. En caso de que el blanco se encuentre quemado inflinge Dmg Critico.
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Quemadura;03 Elite [E];Infernal Parade
+319;Puntada Sombria;Fantasma;DB + 1d8;2 Rondas;2 Acciones;Destreza;Lanzar;1;Impide al rival ser intercambiado, salvo usando Relevo, Ida y Vuelta, Voltiocambio o ultima Palabra, o si tiene Muda Concha o Boton Escape.;Bloquea al Blanco.;Fisico;Elegido;0;Lanzar (25 ft);Prision;03 Elite [E];Spirit Shackle
+320;Danza Llama;Fuego;DB + 1d8;1 Ronda;2 Acciones;Destreza;Presentar;1;50% de aumentar un nivel el Ataque Especial al usuario.;"CD 10 de Aumentar +1 ENE
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Danza;03 Elite [E];Fiery Dance
+321;Envite igneo;Fuego;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;0;10% de quemar al rival. Provoca un da§o de retroceso del 33% del da§o provocado al Pokemon rival.;CD 18 de Quemar al rival. El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);"Recoil; Quemadura";04 Master [M];Flare Blitz
+322;Llama Protectora;Fuego;-;4 PP;Reaccion;Vitalidad;Atletismo;0;Evita todo da§o directo y efectos de movimientos del rival. Su precision se reduce con cada uso consecutivo. Provoca Quemadura al Pokemon que intente tocarlo.;Evita todo Dmg directo y efectos de movimientos del rival. Si el movimiento bloqueado era de contacto, Incendia al rival;Otros;Usuario;4;Propio;"Escudo; Quemadura";04 Master [M];Burning Bulwark
+323;Llamarada;Fuego;DB + 1d6 + 2;2 Rondas;2 Acciones;Energia;Canalizar;-2;10% de quemar al rival.;"CD 18 de Quemar al rival.
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Quemadura;03 Elite [E];Fire Blast
+324;Patada ignea;Fuego;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;-1;10% de quemar al rival. Alta probabilidad de Golpe Critico.;"CD 18 de Quemar. Reduce valor critico en 1
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Preciso; Quemadura";03 Elite [E];Blaze Kick
+325;Pirochoque;Fuego;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de quemar al rival. Solo lo puede usar el Autostar Schedar.;"CD 14 de Quemar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Star; Quemadura";03 Elite [E];Blazing Torque
+346;Estruendo;Normal;DB + 3d4;1 Ronda;2-3 Acciones;Carisma;Canalizar;-2;Ninguno.;Ninguno.;Especial;Area;0;Area (10ft);Sonido;04 Master [M];Boomburst
+327;Brillo Magico;Hada;DB + 1d8;1 Ronda;2 Acciones;Energia;Canalizar;1;Ninguno.;-;Especial;Oponentes;0;Cono (15 ft);-;03 Elite [E];Dazzling Gleam
+328;CarantoÒa;Hada;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;-1;10% de reducir un nivel el Ataque al rival.;"CD 18 de Reducir -1 FUE
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);§;03 Elite [E];Play Rough
+329;Feerichoque;Hada;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de confundir al rival. Solo lo puede usar el Autostar Ruchbah.;"CD 14 de confundir al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Star;03 Elite [E];Magical Torque
+330;Fuerza Lunar;Hada;DB + 2d4;1 Ronda;2 Acciones;Energia;Canalizar;1;30% de reducir un nivel el Ataque Especial al rival.;"CD 14 de Reducir -1 ENE
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);-;03 Elite [E];Moonblast
+331;Luz Aniquiladora;Hada;DB + 3d4;2 Rondas;3  Acciones;Energia;Canalizar;-1;Provoca un da§o de retroceso del 50% del da§o provocado al Pokemon rival.; El Usuario pierde HP equivalente al DB;Especial;Elegido;0;Lanzar (25 ft);Recoil;04 Master [M];Light of Ruin
+344;Doble Filo;Normal;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;1;Provoca un da§o de retroceso al usuario equivalente al 33% del da§o provocado al rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;04 Master [M];Double-Edge
+333;Rayo Hielo;Hielo;DB + 2d4;1 Ronda;2 Acciones;Destreza;Lanzar;1;10% de congelar al rival.;"CD 18 de Congelar al rival.
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);Congelacion;03 Elite [E];Ice Beam
+334;Ventisca;Hielo;DB + 1d6 + 2;2 Rondas;2 Acciones;Energia;Canalizar;-3;10% de congelar al rival. En Granizo no falla.;"CD 18 de Congelar al rival; Si el clima es Granizo Aumenta +6 ACC, en otro clima Reduce -2 Acc
+/r [[1d20]]";Especial;Oponentes;0;Area (10ft);"Congelacion; Clima";03 Elite [E];Blizzard
+335;Espada Santa;Lucha;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;1;Ignora los modificadores de stats del Pokemon objetivo.;Ignora los aumentos de VIT o Evasion de stats del Blanco.;Fisico;Elegido;0;Contacto (5ft);Corte;03 Elite [E];Sacred Sword
+336;Octopresa;Lucha;-;1 Ronda;2 Acciones;Fuerza;Atletismo;1;Impide al rival ser intercambiado. Baja un nivel la Defensa y la Defensa Especial al rival cada turno.;Bloquea al Blanco. Al final de la Ronda Reduce -1 VIT y SAB. ;Otros;Elegido;0;Contacto (5ft);Prision;02 Amateur [A];Octolock
+360;Latigazo;Planta;DB + 2d6;1 Ronda;2 Acciones;Destreza;Combatir;-1;Ninguno.;-;Fisico;Elegido;0;Contacto (5ft);-;04 Master [M];Power Whip
+338;PuÒo Dinamico;Lucha;DB + 1d6 + 2;2 Rondas;2 Acciones;Destreza;Combatir;-5;100% de confundir al rival.;Confunde al rival;Fisico;Elegido;0;Contacto (5ft);"§; PuÒo";03 Elite [E];Dynamic Punch
+339;PuÒo Drenaje;Lucha;DB + 1d8;1 Ronda;2 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Fisico;Elegido;0;Contacto (5ft);"§; PuÒo; Drenaje";03 Elite [E];Drain Punch
+340;Pugnachoque;Lucha;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de paralizar al rival. Solo lo puede usar el Autostar Caph.;"CD 14 de Paralizar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Star; Paralisis";03 Elite [E];Combat Torque
+341;Agarron;Normal;Xd4;2 Rondas;2 Acciones;Fuerza;Combatir;1;El poder del movimiento es mayor cuanto mas PS le quede al rival. El poder base sera: 1 + (PS Actual Rival / PS Maximo Rival) x 120 (max. 121).;El Dmg de este movimiento disminuye en 1d4 por cada punto de PS perdido por el Blanco, iniciando en 5d4;Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Crush Grip
+342;Azote;Normal;Xd4;1 Ronda;2 Acciones;Destreza;Combatir;1;El poder base de este movimiento es mayor cuanto menor el PS restante del usuario.;El Dmg de este movimiento aumenta 1d4 por cada punto de PS perdido del Usuario  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;03 Elite [E];Flail
+343;Cuchillada;Normal;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);"Corte; Preciso";03 Elite [E];Slash
+361;Mazazo;Planta;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;1;Provoca un da§o de retroceso al usuario equivalente al 33% del da§o provocado al rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;04 Master [M];Wood Hammer
+345;Esfuerzo;Normal;Xd4;1 Ronda;2 Acciones;Vitalidad;Atletismo;1;Causa da§o equivalente a la diferencia entre el PS actual del rival y del usuario. No aplica resistencias, pero no afecta a Fantasma.;El Dmg de este movimiento aumenta 1d4 por cada punto de PS adicional del Blanco contra el PS del Usuario  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;03 Elite [E];Endeavor
+312;ElectrocaÒon;Electrico;DB + 2d6;2 Rondas;2 Acciones;Destreza;Lanzar;-3;100% de paralizar al rival.; Paraliza al Rival.;Especial;Elegido;0;Larga (40 ft);"§; Proyectil; Paralisis";04 Master [M];Zap Cannon
+347;Estrujon;Normal;Xd4;2 Rondas;2 Acciones;Fuerza;Atletismo;1;El poder del movimiento es mayor cuanto mas PS le quede al rival. El poder base sera: 1 + (PS Actual Rival / PS Maximo Rival) x 120 (max. 121).;El Dmg de este movimiento disminuye en 1d4 por cada punto de PS perdido por el Blanco, iniciando en 5d4;Especial;Elegido;0;Contacto (5ft);-;03 Elite [E];Wring Out
+348;Fijar Blanco;Normal;-;2 Rondas;1 Accion;Sabiduria;Percepcion;0;El siguiente movimiento que utilice el Pokemon no fallara.;Aumenta +6 ACC al siguiente movimiento del usuario;Otros;Usuario;0;-;-;03 Elite [E];Lock-On
+349;Garra Brutal;Normal;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;0;50% de reducir un nivel la Defensa al rival.;"CD 10 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Crush Claw
+350;Plumerazo;Normal;DB + 1d4;1 Ronda;1 Accion;Destreza;Combatir;-1;Golpea de 2 a 5 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);Recurrente;02 Amateur [A];Tail Slap
+351;Proliferacion;Normal;DB + 1d4;1 Ronda;1 Accion;Destreza;Combatir;-1;Golpea de 1 a 10 veces seguidas.;Puede usarse consecutivamente;Fisico;Elegido;0;Contacto (5ft);"Corte; Recurrente";02 Amateur [A];Population Bomb
+352;Telepata;Normal;-;2 Rondas;1 Accion;Sabiduria;Empatia;0;El siguiente movimiento que utilice el Pokemon no fallara.;Aumenta +6 ACC al siguiente movimiento del usuario;Otros;Usuario;0;-;-;03 Elite [E];Mind Reader
+353;Viento Cortante;Normal;DB + 1d8;1 Ronda;3 Acciones;Destreza;Canalizar;1;Debe cargarse el primer turno para golpear en el segundo. Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Especial;Oponentes;-2;Area (10ft);"Carga; Preciso";03 Elite [E];Razor Wind
+354;Absorbefuerza;Planta;-;1 Ronda;2 Acciones;Sabiduria;Etiqueta;1;100% de reducir un nivel el Ataque al rival. El usuario recupera PS equivalente al Ataque del Pokemon objetivo antes de dicha reduccion.;"Reduce -1 FUE; El usuario se cura PS equivalente a la fuerza actualizada del Blanco";Otros;Elegido;0;Lanzar (25 ft);Curacion;04 Master [M];Strength Sap
+355;Asta Drenaje;Planta;DB + 1d8;1 Ronda;2 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Fisico;Elegido;0;Contacto (5ft);Drenaje;03 Elite [E];Horn Leech
+356;CaÒon Batidor;Planta;DB + 1d8;1 Ronda;2 Acciones;Energia;Empatia;-2;10% de quemar al rival. El usuario recupera PS equivalente a la mitad del da§o causado.;"CD 18 de Quemar al rival. El usuario recupera PS equivalente a la mitad del Dmg causado.
+/r [[1d20]]";Especial;Area;0;Cono (15 ft);"§; Drenaje; Quemadura";03 Elite [E];Matcha Gotcha
+357;Espora;Planta;-;1 Ronda;2 Acciones;Energia;Naturaleza;1;Provoca Sue§o.;Duerme al blanco;Otros;Elegido;0;-;Polvo;03 Elite [E];Spore
+358;Gigadrenado;Planta;DB + 1d8;1 Ronda;2 Acciones;Energia;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Especial;Elegido;0;Lanzar (25 ft);Drenaje;03 Elite [E];Giga Drain
+359;Hoja Aguda;Planta;DB + 2d4;1 Ronda;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);"Corte; Preciso";03 Elite [E];Leaf Blade
+393;Pajaro Osado;Volador;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Combatir;1;Provoca un da§o de retroceso al usuario equivalente al 33% del da§o provocado al rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;04 Master [M];Brave Bird
+337;Onda Certera;Lucha;DB + 2d6;2 Rondas;2 Acciones;Energia;Lanzar;-2;10% de reducir un nivel la Defensa Especial al rival.;"CD 18 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;-1;Larga (40 ft);Proyectil;04 Master [M];Focus Blast
+362;Truco Floral;Planta;DB + 1d8;2 Rondas;2 Acciones;Carisma;Presentar;5;Siempre golpea. Siempre provoca un Golpe Critico salvo que una habilidad o efecto lo impida.;Reduce valor critico en 1;Fisico;Elegido;0;Lanzar (25 ft);Preciso;03 Elite [E];Flower Trick
+363;Laser Doble;Psiquico;DB + 1d4 + 1;1 Ronda;1 Accion;Destreza;Lanzar;-2;Golpea 2 veces seguidas.;Puede usarse hasta 2 veces por Ronda;Especial;Elegido;0;Linear (20 ft);Recurrente;02 Amateur [A];Twin Beam
+364;Poder Reserva;Psiquico;Xd4;2 Rondas;2 Acciones;Energia;Canalizar;1;El poder base del movimiento aumenta cuantos mas modificadores positivos de stats tiene el usuario.;El Dmg de este movimiento aumenta 1d4 por cada modificador positivo en el Usuario  (Max 5d4);Especial;Elegido;0;Lanzar (25 ft);Creciente;03 Elite [E];Stored Power
+365;Psicocorte;Psiquico;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Lanzar (25 ft);"Corte; Preciso";03 Elite [E];Psycho Cut
+366;Vasta Fuerza;Psiquico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;1;Golpea a todos los Pokemon rivales en combates dobles con un 50% mas de poder base si hay un campo psiquico.;Si hay campo psiquico realiza Dmg Critico;Especial;Oponentes;0;Area (10ft);-;03 Elite [E];Expanding Force
+367;Avalancha;Roca;DB + 1d8;1 Ronda;2 Acciones;Destreza;Lanzar;-1;30% de hacer retroceder al rival.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Area;0;Cono (15 ft);Retroceso;03 Elite [E];Rock Slide
+368;Roca Afilada;Roca;DB + 1d6 + 2;2 Rondas;2 Acciones;Fuerza;Lanzar;-2;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Oponentes;0;Linear (20 ft);Preciso;03 Elite [E];Stone Edge
+386;Lanzamugre;Veneno;DB + 2d6;2 Rondas;2 Acciones;;Lanzar;-2;30% de envenenar al rival.;"CD 14 de Envenenar al rival
+/r [[1d20]]";Fisico;Elegido;-1;Larga (40 ft);Veneno;04 Master [M];Gunk Shot
+370;Calamidad;Siniestro;2;1 Ronda;2 Acciones;Energia;Naturaleza;-1;Causa un da§o equivalente a la mitad del PS que le queda al Pokemon rival.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Especial;Elegido;0;Lanzar (25 ft);-;03 Elite [E];Ruination
+371;Castigo;Siniestro;Xd4;2 Rondas;2 Acciones;Destreza;Combatir;1;El poder base aumenta cuando el rival tiene modificadores positivos de stats (incluye Precision y Evasion). El minimo es 60, a§adiendo 20 por modificador y hasta 200.;El Dmg de este movimiento aumenta 1d4 por cada modificador positivo en el Blanco  (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;03 Elite [E];Punishment
+372;Chuleria;Siniestro;Xd4;2 Rondas;2 Acciones;Destreza;Combatir;1;El poder base del movimiento aumenta cuantos mas modificadores positivos de stats tiene el usuario.;El Dmg de este movimiento aumenta 1d4 por cada modificador positivo en el Usuario (Max 5d4);Fisico;Elegido;0;Contacto (5ft);Creciente;03 Elite [E];Power Trip
+373;Desahogo;Siniestro;DB + 1d8;1 Ronda;2 Acciones;Fuerza;Combatir;1;El poder base se duplica si el usuario ha visto reducidos sus stats en el mismo turno.;Si en la ronda se han reducido las caracteristicas del Usuario, realiza Dmg Critico;Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Lash Out
+374;Giro Vil;Siniestro;DB + 1d6 + 1;1 PP;2 Acciones;Fuerza;Combatir;1;Golpea a todos los Pokemon adyacentes al usuario haciendo contacto en todos ellos.;Se considera Dmg de contacto contra cada objetivo en el Area;Fisico;Area;0;Area (10ft);-;03 Elite [E];Brutal Swing
+375;Ominochoque;Siniestro;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;10% de dormir al rival. Solo lo puede usar el Autostar Segin.;"CD 18 de dormir al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Star;03 Elite [E];Wicked Torque
+376;Tajo Umbrio;Siniestro;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);"Corte; Preciso";03 Elite [E];Night Slash
+377;Triturar;Siniestro;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;20% de reducir un nivel la Defensa al rival.;"CD 16 de Reducir -1 VIT
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Mordisco;03 Elite [E];Crunch
+378;Ultima Palabra;Siniestro;-;1 PP;2 Acciones;Carisma;Etiqueta;1;Baja un nivel el Ataque y el Ataque Especial al rival. El Pokemon debe ser intercambiado tras usar este ataque. Permite escapar de trampas y pseudo-trampas.;Disminuye -1 FUE y ENE del blanco. Luego se mueve gratuitamente;Otros;Elegido;0;Corta (10ft);Sonido;03 Elite [E];Parting Shot
+379;Arenas Ardientes;Tierra;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;1;30% de quemar al rival.;"CD 14 de Quemar al rival
+/r [[1d20]]";Especial;Elegido;0;Cono (15 ft);Quemadura;03 Elite [E];Scorching Sands
+380;Pataleta;Tierra;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;El poder base se duplica si el usuario fallo el ultimo movimiento usado.;Causa Dmg Critico si el usuario fallo el ultimo movimiento usado.;Fisico;Elegido;0;Contacto (5ft);-;03 Elite [E];Stomping Tantrum
+381;Taladradora;Tierra;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;0;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Elegido;0;Contacto (5ft);Preciso;03 Elite [E];Drill Run
+382;Terremoto;Tierra;DB + 1d6 + 2;1 Ronda;2 Acciones;Fuerza;Combatir;1;El da§o es doble si golpea a un Pokemon en mitad de una excavacion.;El Dmg es doble si golpea a un Pokemon en mitad de una excavacion. Puede gastar una tercera accion para ampliar el area de efecto hasta 15 ft.;Fisico;Area;0;Area (10ft);-;03 Elite [E];Earthquake
+383;Colmillo Veneno;Veneno;DB + 1d6;1 Ronda;2 Acciones;Destreza;Combatir;1;50% de intoxicar al rival.;"CD 10 de Intoxicar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Mordisco; Veneno";03 Elite [E];Poison Fang
+384;Garra Nociva;Veneno;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;50% de envenenar, paralizar o dormir al rival.;"CD 10 de causar un estado alterado (1.Envenenar, 2.Paralizar, 3.Dormir)
+/r [[1d20]] + [[1d3]]";Fisico;Elegido;0;Contacto (5ft);"Paralisis; Veneno";03 Elite [E];Dire Claw
+385;Hilo Venenoso;Veneno;-;1 PP;2 Acciones;Destreza;Lanzar;1;100% de reducir un nivel la Velocidad al rival. Provoca Envenenamiento.;"Reduce -1 DES; Envenena al rival";Otros;Elegido;0;Lanzar (25 ft);Veneno;03 Elite [E];Toxic Thread
+392;Ataque Aereo;Volador;DB + 3d4;2 Rondas;3 Acciones;Fuerza;Combatir;-1;30% de hacer retroceder al rival. Se prepara el primer turno para atacar en el segundo.;"CD 14 de causar Retroceso
+/r [[1d20]]";Fisico;Elegido;-2;Larga (40 ft);Retroceso;04 Master [M];Sky Attack
+387;Onda Toxica;Veneno;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;1;10% de envenenar al rival.;"CD 18 de Envenenar al rival
+/r [[1d20]]";Especial;Area;0;Area (10ft);Veneno;03 Elite [E];Sludge Wave
+388;Ponzochoque;Veneno;DB + 1d6 + 2;1 Ronda;2 Acciones;Destreza;Combatir;1;30% de envenenar al rival. Solo lo puede usar el Autostar Tsih.;"CD 14 de Envenenar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Star; Veneno";03 Elite [E];Noxious Torque
+389;Puas Toxicas;Veneno;-;1 PP;1 Accion;Destreza;Sigilo;0;Situa puas en el campo enemigo. Salvo a inmunes al veneno, voladores y levitadores, envenenan o intoxican a todo Pokemon rival que entre al campo, segun haya 1 o 2 filas.;"Planta trampas en el campo con CD igual a la precision obtenida, las cuales causan 1 de Dmg de tipo veneno al moverse sobre ellas sin evitarlas. Adicionalmente, lanza una CD 10 para Envenenar, en caso de ya estar envenenado pasa a ser Intoxicado
+/r [[1d3]]";Otros;Campo;0;Campo (50 ft);"Trampa; Veneno";03 Elite [E];Toxic Spikes
+390;Puya Nociva;Veneno;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;1;30% de envenenar al rival.;"CD 12 de Envenenar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Veneno;03 Elite [E];Poison Jab
+391;Veneno X;Veneno;DB + 1d8;1 PP;2 Acciones;Destreza;Combatir;1;10% de envenenar al rival. Alta probabilidad de Golpe Critico.;"CD 18 de Envenenar. Reduce valor critico en 1
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Corte; Preciso; Veneno";03 Elite [E];Cross Poison
+369;Testarazo;Roca;DB + 3d4;2 Rondas;3  Acciones;Fuerza;Combatir;1;Provoca un da§o de retroceso del 50% del da§o provocado al Pokemon rival.; El Usuario pierde HP equivalente al DB;Fisico;Elegido;0;Contacto (5ft);Recoil;04 Master [M];Head Smash
+332;Rayo Gelido;Hielo;DB + 3d4;2 Rondas;2-3 Acciones;Energia;Canalizar;-1;30% de paralizar al rival. Se prepara el primer turno para atacar en el segundo.;"CD 14 de Paralizar al rival
+/r [[1d20]]";Fisico;Elegido;-2;Linear (20 ft);Paralisis;04 Master [M];Freeze Shock
+394;Vendaval;Volador;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Canalizar;-3;30% de confundir al rival. Golpea a Pokemon en mitad de un Vuelo, Bote o Caida Libre. En Llovizna no falla. En Dia Soleado tiene 50% de precision.;"CD 14 de Confundir; Si el clima es lluvia Aumenta +6 ACC, en otro clima Reduce -2 Acc
+/r [[1d20]]";Especial;Area;0;Cono (15 ft);Clima;03 Elite [E];Hurricane
+395;FerropuÒo Doble;Acero;DB + 1d6 + 1;2 Ronda;1 Accion;Fuerza;Combatir;1;30% de hacer retroceder al rival. Golpea 2 veces seguidas.;"CD 14 de causar Retroceso; Puede usarse hasta 2 veces por Ronda
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"§; PuÒo; Recurrente; Retroceso";05 Legend [L];Double Iron Bash
+396;Tajo Taquion;Acero;DB + 1d6;1 Ronda;2-3 Acciones;Destreza;Combatir;1;Nunca falla. Golpea 2 veces seguidas.;Puede usarse 2 veces consecutivas con 1 accion adicional. No se puede evadir;Especial;Elegido;0;Contacto (5ft);"Corte; Recurrente";05 Legend [L];Tachyon Cutter
+397;Azote Torrencial;Agua;DB + 1d4;2 Rondas;2 Acciones;Destreza;Combatir;1;Golpea 3 veces seguidas. Siempre provoca un Golpe Critico salvo que una habilidad o efecto lo impida.;Realiza 3 acciones consecutivas. Siempre realiza Dmg Critico;Fisico;Elegido;0;Contacto (5ft);-;05 Legend [L];Surging Strikes
+398;Chorro de Vapor;Agua;DB + 1d6 + 2;2 Rondas;2 Acciones;Destreza;Canalizar;0;30% de quemar al rival.;"CD 14 de Quemar al rival
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);Quemadura;05 Legend [L];Steam Eruption
+399;Pulso Primigenio;Agua;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Lanzar;-2;Ninguno.;-;Especial;Area;0;Cono (15 ft);Pulso;05 Legend [L];Origin Pulse
+400;Al Ataque;Bicho;DB + 2d4;1 Ronda;2 Acciones;Carisma;Naturaleza;1;Alta probabilidad de Golpe Critico.;Reduce valor critico en 1;Fisico;Oponentes;0;Cono (15 ft);Preciso;05 Legend [L];Attack Order
+401;Ataque Fulgor;Electrico;DB + 2d6;2 Rondas;2 Acciones;Fuerza;Combatir;-2;20% de paralizar al rival.;"CD 16 de Paralizar al rival
+/r [[1d20]]";Fisico;Elegido;0;Contacto (5ft);Paralisis;05 Legend [L];Bolt Strike
+402;Electormenta;Electrico;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Naturaleza;-2;20% de paralizar al rival. En Llovizna no falla.;"CD 16 de Paralizar al rival; Si el clima es lluvia Aumenta +6 ACC, en otro clima Reduce -2 Acc
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);"Paralisis; Clima";05 Legend [L];Wildbolt Storm
+403;Electrojaula;Electrico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Canalizar;-1;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Especial;Elegido;0;Lanzar (25 ft);Prision;05 Legend [L];Thunder Cage
+404;Orbes Espectro;Fantasma;DB + 2d6;2 Rondas;2 Acciones;Destreza;Lanzar;1;Ninguno.;-;Especial;Oponentes;0;Cono (15 ft);-;05 Legend [L];Astral Barrage
+405;Bomba ignea;Fuego;DB + 1d6 + 2;2 Rondas;2 Acciones;Energia;Lanzar;1;30% de quemar al rival.;"CD 14 de Quemar al rival
+/r [[1d20]]";Especial;Oponentes;0;Area (10ft);"Proyectil; Quemadura";05 Legend [L];Searing Shot
+406;Espada Lamento;Fuego;DB + 2d4;1 Ronda;2 Acciones;Destreza;Empatia;1;El usuario recupera PS equivalente a la mitad del da§o causado.;El usuario recupera PS equivalente a la mitad del Dmg causado.;Fisico;Elegido;0;Contacto (5ft);"Corte; Drenaje";05 Legend [L];Bitter Blade
+407;Fuego Sagrado;Fuego;DB + 1d6 + 2;2 Rondas;2 Acciones;Destreza;Combatir;0;50% de quemar al rival. Puede ser utilizado incluso cuando el Pokemon esta congelado, curando automaticamente la congelacion.;"CD 10 de Incendiar al rival
+/r [[1d20]]";Fisico;Elegido;0;Lanzar (25 ft);-;05 Legend [L];Sacred Fire
+408;Llama Azul;Fuego;DB + 2d6;2 Rondas;2 Acciones;Energia;Canalizar;-2;20% de quemar al rival.;"CD 16 de Incendiar al rival
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);-;05 Legend [L];Blue Flare
+409;Lluvia ignea;Fuego;DB + 1d6 + 2;2 Rondas;2 Acciones;Energia;Canalizar;-3;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Especial;Area;-1;Area (10ft);Prision;05 Legend [L];Magma Storm
+410;Ciclon Primavera;Hada;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Naturaleza;-2;30% de reducir un nivel el Ataque al rival.;"CD 14 de Reducir -1 FUE
+/r [[1d20]]";Especial;Elegido;0;Cono (15 ft);-;05 Legend [L];Springtide Storm
+411;Furia Natural;Hada;2;1 Ronda;2 Acciones;Sabiduria;Naturaleza;-1;Causa un da§o equivalente a la mitad del PS que le queda al Pokemon rival.;El movimiento hiere directamente al rival ignorando Defensas, aplica Debilidad o Resistencia;Especial;Elegido;0;Lanzar (25 ft);-;05 Legend [L];Nature?s Madness
+412;Lanza Glacial;Hielo;DB + 2d6;2 Rondas;2 Acciones;Destreza;Canalizar;1;Ninguno.;-;Fisico;Oponentes;0;Linear (20 ft);-;05 Legend [L];Glacial Lance
+413;Liofilizacion;Hielo;DB + 1d8;1 PP;2 Acciones;Destreza;Canalizar;1;10% de congelar al rival. Es muy efectivo contra Pokemon de tipo Agua.;"CD 18 de Congelar al rival. Es superefectivo contra el tipo agua
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Congelacion;05 Legend [L];Freeze-Dry
+414;Llama Gelida;Hielo;DB + 3d4;2 Rondas;3 Acciones;Energia;Canalizar;-1;30% de quemar al rival. Se prepara el primer turno para atacar en el segundo.;"CD 14 de Incendiar al rival
+/r [[1d20]]";Especial;Elegido;-2;Linear (20 ft);-;05 Legend [L];Ice Burn
+415;Triple Flecha;Lucha;DB + 2d4;1 Ronda;2 Acciones;Destreza;Lanzar;1;30% de hacer retroceder al rival y 50% de reducir un nivel la Defensa al rival. Alta probabilidad de Golpe Critico.;"CD 14 de causar Retroceso; CD 10 Reducir -1 VIT. Reduce valor critico en 1
+/r [[1d20]] + [[1d20]]";Fisico;Elegido;0;Contacto (5ft);"Preciso; Retroceso";05 Legend [L];Triple Arrows
+416;Canto Arcaico;Normal;DB + 1d8;1 Ronda;2 Acciones;Energia;Presentar;1;10% de dormir al rival.;"CD 18 de dormir al rival
+/r [[1d20]]";Especial;Oponentes;0;Area (10ft);Sonido;05 Legend [L];Relic Song
+417;Plegaria Vital;Normal;-;1 Dia;3 Acciones;Carisma;Medicina;0;Revive a un Pokemon aliado y recupera el 50% de su PS maximo.;El Blanco recupera PS equivalente a su Car y le reanima.;Otros;Aliado;0;Lanzar (25 ft);Curacion;05 Legend [L];Revival Blessing
+418;Cura Selvatica;Planta;-;2 Rondas;2 Acciones;Sabiduria;Medicina;0;El usuario y sus aliados recuperan el 25% de su PS maximo y curan sus problemas de estado.;El usuario y sus aliados recuperan 3 PS y sanan sus problemas de Estado.;Otros;Equipo;0;Area (10ft);Curacion;05 Legend [L];Jungle Healing
+419;Fulgor Semilla;Planta;DB + 2d6;2 Rondas;2 Acciones;Energia;Canalizar;-2;40% de reducir dos niveles la Defensa Especial al rival.;"CD 12 de Reducir -2 SAB
+/r [[1d20]]";Especial;Area;0;Cono (15 ft);-;05 Legend [L];Seed Flare
+420;Ala Aural;Psiquico;DB + 1d8;1 Ronda;2 Acciones;Destreza;Combatir;1;Alta probabilidad de Golpe Critico. Aumenta un nivel la Velocidad al usuario.;Aumenta +1 DES. Reduce valor critico en 1;Especial;Elegido;0;Contacto (5ft);Preciso;05 Legend [L];Esper Wing
+421;Bola Neblina;Psiquico;DB + 2d4;2 Rondas;2 Acciones;Energia;Lanzar;1;50% de reducir un nivel el Ataque Especial al rival.;"CD 10 de Reducir -1 ENE
+/r [[1d20]]";Especial;Elegido;0;Larga (40 ft);Proyectil;05 Legend [L];Mist Ball
+422;Danza Lunar;Psiquico;-;1 Ronda;2 Acciones;Carisma;Presentar;0;El usuario cae debilitado. El Pokemon que salga a la batalla en su lugar ve recuperados sus PS, PP y estado alterado.;Reanima al Blanco curando PS igual a la CAR del usuario y sanando sus problemas de estado. Entonces, el Usuario cae Agotado y con 1 PS.;Otros;Aliado;0;Propio;"Danza; Curacion";05 Legend [L];Lunar Dance
+423;Deseo Cura;Psiquico;-;1 Ronda;2 Acciones;Carisma;Medicina;0;El usuario cae debilitado, y el siguiente Pokemon recupera todo su PS y se ve curado de cambios de estado.;Reanima al Blanco curando PS igual a la CAR del usuario y sanando sus problemas de estado. Entonces, el Usuario cae Agotado y con 1 PS.;Otros;Aliado;0;Propio;Curacion;05 Legend [L];Healing Wish
+424;Mirada Heladora;Psiquico;DB + 2d4;1 Ronda;2 Acciones;Destreza;Etiqueta;1;10% de congelar al rival.;"CD 18 de Congelar al rival
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Congelacion;05 Legend [L];Freezing Glare
+425;Resplandor;Psiquico;DB + 2d4;2 Rondas;2 Acciones;Energia;Canalizar;1;50% de reducir un nivel la Defensa Especial al rival.;"CD 10 de Reducir -1 SAB
+/r [[1d20]]";Especial;Elegido;0;Linear (20 ft);-;05 Legend [L];Luster Purge
+426;Torm. Diamantes;Roca;DB + 1d6 + 2;2 Rondas;2 Acciones;Destreza;Canalizar;0;50% de aumentar dos niveles la Defensa al usuario.;"CD 10 de Aumentar +2 VIT
+/r [[1d20]]";Fisico;Oponentes;0;Area (10ft);-;05 Legend [L];Diamond Storm
+427;Furia Candente;Siniestro;DB + 2d4;1 Ronda;2 Acciones;Destreza;Canalizar;1;20% de hacer retroceder al rival.;"CD 16 de causar Retroceso
+/r [[1d20]]";Especial;Oponentes;0;Area (10ft);Retroceso;05 Legend [L];Fiery Wrath
+428;Golpe Oscuro;Siniestro;DB + 1d8 + 1;2 Rondas;2 Acciones;Destreza;Combatir;1;Siempre provoca un Golpe Critico salvo que una habilidad o efecto lo impida.;Siempre realiza Dmg Critico;Fisico;Elegido;0;Contacto (5ft);-;05 Legend [L];Wicked Blow
+429;Filo del Abismo;Tierra;DB + 2d6;1 Ronda;2 Acciones;Fuerza;Canalizar;-2;Ninguno.;-;Fisico;Area;0;Cono (15 ft);-;05 Legend [L];Precipice Blades
+430;Fuerza Telurica;Tierra;DB + 2d4;1 Ronda;2 Acciones;Fuerza;Canalizar;1;Ninguno.;-;Fisico;Oponentes;0;Area (10ft);-;05 Legend [L];Land?s Wrath
+431;Mil Temblores;Tierra;DB + 2d4;1 Ronda;2 Acciones;Energia;Combatir;1;El Pokemon rival permanece atrapado de 4 a 5 turnos, recibiendo un da§o del 12.5% del PS cada turno.; Bloquea al Blanco. Inflige 1 de Dmg al final de la Ronda;Fisico;Oponentes;0;Area (10ft);Prision;05 Legend [L];Thousand Waves
+432;Simun de Arena;Tierra;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Naturaleza;-2;20% de quemar al rival. En Llovizna no falla.;"CD 16 de Quemar al rival; Si el clima es tormenta areana Aumenta +6 ACC, en otro clima Reduce -2 Acc
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);"Quemadura; Clima";05 Legend [L];Sandsear Storm
+433;Cadena Virulenta;Veneno;DB + 1d6 + 2;2 Rondas;2 Acciones;Destreza;Lanzar;1;50% de intoxicar al rival.;"CD 10 de Intoxicar al rival
+/r [[1d20]]";Especial;Elegido;0;Lanzar (25 ft);Veneno;05 Legend [L];Malignant Chain
+434;Ala Mortifera;Volador;DB + 2d4;1 Ronda;2 Acciones;Energia;Empatia;1;El usuario recupera PS equivalente al 75% del da§o causado.;El usuario recupera PS equivalente al Dmg causado.;Especial;Elegido;0;Lanzar (25 ft);Drenaje;05 Legend [L];Oblivion Wing
+435;Vendaval Gelido;Volador;DB + 1d6 + 2;1 Ronda;2 Acciones;Energia;Naturaleza;-2;30% de reducir un nivel la Velocidad al rival. En Llovizna no falla.;"CD 14 de reducir - DES. Si el clima es lluvia Aumenta +6 ACC, en otro clima Reduce -2 Acc
+/r [[1d20]]";Especial;Elegido;0;Cono (15 ft);Clima;05 Legend [L];Bleakwind Storm
