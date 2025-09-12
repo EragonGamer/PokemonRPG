@@ -10,8 +10,7 @@
 <body>
    <div class="hoja-base">
       <!-- Imagen -->
-      <div class="campo" id="campo-image">
-         <input type="file" accept="image/*" id="image" name="image">
+      <div class="campo" id="image">
          <img id="preview-image" src="" alt="Imagen" style="display:none; width:100%; height:100%;">
       </div>
 
@@ -32,10 +31,10 @@
       <input type="number" id="Accmax" name="Accmax" class="campo" style="grid-area: Accmax;">
 
       <!-- Nombre -->
-      <input type="text" id="name" name="name" class="campo" style="grid-area: name;">
+      <input type="text" id="name" name="name" class="campo" style="grid-area: name; text-align:center;">
 
       <!-- Especie -->
-      <input type="text" id="poke" name="poke" class="campo" style="grid-area: poke;">
+      <input type="text" id="poke" name="poke" class="campo" style="grid-area: poke; text-align:center;">
 
       <!-- Variante -->
       <select id="alt" name="alt" class="campo" style="grid-area: alt;">
@@ -43,7 +42,7 @@
       </select>
 
       <!-- N° Dex -->
-      <input type="number" id="dex" name="dex" class="campo" style="grid-area: dex;">
+      <input type="number" id="dex" name="dex" class="campo" style="grid-area: dex; text-align:center;">
 
       <!-- Tipos -->
       <select id="type1" name="type1" class="campo" style="grid-area: type1;">
@@ -100,22 +99,22 @@
       <input type="number" id="SkEst" name="SkEst" class="campo">
       <!-- Atributos y Nivel -->
       <input type="number" id="FUE0" name="FUE0" class="campo">
-      <input type="number" id="FUE1" name="FUE1" class="campo">
+      <input type="text" id="FUE1" name="FUE1" class="campo" readonly style="grid-area: FUE1;">
       <input type="number" id="FUE" name="FUE" class="campo">
       <input type="number" id="VIT0" name="VIT0" class="campo">
-      <input type="number" id="VIT1" name="VIT1" class="campo">
+      <input type="text" id="VIT1" name="VIT1" class="campo" readonly style="grid-area: VIT1;">
       <input type="number" id="VIT" name="VIT" class="campo">
       <input type="number" id="ENE0" name="ENE0" class="campo">
-      <input type="number" id="ENE1" name="ENE1" class="campo">
+      <input type="text" id="ENE1" name="ENE1" class="campo" readonly style="grid-area: ENE1;">
       <input type="number" id="ENE" name="ENE" class="campo">
       <input type="number" id="SAB0" name="SAB0" class="campo">
-      <input type="number" id="SAB1" name="SAB1" class="campo">
+      <input type="text" id="SAB1" name="SAB1" class="campo" readonly style="grid-area: SAB1;">
       <input type="number" id="SAB" name="SAB" class="campo">
       <input type="number" id="DES0" name="DES0" class="campo">
-      <input type="number" id="DES1" name="DES1" class="campo">
+      <input type="text" id="DES1" name="DES1" class="campo" readonly style="grid-area: DES1;">
       <input type="number" id="DES" name="DES" class="campo">
       <input type="number" id="CAR0" name="CAR0" class="campo">
-      <input type="number" id="CAR1" name="CAR1" class="campo">
+      <input type="text" id="CAR1" name="CAR1" class="campo" readonly style="grid-area: CAR1;">
       <input type="number" id="CAR" name="CAR" class="campo">
       <select id="Lvl" name="Lvl" class="campo"></select>
       <div class="campo" id="campo-logo">
@@ -123,22 +122,22 @@
          <img id="preview-logo" src="" alt="Logo" style="display:none; width:100%; height:100%;">
       </div>
       <!-- Estados Alterados -->
-      <select id="EffEnvI" name="EffEnvI" class="campo"></select>
-      <select id="EffEnvII" name="EffEnvII" class="campo"></select>
-      <select id="EffQueI" name="EffQueI" class="campo"></select>
-      <select id="EffQueII" name="EffQueII" class="campo"></select>
-      <select id="EffDorI" name="EffDorI" class="campo"></select>
-      <select id="EffDorII" name="EffDorII" class="campo"></select>
-      <select id="EffParI" name="EffParI" class="campo"></select>
-      <select id="EffParII" name="EffParII" class="campo"></select>
-      <select id="EffAtuI" name="EffAtuI" class="campo"></select>
-      <select id="EffAtuII" name="EffAtuII" class="campo"></select>
-      <select id="EffDesI" name="EffDesI" class="campo"></select>
-      <select id="EffDesII" name="EffDesII" class="campo"></select>
-      <select id="EffRetI" name="EffRetI" class="campo"></select>
-      <select id="EffRetII" name="EffRetII" class="campo"></select>
-      <select id="EffConI" name="EffConI" class="campo"></select>
-      <select id="EffConII" name="EffConII" class="campo"></select>
+      <input type="checkbox" id="EffEnvI" name="EffEnvI" class="campo">
+      <input type="checkbox" id="EffEnvII" name="EffEnvII" class="campo">
+      <input type="checkbox" id="EffQueI" name="EffQueI" class="campo">
+      <input type="checkbox" id="EffQueII" name="EffQueII" class="campo">
+      <input type="checkbox" id="EffDorI" name="EffDorI" class="campo">
+      <input type="checkbox" id="EffDorII" name="EffDorII" class="campo">
+      <input type="checkbox" id="EffParI" name="EffParI" class="campo">
+      <input type="checkbox" id="EffParII" name="EffParII" class="campo">
+      <input type="checkbox" id="EffAtuI" name="EffAtuI" class="campo">
+      <input type="checkbox" id="EffAtuII" name="EffAtuII" class="campo">
+      <input type="checkbox" id="EffDesI" name="EffDesI" class="campo">
+      <input type="checkbox" id="EffDesII" name="EffDesII" class="campo">
+      <input type="checkbox" id="EffRetI" name="EffRetI" class="campo">
+      <input type="checkbox" id="EffRetII" name="EffRetII" class="campo">
+      <input type="checkbox" id="EffConI" name="EffConI" class="campo">
+      <input type="checkbox" id="EffConII" name="EffConII" class="campo">
       <!-- Movimientos Pokémon -->
       <!-- Movimiento 1 -->
       <input type="text" id="Move1" name="Move1" class="campo">
@@ -283,18 +282,186 @@
    </div>
    <script>
       // Vista previa de imagen
-      document.getElementById('image').addEventListener('change', function (e) {
-         const file = e.target.files[0];
-         if (file) {
-            const reader = new FileReader();
-            reader.onload = function (ev) {
-               const img = document.getElementById('preview-image');
-               img.src = ev.target.result;
-               img.style.display = 'block';
-            };
-            reader.readAsDataURL(file);
+      const imageInput = document.getElementById('image');
+      imageInput.disabled = true;
+      function setImageByInternalID(id) {
+         const img = document.getElementById('preview-image');
+         if (id) {
+            img.src = '/Imagenes/' + id + '.png';
+            img.style.display = 'block';
+         } else {
+            img.src = '';
+            img.style.display = 'none';
          }
+      }
+
+      // Autocompletar variantes según dex usando Pokes.csv
+      let pokesData = [];
+      let internalID = '';
+      const dexInput = document.getElementById('dex');
+      const altSelect = document.getElementById('alt');
+
+      // Inicializar dex en 1
+      window.addEventListener('DOMContentLoaded', function () {
+         dexInput.value = 1;
+         setTiposOptions();
+         setTrainedOptions();
       });
+
+      fetch('https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Pokes.csv')
+         .then(response => response.text())
+         .then(text => {
+            // Detectar separador ; o ,
+            const sep = text.indexOf(';') !== -1 ? ';' : ',';
+            const lines = text.split('\n');
+            const headers = lines[0].split(sep);
+            pokesData = lines.slice(1).map(line => {
+               const cols = line.split(sep);
+               let obj = {};
+               headers.forEach((h, i) => obj[h.trim()] = (cols[i] || '').trim());
+               return obj;
+            });
+            // Inicializar alt con la primera opción posible
+            updateAltOptions();
+            updateInternalID();
+         });
+
+      dexInput.addEventListener('input', function () {
+         updateAltOptions(true);
+         updateInternalID();
+      });
+      altSelect.addEventListener('change', function () {
+         updateInternalID();
+      });
+
+      // Tipos Pokémon
+      const tiposPokemon = [
+         'Acero', 'Agua', 'Bicho', 'Dragon', 'Electrico', 'Fantasma', 'Fuego', 'Hada', 'Hielo', 'Lucha', 'Normal', 'Planta', 'Psiquico', 'Roca', 'Siniestro', 'Tierra', 'Veneno', 'Volador'
+      ];
+      function setTiposOptions() {
+         const type1 = document.getElementById('type1');
+         const type2 = document.getElementById('type2');
+         type1.innerHTML = '<option value="">Tipo 1</option>';
+         type2.innerHTML = '<option value="">Tipo 2</option>';
+         tiposPokemon.forEach(tipo => {
+            const opt1 = document.createElement('option');
+            opt1.value = tipo;
+            opt1.textContent = tipo;
+            type1.appendChild(opt1);
+            const opt2 = document.createElement('option');
+            opt2.value = tipo;
+            opt2.textContent = tipo;
+            type2.appendChild(opt2);
+         });
+      }
+
+      function updateAltOptions(forceFirst = false) {
+         const dexValue = dexInput.value;
+         const ndexStr = '#' + String(dexValue).padStart(4, '0');
+         altSelect.innerHTML = '';
+         const variantes = pokesData.filter(p => p['Ndex'] === ndexStr)
+            .map(p => p['Alternativo'])
+            .filter((v, i, arr) => v && arr.indexOf(v) === i);
+         if (variantes.length === 0) {
+            const opt = document.createElement('option');
+            opt.value = '';
+            opt.textContent = 'Ndex Inválido';
+            altSelect.appendChild(opt);
+            altSelect.value = '';
+            altSelect.disabled = true;
+         } else {
+            altSelect.disabled = false;
+            variantes.forEach(v => {
+               const opt = document.createElement('option');
+               opt.value = v;
+               opt.textContent = v;
+               altSelect.appendChild(opt);
+            });
+            if (forceFirst || !altSelect.value || !variantes.includes(altSelect.value)) {
+               altSelect.value = variantes[0];
+            }
+         }
+      }
+
+      function updateInternalID() {
+         const dexValue = dexInput.value;
+         const ndexStr = '#' + String(dexValue).padStart(4, '0');
+         const altValue = altSelect.value;
+         const found = pokesData.find(p => p['Ndex'] === ndexStr && p['Alternativo'] === altValue);
+         internalID = found ? found['ID'] : '';
+         setImageByInternalID(internalID);
+         // Actualizar campos si se encuentra el Pokémon
+         if (found) {
+            document.getElementById('poke').value = found['Pokemon'] || '';
+            document.getElementById('type1').value = found['Tipo1'] || '';
+            document.getElementById('type2').value = found['Tipo2'] || '';
+            document.getElementById('FUE1').value = found['FUE'] || '';
+            document.getElementById('VIT1').value = found['VIT'] || '';
+            document.getElementById('ENE1').value = found['ENE'] || '';
+            document.getElementById('SAB1').value = found['SAB'] || '';
+            document.getElementById('DES1').value = found['DES'] || '';
+            document.getElementById('CAR1').value = found['CAR'] || '';
+            // Habilidades
+            const habSelect = document.getElementById('hab');
+            habSelect.innerHTML = '';
+            [found['Habilidad_1'], found['Habilidad_2'], found['Habilidad_3']].forEach(h => {
+               if (h) {
+                  const opt = document.createElement('option');
+                  opt.value = h;
+                  opt.textContent = h;
+                  habSelect.appendChild(opt);
+               }
+            });
+            // Nivel
+            const lvlSelect = document.getElementById('Lvl');
+            const lvlOptions = [
+               { text: 'Starter [S]', value: 'Starter' },
+               { text: 'Beginner [B]', value: 'Begginer' },
+               { text: 'Amateur [A]', value: 'Amateur' },
+               { text: 'Elite [E]', value: 'Elite' },
+               { text: 'Master [M]', value: 'Master' },
+               { text: 'Legend [L]', value: 'Legend' }
+            ];
+            lvlSelect.innerHTML = '';
+            lvlOptions.forEach(opt => {
+               const option = document.createElement('option');
+               option.value = opt.value;
+               option.textContent = opt.text;
+               lvlSelect.appendChild(option);
+            });
+            lvlSelect.value = found['Nivel'] || lvlOptions[0].value;
+         }
+      }
+
+      // Opciones para habilidades entrenadas
+      const trainedOptions = [
+         { text: '[S]', value: '00 Starter [S]' },
+         { text: '[B]', value: '01 Beginner [B]' },
+         { text: '[A]', value: '02 Amateur [A]' },
+         { text: '[E]', value: '03 Elite [E]' },
+         { text: '[M]', value: '04 Master [M]' },
+         { text: '[L]', value: '05 Legend [L]' }
+      ];
+      function setTrainedOptions() {
+         const selects = [
+            'SkCom0', 'SkCan0', 'SkLan0', 'SkAcr0',
+            'SkPer0', 'SkAtl0', 'SkNat0', 'SkCoc0',
+            'SkEmp0', 'SkPer0_2', 'SkSig0', 'SkArt0',
+            'SkFab0', 'SkRec0', 'SkCie0', 'SkEst0'
+         ];
+         selects.forEach(id => {
+            const sel = document.getElementById(id);
+            if (sel) {
+               sel.innerHTML = '';
+               trainedOptions.forEach(opt => {
+                  const option = document.createElement('option');
+                  option.value = opt.value;
+                  option.textContent = opt.text;
+                  sel.appendChild(option);
+               });
+            }
+         });
+      }
    </script>
 </body>
 

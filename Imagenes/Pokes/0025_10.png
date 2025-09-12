@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es" xml:lang="es">
+<head> <meta charset="UTF-8"><meta name="PageVersion" content="V4">
+<style>@media screen and (max-width:915px){.news_main_image{height:320px!important}} @media screen and (max-width:870px){.news_main_image{height:295px!important}} @media screen and (max-width:768px){#loginbar,#logoholde,#news_cat,#menus{display:none}.pageWidth,.pageWidthCopyright{margin:0!important}#sol-luna-video img{height:auto!important}.pageWidth,.pageWidthCopyright,.sl-slider-wrapper{border-radius:0!important}.pageWidth{padding:0!important}#wrapper{overflow:visible!important}#contenido{margin-right:0!important}img:not(.news_header_image,.highslide-image){/*max-width:300px!important*/}.news_main_container{padding-top:0!important}#sol-luna-video{width:99%!important}.video-img-click{transform:translateY(0)!important}.lvideo-img-click{transform:translateY(-28px)!important}.img-noticia{width:150px!important;height:84px!important}.title-noticia{left:160px!important}.articulo-noticia{height:110px!important}.slicknav_brand{display:inline!important}} @media screen and (max-width:490px){.img-noticia,.news_main_image{position:relative!important;height:165px!important}.title-noticia{position:relative!important;left:0!important;padding:10px 8px 0!important}.img-noticia{width:100%!important}.articulo-noticia{height:auto!important}.noticia-pub{display:none!important}}</style>
+<link type="text/css" rel="stylesheet" href="https://pokemon-project.com/sys/estilo/css.pack.min.css" />
+<meta name="copyright" content="2007-2024 - Pokémon Project" />
+<meta name="Generator" content="2007-2024 - Pokémon Project" />
+<meta name="robots" content="index, follow" />
+<base href="https://pokemon-project.com">
+<link rel="canonical" href="https://pokemon-project.com/pokedex/img/sprite/home/128/25-15.png">
+<meta http-equiv="Cache-control" content="public" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title itemprop="headline">Pokémon Project &raquo; Toda la información sobre el Mundo Pokémon</title>
+<meta name="description" content="Noticias sobre Pokémon Espada y Escudo, guía de todos los episodios y completa Pokédex para Espada y Escudo." />
+<meta property="og:image" content="https://pokemon-project.com/img/index/pokemon-project.png">
+<meta property="og:title" content="Pokémon Project &raquo; Toda la información sobre el Mundo Pokémon">
+<meta property="og:description" content="Noticias sobre Pokémon Espada y Escudo, guía de todos los episodios y completa Pokédex para Espada y Escudo.">
+<meta property="og:url" content="http://pokemon-project.com/pokedex/img/sprite/Home/128/25-15.png" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@PokemonProject">
+<meta name="twitter:creator" content="@PokemonProject">
+<link rel="bookmark" href="https://img.pokemon-project.com/web/favicon/blue.png" />
+<link rel="shortcut icon" href="https://img.pokemon-project.com/web/favicon/blue.png" />
+<link rel="alternate" type="application/rss+xml" title="RSS Pokémon Project" href="https://pokemon-project.com/rss/rss.php">
+
+<meta name="theme-color" content="#282828">
+
+<meta name="msapplication-navbutton-color" content="#282828">
+
+<link rel="apple-touch-icon" href="https://pokemon-project.com/img/logo.og.png" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="google-site-verification" content="9Dco-99lhCL_etGSUsMImaiqAnCnGy2O_msPvv_9WkI" />
+<meta name="propeller" content="5bd22a9586e64a2ffd303f4f666b3d1e" />
+<script async src="https://fundingchoicesmessages.google.com/i/pub-4147844365766401?ers=1" nonce="uJ4wEB2yvrWVggiiPmVIzg"></script><script nonce="uJ4wEB2yvrWVggiiPmVIzg">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<script>(function(){/*
+
+Copyright The Closure Library Authors.
+SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var aa=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},ba="function"==typeof Object.create?Object.create:function(a){var b=function(){};b.prototype=a;return new b},k;if("function"==typeof Object.setPrototypeOf)k=Object.setPrototypeOf;else{var m;a:{var ca={a:!0},n={};try{n.__proto__=ca;m=n.a;break a}catch(a){}m=!1}k=m?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}
+var p=k,q=function(a,b){a.prototype=ba(b.prototype);a.prototype.constructor=a;if(p)p(a,b);else for(var c in b)if("prototype"!=c)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.v=b.prototype},r=this||self,da=function(){},t=function(a){return a};var u;var w=function(a,b){this.g=b===v?a:""};w.prototype.toString=function(){return this.g+""};var v={},x=function(a){if(void 0===u){var b=null;var c=r.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:t,createScript:t,createScriptURL:t})}catch(d){r.console&&r.console.error(d.message)}u=b}else u=b}a=(b=u)?b.createScriptURL(a):a;return new w(a,v)};var A=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^Date.now()).toString(36)};var B={},C=null;var D="function"===typeof Uint8Array;function E(a,b,c){return"object"===typeof a?D&&!Array.isArray(a)&&a instanceof Uint8Array?c(a):F(a,b,c):b(a)}function F(a,b,c){if(Array.isArray(a)){for(var d=Array(a.length),e=0;e<a.length;e++){var f=a[e];null!=f&&(d[e]=E(f,b,c))}Array.isArray(a)&&a.s&&G(d);return d}d={};for(e in a)Object.prototype.hasOwnProperty.call(a,e)&&(f=a[e],null!=f&&(d[e]=E(f,b,c)));return d}
+function ea(a){return F(a,function(b){return"number"===typeof b?isFinite(b)?b:String(b):b},function(b){var c;void 0===c&&(c=0);if(!C){C={};for(var d="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),e=["+/=","+/","-_=","-_.","-_"],f=0;5>f;f++){var h=d.concat(e[f].split(""));B[f]=h;for(var g=0;g<h.length;g++){var l=h[g];void 0===C[l]&&(C[l]=g)}}}c=B[c];d=Array(Math.floor(b.length/3));e=c[64]||"";for(f=h=0;h<b.length-2;h+=3){var y=b[h],z=b[h+1];l=b[h+2];g=c[y>>2];y=c[(y&3)<<
+4|z>>4];z=c[(z&15)<<2|l>>6];l=c[l&63];d[f++]=""+g+y+z+l}g=0;l=e;switch(b.length-h){case 2:g=b[h+1],l=c[(g&15)<<2]||e;case 1:b=b[h],d[f]=""+c[b>>2]+c[(b&3)<<4|g>>4]+l+e}return d.join("")})}var fa={s:{value:!0,configurable:!0}},G=function(a){Array.isArray(a)&&!Object.isFrozen(a)&&Object.defineProperties(a,fa);return a};var H;var J=function(a,b,c){var d=H;H=null;a||(a=d);d=this.constructor.u;a||(a=d?[d]:[]);this.j=d?0:-1;this.h=null;this.g=a;a:{d=this.g.length;a=d-1;if(d&&(d=this.g[a],!(null===d||"object"!=typeof d||Array.isArray(d)||D&&d instanceof Uint8Array))){this.l=a-this.j;this.i=d;break a}void 0!==b&&-1<b?(this.l=Math.max(b,a+1-this.j),this.i=null):this.l=Number.MAX_VALUE}if(c)for(b=0;b<c.length;b++)a=c[b],a<this.l?(a+=this.j,(d=this.g[a])?G(d):this.g[a]=I):(d=this.l+this.j,this.g[d]||(this.i=this.g[d]={}),(d=this.i[a])?
+G(d):this.i[a]=I)},I=Object.freeze(G([])),K=function(a,b){if(-1===b)return null;if(b<a.l){b+=a.j;var c=a.g[b];return c!==I?c:a.g[b]=G([])}if(a.i)return c=a.i[b],c!==I?c:a.i[b]=G([])},M=function(a,b){var c=L;if(-1===b)return null;a.h||(a.h={});if(!a.h[b]){var d=K(a,b);d&&(a.h[b]=new c(d))}return a.h[b]};J.prototype.toJSON=function(){var a=N(this,!1);return ea(a)};
+var N=function(a,b){if(a.h)for(var c in a.h)if(Object.prototype.hasOwnProperty.call(a.h,c)){var d=a.h[c];if(Array.isArray(d))for(var e=0;e<d.length;e++)d[e]&&N(d[e],b);else d&&N(d,b)}return a.g},O=function(a,b){H=b=b?JSON.parse(b):null;a=new a(b);H=null;return a};J.prototype.toString=function(){return N(this,!1).toString()};var P=function(a){J.call(this,a)};q(P,J);function ha(a){var b,c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document,d=null===(b=c.querySelector)||void 0===b?void 0:b.call(c,"script[nonce]");(b=d?d.nonce||d.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",b)};var Q=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},R=function(a){this.g=a||r.document||document};R.prototype.appendChild=function(a,b){a.appendChild(b)};var S=function(a,b,c,d,e,f){try{var h=a.g,g=Q(a.g,"SCRIPT");g.async=!0;g.src=b instanceof w&&b.constructor===w?b.g:"type_error:TrustedResourceUrl";ha(g);h.head.appendChild(g);g.addEventListener("load",function(){e();d&&h.head.removeChild(g)});g.addEventListener("error",function(){0<c?S(a,b,c-1,d,e,f):(d&&h.head.removeChild(g),f())})}catch(l){f()}};var ia=r.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ja=r.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),ka=r.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),la=function(a,b,c){this.h=a;this.j=new R(this.h);this.g=null;this.i=[];this.l=!1;this.o=b;this.m=c},V=function(a){if(a.h.body&&!a.l){var b=
+function(){T(a);r.setTimeout(function(){return U(a,3)},50)};S(a.j,a.o,2,!0,function(){r[a.m]||b()},b);a.l=!0}},T=function(a){for(var b=W(1,5),c=0;c<b;c++){var d=X(a);a.h.body.appendChild(d);a.i.push(d)}b=X(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=W(100,110).toString()+"%";b.style.zIndex=W(2147483544,2147483644).toString();b.style["background-color"]=ma(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=ma(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=X(a);c.style.width=W(80,85).toString()+"%";c.style.maxWidth=W(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=Q(a.j.g,"IMG");d.className=A();d.src=ia;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=X(a),f=X(a);f.style["font-weight"]="bold";f.textContent=ja;var h=X(a);h.textContent=ka;Y(a,
+e,f);Y(a,e,h);Y(a,c,d);Y(a,c,e);Y(a,b,c);a.g=b;a.h.body.appendChild(a.g);b=W(1,5);for(c=0;c<b;c++)d=X(a),a.h.body.appendChild(d),a.i.push(d)},Y=function(a,b,c){for(var d=W(1,5),e=0;e<d;e++){var f=X(a);b.appendChild(f)}b.appendChild(c);c=W(1,5);for(d=0;d<c;d++)e=X(a),b.appendChild(e)},W=function(a,b){return Math.floor(a+Math.random()*(b-a))},ma=function(a,b,c,d,e,f){return"rgb("+W(Math.max(a,0),Math.min(b,255)).toString()+","+W(Math.max(c,0),Math.min(d,255)).toString()+","+W(Math.max(e,0),Math.min(f,
+255)).toString()+")"},X=function(a){a=Q(a.j.g,"DIV");a.className=A();return a},U=function(a,b){0>=b||null!=a.g&&0!=a.g.offsetHeight&&0!=a.g.offsetWidth||(na(a),T(a),r.setTimeout(function(){return U(a,b-1)},50))},na=function(a){var b=a.i;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:aa(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.i=[];(b=a.g)&&b.parentNode&&b.parentNode.removeChild(b);a.g=null};var pa=function(a,b,c,d,e){var f=oa(c),h=function(l){l.appendChild(f);r.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},g=function(l){document.body?h(document.body):0<l?r.setTimeout(function(){g(l-1)},e):b()};g(3)},oa=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var L=function(a){J.call(this,a)};q(L,J);var qa=function(a){J.call(this,a)};q(qa,J);var ra=function(a,b){this.l=a;this.m=new R(a.document);this.g=b;this.i=K(this.g,1);b=M(this.g,2);this.o=x(K(b,4)||"");this.h=!1;b=M(this.g,13);b=x(K(b,4)||"");this.j=new la(a.document,b,K(this.g,12))};ra.prototype.start=function(){sa(this)};
+var sa=function(a){ta(a);S(a.m,a.o,3,!1,function(){a:{var b=a.i;var c=r.btoa(b);if(c=r[c]){try{var d=O(P,r.atob(c))}catch(e){b=!1;break a}b=b===K(d,1)}else b=!1}b?Z(a,K(a.g,14)):(Z(a,K(a.g,8)),V(a.j))},function(){pa(function(){Z(a,K(a.g,7));V(a.j)},function(){return Z(a,K(a.g,6))},K(a.g,9),K(a.g,10),K(a.g,11))})},Z=function(a,b){a.h||(a.h=!0,a=new a.l.XMLHttpRequest,a.open("GET",b,!0),a.send())},ta=function(a){var b=r.btoa(a.i);a.l[b]&&Z(a,K(a.g,5))};(function(a,b){r[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];r[a]=da;b.apply(null,d)}})("__h82AlnkH6D91__",function(a){"function"===typeof window.atob&&(new ra(window,O(qa,window.atob(a)))).start()});}).call(this);
+
+window.__h82AlnkH6D91__("WyJwdWItNDE0Nzg0NDM2NTc2NjQwMSIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi00MTQ3ODQ0MzY1NzY2NDAxIl0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hWYnZVaS1pcF92dE9sMXFORmdPdFdjenBndlI2d1NwMVczSWJVdXdnRWQzSGFGb0dYdkRoelB4b2p4NU4tam5aT3JYR3pJOXdKSTZTaHZ4WFBSUHJfUUJ3XHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFdhRUt0NlBQOHNfZ1JKdDd2NE5GRGJ2OTFLY2RXZ3ZhMzJlTXRHX1hZSVBLcVFONnR4M2dTZlczdU5ZSXdtNDVzWTVDaEprcUdpb0d3X0xQZGhObUE5b2dcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFdnMGRGcE5LNTdCc21rdERHdVpmYXBkQnk2YTlTTTMwTmdHcDh6Q2VWZkNFOW8wWEUzLWpnNG9xQ3hZbTU1MEhMdG1ucWFpZGRTUGNCc3JiSkx6X1E0a3dcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFV1alVaT0ZVQWg2LVNuMjFvNUpTUEFOZVdJaVdjUTVaWjhDMWZldFAzQl9mcWFvYTVNNUktZUh3ZUstLUIwdHBTa0k0aHN1NGcwVS01RFphY2JyVFQzV1FcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUUXhORGM0TkRRek5qVTNOalkwTURFXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi00MTQ3ODQ0MzY1NzY2NDAxLmpzP3VzcXBcdTAwM2RDQWMiXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4V0daQ3A1eWdWa25oUm9FRmNoYjFzZE1BblZEQWZZenFYbHhaTTZGQ3JJbkJQWGpZU1QxdF95MGNPUDZQbWFUTHFtY1hGN3pWZGt1eWhaU3F0akdDRTdOd1x1MDAzZFx1MDAzZCJd");</script>
+<style>.titleshadow{line-height:28px!important}.img-noticia{width:250px;height:140px;overflow:hidden;position:absolute;top:0;left:0;background-size:cover;background-position:center;cursor:pointer}#contenido,#loginbar,#loginbar .pageContent,#loginbar form,#menubar,#menus,.articulo-noticia{position:relative}.title-noticia{left:265px}.articulo-noticia{border-bottom:1px dashed #bbb;height:140px;padding-bottom:10px;margin-bottom:10px;overflow:hidden}#wrapper,.news_main_border{margin:0}img{/*max-width:100%*/;height:auto}.slicknav_brand{display:none}.news_main_container{font-family:Verdana;font-size:12px!important;z-index:999999!important}#loginbar{background-color:#244767;border-bottom:1px solid #4B78A3;color:#CED5DB;z-index:1}#loginbar .pageContent{padding-top:5px}#loginbar a{color:#788EA2}#wrapper{/*overflow:hidden;*/padding:0}#contenido{margin-right:255px}#menus{float:right;text-align:left;width:250px;font-size:11px}.seccion{margin:10px auto;box-shadow:0 0 3px #d3d3d3;width:245px!important;border-radius:3px}.menuimg{margin-bottom:-2px;width:12px;height:12px;border:0}#menubar{height:45px;width:100%;background:rgba(40,40,40,1);color:#FFF;line-height:28px;margin:0;box-shadow:0 1px 3px #000;z-index:10}#loginbar #loginbarHandle{background-color:#244767;border-bottom-left-radius:10px;border-bottom-right-radius:10px;bottom:-20px;box-shadow:0 2px 5px #244767;color:#F6F8F9;font-size:15px;line-height:20px;margin-right:20px;padding:0 10px;position:absolute;right:0;text-align:center;z-index:1;font-family:Asap!important}.pageWidth{margin:0 auto;min-width:200px;max-width:1000px;background-color:#F2F2F2;border-radius:0 0 15px 15px;padding:10px;box-shadow:0 0 5px #F2F2F2}body{background-repeat:repeat;line-height:1.27;word-wrap:break-word;font-family:Verdana}.news_main_image{width:100%;height:360px;background-size:cover;background-position:center}blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,legend,pre,td,textarea,th{margin:0;padding:0}.dl-menuwrapper .dl-menu{margin:0;position:absolute;width:100%;opacity:0;pointer-events:none;-webkit-transform:translateY(10px);transform:translateY(10px);-webkit-backface-visibility:hidden;backface-visibility:hidden}.dl-menuwrapper li a,.slicknav_brand a,.slicknav_brand a:hover{text-decoration:none!important}.dl-menuwrapper{width:100%;max-width:450px;float:left;position:relative;-webkit-perspective:1000px;perspective:1000px;-webkit-perspective-origin:50% 200%;perspective-origin:50% 200%;font-family:Verdana}.dl-menuwrapper:first-child{margin-right:100px}.dl-menuwrapper button{background:rgba(40,40,40,1);border:none;width:48px;height:45px;text-indent:-900em;overflow:hidden;position:relative;cursor:pointer;outline:0}.dl-menuwrapper button.dl-active,.dl-menuwrapper button:hover,.dl-menuwrapper ul{background:rgba(60,60,60,1)}.dl-menuwrapper button:after{content:'';position:absolute;width:68%;height:5px;background:#fff;top:10px;left:16%;box-shadow:0 10px 0 #fff,0 20px 0 #fff}.slicknav_brand a{color:#fff!important;font-size:26px;font-family:PPLogo;margin:9px!important;font-weight:400!important;position:absolute;display:inline}@font-face{font-display: swap;font-family:PPLogo;src:local("PPLogo"),local("PPLogo"),url(https://pokemon-project.com/sys/estilo/fonts/PPLogo.woff) format("woff")}@font-face{font-display: swap;font-family:Asap;font-style:normal;font-weight:400;src:local("Asap"),local("Asap-Regular"),url(https://pokemon-project.com/sys/estilo/Asap-Regular.woff) format("woff")}@font-face{font-display: swap;font-family:Asap;font-style:normal;font-weight:700;src:local("Asap Bold"),local("Asap-Bold"),url(https://pokemon-project.com/sys/estilo/Asap-Bold.woff) format("woff")}@media screen and (max-width:600px){.hide_600px{display:none!important}.show_600px{display:table!important}.main_grid{grid-template-areas:"main_grid_name" "main_grid_pic" "main_grid_desc"!important;grid-template-columns:1fr!important}}.main_grid{display:grid;grid-template-columns:1fr 2fr;gap:5px 5px;grid-template-areas:"main_grid_name main_grid_name" "main_grid_pic main_grid_desc";width:99%;font-family:Verdana;font-size:12px;border:1px solid #ccc;border-radius:8px;box-shadow:0 1px 2px 0 rgb(60 64 67 / 30%),0 1px 3px 1px rgb(60 64 67 / 15%);background-color:#f6fafc}.main_grid>div{padding:10px;text-align:center}.main_grid_name{grid-area:main_grid_name}.main_grid_pic{grid-area:main_grid_pic}.main_grid_desc{grid-area:main_grid_desc;text-align:justify!important;font-size:1em}@media screen and (max-width:850px){.hide_850px{display:none!important}.show_850px{display:table!important}}#breadcrumb{list-style:none;display:inline-block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:11px;padding-left:10px;white-space:nowrap}#breadcrumb .icon{font-size:14px}#breadcrumb li{display:inline-block;margin-right:-3px}#breadcrumb li a{color:#fff;display:block;background:#3498db;text-decoration:none;position:relative;height:30px;line-height:30px;padding:0 10px 0 5px;text-align:center;margin-right:23px}#breadcrumb li:nth-child(even) a{background-color:#2980b9}#breadcrumb li:nth-child(even) a:before{border-color:#2980b9;border-left-color:transparent}#breadcrumb li:nth-child(even) a:after{border-left-color:#2980b9}#breadcrumb li:first-child a{padding-left:15px;-moz-border-radius:4px 0 0 4px;-webkit-border-radius:4px;border-radius:4px 0 0 4px}#breadcrumb li:first-child a:before{border:none}#breadcrumb li:last-child a{padding-right:15px;-moz-border-radius:0 4px 4px 0;-webkit-border-radius:0;border-radius:0 4px 4px 0}#breadcrumb li:last-child a:after{border:none}#breadcrumb li a:after,#breadcrumb li a:before{content:"";position:absolute;top:0;border:0 solid #3498db;border-width:15px 10px;width:0;height:0}#breadcrumb li a:before{left:-20px;border-left-color:transparent}#breadcrumb li a:after{left:100%;border-color:transparent;border-left-color:#3498db}#breadcrumb li a:hover{background-color:#1a59bc}#breadcrumb li a:hover:before{border-color:#1a59bc;border-left-color:transparent}#breadcrumb li a:hover:after{border-left-color:#1a59bc}#breadcrumb li a:active{background-color:#16a085}#breadcrumb li a:active:before{border-color:#16a085;border-left-color:transparent}#breadcrumb li a:active:after{border-left-color:#16a085}.temp_nav_button{padding:7px 10px;box-shadow:0 1px 2px 0 rgb(60 64 67 / 30%),0 1px 3px 1px rgb(60 64 67 / 15%);border-radius:8px;width:fit-content;background-color:#e5e5e5;font-family:Asap;font-weight:700;color:#000!important;text-decoration:none;transition:background-color 1s}.temp_nav_button:hover{background-color:#eaeaea;cursor:pointer}.grid{padding:10px;width:97%;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));grid-gap:10px;grid-auto-rows:auto}.grid>div{background-color:#e5e5e5;font-size:16px;font-family:Calibri;padding:5px;border-radius:10px;text-align:center;box-shadow:0 1px 2px 0 rgb(60 64 67 / 30%),0 1px 3px 1px rgb(60 64 67 / 15%)}.grid>div:hover{background-color:#f5f5f5;transition:background-color 1s}.char_name{font-family:PPLogo;font-size:18px;display:block;line-height:20px;padding-bottom:5px}.char_img{background-size:cover;background-position:center}</style>
+<style type="text/css">
+	
+	.pp_content_box{
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+		background-color: #f6fafc;
+		display: grid; 
+		grid-template-columns: 2fr 1.25fr;
+		grid-template-rows: min-content min-content min-content; 
+		grid-template-areas: 
+		"pp_content_header pp_content_header"
+		"pp_content_body pp_content_img";
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+	.pp_content_header{
+		font-family: 'Asap';
+		font-size: 24px;
+		font-weight: bold;
+		background-color: #0092ca;
+		color: #ffffff;
+		border-radius: 8px 8px 0 0;
+		padding: 5px 10px;
+		text-shadow: 2px 2px 5px rgb(0 0 0 / 75%);
+	}
+	.pp_content_img{
+		padding: 5px;
+		text-align: center;
+	}
+	.pp_content_img img{
+		min-width: 120px;
+		max-width: 400px;
+		border-radius: 8px;
+		box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+	}
+	.pp_content_body{
+		padding: 5px;
+		font-size: 13px;
+		font-family: 'Asap';
+		text-align: justify;
+	}
+
+	.pp_content_header { grid-area: pp_content_header; }
+	.pp_content_img { grid-area: pp_content_img; }
+	.pp_content_body { grid-area: pp_content_body; }
+
+	@media screen and (max-width:600px){
+		.pp_content_box{
+			grid-template-areas: 
+			"pp_content_header"
+			"pp_content_img"
+			"pp_content_body";
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T6M97KRERZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T6M97KRERZ');
+</script>
+</head>
+<body style="background-image:url(https://pokemon-project.com/img/fondo.jpg);">
+
+
+<div style="margin:0;padding:0;overflow:hidden; width:100%;height:100%;">
+
+<div class>
+<div id="logoholde" style="height:116px; width:100%; background-image:url(https://pokemon-project.com/img/site/header_detective_pikachu_regreso.webp); background-position:center; background-repeat:no-repeat; cursor:pointer;" onclick="location.href='https://pokemon-project.com/'" align="center">
+</div>
+<div id="menubar">
+<div id="dl-menu" class="dl-menuwrapper" style="height: 45px !important;">
+<button class="dl-trigger"></button><div class="slicknav_brand"><a href="//pokemon-project.com/">Pokémon Project</a></div>
+<ul class="dl-menu">
+<li><a href="https://pokemon-project.com/dex/scarlet-violet">Scarlet & Violet Pokédex</a></li>
+<li><a href="https://pokemon-project.com/dex/escarlata-purpura">Pokédex Escarlata y Púrpura</a></li>
+<li><a href="https://pokemon-project.com/"><span class="fa fa-home" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Página principal</a></li>
+<li>
+<a href="#"><span class="fa fa-table" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Pokédex</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/dex/scarlet-violet">Scarlet & Violet Pokédex</a></li>
+<li><a href="https://pokemon-project.com/dex/escarlata-purpura">Pokédex Escarlata y Púrpura</a></li>
+<li><a href="https://pokemon-project.com/dex">Pokédex CENTRAL</a></li>
+<li><a href="https://pokemon-project.com/dex/leyendas-arceus">Pokédex Leyendas Pokémon: Arceus</a></li>
+<li><a href="https://pokemon-project.com/dex/dbpr/">Pokédex Diamante Brillante y Perla Reluciente</a></li>
+<li><a href="https://pokemon-project.com/dex/espada-escudo/">Pokédex Espada y Escudo</a></li>
+<li><a href="https://pokemon-project.com/Dex/SolLuna/">Pokédex Sol y Luna</a></li>
+<li><a href="https://pokemon-project.com/Dex/ROZA/">Pokédex Rubí Omega y Zafiro Alfa</a></li>
+<li><a href="https://pokemon-project.com/Dex/XY/">Pokédex X e Y</a></li>
+<li><a href="https://pokemon-project.com/dex/rubí-zafiro-esmeralda">Pokédex Rubí, Zafiro y Esmeralda</a></li>
+<li><a href="https://pokemon-project.com/dex/ruby-sapphire-emerald">Ruby, Sapphire & Emerald Pokédex</a></li>
+<li><a href="https://pokemon-project.com/dex/oro-plata-cristal">Pokédex Oro, Plata y Cristal</a></li>
+<li><a href="https://pokemon-project.com/dex/rojo-azul-amarillo/bulbasaur">Pokédex Rojo, Azul y Amarillo</a></li>
+<li><a href="https://pokemon-project.com/spritedex">SpriteDex</a></li>
+</ul>
+</li>
+<li>
+<a href="#"><span class="fa fa-tv" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Episodios</span></a>
+<ul class="dl-submenu">
+<li>
+<a href="#">Serie de Liko</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 1: Horizontes Pokémon" href="https://pokemon-project.com/episodios/serie-liko/temporada-1">T01: Horizontes Pokémon</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Serie de Ash</a>
+<ul class="dl-submenu">
+<li>
+<a href="#">Serie Original (T01-T05)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 01: ¡Atrápalos ya!" href="https://pokemon-project.com/episodios/serie-ash/temporada-1">T01: ¡Atrápalos ya!</a></li>
+<li><a title="Temporada 02: Liga Naranja" href="https://pokemon-project.com/episodios/serie-ash/temporada-2">T02: Liga Naranja</a></li>
+<li><a title="Temporada 03: Los viajes Johto" href="https://pokemon-project.com/episodios/serie-ash/temporada-3">T03: Los viajes Johto</a></li>
+<li><a title="Temporada 04: Los campeones de la Liga Johto" href="https://pokemon-project.com/episodios/serie-ash/temporada-4">T04: Los campeones de la Liga Johto</a></li>
+<li><a title="Temporada 05: La Búsqueda del Maestro" href="https://pokemon-project.com/episodios/serie-ash/temporada-5">T05: La Búsqueda del Maestro</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Advance Generation (T06-T09)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 06: Fuerza Máxima" href="https://pokemon-project.com/episodios/serie-ash/temporada-6">T06: Fuerza Máxima</a></li>
+<li><a title="Temporada 07: Reto Máximo" href="https://pokemon-project.com/episodios/serie-ash/temporada-7">T07: Reto Máximo</a></li>
+<li><a title="Temporada 08: Batalla Avanzada" href="https://pokemon-project.com/episodios/serie-ash/temporada-8">T08: Batalla Avanzada</a></li>
+<li><a title="Temporada 09: Batalla de la Frontera" href="https://pokemon-project.com/episodios/serie-ash/temporada-9">T09: Batalla de la Frontera</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Diamante y Perla (T10-T13)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 10: Diamond and Pearl" href="https://pokemon-project.com/episodios/serie-ash/temporada-10">T10: Diamond and Pearl</a></li>
+<li><a title="Temporada 11: Dimensión de Batalla" href="https://pokemon-project.com/episodios/serie-ash/temporada-11">T11: Dimensión de Batalla</a></li>
+<li><a title="Temporada 12: Batallas Galácticas" href="https://pokemon-project.com/episodios/serie-ash/temporada-12">T12: Batallas Galácticas</a></li>
+<li><a title="Temporada 13: Los Vencedores de la Liga Sinnoh" href="https://pokemon-project.com/episodios/serie-ash/temporada-13">T13: Los Vencedores de la Liga Sinnoh</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Blanco y Negro (T14-T16)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 14: Blanco y Negro" href="https://pokemon-project.com/episodios/serie-ash/temporada-14">T14: Blanco y Negro</a></li>
+<li><a title="Temporada 15: Destinos Rivales" href="https://pokemon-project.com/episodios/serie-ash/temporada-15">T15: Destinos Rivales</a></li>
+<li><a title="Temporada 16: Aventuras en Teselia" href="https://pokemon-project.com/episodios/serie-ash/temporada-16">T16: Aventuras en Teselia</a></li>
+</ul>
+</li>
+<li>
+<a href="#">X/Y (T17-T19)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 17: Temporada XY" href="https://pokemon-project.com/episodios/serie-ash/temporada-17">T17: Temporada XY</a></li>
+<li><a title="Temporada 18: Temporada XY - Expediciones en Kalos" href="https://pokemon-project.com/episodios/serie-ash/temporada-18">T18: Temporada XY - Expediciones en Kalos</a></li>
+<li><a title="Temporada 19: Temporada XYZ" href="https://pokemon-project.com/episodios/serie-ash/temporada-19">T19: Temporada XYZ</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Sol y Luna (T20-T22)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 20: Sol y Luna" href="https://pokemon-project.com/episodios/serie-ash/temporada-20">T20: Sol y Luna</a></li>
+<li><a title="Temporada 21: Sol y Luna - Ultraaventuras" href="https://pokemon-project.com/episodios/serie-ash/temporada-21">T21: Sol y Luna - Ultraaventuras</a></li>
+<li><a title="Temporada 22: Sol y Luna - Ultraleyendas" href="https://pokemon-project.com/episodios/serie-ash/temporada-22">T22: Sol y Luna - Ultraleyendas</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Viajes Pokémon (T23-T25)</a>
+<ul class="dl-submenu">
+<li><a title="Temporada 23: Viajes Pokémon" href="https://pokemon-project.com/episodios/serie-ash/temporada-23">T23: Viajes Pokémon</a></li>
+<li><a title="Temporada 24: Viajes Maestros Pokémon" href="https://pokemon-project.com/episodios/serie-ash/temporada-24">T24: Viajes Maestros Pokémon</a></li>
+<li><a title="Temporada 25: Viajes Definitivos Pokémon" href="https://pokemon-project.com/episodios/serie-ash/temporada-25">T25: Viajes Definitivos Pokémon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">Especiales de la Serie principal</a>
+<ul class="dl-submenu">
+<li><a title="Crónicas Pokémon" href="https://pokemon-project.com/episodios/especial/cr%C3%B3nicas-pok%C3%A9mon">Crónicas Pokémon</a></li>
+<li><a title="Pokémon Megaevolución" href="https://pokemon-project.com/episodios/especial/pok%C3%A9mon-megaevoluci%C3%B3n">Pokémon Megaevolución</a></li>
+<li><a title="Los sorprendentes anillos de Hoopa" href="https://pokemon-project.com/episodios/especial/sorprendentes-anillos-hoopa">Los sorprendentes anillos de Hoopa</a></li>
+<li><a title="Eevee, ¿a dónde vas?" href="https://pokemon-project.com/episodios/especial/eevee-donde-vas">Eevee, ¿a dónde vas?</a></li>
+<li><a title="Las crónicas de Arceus" href="https://pokemon-project.com/episodios/especial/cr%C3%B3nicas-arceus">Las crónicas de Arceus</a></li>
+<li><a title="Aspiro a ser un maestro Pokémon" href="https://pokemon-project.com/episodios/especial/aspiro-ser-maestro-pok%C3%A9mon">Aspiro a ser un maestro Pokémon</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Otros especiales</a>
+<ul class="dl-submenu">
+<li><a title="Generaciones Pokémon" href="https://pokemon-project.com/episodios/especial/generaciones-pok%C3%A9mon">Generaciones Pokémon</a></li>
+<li><a title="Los Orígenes" href="https://pokemon-project.com/episodios/especial/los-or%C3%ADgenes">Los Orígenes</a></li>
+<li><a title="Alas del Crepúsculo" href="https://pokemon-project.com/episodios/especial/alas-del-crep%C3%BAsculo">Alas del Crepúsculo</a></li>
+<li><a title="PokéToon" href="https://pokemon-project.com/episodios/especial/pok%C3%A9toon">PokéToon</a></li>
+<li><a title="Evoluciones Pokémon" href="https://pokemon-project.com/episodios/especial/evoluciones-pok%C3%A9mon">Evoluciones Pokémon</a></li>
+<li><a title="Nieves de Hisui" href="https://pokemon-project.com/episodios/especial/nieves-de-hisui">Nieves de Hisui</a></li>
+<li><a title="Cortometrajes" href="https://pokemon-project.com/episodios/especial/cortometrajes">Cortometrajes</a></li>
+<li><a title="Videojuegos" href="https://pokemon-project.com/episodios/especial/videojuegos">Videojuegos</a></li>
+<li><a title="Pokédex Megaevolución" href="https://pokemon-project.com/episodios/especial/pok%C3%A9dex-megaevoluci%C3%B3n">Pokédex Megaevolución</a></li>
+<li><a title="Cube-Shaped Pokémon on Cubie Island?!" href="https://pokemon-project.com/especial/cube-shaped-pokemon-on-cubie-island">Cube-Shaped Pokémon on Cubie Island?!</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#"><span class="fa fa-book" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Manga</a>
+<ul class="dl-submenu" id="manga0">
+<li>
+<a href="https://pokemon-project.com/pokemon-special/">Pokémon Special</a>
+<ul class="dl-submenu" id="manga1">
+<li><a href="https://pokemon-project.com/pokemon-special/">Pokémon Special</a></li>
+<li><a href="https://pokemon-project.com/manga/pokemon-adventures">Leer Online Pokémon Special</a></li>
+</ul>
+</li>
+<li><a href="/manga-4/Magical-Pokemon-Journey">Magical Pokémon Journey</a></li>
+<li><a href="/manga-6/Pokemon-Getto-Da-Ze">Pokémon Getto Da Ze!</a></li>
+<li><a href="/manga-9/Pokemon-Zensho">Pokémon Zensho</a></li>
+<li><a href="/manga-10/Pokemon-Golden-Boys">Pokémon Golden Boys</a></li>
+<li><a href="/manga-11/Pokemon-Ranger---The-Comic">Pokémon Ranger - The Comic</a></li>
+<li><a href="/manga-12/Pokemon-Ranger-Batonnage">Pokémon Ranger Batonnage</a></li>
+<li><a href="/manga-13/Pokemon-DP-Adventure">Pokémon DP Adventure!</a></li>
+<li><a href="/manga-14/Pokemon-Komas">Pokémon Komas</a></li>
+<li><a href="/manga-18/Pokemon-Emerald-Battle-Frontier">Pokémon Emerald Battle Frontier</a></li>
+<li><a href="/manga-20/Pokemon-MM-El-Equipo-de-Rescate-de-Ginji">Pokémon MM: El Equipo de Rescate de Ginji</a></li>
+<li><a href="/manga-25/Super-Effective">Super Effective</a></li>
+</ul>
+</li>
+<li>
+<a href="#"><span class="fa fa-gamepad" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Juegos</a>
+<ul class="dl-submenu">
+<li>
+<a href="#">Generación 9</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/escarlata-y-purpura/">Pokémon Escarlata y Púrpura</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Generación 8</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/leyendas-pokemon-arceus/">Leyendas Pokémon: Arceus</a></li>
+<li><a href="https://pokemon-project.com/diamante-brillante-perla-reluciente/">Diamante Brillante y Perla Reluciente</a></li>
+<li><a href="https://pokemon-project.com/espada-y-escudo/">Pokémon Espada y Escudo</a></li>
+<li><a href="https://pokemon-project.com/pokemon-unite/">Pokémon UNITE</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#">Generación 7</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/lets-go-pikachu-eevee/">Let’s Go, Pikachu! y Let’s Go, Eevee!</a></li>
+<li><a href="https://pokemon-project.com/sol-y-luna/">Sol y Luna</a></li>
+<li><a href="https://pokemon-project.com/ultrasol-y-ultraluna/">Ultrasol y Ultraluna</a></li>
+<li><a href="https://pokemon-project.com/quest/">Pokémon Quest</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#">Generación 6</a>
+<ul class="dl-submenu">
+<li><a href="/juegos-178/Pokemon-X-e-Y">Pokémon X e Y</a></li>
+<li><a href="/juegos-233/Pokemon-Rubi-Omega-y-Zafiro-Alfa">Rubí Omega y Zafiro Alfa</a></li>
+<li><a href="/juegos-228/Banco-de-Pokemon">Banco de Pokémon</a></li>
+<li><a href="/juegos-275/Pokemon-Shuffle">Pokémon Shuffle</a></li>
+<li><a href="/juegos-237/Pokken-Tournament">Pokkén Tournament</a></li>
+<li><a href="/juegos-206/Super-Smash-Bros.-para-3DS-y-Wii-U">Super Smash Bros. para 3DS y Wii U</a></li>
+<li><a href="/detective-pikachu">Detective Pikachu</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#">Generación 5</a>
+<ul class="dl-submenu">
+<li><a href="/juegos-112/Pokemon-Blanco-y-Negro">Blanco y Negro</a></li>
+<li><a href="/juegos-166/Pokemon-Blanco-2-y-Negro-2">Blanco 2 y Negro 2</a></li>
+<li><a href="/juegos-161/Pokemon-Conquest">Pokémon Conquest</a></li>
+<li><a href="/juegos-175/RAdar-Pokemon">RAdar Pokémon</a></li>
+<li><a href="/juegos-159/PokePark-2-Un-Mundo-de-Ilusiones">PokéPark 2: Un Mundo de Ilusiones</a></li>
+<li><a href="/juegos-138/Super-Pokemon-Rumble">Super Pokémon Rumble</a></li>
+<li><a href="/juegos-190/Pokemon-Rumble-U">Pokémon Rumble U</a></li>
+<li><a href="/juegos-180/Pokemon-Mundo-Misterioso-Portales-al-Infinito">Mundo Misterioso: Portales al Infinito</a></li>
+<li><a href="/juegos-139/Pokedex-3D">Pokédex 3D</a></li>
+<li><a href="/juegos-174/Pokedex-3D-Pro">Pokédex 3D Pro</a></li>
+<li><a href="/juegos-215/Pokemon-Tretta-Lab">Pokémon Tretta Lab</a></li>
+<li><a href="https://pokemon-project.com/aventura-entre-las-teclas">Aprende con Pokémon: Aventura entre las Teclas</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#">Generación 4</a>
+<ul class="dl-submenu">
+<li><a href="/juegos-51/Pokemon-Diamante-y-Perla">Diamante y Perla</a></li>
+<li><a href="/juegos-39/Pokemon-Platino">Platino</a></li>
+<li><a href="/juegos-94/Pokemon-Oro-HeartGold-y-Plata-SoulSilver">Oro HeartGold y Plata SoulSilver</a></li>
+<li><a href="/juegos-5/Pokemon-Ranger-2">Pokémon Ranger 2: Sombras de Almia</a></li>
+<li><a href="/juegos-110/Pokemon-Ranger-3-Trazos-de-Luz">Pokémon Ranger 3: Trazos de Luz</a></li>
+<li><a href="/juegos-61/Pokemon-MM-Tiempo/Oscuridad">Mundo Misterioso: Tiempo/Oscuridad</a></li>
+<li><a href="/juegos-101/Pokemon-MM-Exploradores-del-Cielo">Mundo Misterioso: Cielo</a></li>
+<li><a href="/juegos-57/Pokemon-Dash">Pokémon Dash</a></li>
+<li><a href="/juegos-32/Pokemon-Battrio">Pokémon Battrio</a></li>
+<li><a href="/juegos-96/PokePark-Wii-La-Gran-Aventura-de-Pikachu">PokéPark: La Gran Aventura de Pikachu</a></li>
+<li><a href="/juegos-87/Pokemon-Rumble">Pokémon Rumble</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#">Generación 3</a>
+<ul class="dl-submenu">
+<li><a href="/juegos-49/Pokemon-Rubi-y-Zafiro">Rubí y Zafiro</a></li>
+<li><a href="/juegos-48/Pokemon-Esmeralda">Esmeralda</a></li>
+<li><a href="/juegos-50/Pokemon-VerdeHoja/RojoFuego">VerdeHoja y RojoFuego</a></li>
+<li><a href="/juegos-58/Pokemon-Pinball-R/Z">Pokémon Pinball: Rubí y Zafiro</a></li>
+<li><a href="/juegos-40/Pokemon-Ranger">Pokémon Ranger</a></li>
+<li><a href="/juegos-59/Pokemon-MM-Rojo">Mundo Misterioso: Rojo</a></li>
+<li><a href="/juegos-60/Pokemon-MM-Azul">Mundo Misterioso: Azul</a></li>
+
+</ul>
+</li>
+<li>
+<a href="#">Generación 2</a>
+<ul class="dl-submenu">
+<li><a href="/oro-y-plata">Oro y Plata</a></li>
+<li><a href="/cristal">Cristal</a></li>
+<li><a href="/stadium-2">Pokémon Stadium 2</a></li>
+<li><a href="/puzzle-challenge">Pokémon Puzzle Challenge</a></li>
+<li><a href="/pokemon-mini">Pokémon Mini</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Generación 1</a>
+<ul class="dl-submenu">
+<li><a href="/rojo-y-azul">Rojo, Azul y Verde</a></li>
+<li><a href="/amarillo">Amarillo</a></li>
+<li><a href="/pinball">Pokémon Pinball</a></li>
+<li><a href="/trading-card-game-gb">Pokémon Trading Card GB</a></li>
+<li><a href="/stadium">Pokémon Stadium</a></li>
+<li><a href="/snap">Pokémon Snap</a></li>
+<li><a href="/puzzle-league">Pokémon Puzzle League</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Smartphones</a>
+<ul class="dl-submenu">
+<li><a href="/juegos-281/Pokemon-GO">Pokémon GO</a></li>
+<li><a href="/pokemon-unite">Pokémon UNITE</a></li>
+<li><a href="/juegos-313/Pokemon-Duel">Pokémon Duel</a></li>
+<li><a href="/juegos-255/Campamento-Pokemon">Campamento Pokémon</a></li>
+<li><a href="/juegos-188/TV-Pokemon">TV Pokémon</a></li>
+<li><a href="/juegos-183/Pokedex-para-iOS">Pokédex para iOS</a></li>
+<li><a href="/magikarp-jump">Pokémon: Magikarp Jump</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">
+<span class="fa fa-film" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Películas
+</a>
+<ul class="dl-submenu">
+<li>
+<a href="#">Serie Original</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/mewtwo-vs-mew">P1: Mewtwo vs. Mew</a></li>
+<li><a href="https://pokemon-project.com/peliculas/el-poder-de-uno">P2: El Poder de Uno</a></li>
+<li><a href="https://pokemon-project.com/peliculas/el-hechizo-de-los-unown">P3: El hechizo de los Unown</a></li>
+<li><a href="https://pokemon-project.com/peliculas/pokemon-4ever">P4: Pokémon 4Ever</a></li>
+<li><a href="https://pokemon-project.com/peliculas/heroes-pokemon">P5: Héroes Pokémon</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Advanced Generation</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/jirachi-y-los-deseos">P6: Jirachi y los Deseos</a></li>
+<li><a href="https://pokemon-project.com/peliculas/el-destino-de-deoxys">P7: El destino de Deoxys</a></li>
+<li><a href="https://pokemon-project.com/peliculas/lucario-y-el-misterio-de-mew">P8: Lucario y el Misterio de Mew</a></li>
+<li><a href="https://pokemon-project.com/peliculas/pokemon-ranger-y-el-templo-del-mar">P9: Pokémon Ranger y el Templo del Mar</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Diamante y Perla</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/el-desafio-de-darkrai">P10: El desafío de Darkrai</a></li>
+<li><a href="https://pokemon-project.com/peliculas/giratina-y-el-defensor-de-los-cielos">P11: Giratina y el defensor de los cielos</a></li>
+<li><a href="https://pokemon-project.com/peliculas/arceus-y-la-joya-de-la-vida">P12: Arceus y la joya de la vida</a></li>
+<li><a href="https://pokemon-project.com/peliculas/zoroark-el-maestro-de-ilusiones">P13: Zoroark, el maestro de ilusiones</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Blanco y Negro</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/pokemon-blanco-victini-y-zekrom">P14: Pokémon Blanco: Victini y Zekrom</a></li>
+<li><a href="https://pokemon-project.com/peliculas/pokemon-negro-victini-y-reshiram">P14: Pokémon Negro: Victini y Reshiram</a></li>
+<li><a href="https://pokemon-project.com/peliculas/kyurem-vs-el-espadachin-mistico">P15: Kyurem vs. el espadachín místico</a></li>
+<li><a href="https://pokemon-project.com/peliculas/genesect-y-el-despertar-de-una-leyenda">P16: Genesect y el despertar de una leyenda</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Serie XY</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/diancie-y-la-crisalida-de-la-destruccion">P17: Diancie y la crisálida de la destrucción</a></li>
+<li><a href="https://pokemon-project.com/peliculas/hoopa-y-un-duelo-historico">P18: Hoopa y un duelo histórico</a></li>
+<li><a href="https://pokemon-project.com/peliculas/volcanion-y-la-maravilla-mecanica">P19: Volcanion y la maravilla mecánica</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Historia alternativa</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/te-elijo-a-ti">P20: ¡Te elijo a ti!</a></li>
+<li><a href="https://pokemon-project.com/peliculas/el-poder-de-todos">P21: El poder de todos</a></li>
+<li><a href="https://pokemon-project.com/peliculas/mewtwo-contraataca-evolucion">P22: Mewtwo contraataca: Evolución</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Espada y Escudo</a>
+<ul class="dl-submenu">
+<li><a href="https://pokemon-project.com/peliculas/los-secretos-de-la-selva">P23: Los secretos de la selva</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class>
+<a href="#"><span class="fa fa-window-maximize" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>TCG</a>
+<ul class="dl-submenu">
+<li>
+<a href="/trading-card-game/">Serie Clásica</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/base-aet/">Base Set</a></li>
+<li><a href="/trading-card-game/jungla/">Jungla</a></li>
+<li><a href="/trading-card-game/fosil/">Fósil</a></li>
+<li><a href="/trading-card-game/base-set-2/">Base Set 2</a></li>
+<li><a href="/trading-card-game/team-rocket/">Team Rocket</a></li>
+<li><a href="/trading-card-game/gym-heroes/">Gym Heroes</a></li>
+<li><a href="/trading-card-game/gym-challenge/">Gym Challenge</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Neo</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/neo-genesis/">Neo Genesis</a></li>
+<li><a href="/trading-card-game/neo-discovery/">Neo Discovery</a></li>
+<li><a href="/trading-card-game/neo-revelation/">Neo Revelation</a></li>
+<li><a href="/trading-card-game/neo-destiny/">Neo Destiny</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/legendary-collection/">Legendary Collection</a>
+</li>
+<li>
+<a href="/trading-card-game/">E-Card Sets</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/expedition/">Expedition Base Set</a></li>
+<li><a href="/trading-card-game/aquapolis/">Aquapolis</a></li>
+<li><a href="/trading-card-game/skyridge/">Skyridge</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie EX</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/rubi-zafiro/">Rubi y Zafiro</a></li>
+<li><a href="/trading-card-game/sandstorm/">Sandstorm</a></li>
+<li><a href="/trading-card-game/dragon/">Dragon</a></li>
+<li><a href="/trading-card-game/magma-vs-aqua/">Team Magma Vs. Team Aqua</a></li>
+<li><a href="/trading-card-game/hidden-legends/">Hidden Legends</a></li>
+<li><a href="/trading-card-game/firered-leafgreen/">FireRed y LeafGreen</a></li>
+<li><a href="/trading-card-game/team-rocket-returns/">Team Rocket Returns</a></li>
+<li><a href="/trading-card-game/deoxys/">Deoxys</a></li>
+<li><a href="/trading-card-game/emerald/">Emerald</a></li>
+<li><a href="/trading-card-game/fuerzas-ocultas/">Fuerzas Ocultas</a></li>
+<li><a href="/trading-card-game/delta-species/">Delta Species</a></li>
+<li><a href="/trading-card-game/legend-maker/">Legend Maker</a></li>
+<li><a href="/trading-card-game/holon-phantoms/">Holon Phantoms</a></li>
+<li><a href="/trading-card-game/crystal-guardians/">Crystal Guardians</a></li>
+<li><a href="/trading-card-game/dragon-frontiers/">Dragon Frontiers</a></li>
+<li><a href="/trading-card-game/power-keepers/">Power Keepers</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Diamante y Perla</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/diamante-perla/">Diamante y Perla</a></li>
+<li><a href="/trading-card-game/tesoros-misteriosos/">Tesoros Misteriosos</a></li>
+<li><a href="/trading-card-game/maravillas-secretas/">Maravillas Secretas</a></li>
+<li><a href="/trading-card-game/grandes-encuentros/">Grandes Encuentros</a></li>
+<li><a href="/trading-card-game/majestic-dawn/">Majestic Dawn</a></li>
+<li><a href="/trading-card-game/despertar-leyendas/">Despertar de las Leyendas</a></li>
+<li><a href="/trading-card-game/frente-tormentoso/">Frente Tormentoso</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Platino</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/platino/">Platino</a></li>
+<li><a href="/trading-card-game/rising-rivals/">Rising Rivals</a></li>
+<li><a href="/trading-card-game/supreme-victors/">Supreme Victors</a></li>
+<li><a href="/trading-card-game/arceus/">Arceus</a></li>
+</ul>
+</li>
+<li class>
+<a href="/trading-card-game/">Serie HeartGold y SoulSilver</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/heartgold-soulsilver/">HeartGold y SoulSilver</a></li>
+<li><a href="/trading-card-game/liberados/">Liberados</a></li>
+<li><a href="/trading-card-game/intrepidos/">Intrépidos</a></li>
+<li><a href="/trading-card-game/triunfadores/">Triunfadores</a></li>
+<li><a href="/trading-card-game/llamada-leyendas/">Llamada de las Leyendas</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Negro y Blanco</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/negro-blanco/">Negro y Blanco</a></li>
+<li><a href="/trading-card-game/fuerzas-emergentes/">Fuerzas Emergentes</a></li>
+<li><a href="/trading-card-game/nobles-victorias/">Nobles Victorias</a></li>
+<li><a href="/trading-card-game/proximos-destinos/">Proximos Destinos</a></li>
+<li><a href="/trading-card-game/oscuros-exploradores/">Oscuros Exploradores</a></li>
+<li><a href="/trading-card-game/dragones-majestuosos/">Dragones Majestuosos</a></li>
+<li><a href="/trading-card-game/fronteras-cruzadas/">Fronteras Cruzadas</a></li>
+<li><a href="/trading-card-game/tormenta-plasma/">Tormenta Plasma</a></li>
+<li><a href="/trading-card-game/glaciacion-plasma/">Glaciacion Plasma</a></li>
+<li><a href="/trading-card-game/explosion-plasma/">Explosión Plasma</a></li>
+<li><a href="/trading-card-game/tesoros-legendarios/">Tesoros Legendarios</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie XY</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/xy/">XY</a></li>
+<li><a href="/trading-card-game/destellos-fuego/">Destellos de Fuego</a></li>
+<li><a href="/trading-card-game/puños-furiosos/">Puños Furiosos</a></li>
+<li><a href="/trading-card-game/fuerzas-fantasmales/">Fuerzas Fantasmales</a></li>
+<li><a href="/trading-card-game/duelos-primigenios/">Duelos Primigenios</a></li>
+<li><a href="/trading-card-game/cielos-rugientes/">Cielos Rugientes</a></li>
+<li><a href="/trading-card-game/antiguos-origenes/">Antiguos Orígenes</a></li>
+<li><a href="/trading-card-game/turboimpulso/">TURBOimpulso</a></li>
+<li><a href="/trading-card-game/turbolímite/">TURBOlímite</a></li>
+<li><a href="/trading-card-game/destinos-enfrentados/">Destinos Enfrentados</a></li>
+<li><a href="/trading-card-game/asedio-vapor/">Asedio de Vapor</a></li>
+<li><a href="/trading-card-game/evoluciones/">Evoluciones</a></li>
+<li><a href="/trading-card-game/generaciones/">Generaciones</a></li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Sol y Luna</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/sol-luna/">Sol y Luna</a></li>
+<li><a href="/trading-card-game/albor-guardianes/">Albor de Guardianes</a></li>
+<li><a href="/trading-card-game/sombras-ardientes/">Sombras Ardientes</a></li>
+<li><a href="/trading-card-game/invasion-carmesi/">Invasión Carmesí</a></li>
+<li><a href="/trading-card-game/ultraprisma/">Ultraprisma</a></li>
+<li><a href="/trading-card-game/luz-prohibida/">Luz Prohibida</a></li>
+<li><a href="/trading-card-game/tormenta-celestial/">Tormenta Celestial</a></li>
+<li><a href="/trading-card-game/truenos-perdidos/">Truenos Perdidos</a></li>
+<li><a href="/trading-card-game/union-aliados/">Unión de Aliados</a></li>
+<li><a href="/trading-card-game/vinculos-indestructibles/">Vínculos Indestructibles</a></li>
+<li><a href="/trading-card-game/mentes-unidas/">Mentes Unidas</a></li>
+<li><a href="/trading-card-game/eclipse-cosmico/">Eclipse Cósmico</a></li>
+<li><a href="#">Especiales</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/leyendas-luminosas/">Leyendas Luminosas</a></li>
+<li><a href="/trading-card-game/majestad-dragones/">Majestad de Dragones</a></li>
+<li><a href="/trading-card-game/detective-pikachu/">Detective Pikachu</a></li>
+<li><a href="/trading-card-game/destinos-ocultos/">Destinos Ocultos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Espada y Escudo</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/espada-escudo/">Espada y Escudo</a></li>
+<li><a href="/trading-card-game/choque-rebelde/">Choque Rebelde</a></li>
+<li><a href="/trading-card-game/oscuridad-incandescente/">Oscuridad Incandescente</a></li>
+<li><a href="/trading-card-game/voltaje-vivido/">Voltaje Vívido</a></li>
+<li><a href="/trading-card-game/estilos-combate/">Estilos de Combate</a></li>
+<li><a href="/trading-card-game/reinado-escalofriante/">Reinado Escalofriante</a></li>
+<li><a href="/trading-card-game/cielos-evolutivos/">Cielos Evolutivos</a></li>
+<li><a href="/trading-card-game/golpe-fusion/">Golpe Fusión</a></li>
+<li><a href="/trading-card-game/astros-brillantes/">Astros Brillantes</a></li>
+<li><a href="/trading-card-game/resplandor-astral/">Resplandor Astral</a></li>
+<li><a href="/trading-card-game/origen-perdido/">Origen Perdido</a></li>
+<li><a href="/trading-card-game/tempestad-plateada/">Tempestad Plateada</a></li>
+<li><a href="#">Especiales</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/camino-campeones/">Camino de Campeones</a></li>
+<li><a href="/trading-card-game/destinos-brillantes/">Destinos Brillantes</a></li>
+<li><a href="/trading-card-game/celebraciones/">Celebraciones</a></li>
+<li><a href="/trading-card-game/pokemon-go/">Pokémon GO</a></li>
+<li><a href="/trading-card-game/cenit-supremo/">Cenit Supremo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="/trading-card-game/">Serie Escarlata y Púrpura</a>
+<ul class="dl-submenu">
+<li><a href="/trading-card-game/escarlata-y-purpura/">Escarlata y Púrpura</a></li>
+<li><a href="/trading-card-game/evoluciones-en-paldea/">Evoluciones en Paldea</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#" class>
+<span class="fa fa-cloud-download" style="font-size:24px;vertical-align: middle;margin-right: 10px;"></span>Descargas
+</a>
+<ul class="dl-submenu">
+<li><a href="/episodios/">Episodios</a></li>
+<li><a href="/peliculas/">Películas</a></li>
+<li>
+<a href="/descargas/roms/">Roms</a>
+<ul class="dl-submenu">
+<li><a href="/descargas/roms">Roms de Pokémon</a></li>
+<li><a href="/multimedia-55/Pokemon-Mini">Pokémon Mini</a></li>
+<li><a href="/descargas/emuladores/">Emuladores</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<style>
+.pokebox table td{
+	height:26px !important;
+	border-bottom:1px solid #0ae;
+	font-family:Verdana !important;
+	font-size:12px !important;
+}
+.pokebox table strong{
+	text-shadow:1px 1px 1px #ccc !important;
+}
+.gradient_bg img{
+	margin:5px !important;
+}
+.pokebox table tr { line-height: 26px !important; }
+.noborder td{border-bottom-width:0 !important;}
+.gradient_bg{
+background: #f2f6f8 !important; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%) !important; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#b5c6d0), color-stop(100%,#e0eff9)) !important; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%) !important; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%) !important; /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%) !important; /* IE10+ */
+background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%) !important; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ) !important; /* IE6-8 */
+border-radius:7px !important;
+border-bottom-width:0 !important;
+vertical-align:middle;
+text-align:middle center;
+}
+</style>
+
+<div id="maincontainer" style="margin:-3px 0 0 0; padding:0;">
+<div class="pageWidth">
+<div id="wrapper" style="width:100%;">
+<div id="menus">
+
+</div>
+
+
+<div id="contenido">
+
+<h1>Error 404</h1>
+<p>No se encuentra la página o archivo que has solicitado.</p> 
+</div>
+
+</div>
+</div>
+</div>
+<br><br>
+
+<link type="text/css" rel="stylesheet" href="https://pokemon-project.com/sys/estilo/fontAwesome/css/font-awesome.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+footer{
+
+	background-color:rgb(40,40,40);
+
+	padding:20px;
+	-webkit-box-shadow: 0px -5px 20px 10px rgba(40,40,40,1);
+	-moz-box-shadow: 0px -5px 20px 10px rgba(40,40,40,1);
+	box-shadow: 0px -5px 20px 10px rgba(40,40,40,1);
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	font-family:'Asap';
+}
+footer select{
+	width:170px;
+	margin:5px;
+}
+footer form{
+	display:inline-block;
+}
+footer h3{
+	margin:10px;
+}
+.footer_container{
+	text-align:center;
+	
+	display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+@media screen and (max-width:800px){
+	.footer_container{
+    grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.siguenos_footer {
+	  grid-column: 1 / 3;
+	}
+
+}
+@media screen and (max-width:500px){
+	.footer_container{
+    grid-template-columns: repeat(1, 1fr);
+	}
+	.siguenos_footer {
+	  grid-column: 1 / 3;
+	}
+	.pokedex_footer {
+	  grid-column: 1 / 3;
+	}
+	.socios_footer {
+	  grid-column: 1 / 3;
+	}
+}
+
+.footer_block{
+	background-color:rgba(45,45,45,1.00);
+	padding:5px;
+	border-radius:5px;
+}
+.social_iconos a{
+	width:47px;
+	height:47px;
+	background-image:url('https://pokemon-project.com/img/site/social.png');
+	display:table-cell;
+	background-size:680%;
+	float: left;
+	margin: 4px;
+}
+#copyright{
+	border-top:1px solid #bbb;
+	padding-top:10px;	
+}
+.copyright_text{
+	font-size:11px;
+	font-family:Verdana;
+	color:#bbb;
+}
+.copyright_text a{
+	color:#bbb !important;
+}
+.siguenos a{
+	display:inline-block;
+	margin:5px;
+	padding:10px;
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	color:#fff;
+	font-size:20px;
+	text-decoration:none;
+}
+.siguenos-box{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: center;
+	gap:5px;
+}
+
+.follow-btn a{
+	position: relative;
+	box-sizing: border-box;
+	padding: 1px 12px 1px 12px;
+	border-radius: 9999px;
+	font-weight: 500;
+	cursor: pointer;
+	height: 32px;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	text-decoration: none!important;
+}
+
+.follow-twitter a{
+	background-color: #1d9bf0;
+	color: #fff;
+	transition: background-color 250ms;
+}
+.follow-twitter a:hover{
+	background-color: #0c7abf;
+}
+.follow-yt a{
+	background-color: #ff0000;
+	color: #fff;
+	transition: background-color 250ms;
+}
+.follow-yt a:hover{
+	background-color: #aa0000;
+}
+.follow-mail a{
+	background-color: #404040;
+	color: #fff;
+	transition: background-color 250ms;
+}
+.follow-mail a:hover{
+	background-color: #707070;
+}
+
+.zonas-grid-gen {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.zonas-grid-gen>a{
+    transition: background-size .25s, background-position .25s;
+    background-size: 100%;
+    background-position: 0;
+	position: relative !important;
+	text-shadow:
+	0px 1px 1px #000,
+	1px 1px 1px #000,
+	1px 0px 1px #000,
+
+	1px -1px 1px #000,
+	-1px 1px 1px #000,
+	0px -1px 1px #000,
+	-1px -1px 1px #000,
+	-1px 0px 1px #000;
+	padding: 6px;
+	border: 1px solid #555;
+	background-color: #333;
+	border-radius: 8px;
+	color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zonas-grid-gen>a:hover{
+	background-size: 150% !important;
+	background-position: -50px 0;
+}
+.box-gen-1{background: linear-gradient(90deg, rgba(36,142,85,1) 0%, rgba(205,25,28,1) 33%, rgba(41,124,178,1) 66%, rgba(245,201,71,1) 100%);transition: background .5s linear;}
+.box-gen-2{background: linear-gradient(90deg, rgba(153,137,86,1) 0%, rgba(90,99,108,1) 50%, rgba(115,113,173,1) 100%);}
+.box-gen-3{background: linear-gradient(90deg, rgba(187,3,6,1) 0%, rgba(27,107,178,1) 50%, rgba(0,155,70,1) 100%);}
+.box-gen-4{background: linear-gradient(90deg, rgba(65,158,176,1) 0%, rgba(165,115,153,1) 50%, rgba(224,145,116,1) 100%);}
+.box-gen-5{background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(7,7,9,1) 33%, rgba(245,203,122,1) 66%, rgba(5,128,160,1) 100%);}
+.box-gen-6{background: linear-gradient(90deg, rgba(2,96,154,1) 0%, rgba(209,34,63,1) 100%);}
+.box-gen-7{background: linear-gradient(90deg, rgba(241,148,0,1) 0%, rgba(1,114,195,1) 100%);}
+.box-gen-8{background: linear-gradient(90deg, rgba(7,157,217,1) 0%, rgba(227,3,90,1) 100%);}
+.box-gen-9{background: linear-gradient(90deg, rgba(215,21,29,1) 0%, rgba(132,21,138,1) 100%);}
+@media screen and (max-width: 600px){
+	.zonas-grid-pokegen>div{
+		min-width: 120px !important;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.zonas-grid-gen{
+		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)) !important;
+	}
+}
+</style>
+<footer>
+<center>
+<div class="footer_container">
+<div class="footer_block siguenos_footer">
+<h3>Síguenos / Contacto</h3>
+<div class="siguenos-box">
+<div class="follow-twitter follow-btn"><a href="https://twitter.com/intent/follow?screen_name=PokemonProject"><i class="fa-brands fa-twitter" style="margin-right:5px"></i> Seguir a @PokemonProject</a></div>
+<div class="follow-yt follow-btn"><a href="https://www.youtube.com/@pokemonproject?sub_confirmation=1"><i class="fa-brands fa-youtube" style="margin-right:5px"></i> Suscribirte a @PokemonProject</a></div>
+<div class="follow-mail follow-btn"><a href="mailto:soporte@pokemon-project.com"><i class="fa-solid fa-envelope" style="margin-right:5px"></i> soporte@pokemon-project.com</a></div>
+</div>
+</div>
+<div class="footer_block pokedex_footer">
+<div>
+<h3><a href="//pokemon-project.com/dex" style="color:#fff !important; text-decoration:none;">Pokédex</a></h3>
+<div class="zonas-grid-gen" style="text-align: center;">
+<a class="box-gen-1" href="https://pokemon-project.com/dex/generación-1">Generación 1</a>
+<a class="box-gen-2" href="https://pokemon-project.com/dex/generación-2">Generación 2</a>
+<a class="box-gen-3" href="https://pokemon-project.com/dex/generación-3">Generación 3</a>
+<a class="box-gen-4" href="https://pokemon-project.com/dex/generación-4">Generación 4</a>
+<a class="box-gen-5" href="https://pokemon-project.com/dex/generación-5">Generación 5</a>
+<a class="box-gen-6" href="https://pokemon-project.com/dex/generación-6">Generación 6</a>
+<a class="box-gen-7" href="https://pokemon-project.com/dex/generación-7">Generación 7</a>
+<a class="box-gen-8" href="https://pokemon-project.com/dex/generación-8">Generación 8</a>
+<a class="box-gen-9" href="https://pokemon-project.com/dex/generación-9">Generación 9</a>
+</div>
+</div>
+</div>
+<div class="footer_block socios_footer">
+<div id class>
+<h3>Socios</h3>
+<div class align="center">
+<a target="_blank" href="/socios/2/" title="Centro Pokémon • Noticias Pokémon de Switch y Pokémon GO"><img loading="lazy" title="Centro Pokémon • Noticias Pokémon de Switch y Pokémon GO" alt="Centro Pokémon • Noticias Pokémon de Switch y Pokémon GO" width="88" height="31" src="https://pokemon-project.com/img/site/socios/2.gif" hspace="1" vspace="1"></a>
+<a target="_blank" href="/socios/7/" title="PokéCompany - Tu web de noticias Pokémon"><img loading="lazy" title="PokéCompany - Tu web de noticias Pokémon" alt="PokéCompany - Tu web de noticias Pokémon" width="88" height="31" src="https://pokemon-project.com/img/site/socios/7.gif" hspace="1" vspace="1"></a>
+<a target="_blank" href="/socios/5/" title="Pokémon Argentina - Noticias de Pokémon en Argentina ~ Pokémon, es cosa seria (?)"><img loading="lazy" title="Pokémon Argentina - Noticias de Pokémon en Argentina ~ Pokémon, es cosa seria (?)" alt="Pokémon Argentina - Noticias de Pokémon en Argentina ~ Pokémon, es cosa seria (?)" width="88" height="31" src="https://pokemon-project.com/img/site/socios/5.jpg" hspace="1" vspace="1"></a>
+<a target="_blank" href="/socios/12/" title="Noticias y Comunidad Pokémon | Pokémoneros"><img loading="lazy" title="Noticias y Comunidad Pokémon | Pokémoneros" alt="Noticias y Comunidad Pokémon | Pokémoneros" width="88" height="31" src="https://pokemon-project.com/img/site/socios/10.gif" hspace="1" vspace="1"></a>
+<br>
+<a href="https://ouo.io/ref/lYg2sMDr"><img loading="lazy" class="hide_900" src="https://pokemon-project.com/img/ouo.io/banners/r2.webp" style="width:100%;max-width:400px;height:auto" title="ouo.io - Make short links and earn the biggest money"><img loading="lazy" class="show_900" src="https://pokemon-project.com/img/ouo.io/banners/r4.webp" style="display:none;display:none;width:100%;max-width:350px;height:auto" title="ouo.io - Make short links and earn the biggest money"></a>
+</div>
+</div>
+</div>
+</div>
+</center>
+<br>
+<div id="copyright">
+<div class="copyright_text">Todo el contenido del sitio es © de Pokémon Project 2007-2024.<br>©2024 Pokémon. ©1995 - 2024 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.<br><br><a href="//pokemon-project.com/terminos">Términos de Uso</a> - <a href="//pokemon-project.com/privacidad">Política de Privacidad</a> - <a href="//pokemon-project.com/politica-de-cookies">Política de Cookies</a> - <a href="//estado.pokemon-project.com">Estado del servidor</a></div>
+</div>
+</footer>
+
+<link type="text/css" rel="stylesheet" href="https://pokemon-project.com/sys/estilo/fontAwesome/css/font-awesome.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://pokemon-project.com/sys/js/js.pack.min.js"></script>
+</div>
+<script>
+	$(function() {
+		$( '#dl-menu' ).dlmenu({
+			animationClasses : { classin : 'dl-animate-in-2', classout : 'dl-animate-out-2' }
+		});
+	});
+</script>
+<script>
+$(".news_first_container").hover( function(){$(".news_first_desc").fadeIn('fast')}, function(){$(".news_first_desc").fadeOut('fast')} )
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.9&appId=118301081572566";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</div>
+<script type="text/javascript" async="true">
+
+(function() {
+
+  var host = 'pokemon-project.com';
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.quantcast.com'
+    .concat('/choice/', '34pKgbVKpvV9D', '/', host, '/choice.js?tag_version=V2');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' && typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V2' });
+        }
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+</body></html>
