@@ -10,7 +10,7 @@
 <body>
    <div class="hoja-base">
       <!-- Imagen -->
-      <div class="campo" id="campo-image">
+      <div class="campo" id="poke-image">
          <input type="file" accept="image/*" id="image" name="image">
          <img id="preview-image" src="" alt="Imagen" style="display:none; width:100%; height:100%;">
       </div>
@@ -123,22 +123,22 @@
          <img id="preview-logo" src="" alt="Logo" style="display:none; width:100%; height:100%;">
       </div>
       <!-- Estados Alterados -->
-      <select id="EffEnvI" name="EffEnvI" class="campo"></select>
-      <select id="EffEnvII" name="EffEnvII" class="campo"></select>
-      <select id="EffQueI" name="EffQueI" class="campo"></select>
-      <select id="EffQueII" name="EffQueII" class="campo"></select>
-      <select id="EffDorI" name="EffDorI" class="campo"></select>
-      <select id="EffDorII" name="EffDorII" class="campo"></select>
-      <select id="EffParI" name="EffParI" class="campo"></select>
-      <select id="EffParII" name="EffParII" class="campo"></select>
-      <select id="EffAtuI" name="EffAtuI" class="campo"></select>
-      <select id="EffAtuII" name="EffAtuII" class="campo"></select>
-      <select id="EffDesI" name="EffDesI" class="campo"></select>
-      <select id="EffDesII" name="EffDesII" class="campo"></select>
-      <select id="EffRetI" name="EffRetI" class="campo"></select>
-      <select id="EffRetII" name="EffRetII" class="campo"></select>
-      <select id="EffConI" name="EffConI" class="campo"></select>
-      <select id="EffConII" name="EffConII" class="campo"></select>
+      <input type="checkbox" id="EffEnvI" name="EffEnvI" class="campo">
+      <input type="checkbox" id="EffEnvII" name="EffEnvII" class="campo">
+      <input type="checkbox" id="EffQueI" name="EffQueI" class="campo">
+      <input type="checkbox" id="EffQueII" name="EffQueII" class="campo">
+      <input type="checkbox" id="EffDorI" name="EffDorI" class="campo">
+      <input type="checkbox" id="EffDorII" name="EffDorII" class="campo">
+      <input type="checkbox" id="EffParI" name="EffParI" class="campo">
+      <input type="checkbox" id="EffParII" name="EffParII" class="campo">
+      <input type="checkbox" id="EffAtuI" name="EffAtuI" class="campo">
+      <input type="checkbox" id="EffAtuII" name="EffAtuII" class="campo">
+      <input type="checkbox" id="EffDesI" name="EffDesI" class="campo">
+      <input type="checkbox" id="EffDesII" name="EffDesII" class="campo">
+      <input type="checkbox" id="EffRetI" name="EffRetI" class="campo">
+      <input type="checkbox" id="EffRetII" name="EffRetII" class="campo">
+      <input type="checkbox" id="EffConI" name="EffConI" class="campo">
+      <input type="checkbox" id="EffConII" name="EffConII" class="campo">
       <!-- Movimientos Pokémon -->
       <!-- Movimiento 1 -->
       <input type="text" id="Move1" name="Move1" class="campo">
@@ -295,6 +295,69 @@
             reader.readAsDataURL(file);
          }
       });
+
+      // --- Automatización campo alt ---
+      let pokesData = [];
+      let InternalID = "";
+      async function fetchCSV() {
+         const url = "https://github.com/EragonGamer/PokemonRPG/blob/main/BasesCSV/Pokes.csv?raw=true";
+         const res = await fetch(url);
+         const text = await res.text();
+         const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const headers = lines[0].split(';');
+         pokesData = lines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+         // Inicializar dex y alt
+         document.getElementById('dex').value = 1;
+         updateAltOptions();
+         document.getElementById('alt').selectedIndex = 1;
+         updateInternalID();
+      }
+
+      function dexToNdex(dex) {
+         dex = dex.toString();
+         return "#" + dex.padStart(4, "0");
+      }
+
+      function updateAltOptions() {
+         const dexVal = document.getElementById('dex').value;
+         const ndex = dexToNdex(dexVal);
+         const alts = [...new Set(
+            pokesData.filter(p => p.Ndex === ndex).map(p => p.Alternativo)
+         )];
+         const altSelect = document.getElementById('alt');
+         altSelect.innerHTML = '<option value="">Selecciona variante</option>';
+         alts.forEach(a => {
+            if (a) altSelect.innerHTML += `<option value="${a}">${a}</option>`;
+         });
+         // Seleccionar la primera opción posible (índice 1)
+         altSelect.selectedIndex = 1;
+         updateInternalID();
+      }
+
+      function updateInternalID() {
+         const dexVal = document.getElementById('dex').value;
+         const altSelect = document.getElementById('alt');
+         // El índice de la opción seleccionada (sin contar la opción vacía)
+         let altIndex = altSelect.selectedIndex;
+         if (altIndex < 1) altIndex = 1;
+         InternalID = dexVal.padStart(4, "0") + "_" + altIndex;
+         // Puedes mostrarlo en consola para debug
+         // console.log("InternalID:", InternalID);
+      }
+
+      document.getElementById('dex').addEventListener('input', function () {
+         updateAltOptions();
+      });
+      document.getElementById('alt').addEventListener('change', function () {
+         updateInternalID();
+      });
+
+      fetchCSV();
    </script>
 </body>
 

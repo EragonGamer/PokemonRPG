@@ -1,42 +1,34 @@
 body {
   background: #f0f0f0;
-  overflow-x: hidden; /* Oculta el scroll horizontal si aparece */
 }
 .hoja-base {
   position: relative;
-  width: calc(45 * 70px);
-  height: calc(60 * 70px);
+  width: calc(45 * 20px);
+  height: calc(60 * 20px);
   background: #fff;
   border: 2px solid #888;
   margin: 2rem auto;
   box-shadow: 0 0 10px #bbb;
   overflow: hidden;
-  background-image: url('https://raw.githubusercontent.com/EragonGamer/PokemonRPG/refs/heads/main/Imagenes/BaseHoja.png');
+  background-image: url('https://github.com/EragonGamer/PokemonRPG/blob/main/Imagenes/BaseHoja.png?raw=true');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 100vw; /* Escala la hoja-base para que se ajuste al ancho de la ventana */
-  max-height: 100vh;
-  width: 3150px; /* Tamaño original */
-  height: 4200px; /* Tamaño original */
-  transform: scale(calc(min(1, 0.95 * (100vw / 3150))));
-  transform-origin: top left;
 }
 
-/* Posicionamiento absoluto de cada campo según coordenadas Excel */
 .campo {
   position: absolute;
   box-sizing: border-box;
-  font-size: 1rem;
-  padding: 2px 4px;
+  font-size: 0.29rem;
+  padding: 1px 2px;
 }
 
 /* Imagen: B5:F9 => columnas 2-6, filas 5-9 */
-#campo-image {
-  left: 2.00%;
-  top: 6.33%;
-  width: 11.56%;
-  height: 8.67%;
+#poke-image {
+  left: calc((0.9) * 20px);
+  top: calc((3.8) * 20px);
+  width: calc((5.2) * 20px);
+  height: calc((5.2) * 20px);
   background: #eaeaea;
   border: 1px solid #aaa;
   display: flex;
@@ -46,49 +38,49 @@ body {
 }
 
 /* Vida: D11 ; F11 */
-#HP { left: 5.56%; top: 16.67%; width: 3.33%; height: 1.67%; }
-#HPmax { left: 10.00%; top: 16.67%; width: 3.33%; height: 1.67%; }
+#HP { left: calc((2.5) * 20px); top: calc((11 - 1) * 20px); width: 30px; height: 20px; }
+#HPmax { left: calc((4.5) * 20px); top: calc((11 - 1) * 20px); width: 30px; height: 20px; }
 
 /* PP: D12 ; F12 */
-#PP { left: 5.56%; top: 20.00%; width: 3.33%; height: 1.67%; }
-#PPmax { left: 10.00%; top: 20.00%; width: 3.33%; height: 1.67%; }
+#PP { left: calc((2.5) * 20px); top: calc((12 - 1) * 20px); width: 30px; height: 20px; }
+#PPmax { left: calc((4.5) * 20px); top: calc((12 - 1) * 20px); width: 30px; height: 20px; }
 
 /* Velocidad: D14 ; F14 */
-#Vel { left: 5.56%; top: 26.67%; width: 3.33%; height: 1.67%; }
-#Velmax { left: 10.00%; top: 26.67%; width: 3.33%; height: 1.67%; }
+#Vel { left: calc((2.5) * 20px); top: calc((14 - 1) * 20px); width: 30px; height: 20px; }
+#Velmax { left: calc((4.5) * 20px); top: calc((14 - 1) * 20px); width: 30px; height: 20px; }
 
 /* Acc: D15 ; F15 */
-#Acc { left: 5.56%; top: 30.00%; width: 3.33%; height: 1.67%; }
-#Accmax { left: 10.00%; top: 30.00%; width: 3.33%; height: 1.67%; }
+#Acc { left: calc((2.5) * 20px); top: calc((15 - 1) * 20px); width: 30px; height: 20px; }
+#Accmax { left: calc((4.5) * 20px); top: calc((15 - 1) * 20px); width: 30px; height: 20px; }
 
 /* Nombre: B18:F18 */
-#name { left: 2.22%; top: 40.00%; width: 11.11%; height: 1.67%; }
+#name { left: calc((2 - 1) * 20px); top: calc((18 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Especie: B20:F20 */
-#poke { left: 2.22%; top: 46.67%; width: 11.11%; height: 1.67%; }
+#poke { left: calc((2 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Variante: B22:F22 */
-#alt { left: 2.22%; top: 53.33%; width: 11.11%; height: 1.67%; }
+#alt { left: calc((2 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* N° Dex: B24:F24 */
-#dex { left: 2.22%; top: 60.00%; width: 11.11%; height: 1.67%; }
+#dex { left: calc((2 - 1) * 20px); top: calc((24 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Tipos: B26:F26 ; B27:F27 */
-#type1 { left: 2.22%; top: 66.67%; width: 11.11%; height: 1.67%; }
-#type2 { left: 2.22%; top: 68.33%; width: 11.11%; height: 1.67%; }
+#type1 { left: calc((2 - 1) * 20px); top: calc((26 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
+#type2 { left: calc((2 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Habilidad: B30:F30 */
-#hab { left: 2.22%; top: 80.00%; width: 11.11%; height: 1.67%; }
+#hab { left: calc((2 - 1) * 20px); top: calc((30 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Efecto: B32:F38 */
-#habdef { left: 2.22%; top: 85.33%; width: 11.11%; height: 10.00%; resize: none; }
+#habdef { left: calc((2 - 1) * 20px); top: calc((32 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: calc((38 - 32 + 1) * 20px); resize: none; }
 
 /* Logo: B55:F59 */
 #campo-logo {
-  left: 2.22%;
-  top: 91.67%;
-  width: 11.11%;
-  height: 6.67%;
+  left: calc((2 - 1) * 20px);
+  top: calc((55 - 1) * 20px);
+  width: calc((6 - 2 + 1) * 20px);
+  height: calc((59 - 55 + 1) * 20px);
   background: #eaeaea;
   border: 1px solid #aaa;
   display: flex;
@@ -98,228 +90,228 @@ body {
 }
 
 /* Habilidades Combate */
-#SkCom0 { left: 35.56%; top: 3.33%; width: 2.22%; height: 1.67%; }
-#SkCom { left: 41.89%; top: 3.33%; width: 4.44%; height: 1.67%; }
-#SkCan0 { left: 35.56%; top: 5.00%; width: 2.22%; height: 1.67%; }
-#SkCan { left: 41.89%; top: 5.00%; width: 4.44%; height: 1.67%; }
-#SkLan0 { left: 35.56%; top: 6.67%; width: 2.22%; height: 1.67%; }
-#SkLan { left: 41.89%; top: 6.67%; width: 4.44%; height: 1.67%; }
-#SkAcr0 { left: 35.56%; top: 8.33%; width: 2.22%; height: 1.67%; }
-#SkAcr { left: 41.89%; top: 8.33%; width: 4.44%; height: 1.67%; }
+#SkCom0 { left: calc((17 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkCom { left: calc((19 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
+#SkCan0 { left: calc((17 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkCan { left: calc((19 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
+#SkLan0 { left: calc((17 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkLan { left: calc((19 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
+#SkAcr0 { left: calc((17 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkAcr { left: calc((19 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
 
 /* Habilidades Supervivencia */
-#SkPer0 { left: 35.56%; top: 10.00%; width: 2.22%; height: 1.67%; }
-#SkPer { left: 41.89%; top: 10.00%; width: 4.44%; height: 1.67%; }
-#SkAtl0 { left: 35.56%; top: 11.67%; width: 2.22%; height: 1.67%; }
-#SkAtl { left: 41.89%; top: 11.67%; width: 4.44%; height: 1.67%; }
-#SkNat0 { left: 35.56%; top: 13.33%; width: 2.22%; height: 1.67%; }
-#SkNat { left: 41.89%; top: 13.33%; width: 4.44%; height: 1.67%; }
-#SkCoc0 { left: 35.56%; top: 15.00%; width: 2.22%; height: 1.67%; }
-#SkCoc { left: 41.89%; top: 15.00%; width: 4.44%; height: 1.67%; }
+#SkPer0 { left: calc((17 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkPer { left: calc((19 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
+#SkAtl0 { left: calc((17 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkAtl { left: calc((19 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
+#SkNat0 { left: calc((17 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkNat { left: calc((19 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
+#SkCoc0 { left: calc((17 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
+#SkCoc { left: calc((19 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
 
 /* Habilidades Sociales */
-#SkEmp0 { left: 62.22%; top: 3.33%; width: 2.22%; height: 1.67%; }
-#SkEmp { left: 68.33%; top: 3.33%; width: 4.44%; height: 1.67%; }
-#SkPer0_2 { left: 62.22%; top: 5.00%; width: 2.22%; height: 1.67%; }
-#SkPer_2 { left: 68.33%; top: 5.00%; width: 4.44%; height: 1.67%; }
-#SkSig0 { left: 62.22%; top: 6.67%; width: 2.22%; height: 1.67%; }
-#SkSig { left: 68.33%; top: 6.67%; width: 4.44%; height: 1.67%; }
-#SkArt0 { left: 62.22%; top: 8.33%; width: 2.22%; height: 1.67%; }
-#SkArt { left: 68.33%; top: 8.33%; width: 4.44%; height: 1.67%; }
+#SkEmp0 { left: calc((32 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkEmp { left: calc((34 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
+#SkPer0_2 { left: calc((32 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkPer_2 { left: calc((34 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
+#SkSig0 { left: calc((32 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkSig { left: calc((34 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
+#SkArt0 { left: calc((32 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkArt { left: calc((34 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
 
 /* Habilidades Intelectuales */
-#SkFab0 { left: 62.22%; top: 10.00%; width: 2.22%; height: 1.67%; }
-#SkFab { left: 68.33%; top: 10.00%; width: 4.44%; height: 1.67%; }
-#SkRec0 { left: 62.22%; top: 11.67%; width: 2.22%; height: 1.67%; }
-#SkRec { left: 68.33%; top: 11.67%; width: 4.44%; height: 1.67%; }
-#SkCie0 { left: 62.22%; top: 13.33%; width: 2.22%; height: 1.67%; }
-#SkCie { left: 68.33%; top: 13.33%; width: 4.44%; height: 1.67%; }
-#SkEst0 { left: 62.22%; top: 15.00%; width: 2.22%; height: 1.67%; }
-#SkEst { left: 68.33%; top: 15.00%; width: 4.44%; height: 1.67%; }
+#SkFab0 { left: calc((32 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkFab { left: calc((34 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
+#SkRec0 { left: calc((32 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkRec { left: calc((34 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
+#SkCie0 { left: calc((32 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkCie { left: calc((34 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
+#SkEst0 { left: calc((32 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
+#SkEst { left: calc((34 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
 
 /* Atributos y Nivel */
-#FUE0 { left: 2.22%; top: 68.33%; width: 3.33%; height: 1.67%; }
-#FUE1 { left: 6.67%; top: 68.33%; width: 2.22%; height: 1.67%; }
-#FUE { left: 8.89%; top: 68.33%; width: 3.33%; height: 1.67%; }
-#VIT0 { left: 2.22%; top: 71.67%; width: 3.33%; height: 1.67%; }
-#VIT1 { left: 6.67%; top: 71.67%; width: 2.22%; height: 1.67%; }
-#VIT { left: 8.89%; top: 71.67%; width: 3.33%; height: 1.67%; }
-#ENE0 { left: 2.22%; top: 75.00%; width: 3.33%; height: 1.67%; }
-#ENE1 { left: 6.67%; top: 75.00%; width: 2.22%; height: 1.67%; }
-#ENE { left: 8.89%; top: 75.00%; width: 3.33%; height: 1.67%; }
-#SAB0 { left: 2.22%; top: 78.33%; width: 3.33%; height: 1.67%; }
-#SAB1 { left: 6.67%; top: 78.33%; width: 2.22%; height: 1.67%; }
-#SAB { left: 8.89%; top: 78.33%; width: 3.33%; height: 1.67%; }
-#DES0 { left: 2.22%; top: 81.67%; width: 3.33%; height: 1.67%; }
-#DES1 { left: 6.67%; top: 81.67%; width: 2.22%; height: 1.67%; }
-#DES { left: 8.89%; top: 81.67%; width: 3.33%; height: 1.67%; }
-#CAR0 { left: 2.22%; top: 85.00%; width: 3.33%; height: 1.67%; }
-#CAR1 { left: 6.67%; top: 85.00%; width: 2.22%; height: 1.67%; }
-#CAR { left: 8.89%; top: 85.00%; width: 3.33%; height: 1.67%; }
-#Lvl { left: 2.22%; top: 88.33%; width: 11.11%; height: 1.67%; }
+#FUE0 { left: calc((2 - 1) * 20px); top: calc((41 - 1) * 20px); width: 30px; height: 20px; }
+#FUE1 { left: calc((4 - 1) * 20px); top: calc((41 - 1) * 20px); width: 20px; height: 20px; }
+#FUE { left: calc((5.5 - 1) * 20px); top: calc((41 - 1) * 20px); width: 30px; height: 20px; }
+#VIT0 { left: calc((2 - 1) * 20px); top: calc((43 - 1) * 20px); width: 30px; height: 20px; }
+#VIT1 { left: calc((4 - 1) * 20px); top: calc((43 - 1) * 20px); width: 20px; height: 20px; }
+#VIT { left: calc((5.5 - 1) * 20px); top: calc((43 - 1) * 20px); width: 30px; height: 20px; }
+#ENE0 { left: calc((2 - 1) * 20px); top: calc((45 - 1) * 20px); width: 30px; height: 20px; }
+#ENE1 { left: calc((4 - 1) * 20px); top: calc((45 - 1) * 20px); width: 20px; height: 20px; }
+#ENE { left: calc((5.5 - 1) * 20px); top: calc((45 - 1) * 20px); width: 30px; height: 20px; }
+#SAB0 { left: calc((2 - 1) * 20px); top: calc((47 - 1) * 20px); width: 30px; height: 20px; }
+#SAB1 { left: calc((4 - 1) * 20px); top: calc((47 - 1) * 20px); width: 20px; height: 20px; }
+#SAB { left: calc((5.5 - 1) * 20px); top: calc((47 - 1) * 20px); width: 30px; height: 20px; }
+#DES0 { left: calc((2 - 1) * 20px); top: calc((49 - 1) * 20px); width: 30px; height: 20px; }
+#DES1 { left: calc((4 - 1) * 20px); top: calc((49 - 1) * 20px); width: 20px; height: 20px; }
+#DES { left: calc((5.5 - 1) * 20px); top: calc((49 - 1) * 20px); width: 30px; height: 20px; }
+#CAR0 { left: calc((2 - 1) * 20px); top: calc((51 - 1) * 20px); width: 30px; height: 20px; }
+#CAR1 { left: calc((4 - 1) * 20px); top: calc((51 - 1) * 20px); width: 20px; height: 20px; }
+#CAR { left: calc((5.5 - 1) * 20px); top: calc((51 - 1) * 20px); width: 30px; height: 20px; }
+#Lvl { left: calc((2 - 1) * 20px); top: calc((54 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Estados Alterados */
-#EffEnvI { left: 95.56%; top: 5.00%; width: 2.22%; height: 1.67%; }
-#EffEnvII { left: 97.78%; top: 5.00%; width: 2.22%; height: 1.67%; }
-#EffQueI { left: 95.56%; top: 6.67%; width: 2.22%; height: 1.67%; }
-#EffQueII { left: 97.78%; top: 6.67%; width: 2.22%; height: 1.67%; }
-#EffDorI { left: 95.56%; top: 8.33%; width: 2.22%; height: 1.67%; }
-#EffDorII { left: 97.78%; top: 8.33%; width: 2.22%; height: 1.67%; }
-#EffParI { left: 95.56%; top: 10.00%; width: 2.22%; height: 1.67%; }
-#EffParII { left: 97.78%; top: 10.00%; width: 2.22%; height: 1.67%; }
-#EffAtuI { left: 95.56%; top: 11.67%; width: 2.22%; height: 1.67%; }
-#EffAtuII { left: 97.78%; top: 11.67%; width: 2.22%; height: 1.67%; }
-#EffDesI { left: 95.56%; top: 13.33%; width: 2.22%; height: 1.67%; }
-#EffDesII { left: 97.78%; top: 13.33%; width: 2.22%; height: 1.67%; }
-#EffRetI { left: 95.56%; top: 15.00%; width: 2.22%; height: 1.67%; }
-#EffRetII { left: 97.78%; top: 15.00%; width: 2.22%; height: 1.67%; }
-#EffConI { left: 95.56%; top: 16.67%; width: 2.22%; height: 1.67%; }
-#EffConII { left: 97.78%; top: 16.67%; width: 2.22%; height: 1.67%; }
+#EffEnvI { left: calc(41.8 * 20px); top: calc((1.85 + 0) * 20px); width: 20px; height: 20px; }
+#EffEnvII { left: calc(42.8 * 20px); top: calc((1.85 + 0) * 20px); width: 20px; height: 20px; }
+#EffQueI { left: calc(41.8 * 20px); top: calc((1.85 + 1) * 20px); width: 20px; height: 20px; }
+#EffQueII { left: calc(42.8 * 20px); top: calc((1.85 + 1) * 20px); width: 20px; height: 20px; }
+#EffDorI { left: calc(41.8 * 20px); top: calc((1.85 + 2) * 20px); width: 20px; height: 20px; }
+#EffDorII { left: calc(42.8 * 20px); top: calc((1.85 + 2) * 20px); width: 20px; height: 20px; }
+#EffParI { left: calc(41.8 * 20px); top: calc((1.85 + 3) * 20px); width: 20px; height: 20px; }
+#EffParII { left: calc(42.8 * 20px); top: calc((1.85 + 3) * 20px); width: 20px; height: 20px; }
+#EffAtuI { left: calc(41.8 * 20px); top: calc((1.85 + 4) * 20px); width: 20px; height: 20px; }
+#EffAtuII { left: calc(42.8 * 20px); top: calc((1.85 + 4) * 20px); width: 20px; height: 20px; }
+#EffDesI { left: calc(41.8 * 20px); top: calc((1.85 + 5) * 20px); width: 20px; height: 20px; }
+#EffDesII { left: calc(42.8 * 20px); top: calc((1.85 + 5) * 20px); width: 20px; height: 20px; }
+#EffRetI { left: calc(41.8 * 20px); top: calc((1.85 + 6) * 20px); width: 20px; height: 20px; }
+#EffRetII { left: calc(42.8 * 20px); top: calc((1.85 + 6) * 20px); width: 20px; height: 20px; }
+#EffConI { left: calc(41.8 * 20px); top: calc((1.85 + 7) * 20px); width: 20px; height: 20px; }
+#EffConII { left: calc(42.8 * 20px); top: calc((1.85 + 7) * 20px); width: 20px; height: 20px; }
 
 /* Movimientos Pokémon */
 /* Movimiento 1 */
-#Move1 { left: 28.89%; top: 20.00%; width: 20.00%; height: 1.67%; }
-#ID1 { left: 60.00%; top: 20.00%; width: 6.67%; height: 1.67%; }
-#MLvl1 { left: 73.33%; top: 20.00%; width: 8.89%; height: 1.67%; }
-#MType1 { left: 26.67%; top: 21.67%; width: 6.67%; height: 1.67%; }
-#Attr1 { left: 42.22%; top: 21.67%; width: 8.89%; height: 1.67%; }
-#Base1 { left: 57.78%; top: 21.67%; width: 6.67%; height: 1.67%; }
-#Target1 { left: 73.33%; top: 21.67%; width: 8.89%; height: 1.67%; }
-#Time1 { left: 26.67%; top: 23.33%; width: 6.67%; height: 1.67%; }
-#Hab1 { left: 42.22%; top: 23.33%; width: 8.89%; height: 1.67%; }
-#Dmg1 { left: 57.78%; top: 23.33%; width: 6.67%; height: 1.67%; }
-#Range1 { left: 73.33%; top: 23.33%; width: 8.89%; height: 1.67%; }
-#Cost1 { left: 26.67%; top: 25.00%; width: 6.67%; height: 1.67%; }
-#Acc1 { left: 42.22%; top: 25.00%; width: 8.89%; height: 1.67%; }
-#Prior1 { left: 57.78%; top: 25.00%; width: 6.67%; height: 1.67%; }
-#Tag1 { left: 73.33%; top: 25.00%; width: 8.89%; height: 1.67%; }
-#Effect1 { left: 26.67%; top: 26.67%; width: 55.56%; height: 3.33%; }
-#AccTot1 { left: 86.67%; top: 21.67%; width: 11.11%; height: 1.67%; }
-#DmgTot1 { left: 86.67%; top: 25.00%; width: 11.11%; height: 1.67%; }
-#ChDice1 { left: 86.67%; top: 28.33%; width: 11.11%; height: 1.67%; }
+#Move1 { left: calc((13 - 1) * 20px); top: calc((12 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID1 { left: calc((27 - 1) * 20px); top: calc((12 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl1 { left: calc((33 - 1) * 20px); top: calc((12 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType1 { left: calc((12 - 1) * 20px); top: calc((13 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr1 { left: calc((19 - 1) * 20px); top: calc((13 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base1 { left: calc((26 - 1) * 20px); top: calc((13 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target1 { left: calc((33 - 1) * 20px); top: calc((13 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time1 { left: calc((12 - 1) * 20px); top: calc((14 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab1 { left: calc((19 - 1) * 20px); top: calc((14 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg1 { left: calc((26 - 1) * 20px); top: calc((14 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range1 { left: calc((33 - 1) * 20px); top: calc((14 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost1 { left: calc((12 - 1) * 20px); top: calc((15 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc1 { left: calc((19 - 1) * 20px); top: calc((15 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior1 { left: calc((26 - 1) * 20px); top: calc((15 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag1 { left: calc((33 - 1) * 20px); top: calc((15 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect1 { left: calc((12 - 1) * 20px); top: calc((16 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((17 - 16 + 1) * 20px); }
+#AccTot1 { left: calc((39 - 1) * 20px); top: calc((13 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot1 { left: calc((39 - 1) * 20px); top: calc((15 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice1 { left: calc((39 - 1) * 20px); top: calc((17 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 
 /* Movimiento 2 */
-#Move2 { left: 28.89%; top: 19.00%; width: 20.00%; height: 1.67%; }
-#ID2 { left: 60.00%; top: 19.00%; width: 6.67%; height: 1.67%; }
-#MLvl2 { left: 73.33%; top: 19.00%; width: 8.89%; height: 1.67%; }
-#MType2 { left: 26.67%; top: 20.67%; width: 6.67%; height: 1.67%; }
-#Attr2 { left: 42.22%; top: 20.67%; width: 8.89%; height: 1.67%; }
-#Base2 { left: 57.78%; top: 20.67%; width: 6.67%; height: 1.67%; }
-#Target2 { left: 73.33%; top: 20.67%; width: 8.89%; height: 1.67%; }
-#Time2 { left: 26.67%; top: 22.33%; width: 6.67%; height: 1.67%; }
-#Hab2 { left: 42.22%; top: 22.33%; width: 8.89%; height: 1.67%; }
-#Dmg2 { left: 57.78%; top: 22.33%; width: 6.67%; height: 1.67%; }
-#Range2 { left: 73.33%; top: 22.33%; width: 8.89%; height: 1.67%; }
-#Cost2 { left: 26.67%; top: 24.00%; width: 6.67%; height: 1.67%; }
-#Acc2 { left: 42.22%; top: 24.00%; width: 8.89%; height: 1.67%; }
-#Prior2 { left: 57.78%; top: 24.00%; width: 6.67%; height: 1.67%; }
-#Tag2 { left: 73.33%; top: 24.00%; width: 8.89%; height: 1.67%; }
-#Effect2 { left: 26.67%; top: 25.67%; width: 55.56%; height: 3.33%; }
-#AccTot2 { left: 86.67%; top: 20.67%; width: 11.11%; height: 1.67%; }
-#DmgTot2 { left: 86.67%; top: 24.00%; width: 11.11%; height: 1.67%; }
-#ChDice2 { left: 86.67%; top: 27.33%; width: 11.11%; height: 1.67%; }
+#Move2 { left: calc((13 - 1) * 20px); top: calc((19 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID2 { left: calc((27 - 1) * 20px); top: calc((19 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl2 { left: calc((33 - 1) * 20px); top: calc((19 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType2 { left: calc((12 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr2 { left: calc((19 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base2 { left: calc((26 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target2 { left: calc((33 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time2 { left: calc((12 - 1) * 20px); top: calc((21 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab2 { left: calc((19 - 1) * 20px); top: calc((21 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg2 { left: calc((26 - 1) * 20px); top: calc((21 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range2 { left: calc((33 - 1) * 20px); top: calc((21 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost2 { left: calc((12 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc2 { left: calc((19 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior2 { left: calc((26 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag2 { left: calc((33 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect2 { left: calc((12 - 1) * 20px); top: calc((23 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((24 - 23 + 1) * 20px); }
+#AccTot2 { left: calc((39 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot2 { left: calc((39 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice2 { left: calc((39 - 1) * 20px); top: calc((24 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 
 /* Movimiento 3 */
-#Move3 { left: 28.89%; top: 18.00%; width: 20.00%; height: 1.67%; }
-#ID3 { left: 60.00%; top: 18.00%; width: 6.67%; height: 1.67%; }
-#MLvl3 { left: 73.33%; top: 18.00%; width: 8.89%; height: 1.67%; }
-#MType3 { left: 26.67%; top: 19.67%; width: 6.67%; height: 1.67%; }
-#Attr3 { left: 42.22%; top: 19.67%; width: 8.89%; height: 1.67%; }
-#Base3 { left: 57.78%; top: 19.67%; width: 6.67%; height: 1.67%; }
-#Target3 { left: 73.33%; top: 19.67%; width: 8.89%; height: 1.67%; }
-#Time3 { left: 26.67%; top: 21.33%; width: 6.67%; height: 1.67%; }
-#Hab3 { left: 42.22%; top: 21.33%; width: 8.89%; height: 1.67%; }
-#Dmg3 { left: 57.78%; top: 21.33%; width: 6.67%; height: 1.67%; }
-#Range3 { left: 73.33%; top: 21.33%; width: 8.89%; height: 1.67%; }
-#Cost3 { left: 26.67%; top: 23.00%; width: 6.67%; height: 1.67%; }
-#Acc3 { left: 42.22%; top: 23.00%; width: 8.89%; height: 1.67%; }
-#Prior3 { left: 57.78%; top: 23.00%; width: 6.67%; height: 1.67%; }
-#Tag3 { left: 73.33%; top: 23.00%; width: 8.89%; height: 1.67%; }
-#Effect3 { left: 26.67%; top: 24.67%; width: 55.56%; height: 3.33%; }
-#AccTot3 { left: 86.67%; top: 19.67%; width: 11.11%; height: 1.67%; }
-#DmgTot3 { left: 86.67%; top: 23.00%; width: 11.11%; height: 1.67%; }
-#ChDice3 { left: 86.67%; top: 26.33%; width: 11.11%; height: 1.67%; }
+#Move3 { left: calc((13 - 1) * 20px); top: calc((26 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID3 { left: calc((27 - 1) * 20px); top: calc((26 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl3 { left: calc((33 - 1) * 20px); top: calc((26 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType3 { left: calc((12 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr3 { left: calc((19 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base3 { left: calc((26 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target3 { left: calc((33 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time3 { left: calc((12 - 1) * 20px); top: calc((28 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab3 { left: calc((19 - 1) * 20px); top: calc((28 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg3 { left: calc((26 - 1) * 20px); top: calc((28 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range3 { left: calc((33 - 1) * 20px); top: calc((28 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost3 { left: calc((12 - 1) * 20px); top: calc((29 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc3 { left: calc((19 - 1) * 20px); top: calc((29 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior3 { left: calc((26 - 1) * 20px); top: calc((29 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag3 { left: calc((33 - 1) * 20px); top: calc((29 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect3 { left: calc((12 - 1) * 20px); top: calc((30 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((31 - 30 + 1) * 20px); }
+#AccTot3 { left: calc((39 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot3 { left: calc((39 - 1) * 20px); top: calc((29 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice3 { left: calc((39 - 1) * 20px); top: calc((31 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 
 /* Movimiento 4 */
-#Move4 { left: 28.89%; top: 17.00%; width: 20.00%; height: 1.67%; }
-#ID4 { left: 60.00%; top: 17.00%; width: 6.67%; height: 1.67%; }
-#MLvl4 { left: 73.33%; top: 17.00%; width: 8.89%; height: 1.67%; }
-#MType4 { left: 26.67%; top: 18.67%; width: 6.67%; height: 1.67%; }
-#Attr4 { left: 42.22%; top: 18.67%; width: 8.89%; height: 1.67%; }
-#Base4 { left: 57.78%; top: 18.67%; width: 6.67%; height: 1.67%; }
-#Target4 { left: 73.33%; top: 18.67%; width: 8.89%; height: 1.67%; }
-#Time4 { left: 26.67%; top: 20.33%; width: 6.67%; height: 1.67%; }
-#Hab4 { left: 42.22%; top: 20.33%; width: 8.89%; height: 1.67%; }
-#Dmg4 { left: 57.78%; top: 20.33%; width: 6.67%; height: 1.67%; }
-#Range4 { left: 73.33%; top: 20.33%; width: 8.89%; height: 1.67%; }
-#Cost4 { left: 26.67%; top: 22.00%; width: 6.67%; height: 1.67%; }
-#Acc4 { left: 42.22%; top: 22.00%; width: 8.89%; height: 1.67%; }
-#Prior4 { left: 57.78%; top: 22.00%; width: 6.67%; height: 1.67%; }
-#Tag4 { left: 73.33%; top: 22.00%; width: 8.89%; height: 1.67%; }
-#Effect4 { left: 26.67%; top: 23.67%; width: 55.56%; height: 3.33%; }
-#AccTot4 { left: 86.67%; top: 18.67%; width: 11.11%; height: 1.67%; }
-#DmgTot4 { left: 86.67%; top: 22.00%; width: 11.11%; height: 1.67%; }
-#ChDice4 { left: 86.67%; top: 25.33%; width: 11.11%; height: 1.67%; }
+#Move4 { left: calc((13 - 1) * 20px); top: calc((33 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID4 { left: calc((27 - 1) * 20px); top: calc((33 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl4 { left: calc((33 - 1) * 20px); top: calc((33 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType4 { left: calc((12 - 1) * 20px); top: calc((34 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr4 { left: calc((19 - 1) * 20px); top: calc((34 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base4 { left: calc((26 - 1) * 20px); top: calc((34 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target4 { left: calc((33 - 1) * 20px); top: calc((34 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time4 { left: calc((12 - 1) * 20px); top: calc((35 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab4 { left: calc((19 - 1) * 20px); top: calc((35 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg4 { left: calc((26 - 1) * 20px); top: calc((35 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range4 { left: calc((33 - 1) * 20px); top: calc((35 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost4 { left: calc((12 - 1) * 20px); top: calc((36 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc4 { left: calc((19 - 1) * 20px); top: calc((36 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior4 { left: calc((26 - 1) * 20px); top: calc((36 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag4 { left: calc((33 - 1) * 20px); top: calc((36 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect4 { left: calc((12 - 1) * 20px); top: calc((37 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((38 - 37 + 1) * 20px); }
+#AccTot4 { left: calc((39 - 1) * 20px); top: calc((34 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot4 { left: calc((39 - 1) * 20px); top: calc((36 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice4 { left: calc((39 - 1) * 20px); top: calc((38 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 
 /* Movimiento 5 */
-#Move5 { left: 28.89%; top: 16.00%; width: 20.00%; height: 1.67%; }
-#ID5 { left: 60.00%; top: 16.00%; width: 6.67%; height: 1.67%; }
-#MLvl5 { left: 73.33%; top: 16.00%; width: 8.89%; height: 1.67%; }
-#MType5 { left: 26.67%; top: 17.67%; width: 6.67%; height: 1.67%; }
-#Attr5 { left: 42.22%; top: 17.67%; width: 8.89%; height: 1.67%; }
-#Base5 { left: 57.78%; top: 17.67%; width: 6.67%; height: 1.67%; }
-#Target5 { left: 73.33%; top: 17.67%; width: 8.89%; height: 1.67%; }
-#Time5 { left: 26.67%; top: 19.33%; width: 6.67%; height: 1.67%; }
-#Hab5 { left: 42.22%; top: 19.33%; width: 8.89%; height: 1.67%; }
-#Dmg5 { left: 57.78%; top: 19.33%; width: 6.67%; height: 1.67%; }
-#Range5 { left: 73.33%; top: 19.33%; width: 8.89%; height: 1.67%; }
-#Cost5 { left: 26.67%; top: 21.00%; width: 6.67%; height: 1.67%; }
-#Acc5 { left: 42.22%; top: 21.00%; width: 8.89%; height: 1.67%; }
-#Prior5 { left: 57.78%; top: 21.00%; width: 6.67%; height: 1.67%; }
-#Tag5 { left: 73.33%; top: 21.00%; width: 8.89%; height: 1.67%; }
-#Effect5 { left: 26.67%; top: 22.67%; width: 55.56%; height: 3.33%; }
-#AccTot5 { left: 86.67%; top: 17.67%; width: 11.11%; height: 1.67%; }
-#DmgTot5 { left: 86.67%; top: 21.00%; width: 11.11%; height: 1.67%; }
-#ChDice5 { left: 86.67%; top: 24.33%; width: 11.11%; height: 1.67%; }
+#Move5 { left: calc((13 - 1) * 20px); top: calc((40 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID5 { left: calc((27 - 1) * 20px); top: calc((40 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl5 { left: calc((33 - 1) * 20px); top: calc((40 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType5 { left: calc((12 - 1) * 20px); top: calc((41 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr5 { left: calc((19 - 1) * 20px); top: calc((41 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base5 { left: calc((26 - 1) * 20px); top: calc((41 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target5 { left: calc((33 - 1) * 20px); top: calc((41 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time5 { left: calc((12 - 1) * 20px); top: calc((42 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab5 { left: calc((19 - 1) * 20px); top: calc((42 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg5 { left: calc((26 - 1) * 20px); top: calc((42 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range5 { left: calc((33 - 1) * 20px); top: calc((42 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost5 { left: calc((12 - 1) * 20px); top: calc((43 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc5 { left: calc((19 - 1) * 20px); top: calc((43 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior5 { left: calc((26 - 1) * 20px); top: calc((43 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag5 { left: calc((33 - 1) * 20px); top: calc((43 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect5 { left: calc((12 - 1) * 20px); top: calc((44 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((45 - 44 + 1) * 20px); }
+#AccTot5 { left: calc((39 - 1) * 20px); top: calc((41 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot5 { left: calc((39 - 1) * 20px); top: calc((43 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice5 { left: calc((39 - 1) * 20px); top: calc((45 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 
 /* Movimiento 6 */
-#Move6 { left: 28.89%; top: 15.00%; width: 20.00%; height: 1.67%; }
-#ID6 { left: 60.00%; top: 15.00%; width: 6.67%; height: 1.67%; }
-#MLvl6 { left: 73.33%; top: 15.00%; width: 8.89%; height: 1.67%; }
-#MType6 { left: 26.67%; top: 16.67%; width: 6.67%; height: 1.67%; }
-#Attr6 { left: 42.22%; top: 16.67%; width: 8.89%; height: 1.67%; }
-#Base6 { left: 57.78%; top: 16.67%; width: 6.67%; height: 1.67%; }
-#Target6 { left: 73.33%; top: 16.67%; width: 8.89%; height: 1.67%; }
-#Time6 { left: 26.67%; top: 18.33%; width: 6.67%; height: 1.67%; }
-#Hab6 { left: 42.22%; top: 18.33%; width: 8.89%; height: 1.67%; }
-#Dmg6 { left: 57.78%; top: 18.33%; width: 6.67%; height: 1.67%; }
-#Range6 { left: 73.33%; top: 18.33%; width: 8.89%; height: 1.67%; }
-#Cost6 { left: 26.67%; top: 20.00%; width: 6.67%; height: 1.67%; }
-#Acc6 { left: 42.22%; top: 20.00%; width: 8.89%; height: 1.67%; }
-#Prior6 { left: 57.78%; top: 20.00%; width: 6.67%; height: 1.67%; }
-#Tag6 { left: 73.33%; top: 20.00%; width: 8.89%; height: 1.67%; }
-#Effect6 { left: 26.67%; top: 21.67%; width: 55.56%; height: 3.33%; }
-#AccTot6 { left: 86.67%; top: 18.67%; width: 11.11%; height: 1.67%; }
-#DmgTot6 { left: 86.67%; top: 22.00%; width: 11.11%; height: 1.67%; }
-#ChDice6 { left: 86.67%; top: 25.33%; width: 11.11%; height: 1.67%; }
+#Move6 { left: calc((13 - 1) * 20px); top: calc((47 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID6 { left: calc((27 - 1) * 20px); top: calc((47 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl6 { left: calc((33 - 1) * 20px); top: calc((47 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType6 { left: calc((12 - 1) * 20px); top: calc((48 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr6 { left: calc((19 - 1) * 20px); top: calc((48 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base6 { left: calc((26 - 1) * 20px); top: calc((48 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target6 { left: calc((33 - 1) * 20px); top: calc((48 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time6 { left: calc((12 - 1) * 20px); top: calc((49 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab6 { left: calc((19 - 1) * 20px); top: calc((49 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg6 { left: calc((26 - 1) * 20px); top: calc((49 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range6 { left: calc((33 - 1) * 20px); top: calc((49 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost6 { left: calc((12 - 1) * 20px); top: calc((50 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc6 { left: calc((19 - 1) * 20px); top: calc((50 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior6 { left: calc((26 - 1) * 20px); top: calc((50 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag6 { left: calc((33 - 1) * 20px); top: calc((50 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect6 { left: calc((12 - 1) * 20px); top: calc((51 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((52 - 51 + 1) * 20px); }
+#AccTot6 { left: calc((39 - 1) * 20px); top: calc((48 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot6 { left: calc((39 - 1) * 20px); top: calc((50 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice6 { left: calc((39 - 1) * 20px); top: calc((52 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 
 /* Movimiento 7 */
-#Move7 { left: 28.89%; top: 14.00%; width: 20.00%; height: 1.67%; }
-#ID7 { left: 60.00%; top: 14.00%; width: 6.67%; height: 1.67%; }
-#MLvl7 { left: 73.33%; top: 14.00%; width: 8.89%; height: 1.67%; }
-#MType7 { left: 26.67%; top: 15.67%; width: 6.67%; height: 1.67%; }
-#Attr7 { left: 42.22%; top: 15.67%; width: 8.89%; height: 1.67%; }
-#Base7 { left: 57.78%; top: 15.67%; width: 6.67%; height: 1.67%; }
-#Target7 { left: 73.33%; top: 15.67%; width: 8.89%; height: 1.67%; }
-#Time7 { left: 26.67%; top: 17.33%; width: 6.67%; height: 1.67%; }
-#Hab7 { left: 42.22%; top: 17.33%; width: 8.89%; height: 1.67%; }
-#Dmg7 { left: 57.78%; top: 17.33%; width: 6.67%; height: 1.67%; }
-#Range7 { left: 73.33%; top: 17.33%; width: 8.89%; height: 1.67%; }
-#Cost7 { left: 26.67%; top: 19.00%; width: 6.67%; height: 1.67%; }
-#Acc7 { left: 42.22%; top: 19.00%; width: 8.89%; height: 1.67%; }
-#Prior7 { left: 57.78%; top: 19.00%; width: 6.67%; height: 1.67%; }
-#Tag7 { left: 73.33%; top: 19.00%; width: 8.89%; height: 1.67%; }
-#Effect7 { left: 26.67%; top: 20.67%; width: 55.56%; height: 3.33%; }
-#AccTot7 { left: 86.67%; top: 17.67%; width: 11.11%; height: 1.67%; }
-#DmgTot7 { left: 86.67%; top: 21.00%; width: 11.11%; height: 1.67%; }
-#ChDice7 { left: 86.67%; top: 24.33%; width: 11.11%; height: 1.67%; }
+#Move7 { left: calc((13 - 1) * 20px); top: calc((54 - 1) * 20px); width: calc((22 - 13 + 1) * 20px); height: 20px; }
+#ID7 { left: calc((27 - 1) * 20px); top: calc((54 - 1) * 20px); width: calc((29 - 27 + 1) * 20px); height: 20px; }
+#MLvl7 { left: calc((33 - 1) * 20px); top: calc((54 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#MType7 { left: calc((12 - 1) * 20px); top: calc((55 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Attr7 { left: calc((19 - 1) * 20px); top: calc((55 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Base7 { left: calc((26 - 1) * 20px); top: calc((55 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Target7 { left: calc((33 - 1) * 20px); top: calc((55 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Time7 { left: calc((12 - 1) * 20px); top: calc((56 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Hab7 { left: calc((19 - 1) * 20px); top: calc((56 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Dmg7 { left: calc((26 - 1) * 20px); top: calc((56 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Range7 { left: calc((33 - 1) * 20px); top: calc((56 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Cost7 { left: calc((12 - 1) * 20px); top: calc((57 - 1) * 20px); width: calc((15 - 12 + 1) * 20px); height: 20px; }
+#Acc7 { left: calc((19 - 1) * 20px); top: calc((57 - 1) * 20px); width: calc((22 - 19 + 1) * 20px); height: 20px; }
+#Prior7 { left: calc((26 - 1) * 20px); top: calc((57 - 1) * 20px); width: calc((28 - 25 + 1) * 20px); height: 20px; }
+#Tag7 { left: calc((33 - 1) * 20px); top: calc((57 - 1) * 20px); width: calc((36 - 33 + 1) * 20px); height: 20px; }
+#Effect7 { left: calc((12 - 1) * 20px); top: calc((58 - 1) * 20px); width: calc((36 - 12 + 1) * 20px); height: calc((59 - 58 + 1) * 20px); }
+#AccTot7 { left: calc((39 - 1) * 20px); top: calc((55 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#DmgTot7 { left: calc((39 - 1) * 20px); top: calc((57 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+#ChDice7 { left: calc((39 - 1) * 20px); top: calc((59 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
