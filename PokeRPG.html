@@ -11,7 +11,8 @@
    <div class="hoja-base">
       <!-- Imagen -->
       <div class="campo" id="poke-image">
-         <input type="file" accept="image/*" id="image" name="image">
+         <!-- Input de imagen oculto y desactivado -->
+         <input type="file" accept="image/*" id="image" name="image" style="display:none;" disabled>
          <img id="preview-image" src="" alt="Imagen" style="display:none; width:100%; height:100%;">
       </div>
 
@@ -43,7 +44,7 @@
       </select>
 
       <!-- N° Dex -->
-      <input type="number" id="dex" name="dex" class="campo" style="grid-area: dex;">
+      <input type="text" id="dex" name="dex" class="campo" style="grid-area: dex;">
 
       <!-- Tipos -->
       <select id="type1" name="type1" class="campo" style="grid-area: type1;">
@@ -98,30 +99,32 @@
       <input type="number" id="SkCie" name="SkCie" class="campo">
       <select id="SkEst0" name="SkEst0" class="campo"></select>
       <input type="number" id="SkEst" name="SkEst" class="campo">
+
       <!-- Atributos y Nivel -->
       <input type="number" id="FUE0" name="FUE0" class="campo">
-      <input type="number" id="FUE1" name="FUE1" class="campo">
+      <input type="text" id="FUE1" name="FUE1" class="campo" style="grid-area: FUE1;">
       <input type="number" id="FUE" name="FUE" class="campo">
       <input type="number" id="VIT0" name="VIT0" class="campo">
-      <input type="number" id="VIT1" name="VIT1" class="campo">
+      <input type="text" id="VIT1" name="VIT1" class="campo" style="grid-area: VIT1;">
       <input type="number" id="VIT" name="VIT" class="campo">
       <input type="number" id="ENE0" name="ENE0" class="campo">
-      <input type="number" id="ENE1" name="ENE1" class="campo">
+      <input type="text" id="ENE1" name="ENE1" class="campo" style="grid-area: ENE1;">
       <input type="number" id="ENE" name="ENE" class="campo">
       <input type="number" id="SAB0" name="SAB0" class="campo">
-      <input type="number" id="SAB1" name="SAB1" class="campo">
+      <input type="text" id="SAB1" name="SAB1" class="campo" style="grid-area: SAB1;">
       <input type="number" id="SAB" name="SAB" class="campo">
       <input type="number" id="DES0" name="DES0" class="campo">
-      <input type="number" id="DES1" name="DES1" class="campo">
+      <input type="text" id="DES1" name="DES1" class="campo" style="grid-area: DES1;">
       <input type="number" id="DES" name="DES" class="campo">
       <input type="number" id="CAR0" name="CAR0" class="campo">
-      <input type="number" id="CAR1" name="CAR1" class="campo">
+      <input type="text" id="CAR1" name="CAR1" class="campo" style="grid-area: CAR1;">
       <input type="number" id="CAR" name="CAR" class="campo">
       <select id="Lvl" name="Lvl" class="campo"></select>
       <div class="campo" id="campo-logo">
          <input type="file" accept="image/*" id="Logo" name="Logo">
          <img id="preview-logo" src="" alt="Logo" style="display:none; width:100%; height:100%;">
       </div>
+
       <!-- Estados Alterados -->
       <input type="checkbox" id="EffEnvI" name="EffEnvI" class="campo">
       <input type="checkbox" id="EffEnvII" name="EffEnvII" class="campo">
@@ -139,6 +142,7 @@
       <input type="checkbox" id="EffRetII" name="EffRetII" class="campo">
       <input type="checkbox" id="EffConI" name="EffConI" class="campo">
       <input type="checkbox" id="EffConII" name="EffConII" class="campo">
+
       <!-- Movimientos Pokémon -->
       <!-- Movimiento 1 -->
       <input type="text" id="Move1" name="Move1" class="campo">
@@ -296,11 +300,112 @@
          }
       });
 
-      // --- Automatización campo alt ---
+      // --- Variables globales ---
       let pokesData = [];
       let InternalID = "";
+
+      // --- Utilidades de formato ---
+      function formatDex(num) {
+         num = parseInt(num) || 0;
+         return "#" + num.toString().padStart(4, "0");
+      }
+
+      // Opciones fijas para tipos
+      const tipos = [
+         "Acero", "Agua", "Bicho", "Dragon", "Electrico", "Fantasma", "Fuego", "Hada",
+         "Hielo", "Lucha", "Normal", "Planta", "Psiquico", "Roca", "Siniestro", "Tierra", "Veneno", "Volador"
+      ];
+
+      // Inicializa los selects de tipo con las opciones fijas
+      function setTypeOptions() {
+         const type1 = document.getElementById('type1');
+         const type2 = document.getElementById('type2');
+         type1.innerHTML = tipos.map(t => `<option value="${t}">${t}</option>`).join('');
+         type2.innerHTML = tipos.map(t => `<option value="${t}">${t}</option>`).join('');
+      }
+
+      // Opciones fijas para niveles con índice y nombre
+      const nivelesOpciones = [
+         { idx: "00", nombre: "Starter [S]", csv: "Starter" },
+         { idx: "01", nombre: "Beginner [B]", csv: "Begginer" },
+         { idx: "02", nombre: "Amateur [A]", csv: "Amateur" },
+         { idx: "03", nombre: "Elite [E]", csv: "Elite" },
+         { idx: "04", nombre: "Master [M]", csv: "Master" },
+         { idx: "05", nombre: "Legend [L]", csv: "Legend" }
+      ];
+
+      // Opciones fijas para niveles con siglas
+      const nivelesSiglas = [
+         { sigla: "[S]", csv: "Starter" },
+         { sigla: "[B]", csv: "Begginer" },
+         { sigla: "[A]", csv: "Amateur" },
+         { sigla: "[E]", csv: "Elite" },
+         { sigla: "[M]", csv: "Master" },
+         { sigla: "[L]", csv: "Legend" }
+      ];
+
+      // Diccionario para mapear sigla a csv y viceversa
+      const nivelSiglaToCSV = {};
+      const nivelCSVToSigla = {};
+      nivelesSiglas.forEach(opt => {
+         nivelSiglaToCSV[opt.sigla] = opt.csv;
+         nivelCSVToSigla[opt.csv] = opt.sigla;
+      });
+
+      // Diccionario para mapear valor CSV a opción exhibida
+      const nivelMapInv = {};
+      nivelesOpciones.forEach(opt => { nivelMapInv[opt.csv] = `${opt.nombre}`; });
+
+      // Inicializa el select de nivel con las opciones fijas
+      function setLvlOptions() {
+         const lvl = document.getElementById('Lvl');
+         lvl.innerHTML = nivelesOpciones.map(opt => `<option value="${opt.nombre}">${opt.nombre}</option>`).join('');
+      }
+
+      // Inicializa los selects de habilidades principales con las opciones de nivel
+      function setSkillLevelOptions() {
+         const skillIds = [
+            'SkCom0', 'SkCan0', 'SkLan0', 'SkAcr0',
+            'SkPer0', 'SkAtl0', 'SkNat0', 'SkCoc0',
+            'SkEmp0', 'SkPer0_2', 'SkSig0', 'SkArt0',
+            'SkFab0', 'SkRec0', 'SkCie0', 'SkEst0'
+         ];
+         skillIds.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) {
+               el.innerHTML = nivelesSiglas.map(opt => `<option value="${opt.sigla}">${opt.sigla}</option>`).join('');
+               el.value = "[S]";
+            }
+         });
+      }
+
+      // --- Inicialización de la hoja ---
+      document.addEventListener('DOMContentLoaded', function () {
+         const dexInput = document.getElementById('dex');
+         dexInput.value = 0;
+         showDexFormatted();
+         setTypeOptions();
+         setLvlOptions();
+         setSkillLevelOptions();
+         updateAltOptions();
+         updateInternalID();
+      });
+
+      // --- Sincronización visual del campo dex ---
+      function showDexFormatted() {
+         const dexInput = document.getElementById('dex');
+         let num = parseInt(dexInput.value) || 0;
+         dexInput.value = formatDex(num);
+      }
+      function showDexNumeric() {
+         const dexInput = document.getElementById('dex');
+         let val = dexInput.value.replace(/\D/g, "");
+         dexInput.value = parseInt(val) || 0;
+      }
+
+      // --- Carga de datos CSV ---
       async function fetchCSV() {
-         const url = "https://github.com/EragonGamer/PokemonRPG/blob/main/BasesCSV/Pokes.csv?raw=true";
+         const url = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Pokes.csv";
          const res = await fetch(url);
          const text = await res.text();
          const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
@@ -312,51 +417,110 @@
             return obj;
          });
          // Inicializar dex y alt
-         document.getElementById('dex').value = 1;
+         document.getElementById('dex').value = 0;
+         updateDexFormatted();
          updateAltOptions();
-         document.getElementById('alt').selectedIndex = 1;
-         updateInternalID();
       }
 
-      function dexToNdex(dex) {
-         dex = dex.toString();
-         return "#" + dex.padStart(4, "0");
+      // Actualiza la imagen del Pokémon según InternalID
+      function updatePokeImage() {
+         const img = document.getElementById('preview-image');
+         if (InternalID) {
+            img.src = `https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Pokes/${InternalID}.png`;
+            img.style.display = 'block';
+         } else {
+            img.src = "";
+            img.style.display = 'none';
+         }
       }
 
-      function updateAltOptions() {
+      // Actualiza los campos dependientes del registro CSV
+      function updateFieldsFromCSV() {
          const dexVal = document.getElementById('dex').value;
-         const ndex = dexToNdex(dexVal);
-         const alts = [...new Set(
-            pokesData.filter(p => p.Ndex === ndex).map(p => p.Alternativo)
-         )];
+         const ndex = formatDex(dexVal);
          const altSelect = document.getElementById('alt');
-         altSelect.innerHTML = '<option value="">Selecciona variante</option>';
-         alts.forEach(a => {
-            if (a) altSelect.innerHTML += `<option value="${a}">${a}</option>`;
-         });
-         // Seleccionar la primera opción posible (índice 1)
-         altSelect.selectedIndex = 1;
-         updateInternalID();
+         const altValue = altSelect.value;
+         const found = pokesData.find(p => p.Ndex === ndex && p.Alternativo === altValue);
+
+         document.getElementById('poke').value = found ? found.Pokemon || "" : "";
+         document.getElementById('FUE1').value = found ? found.FUE || "" : "";
+         document.getElementById('VIT1').value = found ? found.VIT || "" : "";
+         document.getElementById('ENE1').value = found ? found.ENE || "" : "";
+         document.getElementById('SAB1').value = found ? found.SAB || "" : "";
+         document.getElementById('DES1').value = found ? found.DES || "" : "";
+         document.getElementById('CAR1').value = found ? found.CAR || "" : "";
+
+         // Actualiza opciones y valor seleccionado para type1 y type2
+         setTypeOptions();
+         document.getElementById('type1').value = found ? found.Tipo1 || "" : "";
+         document.getElementById('type2').value = found ? found.Tipo2 || "" : "";
+
+         // Actualiza opciones y valor seleccionado para Lvl
+         setLvlOptions();
+         const lvl = document.getElementById('Lvl');
+         lvl.value = found ? nivelMapInv[found.Nivel] || "" : "";
+
+         // Opciones de habilidad
+         const hab = document.getElementById('hab');
+         let habilidades = [];
+         if (found) {
+            habilidades = [found.Habilidad_1, found.Habilidad_2, found.Habilidad_3]
+               .filter((v, i, arr) => v && arr.indexOf(v) === i);
+         }
+         hab.innerHTML = habilidades.map(h => `<option value="${h}">${h}</option>`).join('');
+         hab.selectedIndex = 0;
       }
 
+      // --- Actualización de InternalID según selección ---
       function updateInternalID() {
          const dexVal = document.getElementById('dex').value;
+         const ndex = formatDex(dexVal);
          const altSelect = document.getElementById('alt');
-         // El índice de la opción seleccionada (sin contar la opción vacía)
-         let altIndex = altSelect.selectedIndex;
-         if (altIndex < 1) altIndex = 1;
-         InternalID = dexVal.padStart(4, "0") + "_" + altIndex;
-         // Puedes mostrarlo en consola para debug
-         // console.log("InternalID:", InternalID);
+         const altValue = altSelect.value;
+         // Buscar el registro que coincide con Ndex y Alternativo
+         const found = pokesData.find(p => p.Ndex === ndex && p.Alternativo === altValue);
+         InternalID = found ? found.ID : "";
+         updatePokeImage();
+         updateFieldsFromCSV();
       }
 
+      // --- Actualización de variantes según dex ---
+      function updateAltOptions() {
+         const dexVal = document.getElementById('dex').value;
+         const ndex = formatDex(dexVal);
+         const altSelect = document.getElementById('alt');
+         // Buscar variantes únicas para ese Ndex
+         const alts = [...new Set(
+            pokesData.filter(p => p.Ndex === ndex).map(p => p.Alternativo)
+         )].filter(a => a && a.trim().length > 0);
+
+         if (alts.length === 0) {
+            altSelect.innerHTML = '<option value="">N° Dex Invalido</option>';
+            altSelect.selectedIndex = 0;
+            InternalID = ""; // No hay ID válido
+            updatePokeImage();
+            updateFieldsFromCSV();
+         } else {
+            altSelect.innerHTML = "";
+            alts.forEach(a => {
+               altSelect.innerHTML += `<option value="${a}">${a}</option>`;
+            });
+            // Seleccionar la primera variante posible
+            altSelect.selectedIndex = 0;
+            updateInternalID();
+         }
+      }
+
+      // --- Eventos de cambio ---
       document.getElementById('dex').addEventListener('input', function () {
          updateAltOptions();
+         updateInternalID();
       });
       document.getElementById('alt').addEventListener('change', function () {
          updateInternalID();
       });
 
+      // --- Iniciar carga de datos ---
       fetchCSV();
    </script>
 </body>
