@@ -121,8 +121,10 @@
       <input type="number" id="CAR" name="CAR" class="campo">
       <select id="Lvl" name="Lvl" class="campo"></select>
       <div class="campo" id="campo-logo">
-         <input type="file" accept="image/*" id="Logo" name="Logo">
-         <img id="preview-logo" src="" alt="Logo" style="display:none; width:100%; height:100%;">
+         <!-- Elimina el input editable -->
+         <!-- <input type="file" accept="image/*" id="Logo" name="Logo"> -->
+         <!-- Imagen de logo no editable -->
+         <img id="preview-logo" src="" alt="Logo" style="width:100%; height:100%;">
       </div>
 
       <!-- Estados Alterados -->
@@ -434,6 +436,21 @@
          }
       }
 
+      // Actualiza la imagen del Logo según el nivel seleccionado
+      function updateLogoImage() {
+         const lvl = document.getElementById('Lvl');
+         const logoImg = document.getElementById('preview-logo');
+         // Buscar el valor CSV correspondiente al nivel seleccionado
+         const selected = nivelesOpciones.find(opt => opt.nombre === lvl.value);
+         if (selected) {
+            logoImg.src = `https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/${selected.csv}.png`;
+            logoImg.style.display = 'block';
+         } else {
+            logoImg.src = "";
+            logoImg.style.display = 'none';
+         }
+      }
+
       // Actualiza los campos dependientes del registro CSV
       function updateFieldsFromCSV() {
          const dexVal = document.getElementById('dex').value;
@@ -459,6 +476,7 @@
          setLvlOptions();
          const lvl = document.getElementById('Lvl');
          lvl.value = found ? nivelMapInv[found.Nivel] || "" : "";
+         updateLogoImage(); // Actualiza el logo cada vez que se actualizan los campos
 
          // Opciones de habilidad
          const hab = document.getElementById('hab');
@@ -482,6 +500,7 @@
          InternalID = found ? found.ID : "";
          updatePokeImage();
          updateFieldsFromCSV();
+         updateLogoImage(); // Actualiza el logo cada vez que cambia InternalID
       }
 
       // --- Actualización de variantes según dex ---
@@ -518,6 +537,9 @@
       });
       document.getElementById('alt').addEventListener('change', function () {
          updateInternalID();
+      });
+      document.getElementById('Lvl').addEventListener('change', function () {
+         updateLogoImage();
       });
 
       // --- Iniciar carga de datos ---
