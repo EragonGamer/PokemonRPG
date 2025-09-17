@@ -147,7 +147,7 @@
 
       <!-- Movimientos Pokémon -->
       <!-- Movimiento 1 -->
-      <input type="text" id="Move1" name="Move1" class="campo">
+      <select id="Move1" name="Move1" class="campo"></select>
       <input type="number" id="ID1" name="ID1" class="campo">
       <select id="MLvl1" name="MLvl1" class="campo"></select>
       <select id="MType1" name="MType1" class="campo"></select>
@@ -167,7 +167,7 @@
       <input type="text" id="DmgTot1" name="DmgTot1" class="campo">
       <input type="text" id="ChDice1" name="ChDice1" class="campo">
       <!-- Movimiento 2 -->
-      <input type="text" id="Move2" name="Move2" class="campo">
+      <select id="Move2" name="Move2" class="campo"></select>
       <input type="number" id="ID2" name="ID2" class="campo">
       <select id="MLvl2" name="MLvl2" class="campo"></select>
       <select id="MType2" name="MType2" class="campo"></select>
@@ -187,7 +187,7 @@
       <input type="text" id="DmgTot2" name="DmgTot2" class="campo">
       <input type="text" id="ChDice2" name="ChDice2" class="campo">
       <!-- Movimiento 3 -->
-      <input type="text" id="Move3" name="Move3" class="campo">
+      <select id="Move3" name="Move3" class="campo"></select>
       <input type="number" id="ID3" name="ID3" class="campo">
       <select id="MLvl3" name="MLvl3" class="campo"></select>
       <select id="MType3" name="MType3" class="campo"></select>
@@ -207,7 +207,7 @@
       <input type="text" id="DmgTot3" name="DmgTot3" class="campo">
       <input type="text" id="ChDice3" name="ChDice3" class="campo">
       <!-- Movimiento 4 -->
-      <input type="text" id="Move4" name="Move4" class="campo">
+      <select id="Move4" name="Move4" class="campo"></select>
       <input type="number" id="ID4" name="ID4" class="campo">
       <select id="MLvl4" name="MLvl4" class="campo"></select>
       <select id="MType4" name="MType4" class="campo"></select>
@@ -227,7 +227,7 @@
       <input type="text" id="DmgTot4" name="DmgTot4" class="campo">
       <input type="text" id="ChDice4" name="ChDice4" class="campo">
       <!-- Movimiento 5 -->
-      <input type="text" id="Move5" name="Move5" class="campo">
+      <select id="Move5" name="Move5" class="campo"></select>
       <input type="number" id="ID5" name="ID5" class="campo">
       <select id="MLvl5" name="MLvl5" class="campo"></select>
       <select id="MType5" name="MType5" class="campo"></select>
@@ -247,7 +247,7 @@
       <input type="text" id="DmgTot5" name="DmgTot5" class="campo">
       <input type="text" id="ChDice5" name="ChDice5" class="campo">
       <!-- Movimiento 6 -->
-      <input type="text" id="Move6" name="Move6" class="campo">
+      <select id="Move6" name="Move6" class="campo"></select>
       <input type="number" id="ID6" name="ID6" class="campo">
       <select id="MLvl6" name="MLvl6" class="campo"></select>
       <select id="MType6" name="MType6" class="campo"></select>
@@ -267,7 +267,7 @@
       <input type="text" id="DmgTot6" name="DmgTot6" class="campo">
       <input type="text" id="ChDice6" name="ChDice6" class="campo">
       <!-- Movimiento 7 -->
-      <input type="text" id="Move7" name="Move7" class="campo">
+      <select id="Move7" name="Move7" class="campo"></select>
       <input type="number" id="ID7" name="ID7" class="campo">
       <select id="MLvl7" name="MLvl7" class="campo"></select>
       <select id="MType7" name="MType7" class="campo"></select>
@@ -305,6 +305,12 @@
       // --- Variables globales ---
       let pokesData = [];
       let InternalID = "";
+      let InternalDex = "#0000"; // Nuevo valor formateado de dex
+
+      // --- Variables globales para movimientos ---
+      let idToMoveName = {};
+      let moveHeaders = [];
+      let moveListRows = [];
 
       // --- Utilidades de formato ---
       function formatDex(num) {
@@ -381,8 +387,9 @@
          });
       }
 
-      // --- Inicialización de la hoja ---
-      document.addEventListener('DOMContentLoaded', function () {
+      // --- Inicialización de la hoja (modificada) ---
+      async function inicializarHoja() {
+         await Promise.all([fetchCSV(), cargarDatosMovimientos()]);
          const dexInput = document.getElementById('dex');
          dexInput.value = 0;
          showDexFormatted();
@@ -391,18 +398,52 @@
          setSkillLevelOptions();
          updateAltOptions();
          updateInternalID();
+      }
+
+      // --- Eventos de cambio (sin cambios) ---
+      document.getElementById('dex').addEventListener('input', function () {
+         showDexNumeric();
+         updateAltOptions();
+         updateInternalID();
       });
+      document.getElementById('alt').addEventListener('change', function () {
+         updateInternalID();
+      });
+      document.getElementById('Lvl').addEventListener('change', function () {
+         updateLogoImage();
+      });
+
+      // --- Iniciar carga de datos y hoja ---
+      document.addEventListener('DOMContentLoaded', inicializarHoja);
 
       // --- Sincronización visual del campo dex ---
       function showDexFormatted() {
          const dexInput = document.getElementById('dex');
          let num = parseInt(dexInput.value) || 0;
-         dexInput.value = formatDex(num);
+         dexInput.value = num; // Guarda el valor numérico en dex
+         InternalDex = formatDex(num); // Actualiza InternalDex
+         dexInput.value = InternalDex; // Muestra el valor formateado en el input
       }
       function showDexNumeric() {
          const dexInput = document.getElementById('dex');
          let val = dexInput.value.replace(/\D/g, "");
-         dexInput.value = parseInt(val) || 0;
+         dexInput.value = parseInt(val) || 0; // Guarda el valor numérico en dex
+         InternalDex = formatDex(dexInput.value); // Actualiza InternalDex
+         dexInput.value = InternalDex; // Muestra el valor formateado en el input
+      }
+
+      // Muestra el valor InternalDex en la interfaz (debajo del input dex)
+      function showInternalDex() {
+         let dexInput = document.getElementById('dex');
+         let internalDexLabel = document.getElementById('internalDexLabel');
+         if (!internalDexLabel) {
+            internalDexLabel = document.createElement('div');
+            internalDexLabel.id = 'internalDexLabel';
+            internalDexLabel.style.fontSize = '0.9em';
+            internalDexLabel.style.color = '#555';
+            dexInput.parentNode.insertBefore(internalDexLabel, dexInput.nextSibling);
+         }
+         internalDexLabel.textContent = `InternalDex: ${InternalDex}`;
       }
 
       // --- Carga de datos CSV ---
@@ -420,8 +461,31 @@
          });
          // Inicializar dex y alt
          document.getElementById('dex').value = 0;
-         updateDexFormatted();
+         InternalDex = formatDex(0);
+         showDexFormatted();
          updateAltOptions();
+      }
+
+      // Carga inicial de Moves y MoveList
+      async function cargarDatosMovimientos() {
+         // Moves.csv
+         const movesUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Moves.csv";
+         const movesRes = await fetch(movesUrl);
+         const movesText = await movesRes.text();
+         const movesLines = movesText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const movesHeaders = movesLines[0].split(';');
+         const movesData = movesLines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            movesHeaders.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+
+         // MoveList.csv
+         const moveListUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/MoveList.csv";
+         const moveListRes = await fetch(moveListUrl);
+         const moveListText = await moveListRes.text();
+         const moveListLines = moveListText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
       }
 
       // Actualiza la imagen del Pokémon según InternalID
@@ -453,11 +517,10 @@
 
       // Actualiza los campos dependientes del registro CSV
       function updateFieldsFromCSV() {
-         const dexVal = document.getElementById('dex').value;
-         const ndex = formatDex(dexVal);
+         // Reemplaza ndex por InternalDex
          const altSelect = document.getElementById('alt');
          const altValue = altSelect.value;
-         const found = pokesData.find(p => p.Ndex === ndex && p.Alternativo === altValue);
+         const found = pokesData.find(p => p.Ndex === InternalDex && p.Alternativo === altValue);
 
          document.getElementById('poke').value = found ? found.Pokemon || "" : "";
          document.getElementById('FUE1').value = found ? found.FUE || "" : "";
@@ -491,26 +554,23 @@
 
       // --- Actualización de InternalID según selección ---
       function updateInternalID() {
-         const dexVal = document.getElementById('dex').value;
-         const ndex = formatDex(dexVal);
+         // Reemplaza ndex por InternalDex
          const altSelect = document.getElementById('alt');
          const altValue = altSelect.value;
-         // Buscar el registro que coincide con Ndex y Alternativo
-         const found = pokesData.find(p => p.Ndex === ndex && p.Alternativo === altValue);
+         const found = pokesData.find(p => p.Ndex === InternalDex && p.Alternativo === altValue);
          InternalID = found ? found.ID : "";
          updatePokeImage();
          updateFieldsFromCSV();
-         updateLogoImage(); // Actualiza el logo cada vez que cambia InternalID
+         updateLogoImage();
+         actualizarOpcionesMovimientos(); // <-- Actualiza movimientos cada vez que cambia InternalDex
       }
 
       // --- Actualización de variantes según dex ---
       function updateAltOptions() {
-         const dexVal = document.getElementById('dex').value;
-         const ndex = formatDex(dexVal);
+         // Reemplaza ndex por InternalDex
          const altSelect = document.getElementById('alt');
-         // Buscar variantes únicas para ese Ndex
          const alts = [...new Set(
-            pokesData.filter(p => p.Ndex === ndex).map(p => p.Alternativo)
+            pokesData.filter(p => p.Ndex === InternalDex).map(p => p.Alternativo)
          )].filter(a => a && a.trim().length > 0);
 
          if (alts.length === 0) {
@@ -530,20 +590,28 @@
          }
       }
 
-      // --- Eventos de cambio ---
-      document.getElementById('dex').addEventListener('input', function () {
-         updateAltOptions();
-         updateInternalID();
-      });
-      document.getElementById('alt').addEventListener('change', function () {
-         updateInternalID();
-      });
-      document.getElementById('Lvl').addEventListener('change', function () {
-         updateLogoImage();
-      });
+      // --- Actualiza opciones de movimientos según InternalDex ---
+      function actualizarOpcionesMovimientos() {
+         const moveSelect = document.getElementById('Move1');
+         if (!moveSelect) return;
+         const fila = moveListRows.find(r => r["N°Dex"] === InternalDex);
+         if (!fila) {
+            moveSelect.innerHTML = '<option value="">Sin movimientos</option>';
+            return;
+         }
+         const opciones = [];
+         moveHeaders.forEach(h => {
+            if (fila[h] && fila[h].toUpperCase() === "VERDADERO") {
+               const nombre = idToMoveName[h] || h;
+               opciones.push(`<option value="${h}">${nombre}</option>`);
+            }
+         });
+         moveSelect.innerHTML = opciones.length ? opciones.join('') : '<option value="">Sin movimientos</option>';
+      }
 
       // --- Iniciar carga de datos ---
       fetchCSV();
+      cargarDatosMovimientos();
    </script>
 </body>
 
