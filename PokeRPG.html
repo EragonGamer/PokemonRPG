@@ -302,20 +302,87 @@
          }
       });
 
-      // --- Variables globales ---
+      // --- CARGA Y FUNCIONES DE CSV ---
+      // Variables globales
       let pokesData = [];
       let InternalID = "";
-      let InternalDex = "#0000"; // Nuevo valor formateado de dex
-
-      // --- Variables globales para movimientos ---
+      let InternalDex = "#0000";
       let idToMoveName = {};
       let moveHeaders = [];
       let moveListRows = [];
 
-      // --- Utilidades de formato ---
+      // Utilidad para formatear Dex
       function formatDex(num) {
          num = parseInt(num) || 0;
          return "#" + num.toString().padStart(4, "0");
+      }
+
+      // --- Carga de datos CSV ---
+      async function fetchCSV() {
+         const url = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Pokes.csv";
+         const res = await fetch(url);
+         const text = await res.text();
+         const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const headers = lines[0].split(';');
+         pokesData = lines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+         document.getElementById('dex').value = 0;
+         InternalDex = formatDex(0);
+         showDexFormatted();
+         updateAltOptions();
+      }
+
+      // Carga inicial de Moves y MoveList
+      async function cargarDatosMovimientos() {
+         // Moves.csv
+         const movesUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Moves.csv";
+         const movesRes = await fetch(movesUrl);
+         const movesText = await movesRes.text();
+         const movesLines = movesText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const movesHeaders = movesLines[0].split(';');
+         const movesData = movesLines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            movesHeaders.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+         // Poblar idToMoveName
+         idToMoveName = {};
+         movesData.forEach(m => {
+            if (m["ID"] && m["Nombre"]) {
+               idToMoveName[m["ID"]] = m["Nombre"];
+            }
+         });
+
+         // MoveList.csv
+         const moveListUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/MoveList.csv";
+         const moveListRes = await fetch(moveListUrl);
+         const moveListText = await moveListRes.text();
+         const moveListLines = moveListText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         moveHeaders = moveListLines[0].split(';').map(h => h.trim());
+         moveListRows = moveListLines.slice(1).map(line => {
+            const values = line.split(';').map(v => v.trim());
+            const obj = {};
+            moveHeaders.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+      }
+
+      // --- Inicialización de la hoja ---
+      async function inicializarHoja() {
+         await Promise.all([fetchCSV(), cargarDatosMovimientos()]);
+         const dexInput = document.getElementById('dex');
+         dexInput.value = 0;
+         showDexFormatted();
+         setTypeOptions();
+         setLvlOptions();
+         setSkillLevelOptions();
+         updateAltOptions();
+         updateInternalID();
       }
 
       // Opciones fijas para tipos
@@ -592,21 +659,34 @@
 
       // --- Actualiza opciones de movimientos según InternalDex ---
       function actualizarOpcionesMovimientos() {
-         const moveSelect = document.getElementById('Move1');
-         if (!moveSelect) return;
-         const fila = moveListRows.find(r => r["N°Dex"] === InternalDex);
-         if (!fila) {
-            moveSelect.innerHTML = '<option value="">Sin movimientos</option>';
-            return;
+         // Mostrar todos los valores de Ndex para depuración
+         console.log('Lista de Ndex en moveListRows:', moveListRows.map(r => r["Ndex"]));
+         console.log('InternalDex:', InternalDex);
+         // IDs de los selects de movimientos
+         const moveSelectIds = ["Move1", "Move2", "Move3", "Move4", "Move5", "Move6", "Move7"];
+         // Buscar la fila correspondiente al InternalDex en MoveList
+         const fila = moveListRows.find(r => r["Ndex"] === InternalDex);
+         console.log('Fila encontrada:', fila);
+         console.log('Headers:', moveHeaders);
+         if (fila) console.log('Valores fila:', Object.values(fila));
+         let opciones = [];
+         if (fila) {
+            opciones = moveHeaders
+               .filter(key => key !== "Ndex")
+               .filter(key => fila[key] === "1")
+               .map(id => {
+                  // Buscar nombre en Moves
+                  const nombre = idToMoveName[id] || id;
+                  return `<option value="${id}">${nombre}</option>`;
+               });
          }
-         const opciones = [];
-         moveHeaders.forEach(h => {
-            if (fila[h] && fila[h].toUpperCase() === "VERDADERO") {
-               const nombre = idToMoveName[h] || h;
-               opciones.push(`<option value="${h}">${nombre}</option>`);
-            }
+         // Si no hay opciones, mostrar mensaje
+         if (!opciones.length) opciones = ['<option value="">Sin movimientos</option>'];
+         // Asignar a todos los selects de movimientos
+         moveSelectIds.forEach(selId => {
+            const sel = document.getElementById(selId);
+            if (sel) sel.innerHTML = opciones.join('');
          });
-         moveSelect.innerHTML = opciones.length ? opciones.join('') : '<option value="">Sin movimientos</option>';
       }
 
       // --- Iniciar carga de datos ---
