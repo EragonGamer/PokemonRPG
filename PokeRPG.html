@@ -45,6 +45,7 @@
 
       <!-- N° Dex -->
       <input type="text" id="dex" name="dex" class="campo" style="grid-area: dex;">
+      <!-- El valor mostrado en el input será InternalDex -->
 
       <!-- Tipos -->
       <select id="type1" name="type1" class="campo" style="grid-area: type1;">
@@ -487,30 +488,21 @@
       function showDexFormatted() {
          const dexInput = document.getElementById('dex');
          let num = parseInt(dexInput.value) || 0;
-         dexInput.value = num; // Guarda el valor numérico en dex
          InternalDex = formatDex(num); // Actualiza InternalDex
-         dexInput.value = InternalDex; // Muestra el valor formateado en el input
+         dexInput.value = InternalDex; // El input muestra el valor formateado
       }
       function showDexNumeric() {
          const dexInput = document.getElementById('dex');
          let val = dexInput.value.replace(/\D/g, "");
-         dexInput.value = parseInt(val) || 0; // Guarda el valor numérico en dex
-         InternalDex = formatDex(dexInput.value); // Actualiza InternalDex
-         dexInput.value = InternalDex; // Muestra el valor formateado en el input
+         let num = parseInt(val) || 0;
+         InternalDex = formatDex(num); // Actualiza InternalDex
+         dexInput.value = InternalDex; // El input muestra el valor formateado
       }
 
       // Muestra el valor InternalDex en la interfaz (debajo del input dex)
       function showInternalDex() {
-         let dexInput = document.getElementById('dex');
          let internalDexLabel = document.getElementById('internalDexLabel');
-         if (!internalDexLabel) {
-            internalDexLabel = document.createElement('div');
-            internalDexLabel.id = 'internalDexLabel';
-            internalDexLabel.style.fontSize = '0.9em';
-            internalDexLabel.style.color = '#555';
-            dexInput.parentNode.insertBefore(internalDexLabel, dexInput.nextSibling);
-         }
-         internalDexLabel.textContent = `InternalDex: ${InternalDex}`;
+         internalDexLabel.textContent = InternalDex;
       }
 
       // --- Carga de datos CSV ---
@@ -559,7 +551,9 @@
       function updatePokeImage() {
          const img = document.getElementById('preview-image');
          if (InternalID) {
-            img.src = `https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Pokes/${InternalID}.png`;
+            // Remueve el prefijo 'P' si existe
+            let imgID = InternalID.startsWith('P') ? InternalID.substring(1) : InternalID;
+            img.src = `https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Pokes/${imgID}.png`;
             img.style.display = 'block';
          } else {
             img.src = "";
