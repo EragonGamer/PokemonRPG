@@ -306,7 +306,7 @@
       // Variables globales
       let pokesData = [];
       let InternalID = "";
-      let InternalDex = "#0000";
+      let InternalDex = "P0000";
       let idToMoveName = {};
       let moveHeaders = [];
       let moveListRows = [];
@@ -314,7 +314,7 @@
       // Utilidad para formatear Dex
       function formatDex(num) {
          num = parseInt(num) || 0;
-         return "#" + num.toString().padStart(4, "0");
+         return "P" + num.toString().padStart(4, "0");
       }
 
       // --- Carga de datos CSV ---
