@@ -1,0 +1,95 @@
+/*Spinner Arrows not visible*/
+  .charsheet input[type="number"]::-webkit-inner-spin-button, 
+  .charsheet input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+  }
+
+label,
+/* Spinner Arrows not visible */
+.charsheet input[type="number"]::-webkit-inner-spin-button,
+.charsheet input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+/* Form labels & small inputs */
+label,
+input[type="checkbox"] {
+  font-size: 0.8rem;
+}
+
+/* --- Visual select (using <details>) --- */
+.fake-select {
+  width: 220px;
+  font-family: inherit;
+}
+.fake-select summary {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 6px 10px;
+  user-select: none;
+}
+.fake-select summary::marker {
+  display: none;
+}
+.fake-select .arrow {
+  font-size: 12px;
+  margin-left: 8px;
+  opacity: .7;
+}
+.fake-select[open] summary {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .12);
+}
+
+.options {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 6px 0 0 0;
+  max-height: 200px;
+  overflow: auto;
+  padding: 6px;
+}
+.options label {
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 4px;
+  padding: 6px 8px;
+}
+.options label:hover {
+  background: #f4f4f4;
+}
+
+/* Hide the actual radio inputs (they still function) */
+input[name="attr_level"] {
+  left: -9999px;
+  position: absolute;
+}
+
+/* --- Icons (images) --- */
+.icons {
+  margin-top: 10px;
+}
+.icons img {
+  display: none;
+  height: 48px;
+  vertical-align: middle;
+  width: 48px;
+}
+
+/* Mostrar la imagen asociada al radio seleccionado*/
+input[name="attr_level"][value="Undefined"]:checked ~ .icons .img-Undefined,
+input[name="attr_level"][value="Starter"]:checked ~ .icons .img-Starter,
+input[name="attr_level"][value="Beginner"]:checked ~ .icons .img-Beginner,
+input[name="attr_level"][value="Amateur"]:checked ~ .icons .img-Amateur,
+input[name="attr_level"][value="Elite"]:checked ~ .icons .img-Elite,
+input[name="attr_level"][value="Master"]:checked ~ .icons .img-Master,
+input[name="attr_level"][value="Legend"]:checked ~ .icons .img-Legend {
+    display: inline-block;
+}

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Hoja de Personaje - PokeRPG</title>
+   <link rel="stylesheet" href="PokeRPG.css">
+</head>
+
+<body>
+   <div class="hoja-base">
+      <!-- Imagen -->
+      <div class="campo" id="poke-image">
+         <!-- Input de imagen oculto y desactivado -->
+         <input type="file" accept="image/*" id="image" name="image" style="display:none;" disabled>
+         <img id="preview-image" src="" alt="Imagen" style="display:none; width:100%; height:100%;">
+      </div>
+
+      <!-- Vida -->
+      <input type="number" id="HP" name="HP" class="campo" style="grid-area: HP;">
+      <input type="number" id="HPmax" name="HPmax" class="campo" style="grid-area: HPmax;">
+
+      <!-- PP -->
+      <input type="number" id="PP" name="PP" class="campo" style="grid-area: PP;">
+      <input type="number" id="PPmax" name="PPmax" class="campo" style="grid-area: PPmax;">
+
+      <!-- Velocidad -->
+      <input type="number" id="Vel" name="Vel" class="campo" style="grid-area: Vel;">
+      <input type="number" id="Velmax" name="Velmax" class="campo" style="grid-area: Velmax;">
+
+      <!-- Acc -->
+      <input type="number" id="Acc" name="Acc" class="campo" style="grid-area: Acc;">
+      <input type="number" id="Accmax" name="Accmax" class="campo" style="grid-area: Accmax;">
+
+      <!-- Nombre -->
+      <input type="text" id="name" name="name" class="campo" style="grid-area: name;">
+
+      <!-- Especie -->
+      <input type="text" id="poke" name="poke" class="campo" style="grid-area: poke;">
+
+      <!-- Variante -->
+      <select id="alt" name="alt" class="campo" style="grid-area: alt;">
+         <option value="">Selecciona variante</option>
+      </select>
+
+      <!-- N° Dex -->
+      <input type="text" id="dex" name="dex" class="campo" style="grid-area: dex;">
+      <!-- El valor mostrado en el input será InternalDex -->
+
+      <!-- Tipos -->
+      <select id="type1" name="type1" class="campo" style="grid-area: type1;">
+         <option value="">Tipo 1</option>
+      </select>
+      <select id="type2" name="type2" class="campo" style="grid-area: type2;">
+         <option value="">Tipo 2</option>
+      </select>
+
+      <!-- Habilidad -->
+      <select id="hab" name="hab" class="campo" style="grid-area: hab;">
+         <option value="">Selecciona habilidad</option>
+      </select>
+
+      <!-- Efecto de habilidad -->
+      <textarea id="habdef" name="habdef" class="campo" style="grid-area: habdef;"></textarea>
+
+      <!-- Habilidades -->
+      <!-- Combate -->
+      <select id="SkCom0" name="SkCom0" class="campo"></select>
+      <input type="number" id="SkCom" name="SkCom" class="campo">
+      <select id="SkCan0" name="SkCan0" class="campo"></select>
+      <input type="number" id="SkCan" name="SkCan" class="campo">
+      <select id="SkLan0" name="SkLan0" class="campo"></select>
+      <input type="number" id="SkLan" name="SkLan" class="campo">
+      <select id="SkAcr0" name="SkAcr0" class="campo"></select>
+      <input type="number" id="SkAcr" name="SkAcr" class="campo">
+      <!-- Supervivencia -->
+      <select id="SkPer0" name="SkPer0" class="campo"></select>
+      <input type="number" id="SkPer" name="SkPer" class="campo">
+      <select id="SkAtl0" name="SkAtl0" class="campo"></select>
+      <input type="number" id="SkAtl" name="SkAtl" class="campo">
+      <select id="SkNat0" name="SkNat0" class="campo"></select>
+      <input type="number" id="SkNat" name="SkNat" class="campo">
+      <select id="SkCoc0" name="SkCoc0" class="campo"></select>
+      <input type="number" id="SkCoc" name="SkCoc" class="campo">
+      <!-- Sociales -->
+      <select id="SkEmp0" name="SkEmp0" class="campo"></select>
+      <input type="number" id="SkEmp" name="SkEmp" class="campo">
+      <select id="SkPer0_2" name="SkPer0_2" class="campo"></select>
+      <input type="number" id="SkPer_2" name="SkPer_2" class="campo">
+      <select id="SkSig0" name="SkSig0" class="campo"></select>
+      <input type="number" id="SkSig" name="SkSig" class="campo">
+      <select id="SkArt0" name="SkArt0" class="campo"></select>
+      <input type="number" id="SkArt" name="SkArt" class="campo">
+      <!-- Intelectuales -->
+      <select id="SkFab0" name="SkFab0" class="campo"></select>
+      <input type="number" id="SkFab" name="SkFab" class="campo">
+      <select id="SkRec0" name="SkRec0" class="campo"></select>
+      <input type="number" id="SkRec" name="SkRec" class="campo">
+      <select id="SkCie0" name="SkCie0" class="campo"></select>
+      <input type="number" id="SkCie" name="SkCie" class="campo">
+      <select id="SkEst0" name="SkEst0" class="campo"></select>
+      <input type="number" id="SkEst" name="SkEst" class="campo">
+
+      <!-- Atributos y Nivel -->
+      <input type="number" id="FUE0" name="FUE0" class="campo">
+      <input type="text" id="FUE1" name="FUE1" class="campo" style="grid-area: FUE1;">
+      <input type="number" id="FUE" name="FUE" class="campo">
+      <input type="number" id="VIT0" name="VIT0" class="campo">
+      <input type="text" id="VIT1" name="VIT1" class="campo" style="grid-area: VIT1;">
+      <input type="number" id="VIT" name="VIT" class="campo">
+      <input type="number" id="ENE0" name="ENE0" class="campo">
+      <input type="text" id="ENE1" name="ENE1" class="campo" style="grid-area: ENE1;">
+      <input type="number" id="ENE" name="ENE" class="campo">
+      <input type="number" id="SAB0" name="SAB0" class="campo">
+      <input type="text" id="SAB1" name="SAB1" class="campo" style="grid-area: SAB1;">
+      <input type="number" id="SAB" name="SAB" class="campo">
+      <input type="number" id="DES0" name="DES0" class="campo">
+      <input type="text" id="DES1" name="DES1" class="campo" style="grid-area: DES1;">
+      <input type="number" id="DES" name="DES" class="campo">
+      <input type="number" id="CAR0" name="CAR0" class="campo">
+      <input type="text" id="CAR1" name="CAR1" class="campo" style="grid-area: CAR1;">
+      <input type="number" id="CAR" name="CAR" class="campo">
+      <select id="Lvl" name="Lvl" class="campo"></select>
+      <div class="campo" id="campo-logo">
+         <!-- Elimina el input editable -->
+         <!-- <input type="file" accept="image/*" id="Logo" name="Logo"> -->
+         <!-- Imagen de logo no editable -->
+         <img id="preview-logo" src="" alt="Logo" style="width:100%; height:100%;">
+      </div>
+
+      <!-- Estados Alterados -->
+      <input type="checkbox" id="EffEnvI" name="EffEnvI" class="campo">
+      <input type="checkbox" id="EffEnvII" name="EffEnvII" class="campo">
+      <input type="checkbox" id="EffQueI" name="EffQueI" class="campo">
+      <input type="checkbox" id="EffQueII" name="EffQueII" class="campo">
+      <input type="checkbox" id="EffDorI" name="EffDorI" class="campo">
+      <input type="checkbox" id="EffDorII" name="EffDorII" class="campo">
+      <input type="checkbox" id="EffParI" name="EffParI" class="campo">
+      <input type="checkbox" id="EffParII" name="EffParII" class="campo">
+      <input type="checkbox" id="EffAtuI" name="EffAtuI" class="campo">
+      <input type="checkbox" id="EffAtuII" name="EffAtuII" class="campo">
+      <input type="checkbox" id="EffDesI" name="EffDesI" class="campo">
+      <input type="checkbox" id="EffDesII" name="EffDesII" class="campo">
+      <input type="checkbox" id="EffRetI" name="EffRetI" class="campo">
+      <input type="checkbox" id="EffRetII" name="EffRetII" class="campo">
+      <input type="checkbox" id="EffConI" name="EffConI" class="campo">
+      <input type="checkbox" id="EffConII" name="EffConII" class="campo">
+
+      <!-- Movimientos Pokémon -->
+      <!-- Movimiento 1 -->
+      <select id="Move1" name="Move1" class="campo"></select>
+      <input type="number" id="ID1" name="ID1" class="campo">
+      <select id="MLvl1" name="MLvl1" class="campo"></select>
+      <select id="MType1" name="MType1" class="campo"></select>
+      <select id="Attr1" name="Attr1" class="campo"></select>
+      <select id="Base1" name="Base1" class="campo"></select>
+      <select id="Target1" name="Target1" class="campo"></select>
+      <select id="Time1" name="Time1" class="campo"></select>
+      <select id="Hab1" name="Hab1" class="campo"></select>
+      <select id="Dmg1" name="Dmg1" class="campo"></select>
+      <select id="Range1" name="Range1" class="campo"></select>
+      <select id="Cost1" name="Cost1" class="campo"></select>
+      <input type="number" id="Acc1" name="Acc1" class="campo">
+      <input type="number" id="Prior1" name="Prior1" class="campo">
+      <select id="Tag1" name="Tag1" class="campo"></select>
+      <textarea id="Effect1" name="Effect1" class="campo"></textarea>
+      <input type="text" id="AccTot1" name="AccTot1" class="campo">
+      <input type="text" id="DmgTot1" name="DmgTot1" class="campo">
+      <input type="text" id="ChDice1" name="ChDice1" class="campo">
+      <!-- Movimiento 2 -->
+      <select id="Move2" name="Move2" class="campo"></select>
+      <input type="number" id="ID2" name="ID2" class="campo">
+      <select id="MLvl2" name="MLvl2" class="campo"></select>
+      <select id="MType2" name="MType2" class="campo"></select>
+      <select id="Attr2" name="Attr2" class="campo"></select>
+      <select id="Base2" name="Base2" class="campo"></select>
+      <select id="Target2" name="Target2" class="campo"></select>
+      <select id="Time2" name="Time2" class="campo"></select>
+      <select id="Hab2" name="Hab2" class="campo"></select>
+      <select id="Dmg2" name="Dmg2" class="campo"></select>
+      <select id="Range2" name="Range2" class="campo"></select>
+      <select id="Cost2" name="Cost2" class="campo"></select>
+      <input type="number" id="Acc2" name="Acc2" class="campo">
+      <input type="number" id="Prior2" name="Prior2" class="campo">
+      <select id="Tag2" name="Tag2" class="campo"></select>
+      <textarea id="Effect2" name="Effect2" class="campo"></textarea>
+      <input type="text" id="AccTot2" name="AccTot2" class="campo">
+      <input type="text" id="DmgTot2" name="DmgTot2" class="campo">
+      <input type="text" id="ChDice2" name="ChDice2" class="campo">
+      <!-- Movimiento 3 -->
+      <select id="Move3" name="Move3" class="campo"></select>
+      <input type="number" id="ID3" name="ID3" class="campo">
+      <select id="MLvl3" name="MLvl3" class="campo"></select>
+      <select id="MType3" name="MType3" class="campo"></select>
+      <select id="Attr3" name="Attr3" class="campo"></select>
+      <select id="Base3" name="Base3" class="campo"></select>
+      <select id="Target3" name="Target3" class="campo"></select>
+      <select id="Time3" name="Time3" class="campo"></select>
+      <select id="Hab3" name="Hab3" class="campo"></select>
+      <select id="Dmg3" name="Dmg3" class="campo"></select>
+      <select id="Range3" name="Range3" class="campo"></select>
+      <select id="Cost3" name="Cost3" class="campo"></select>
+      <input type="number" id="Acc3" name="Acc3" class="campo">
+      <input type="number" id="Prior3" name="Prior3" class="campo">
+      <select id="Tag3" name="Tag3" class="campo"></select>
+      <textarea id="Effect3" name="Effect3" class="campo"></textarea>
+      <input type="text" id="AccTot3" name="AccTot3" class="campo">
+      <input type="text" id="DmgTot3" name="DmgTot3" class="campo">
+      <input type="text" id="ChDice3" name="ChDice3" class="campo">
+      <!-- Movimiento 4 -->
+      <select id="Move4" name="Move4" class="campo"></select>
+      <input type="number" id="ID4" name="ID4" class="campo">
+      <select id="MLvl4" name="MLvl4" class="campo"></select>
+      <select id="MType4" name="MType4" class="campo"></select>
+      <select id="Attr4" name="Attr4" class="campo"></select>
+      <select id="Base4" name="Base4" class="campo"></select>
+      <select id="Target4" name="Target4" class="campo"></select>
+      <select id="Time4" name="Time4" class="campo"></select>
+      <select id="Hab4" name="Hab4" class="campo"></select>
+      <select id="Dmg4" name="Dmg4" class="campo"></select>
+      <select id="Range4" name="Range4" class="campo"></select>
+      <select id="Cost4" name="Cost4" class="campo"></select>
+      <input type="number" id="Acc4" name="Acc4" class="campo">
+      <input type="number" id="Prior4" name="Prior4" class="campo">
+      <select id="Tag4" name="Tag4" class="campo"></select>
+      <textarea id="Effect4" name="Effect4" class="campo"></textarea>
+      <input type="text" id="AccTot4" name="AccTot4" class="campo">
+      <input type="text" id="DmgTot4" name="DmgTot4" class="campo">
+      <input type="text" id="ChDice4" name="ChDice4" class="campo">
+      <!-- Movimiento 5 -->
+      <select id="Move5" name="Move5" class="campo"></select>
+      <input type="number" id="ID5" name="ID5" class="campo">
+      <select id="MLvl5" name="MLvl5" class="campo"></select>
+      <select id="MType5" name="MType5" class="campo"></select>
+      <select id="Attr5" name="Attr5" class="campo"></select>
+      <select id="Base5" name="Base5" class="campo"></select>
+      <select id="Target5" name="Target5" class="campo"></select>
+      <select id="Time5" name="Time5" class="campo"></select>
+      <select id="Hab5" name="Hab5" class="campo"></select>
+      <select id="Dmg5" name="Dmg5" class="campo"></select>
+      <select id="Range5" name="Range5" class="campo"></select>
+      <select id="Cost5" name="Cost5" class="campo"></select>
+      <input type="number" id="Acc5" name="Acc5" class="campo">
+      <input type="number" id="Prior5" name="Prior5" class="campo">
+      <select id="Tag5" name="Tag5" class="campo"></select>
+      <textarea id="Effect5" name="Effect5" class="campo"></textarea>
+      <input type="text" id="AccTot5" name="AccTot5" class="campo">
+      <input type="text" id="DmgTot5" name="DmgTot5" class="campo">
+      <input type="text" id="ChDice5" name="ChDice5" class="campo">
+      <!-- Movimiento 6 -->
+      <select id="Move6" name="Move6" class="campo"></select>
+      <input type="number" id="ID6" name="ID6" class="campo">
+      <select id="MLvl6" name="MLvl6" class="campo"></select>
+      <select id="MType6" name="MType6" class="campo"></select>
+      <select id="Attr6" name="Attr6" class="campo"></select>
+      <select id="Base6" name="Base6" class="campo"></select>
+      <select id="Target6" name="Target6" class="campo"></select>
+      <select id="Time6" name="Time6" class="campo"></select>
+      <select id="Hab6" name="Hab6" class="campo"></select>
+      <select id="Dmg6" name="Dmg6" class="campo"></select>
+      <select id="Range6" name="Range6" class="campo"></select>
+      <select id="Cost6" name="Cost6" class="campo"></select>
+      <input type="number" id="Acc6" name="Acc6" class="campo">
+      <input type="number" id="Prior6" name="Prior6" class="campo">
+      <select id="Tag6" name="Tag6" class="campo"></select>
+      <textarea id="Effect6" name="Effect6" class="campo"></textarea>
+      <input type="text" id="AccTot6" name="AccTot6" class="campo">
+      <input type="text" id="DmgTot6" name="DmgTot6" class="campo">
+      <input type="text" id="ChDice6" name="ChDice6" class="campo">
+      <!-- Movimiento 7 -->
+      <select id="Move7" name="Move7" class="campo"></select>
+      <input type="number" id="ID7" name="ID7" class="campo">
+      <select id="MLvl7" name="MLvl7" class="campo"></select>
+      <select id="MType7" name="MType7" class="campo"></select>
+      <select id="Attr7" name="Attr7" class="campo"></select>
+      <select id="Base7" name="Base7" class="campo"></select>
+      <select id="Target7" name="Target7" class="campo"></select>
+      <select id="Time7" name="Time7" class="campo"></select>
+      <select id="Hab7" name="Hab7" class="campo"></select>
+      <select id="Dmg7" name="Dmg7" class="campo"></select>
+      <select id="Range7" name="Range7" class="campo"></select>
+      <select id="Cost7" name="Cost7" class="campo"></select>
+      <input type="number" id="Acc7" name="Acc7" class="campo">
+      <input type="number" id="Prior7" name="Prior7" class="campo">
+      <select id="Tag7" name="Tag7" class="campo"></select>
+      <textarea id="Effect7" name="Effect7" class="campo"></textarea>
+      <input type="text" id="AccTot7" name="AccTot7" class="campo">
+      <input type="text" id="DmgTot7" name="DmgTot7" class="campo">
+      <input type="text" id="ChDice7" name="ChDice7" class="campo">
+   </div>
+   <script>
+      // Vista previa de imagen
+      document.getElementById('image').addEventListener('change', function (e) {
+         const file = e.target.files[0];
+         if (file) {
+            const reader = new FileReader();
+            reader.onload = function (ev) {
+               const img = document.getElementById('preview-image');
+               img.src = ev.target.result;
+               img.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+         }
+      });
+
+      // --- CARGA Y FUNCIONES DE CSV ---
+      // Variables globales
+      let pokesData = [];
+      let InternalID = "";
+      let InternalDex = "P0000";
+      let idToMoveName = {};
+      let moveHeaders = [];
+      let moveListRows = [];
+
+      // Utilidad para formatear Dex
+      function formatDex(num) {
+         num = parseInt(num) || 0;
+         return "P" + num.toString().padStart(4, "0");
+      }
+
+      // --- Carga de datos CSV ---
+      async function fetchCSV() {
+         const url = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Pokes.csv";
+         const res = await fetch(url);
+         const text = await res.text();
+         const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const headers = lines[0].split(';');
+         pokesData = lines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+         document.getElementById('dex').value = 0;
+         InternalDex = formatDex(0);
+         showDexFormatted();
+         updateAltOptions();
+      }
+
+      // Carga inicial de Moves y MoveList
+      async function cargarDatosMovimientos() {
+         // Moves.csv
+         const movesUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Moves.csv";
+         const movesRes = await fetch(movesUrl);
+         const movesText = await movesRes.text();
+         const movesLines = movesText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const movesHeaders = movesLines[0].split(';');
+         const movesData = movesLines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            movesHeaders.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+         // Poblar idToMoveName
+         idToMoveName = {};
+         movesData.forEach(m => {
+            if (m["ID"] && m["Nombre"]) {
+               idToMoveName[m["ID"]] = m["Nombre"];
+            }
+         });
+
+         // MoveList.csv
+         const moveListUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/MoveList.csv";
+         const moveListRes = await fetch(moveListUrl);
+         const moveListText = await moveListRes.text();
+         const moveListLines = moveListText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         moveHeaders = moveListLines[0].split(';').map(h => h.trim());
+         moveListRows = moveListLines.slice(1).map(line => {
+            const values = line.split(';').map(v => v.trim());
+            const obj = {};
+            moveHeaders.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+      }
+
+      // --- Inicialización de la hoja ---
+      async function inicializarHoja() {
+         await Promise.all([fetchCSV(), cargarDatosMovimientos()]);
+         const dexInput = document.getElementById('dex');
+         dexInput.value = 0;
+         showDexFormatted();
+         setTypeOptions();
+         setLvlOptions();
+         setSkillLevelOptions();
+         updateAltOptions();
+         updateInternalID();
+      }
+
+      // Opciones fijas para tipos
+      const tipos = [
+         "Acero", "Agua", "Bicho", "Dragon", "Electrico", "Fantasma", "Fuego", "Hada",
+         "Hielo", "Lucha", "Normal", "Planta", "Psiquico", "Roca", "Siniestro", "Tierra", "Veneno", "Volador"
+      ];
+
+      // Inicializa los selects de tipo con las opciones fijas
+      function setTypeOptions() {
+         const type1 = document.getElementById('type1');
+         const type2 = document.getElementById('type2');
+         type1.innerHTML = tipos.map(t => `<option value="${t}">${t}</option>`).join('');
+         type2.innerHTML = tipos.map(t => `<option value="${t}">${t}</option>`).join('');
+      }
+
+      // Opciones fijas para niveles con índice y nombre
+      const nivelesOpciones = [
+         { idx: "00", nombre: "Starter [S]", csv: "Starter" },
+         { idx: "01", nombre: "Beginner [B]", csv: "Begginer" },
+         { idx: "02", nombre: "Amateur [A]", csv: "Amateur" },
+         { idx: "03", nombre: "Elite [E]", csv: "Elite" },
+         { idx: "04", nombre: "Master [M]", csv: "Master" },
+         { idx: "05", nombre: "Legend [L]", csv: "Legend" }
+      ];
+
+      // Opciones fijas para niveles con siglas
+      const nivelesSiglas = [
+         { sigla: "[S]", csv: "Starter" },
+         { sigla: "[B]", csv: "Begginer" },
+         { sigla: "[A]", csv: "Amateur" },
+         { sigla: "[E]", csv: "Elite" },
+         { sigla: "[M]", csv: "Master" },
+         { sigla: "[L]", csv: "Legend" }
+      ];
+
+      // Diccionario para mapear sigla a csv y viceversa
+      const nivelSiglaToCSV = {};
+      const nivelCSVToSigla = {};
+      nivelesSiglas.forEach(opt => {
+         nivelSiglaToCSV[opt.sigla] = opt.csv;
+         nivelCSVToSigla[opt.csv] = opt.sigla;
+      });
+
+      // Diccionario para mapear valor CSV a opción exhibida
+      const nivelMapInv = {};
+      nivelesOpciones.forEach(opt => { nivelMapInv[opt.csv] = `${opt.nombre}`; });
+
+      // Inicializa el select de nivel con las opciones fijas
+      function setLvlOptions() {
+         const lvl = document.getElementById('Lvl');
+         lvl.innerHTML = nivelesOpciones.map(opt => `<option value="${opt.nombre}">${opt.nombre}</option>`).join('');
+      }
+
+      // Inicializa los selects de habilidades principales con las opciones de nivel
+      function setSkillLevelOptions() {
+         const skillIds = [
+            'SkCom0', 'SkCan0', 'SkLan0', 'SkAcr0',
+            'SkPer0', 'SkAtl0', 'SkNat0', 'SkCoc0',
+            'SkEmp0', 'SkPer0_2', 'SkSig0', 'SkArt0',
+            'SkFab0', 'SkRec0', 'SkCie0', 'SkEst0'
+         ];
+         skillIds.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) {
+               el.innerHTML = nivelesSiglas.map(opt => `<option value="${opt.sigla}">${opt.sigla}</option>`).join('');
+               el.value = "[S]";
+            }
+         });
+      }
+
+      // --- Inicialización de la hoja (modificada) ---
+      async function inicializarHoja() {
+         await Promise.all([fetchCSV(), cargarDatosMovimientos()]);
+         const dexInput = document.getElementById('dex');
+         dexInput.value = 0;
+         showDexFormatted();
+         setTypeOptions();
+         setLvlOptions();
+         setSkillLevelOptions();
+         updateAltOptions();
+         updateInternalID();
+      }
+
+      // --- Eventos de cambio (sin cambios) ---
+      document.getElementById('dex').addEventListener('input', function () {
+         showDexNumeric();
+         updateAltOptions();
+         updateInternalID();
+      });
+      document.getElementById('alt').addEventListener('change', function () {
+         updateInternalID();
+      });
+      document.getElementById('Lvl').addEventListener('change', function () {
+         updateLogoImage();
+      });
+
+      // --- Iniciar carga de datos y hoja ---
+      document.addEventListener('DOMContentLoaded', inicializarHoja);
+
+      // --- Sincronización visual del campo dex ---
+      function showDexFormatted() {
+         const dexInput = document.getElementById('dex');
+         let num = parseInt(dexInput.value) || 0;
+         InternalDex = formatDex(num); // Actualiza InternalDex
+         dexInput.value = InternalDex; // El input muestra el valor formateado
+      }
+      function showDexNumeric() {
+         const dexInput = document.getElementById('dex');
+         let val = dexInput.value.replace(/\D/g, "");
+         let num = parseInt(val) || 0;
+         InternalDex = formatDex(num); // Actualiza InternalDex
+         dexInput.value = InternalDex; // El input muestra el valor formateado
+      }
+
+      // Muestra el valor InternalDex en la interfaz (debajo del input dex)
+      function showInternalDex() {
+         let internalDexLabel = document.getElementById('internalDexLabel');
+         internalDexLabel.textContent = InternalDex;
+      }
+
+      // --- Carga de datos CSV ---
+      async function fetchCSV() {
+         const url = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Pokes.csv";
+         const res = await fetch(url);
+         const text = await res.text();
+         const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const headers = lines[0].split(';');
+         pokesData = lines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+         // Inicializar dex y alt
+         document.getElementById('dex').value = 0;
+         InternalDex = formatDex(0);
+         showDexFormatted();
+         updateAltOptions();
+      }
+
+      // Carga inicial de Moves y MoveList
+      async function cargarDatosMovimientos() {
+         // Moves.csv
+         const movesUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/Moves.csv";
+         const movesRes = await fetch(movesUrl);
+         const movesText = await movesRes.text();
+         const movesLines = movesText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+         const movesHeaders = movesLines[0].split(';');
+         const movesData = movesLines.slice(1).map(line => {
+            const values = line.split(';');
+            const obj = {};
+            movesHeaders.forEach((h, i) => obj[h] = values[i]);
+            return obj;
+         });
+
+         // MoveList.csv
+         const moveListUrl = "https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/BasesCSV/MoveList.csv";
+         const moveListRes = await fetch(moveListUrl);
+         const moveListText = await moveListRes.text();
+         const moveListLines = moveListText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+      }
+
+      // Actualiza la imagen del Pokémon según InternalID
+      function updatePokeImage() {
+         const img = document.getElementById('preview-image');
+         if (InternalID) {
+            // Remueve el prefijo 'P' si existe
+            let imgID = InternalID.startsWith('P') ? InternalID.substring(1) : InternalID;
+            img.src = `https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Pokes/${imgID}.png`;
+            img.style.display = 'block';
+         } else {
+            img.src = "";
+            img.style.display = 'none';
+         }
+      }
+
+      // Actualiza la imagen del Logo según el nivel seleccionado
+      function updateLogoImage() {
+         const lvl = document.getElementById('Lvl');
+         const logoImg = document.getElementById('preview-logo');
+         // Buscar el valor CSV correspondiente al nivel seleccionado
+         const selected = nivelesOpciones.find(opt => opt.nombre === lvl.value);
+         if (selected) {
+            logoImg.src = `https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/${selected.csv}.png`;
+            logoImg.style.display = 'block';
+         } else {
+            logoImg.src = "";
+            logoImg.style.display = 'none';
+         }
+      }
+
+      // Actualiza los campos dependientes del registro CSV
+      function updateFieldsFromCSV() {
+         // Reemplaza ndex por InternalDex
+         const altSelect = document.getElementById('alt');
+         const altValue = altSelect.value;
+         const found = pokesData.find(p => p.Ndex === InternalDex && p.Alternativo === altValue);
+
+         document.getElementById('poke').value = found ? found.Pokemon || "" : "";
+         document.getElementById('FUE1').value = found ? found.FUE || "" : "";
+         document.getElementById('VIT1').value = found ? found.VIT || "" : "";
+         document.getElementById('ENE1').value = found ? found.ENE || "" : "";
+         document.getElementById('SAB1').value = found ? found.SAB || "" : "";
+         document.getElementById('DES1').value = found ? found.DES || "" : "";
+         document.getElementById('CAR1').value = found ? found.CAR || "" : "";
+
+         // Actualiza opciones y valor seleccionado para type1 y type2
+         setTypeOptions();
+         document.getElementById('type1').value = found ? found.Tipo1 || "" : "";
+         document.getElementById('type2').value = found ? found.Tipo2 || "" : "";
+
+         // Actualiza opciones y valor seleccionado para Lvl
+         setLvlOptions();
+         const lvl = document.getElementById('Lvl');
+         lvl.value = found ? nivelMapInv[found.Nivel] || "" : "";
+         updateLogoImage(); // Actualiza el logo cada vez que se actualizan los campos
+
+         // Opciones de habilidad
+         const hab = document.getElementById('hab');
+         let habilidades = [];
+         if (found) {
+            habilidades = [found.Habilidad_1, found.Habilidad_2, found.Habilidad_3]
+               .filter((v, i, arr) => v && arr.indexOf(v) === i);
+         }
+         hab.innerHTML = habilidades.map(h => `<option value="${h}">${h}</option>`).join('');
+         hab.selectedIndex = 0;
+      }
+
+      // --- Actualización de InternalID según selección ---
+      function updateInternalID() {
+         // Reemplaza ndex por InternalDex
+         const altSelect = document.getElementById('alt');
+         const altValue = altSelect.value;
+         const found = pokesData.find(p => p.Ndex === InternalDex && p.Alternativo === altValue);
+         InternalID = found ? found.ID : "";
+         updatePokeImage();
+         updateFieldsFromCSV();
+         updateLogoImage();
+         actualizarOpcionesMovimientos(); // <-- Actualiza movimientos cada vez que cambia InternalDex
+      }
+
+      // --- Actualización de variantes según dex ---
+      function updateAltOptions() {
+         // Reemplaza ndex por InternalDex
+         const altSelect = document.getElementById('alt');
+         const alts = [...new Set(
+            pokesData.filter(p => p.Ndex === InternalDex).map(p => p.Alternativo)
+         )].filter(a => a && a.trim().length > 0);
+
+         if (alts.length === 0) {
+            altSelect.innerHTML = '<option value="">N° Dex Invalido</option>';
+            altSelect.selectedIndex = 0;
+            InternalID = ""; // No hay ID válido
+            updatePokeImage();
+            updateFieldsFromCSV();
+         } else {
+            altSelect.innerHTML = "";
+            alts.forEach(a => {
+               altSelect.innerHTML += `<option value="${a}">${a}</option>`;
+            });
+            // Seleccionar la primera variante posible
+            altSelect.selectedIndex = 0;
+            updateInternalID();
+         }
+      }
+
+      // --- Actualiza opciones de movimientos según InternalDex ---
+      function actualizarOpcionesMovimientos() {
+         // Mostrar todos los valores de Ndex para depuración
+         console.log('Lista de Ndex en moveListRows:', moveListRows.map(r => r["Ndex"]));
+         console.log('InternalDex:', InternalDex);
+         // IDs de los selects de movimientos
+         const moveSelectIds = ["Move1", "Move2", "Move3", "Move4", "Move5", "Move6", "Move7"];
+         // Buscar la fila correspondiente al InternalDex en MoveList
+         const fila = moveListRows.find(r => r["Ndex"] === InternalDex);
+         console.log('Fila encontrada:', fila);
+         console.log('Headers:', moveHeaders);
+         if (fila) console.log('Valores fila:', Object.values(fila));
+         let opciones = [];
+         if (fila) {
+            opciones = moveHeaders
+               .filter(key => key !== "Ndex")
+               .filter(key => fila[key] === "1")
+               .map(id => {
+                  // Buscar nombre en Moves
+                  const nombre = idToMoveName[id] || id;
+                  return `<option value="${id}">${nombre}</option>`;
+               });
+         }
+         // Si no hay opciones, mostrar mensaje
+         if (!opciones.length) opciones = ['<option value="">Sin movimientos</option>'];
+         // Asignar a todos los selects de movimientos
+         moveSelectIds.forEach(selId => {
+            const sel = document.getElementById(selId);
+            if (sel) sel.innerHTML = opciones.join('');
+         });
+      }
+
+      // --- Iniciar carga de datos ---
+      fetchCSV();
+      cargarDatosMovimientos();
+   </script>
+</body>
+
+</html>
