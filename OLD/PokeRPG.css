@@ -24,7 +24,7 @@ body {
 }
 
 /* Imagen: B5:F9 => columnas 2-6, filas 5-9 */
-#poke-image {
+#image {
   left: calc((0.9) * 20px);
   top: calc((3.8) * 20px);
   width: calc((5.2) * 20px);
@@ -54,24 +54,23 @@ body {
 #Accmax { left: calc((4.5) * 20px); top: calc((15 - 1) * 20px); width: 30px; height: 20px; }
 
 /* Nombre: B18:F18 */
-#name { left: calc((2 - 1) * 20px); top: calc((18 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;}
+#name { left: calc((2 - 1) * 20px); top: calc((18 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Especie: B20:F20 */
-#poke { left: calc((2 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;}
+#poke { left: calc((2 - 1) * 20px); top: calc((20 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Variante: B22:F22 */
-#alt { left: calc((2 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;}
+#alt { left: calc((2 - 1) * 20px); top: calc((22 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* N° Dex: B24:F24 */
-#dex { left: calc((2 - 1) * 20px); top: calc((24 - 1) * 20px); width: calc(5 * 20px); height: 20px; text-align: center;}
+#dex { left: calc((2 - 1) * 20px); top: calc((24 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Tipos: B26:F26 ; B27:F27 */
-#type1 { left: calc((2 - 1) * 20px); top: calc((26 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;}
-#type2 { left: calc((2 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;}
+#type1 { left: calc((2 - 1) * 20px); top: calc((26 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
+#type2 { left: calc((2 - 1) * 20px); top: calc((27 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Habilidad: B30:F30 */
-#hab { left: calc((2 - 1) * 20px); top: calc((30 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;
-font-size: clamp(0.7rem, 0.8vw, 0.9rem);}
+#hab { left: calc((2 - 1) * 20px); top: calc((30 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Efecto: B32:F38 */
 #habdef { left: calc((2 - 1) * 20px); top: calc((32 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: calc((38 - 32 + 1) * 20px); resize: none; }
@@ -91,43 +90,43 @@ font-size: clamp(0.7rem, 0.8vw, 0.9rem);}
 }
 
 /* Habilidades Combate */
-#SkCom0 { left: calc((17 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkCom0 { left: calc((17 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkCom { left: calc((19 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
-#SkCan0 { left: calc((17 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkCan0 { left: calc((17 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkCan { left: calc((19 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
-#SkLan0 { left: calc((17 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkLan0 { left: calc((17 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkLan { left: calc((19 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
-#SkAcr0 { left: calc((17 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkAcr0 { left: calc((17 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkAcr { left: calc((19 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
 
 /* Habilidades Supervivencia */
-#SkPer0 { left: calc((17 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkPer0 { left: calc((17 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkPer { left: calc((19 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
-#SkAtl0 { left: calc((17 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkAtl0 { left: calc((17 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkAtl { left: calc((19 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
-#SkNat0 { left: calc((17 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkNat0 { left: calc((17 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkNat { left: calc((19 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
-#SkCoc0 { left: calc((17 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkCoc0 { left: calc((17 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((18 - 17 + 1) * 20px); height: 20px; }
 #SkCoc { left: calc((19 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((21 - 19 + 1) * 20px); height: 20px; }
 
 /* Habilidades Sociales */
-#SkEmp0 { left: calc((32 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkEmp0 { left: calc((32 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkEmp { left: calc((34 - 1) * 20px); top: calc((2 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
-#SkPer0_2 { left: calc((32 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkPer0_2 { left: calc((32 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkPer_2 { left: calc((34 - 1) * 20px); top: calc((3 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
-#SkSig0 { left: calc((32 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkSig0 { left: calc((32 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkSig { left: calc((34 - 1) * 20px); top: calc((4 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
-#SkArt0 { left: calc((32 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkArt0 { left: calc((32 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkArt { left: calc((34 - 1) * 20px); top: calc((5 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
 
 /* Habilidades Intelectuales */
-#SkFab0 { left: calc((32 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkFab0 { left: calc((32 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkFab { left: calc((34 - 1) * 20px); top: calc((6 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
-#SkRec0 { left: calc((32 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkRec0 { left: calc((32 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkRec { left: calc((34 - 1) * 20px); top: calc((7 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
-#SkCie0 { left: calc((32 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkCie0 { left: calc((32 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkCie { left: calc((34 - 1) * 20px); top: calc((8 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
-#SkEst0 { left: calc((32 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; font-size: clamp(0.6rem, 1vw, 0.75rem);}
+#SkEst0 { left: calc((32 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((33 - 32 + 1) * 20px); height: 20px; }
 #SkEst { left: calc((34 - 1) * 20px); top: calc((9 - 1) * 20px); width: calc((36 - 34 + 1) * 20px); height: 20px; }
 
 /* Atributos y Nivel */
@@ -149,25 +148,25 @@ font-size: clamp(0.7rem, 0.8vw, 0.9rem);}
 #CAR0 { left: calc((2 - 1) * 20px); top: calc((51 - 1) * 20px); width: 30px; height: 20px; }
 #CAR1 { left: calc((4 - 1) * 20px); top: calc((51 - 1) * 20px); width: 20px; height: 20px; }
 #CAR { left: calc((5.5 - 1) * 20px); top: calc((51 - 1) * 20px); width: 30px; height: 20px; }
-#Lvl { left: calc((2 - 1) * 20px); top: calc((54 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; text-align: center;}
+#Lvl { left: calc((2 - 1) * 20px); top: calc((54 - 1) * 20px); width: calc((6 - 2 + 1) * 20px); height: 20px; }
 
 /* Estados Alterados */
-#EffEnvI { left: calc(41.8 * 20px); top: calc((1.85 + 0) * 20px); width: 20px; height: 20px; }
-#EffEnvII { left: calc(42.8 * 20px); top: calc((1.85 + 0) * 20px); width: 20px; height: 20px; }
-#EffQueI { left: calc(41.8 * 20px); top: calc((1.85 + 1) * 20px); width: 20px; height: 20px; }
-#EffQueII { left: calc(42.8 * 20px); top: calc((1.85 + 1) * 20px); width: 20px; height: 20px; }
-#EffDorI { left: calc(41.8 * 20px); top: calc((1.85 + 2) * 20px); width: 20px; height: 20px; }
-#EffDorII { left: calc(42.8 * 20px); top: calc((1.85 + 2) * 20px); width: 20px; height: 20px; }
-#EffParI { left: calc(41.8 * 20px); top: calc((1.85 + 3) * 20px); width: 20px; height: 20px; }
-#EffParII { left: calc(42.8 * 20px); top: calc((1.85 + 3) * 20px); width: 20px; height: 20px; }
-#EffAtuI { left: calc(41.8 * 20px); top: calc((1.85 + 4) * 20px); width: 20px; height: 20px; }
-#EffAtuII { left: calc(42.8 * 20px); top: calc((1.85 + 4) * 20px); width: 20px; height: 20px; }
-#EffDesI { left: calc(41.8 * 20px); top: calc((1.85 + 5) * 20px); width: 20px; height: 20px; }
-#EffDesII { left: calc(42.8 * 20px); top: calc((1.85 + 5) * 20px); width: 20px; height: 20px; }
-#EffRetI { left: calc(41.8 * 20px); top: calc((1.85 + 6) * 20px); width: 20px; height: 20px; }
-#EffRetII { left: calc(42.8 * 20px); top: calc((1.85 + 6) * 20px); width: 20px; height: 20px; }
-#EffConI { left: calc(41.8 * 20px); top: calc((1.85 + 7) * 20px); width: 20px; height: 20px; }
-#EffConII { left: calc(42.8 * 20px); top: calc((1.85 + 7) * 20px); width: 20px; height: 20px; }
+#EffEnvI { left: calc((41.8) * 20px); top: calc((1.85) * 20px); width: 20px; height: 20px; }
+#EffEnvII { left: calc((42.8) * 20px); top: calc((1.85) * 20px); width: 20px; height: 20px; }
+#EffQueI { left: calc((41.8) * 20px); top: calc((2.85) * 20px); width: 20px; height: 20px; }
+#EffQueII { left: calc((42.8) * 20px); top: calc((2.85) * 20px); width: 20px; height: 20px; }
+#EffDorI { left: calc((41.8) * 20px); top: calc((3.85) * 20px); width: 20px; height: 20px; }
+#EffDorII { left: calc((42.8) * 20px); top: calc((3.85) * 20px); width: 20px; height: 20px; }
+#EffParI { left: calc((41.8) * 20px); top: calc((4.85) * 20px); width: 20px; height: 20px; }
+#EffParII { left: calc((42.8) * 20px); top: calc((4.85) * 20px); width: 20px; height: 20px; }
+#EffAtuI { left: calc((41.8) * 20px); top: calc((5.85) * 20px); width: 20px; height: 20px; }
+#EffAtuII { left: calc((42.8) * 20px); top: calc((5.85) * 20px); width: 20px; height: 20px; }
+#EffDesI { left: calc((41.8) * 20px); top: calc((6.85) * 20px); width: 20px; height: 20px; }
+#EffDesII { left: calc((42.8) * 20px); top: calc((6.85) * 20px); width: 20px; height: 20px; }
+#EffRetI { left: calc((41.8) * 20px); top: calc((7.85) * 20px); width: 20px; height: 20px; }
+#EffRetII { left: calc((42.8) * 20px); top: calc((7.85) * 20px); width: 20px; height: 20px; }
+#EffConI { left: calc((41.8) * 20px); top: calc((8.85) * 20px); width: 20px; height: 20px; }
+#EffConII { left: calc((42.8) * 20px); top: calc((8.85) * 20px); width: 20px; height: 20px; }
 
 /* Movimientos Pokémon */
 /* Movimiento 1 */
@@ -316,3 +315,10 @@ font-size: clamp(0.7rem, 0.8vw, 0.9rem);}
 #AccTot7 { left: calc((39 - 1) * 20px); top: calc((55 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 #DmgTot7 { left: calc((39 - 1) * 20px); top: calc((57 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
 #ChDice7 { left: calc((39 - 1) * 20px); top: calc((59 - 1) * 20px); width: calc((44 - 39 + 1) * 20px); height: 20px; }
+
+select.campo {
+  width: 40px;
+  min-width: 0;
+  padding: 0;
+  text-align: center;
+}
