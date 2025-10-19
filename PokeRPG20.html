@@ -1,0 +1,183 @@
+<h3>Datos Personaje</h3>
+<input type="text" name="attr_character_name" value="Missigno" />
+<input type="hidden" name="attr_pokeID" value="#0000" />
+<input type="number" name="ndex" list="PlayersPokes" />
+<span class="validity"></span>
+<datalist id="PlayersPokes">
+   <option value="0831">Wooloo</option>
+   <option value="0052">Meowth</option>
+   <option value="0001">Bulbasaur</option>
+   <option value="0109">Koffing</option>
+   <option value="0255">Torchic</option>
+</datalist>
+
+<input type="number" name="attr_hp" />
+<input type="number" name="attr_hp_max" value="10" />
+<span name="attr_hp"></span>
+
+<h3>Stats Base</h3>
+<select name="attr_type1">
+   <option value="Typeless" selected="selected">Sin Tipo</option>
+   <option value="Acero">Acero</option>
+   <option value="Agua">Agua</option>
+   <option value="Bicho">Bicho</option>
+   <option value="Dragon">Dragón</option>
+   <option value="Electrico">Eléctrico</option>
+   <option value="Fantasma">Fantasma</option>
+   <option value="Fuego">Fuego</option>
+   <option value="Hada">Hada</option>
+   <option value="Hielo">Hielo</option>
+   <option value="Lucha">Lucha</option>
+   <option value="Normal">Normal</option>
+   <option value="Planta">Planta</option>
+   <option value="Psiquico">Psíquico</option>
+   <option value="Roca">Roca</option>
+   <option value="Siniestro">Siniestro</option>
+   <option value="Tierra">Tierra</option>
+   <option value="Veneno">Veneno</option>
+   <option value="Volador">Volador</option>
+</select>
+
+<select name="attr_type2">
+   <option value="Typeless" selected="selected">Sin Tipo</option>
+   <option value="Acero">Acero</option>
+   <option value="Agua">Agua</option>
+   <option value="Bicho">Bicho</option>
+   <option value="Dragon">Dragón</option>
+   <option value="Electrico">Eléctrico</option>
+   <option value="Fantasma">Fantasma</option>
+   <option value="Fuego">Fuego</option>
+   <option value="Hada">Hada</option>
+   <option value="Hielo">Hielo</option>
+   <option value="Lucha">Lucha</option>
+   <option value="Normal">Normal</option>
+   <option value="Planta">Planta</option>
+   <option value="Psiquico">Psíquico</option>
+   <option value="Roca">Roca</option>
+   <option value="Siniestro">Siniestro</option>
+   <option value="Tierra">Tierra</option>
+   <option value="Veneno">Veneno</option>
+   <option value="Volador">Volador</option>
+</select>
+
+<h3>Skills</h3>
+<select name="attr_skills">
+   <optgroup label="Batalla">
+      <option value="Ba1" selected>Combatir</option>
+      <option value="Ba2">Canalizar</option>
+      <option value="Ba3">Lanzar</option>
+      <option value="Ba4">Acrobacias</option>
+   </optgroup>
+   <optgroup label="Survival">
+      <option value="Su1">Percepcion</option>
+      <option value="Su2">Atletismo</option>
+      <option value="Su3">Naturaleza</option>
+      <option value="Su4">Cocinar</option>
+   </optgroup>
+   <optgroup label="Social">
+      <option value="So1">Empatia</option>
+      <option value="So2">Persuacion</option>
+      <option value="So3">Sigilo</option>
+      <option value="So4">Artes</option>
+   </optgroup>
+   <optgroup label="Intelecto">
+      <option value="In1">Fabricar</option>
+      <option value="In2">Reconocer</option>
+      <option value="In3">Ciencia</option>
+      <option value="In4">Estrategia</option>
+   </optgroup>
+</select>
+
+<h3>Status</h3>
+<div>
+   <label for="env">Envenenado</label>
+   <input type="checkbox" id="env" name="attr_env1" value="1" checked />
+   <input type="checkbox" name="attr_env2" value="1" />
+</div>
+<div>
+   <label for="que">Quemado</label>
+   <input type="checkbox" id="que" name="attr_que1" value="1" checked />
+   <input type="checkbox" name="attr_que2" value="1" />
+</div>
+
+<h3>Moves</h3>
+<fieldset class="repeating_moves">
+   <button type="roll" name="roll_moves" value="/em uses @{attr_move}, and rolls [[@{attr_dtype}]]"></button>
+   <input type="text" name="attr_move" value="" />
+   <select name="attr_dtype" class="dtype">
+      <option value="d4">d4</option>
+      <option value="d6">d6</option>
+      <option value="d8">d8</option>
+      <option value="d10">d10</option>
+      <option value="d12">d12</option>
+   </select>
+
+   <div class="sheet-row">
+      <div class="sheet-col-5-12">
+         <input type="text" name="attr_ClassResourceName" />
+      </div>
+      <div class="sheet-col-1-4">
+         <select name="attr_ClassResourceRecharge">
+            <option value="None">None</option>
+            <option value="Short Rest">Short Rest</option>
+            <option value="Long rest">Long Rest</option>
+            <option value="Other">Other</option>
+         </select>
+      </div>
+      <div class="sheet-col-1-6">
+         <input type="number" name="attr_ClassResourceTotal" value="1" />
+      </div>
+      <div class="sheet-col-1-6">
+         <input type="number" name="attr_ClassResourceTotal_max" value="1" />
+      </div>
+   </div>
+</fieldset>
+
+<h3>Pruebas</h3>
+
+<h3>Nivel</h3>
+<!-- Radios: colocados como hijos directos del body (o del mismo contenedor que .icons).
+       Esto es crucial para que input:checked ~ .icons funcione. -->
+<input id="lvl-Undefined" type="radio" name="attr_level" value="Undefined" checked />
+<input id="lvl-Starter" type="radio" name="attr_level" value="Starter" />
+<input id="lvl-Beginner" type="radio" name="attr_level" value="Beginner" />
+<input id="lvl-Amateur" type="radio" name="attr_level" value="Amateur" />
+<input id="lvl-Elite" type="radio" name="attr_level" value="Elite" />
+<input id="lvl-Master" type="radio" name="attr_level" value="Master" />
+<input id="lvl-Legend" type="radio" name="attr_level" value="Legend" />
+
+<!-- Falso-select usando details/summary: muestra el valor actual y abre la lista de opciones.
+       Las labels referencian los radios por for="..." para seleccionar la opción. -->
+<details class="fake-select" role="listbox" aria-label="Seleccionar nivel">
+   <summary>
+      <span name="attr_level">Undefined</span>
+      <span class="arrow">▾</span>
+   </summary>
+   <div class="options">
+      <label for="lvl-Undefined">Undefined</label>
+      <label for="lvl-Starter">Starter</label>
+      <label for="lvl-Beginner">Beginner</label>
+      <label for="lvl-Amateur">Amateur</label>
+      <label for="lvl-Elite">Elite</label>
+      <label for="lvl-Master">Master</label>
+      <label for="lvl-Legend">Legend</label>
+   </div>
+</details>
+
+<!-- ICONOS: imágenes estáticas en GitHub. Se mostrarán/ocultarán por CSS según el radio seleccionado -->
+<div class="icons">
+   <img class="img-Undefined" alt="Undefined"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Undefined.png">
+   <img class="img-Starter" alt="Starter"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Starter.png">
+   <img class="img-Beginner" alt="Beginner"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Beginner.png">
+   <img class="img-Amateur" alt="Amateur"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Amateur.png">
+   <img class="img-Elite" alt="Elite"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Elite.png">
+   <img class="img-Master" alt="Master"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Master.png">
+   <img class="img-Legend" alt="Legend"
+      src="https://raw.githubusercontent.com/EragonGamer/PokemonRPG/main/Imagenes/Iconos/Legend.png">
+</div>
